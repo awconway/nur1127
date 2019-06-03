@@ -15,6 +15,10 @@ COPY . ${HOME}
 ## COPY binder ${HOME}
 RUN chown -R ${NB_USER} ${HOME}
 
+## Run an deps.R script, if it exists.
+RUN Rscript -e "install.packages('RISmed')"
+
+
 ## Become normal user again
 USER ${NB_USER}
 
