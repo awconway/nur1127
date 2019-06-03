@@ -14,8 +14,8 @@ COPY . ${HOME}
 ## clone of your repository
 ## COPY binder ${HOME}
 RUN chown -R ${NB_USER} ${HOME}
+RUN Rscript -e "install.packages('RISmed')"
 
 ## Become normal user again
 USER ${NB_USER}
 
-RUN Rscript -e "install.packages('RISmed')"
