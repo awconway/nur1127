@@ -2,9 +2,9 @@
 title: 'Module 1: Evidence-informed Nursing Practice'
 description:
   'The notion of evidence-based (or evidence-informed) practice is well-established in nursing and in the health sciences in general. In Module 1 we will examine the evolution of the evidence-based practice (EBP) movement, and different models for conceptualizing EBP. We will discuss both the purported benefits and the criticisms of the EBP movement in healthcare. Learning objectives are to:
-
-1. To critically analyze the emergence of the evidence-based practice movement with reference to contributing factors, and positive and negative consequences/impacts for health care.
-2. To review and critique models for evidence-informed nursing practice.
+<br/>
+1. To critically analyze the emergence of the evidence-based practice movement with reference to contributing factors, and positive and negative consequences/impacts for health care.<br/>
+2. To review and critique models for evidence-informed nursing practice.<br/>
 3. To examine and propose roles for nursing leaders in advancing the integration of evidence in health care delivery.'
 prev: null
 next: /chapter2
