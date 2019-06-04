@@ -17,7 +17,7 @@ export default ({ data }) => {
     return (
         <Layout isHome>
             <Logo className={classes.logo} aria-label={siteMetadata.title} />
-                        <section>
+            <section>
                 <h1 className={classes.subtitle}>Integrated Approaches to Research Appraisal and Utilization, Part 1</h1>
                 <div className={classes.introduction}>
                 <p>
