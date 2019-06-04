@@ -53,7 +53,7 @@ the one for the instructions below.
 
 <codeblock id="01_03">
 
-This is a hint.
+Enter the term in place of the dotted line
 
 </codeblock>
 
