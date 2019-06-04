@@ -41,7 +41,7 @@ This is not correct either.
 
 </exercise>
 
-<exercise id="3" title="First steps" type="slide">
+<exercise id="3" title="First steps" type="slides">
 
 Have a go at using a MeSH term in a search of the pubmed database. Search for the term 'nursing' and see how many results are returned. 
 
