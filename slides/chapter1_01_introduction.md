@@ -11,20 +11,7 @@ speaker notes on the side. Slides can be separated with a divider: ---.
 
 # This is a slide
 
-```r
-# Print something
-print("Hello world", quote = FALSE)
-```
-
-```out
-Hello world
-```
-
-- Slides can have code, bullet points, tables and pretty much all other Markdown
-  elements.
-- This is another bullet point.
-
-<img src="profile.jpg" alt="This image is in /static" width="25%">
+<iframe src="https://sedationapps.shinyapps.io/THERMISED/" width="800" height="900" style="border: none;"></iframe>
 
 Notes: Some more notes go here
 
