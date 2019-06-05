@@ -8,13 +8,7 @@ Notes:
 
 ---
 
-# Objectives
-
-- To critically analyze the emergence of the evidence-based practice movement.
-
-- To review and critique models for evidence-informed nursing practice.
-
-- To examine and propose roles for nursing leaders in advancing the <br> integration of evidence in health care delivery.
+![](https://github.com/awconway/NUR1027-FALL-2019/blob/master/images/JBI.tiff?raw=true)
 
 Notes: with reference to contributing factors, and positive and negative consequences/impacts for nursing and health care
 
