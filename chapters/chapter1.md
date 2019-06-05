@@ -63,3 +63,10 @@ Enter a term in place of the dotted line. Try out some alternative tags like [TI
 </codeblock>
 
 </exercise>
+
+<exercise id="5" title="Joanna Briggs Institute Model for Evidence-based Health Care" type="slides">
+
+<slides source="chapter1_05_JBI">
+</slides>
+
+</exercise>
