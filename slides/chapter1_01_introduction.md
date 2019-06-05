@@ -4,15 +4,19 @@ type: slides
 
 # Introduction
 
+Notes: Hi. Today we're going to be going over an introduction to 'evidence-informed' practice or 'evidence-based' practice.  We'll be covering this in far more detail, but in brief, evidence-Based practice is best described as the integration of clinical expertise, patient values, and the best research evidence into the decision making process for patient care (Sackett D, 2002). Ok, time to get started.
+
 ---
 
-- To critically analyze the emergence of the evidence-based practice movement with reference to contributing factors, and positive and negative consequences/impacts for nursing and health care.
+# Objectives
 
-> - To review and critique models for evidence-informed nursing practice.
+- To critically analyze the emergence of the evidence-based practice movement.
 
-> - To examine and propose roles for nursing leaders in advancing the integration of evidence in health care delivery.
+- To review and critique models for evidence-informed nursing practice.
 
-Notes: Use the app to the left to search for....
+- To examine and propose roles for nursing leaders in advancing the <br> integration of evidence in health care delivery.
+
+Notes: with reference to contributing factors, and positive and negative consequences/impacts for nursing and health care
 
 ---
 
