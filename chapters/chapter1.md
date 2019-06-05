@@ -41,11 +41,22 @@ This is not correct either.
 
 </exercise>
 
-<exercise id="3" title="First steps" type="slides">
+<exercise id="3" title="First search">
 
 Have a go at using a MeSH term in a search of the pubmed database. Search for the term 'nursing' and see how many results are returned. 
 
 <codeblock id="01_03">
+
+Enter the term in place of the dotted line
+
+</codeblock>
+
+</exercise>
+<exercise id="4" title="Refining a search">
+
+Now it's time to combine keywords to refine our results. Say we're interested in finding the evidence for intentional rounding by nurses, but want to limit the results of our search to less than 500 results. Add in some extra search terms combined with boolean operators (like AND, OR) to achieve this.
+
+<codeblock id="01_04">
 
 Enter the term in place of the dotted line
 
