@@ -4,12 +4,13 @@ type: slides
 
 # Introduction
 
-Notes: Text at the end of a slide prefixed like this will be displayed as
-speaker notes on the side. Slides can be separated with a divider: ---.
-
 ---
 
-<iframe src="https://sedationapps.shinyapps.io/THERMISED/" width="800" height="900" style="border: none;"></iframe>
+- To critically analyze the emergence of the evidence-based practice movement with reference to contributing factors, and positive and negative consequences/impacts for nursing and health care.
+
+> - To review and critique models for evidence-informed nursing practice.
+
+> - To examine and propose roles for nursing leaders in advancing the integration of evidence in health care delivery.
 
 Notes: Use the app to the left to search for....
 
