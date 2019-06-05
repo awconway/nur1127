@@ -1,2 +1,2 @@
 source("search.R")
-search("____[MeSH]") 
+(result <- search("____[MeSH]")) 
