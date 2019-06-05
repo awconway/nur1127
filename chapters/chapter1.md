@@ -54,11 +54,11 @@ Enter the term in place of the dotted line
 </exercise>
 <exercise id="4" title="Refining a search">
 
-Now it's time to combine keywords to refine our results. Say we're interested in finding the evidence for intentional rounding by nurses, but want to limit the results of our search to less than 500 results. Add in some extra search terms combined with boolean operators (like AND, OR) to achieve this.
+Now it's time to combine keywords to refine our results. Say we're interested in finding evidence for intentional rounding by nurses, but want to limit the search to less than 50 results. Add in one or more extra search terms combined with boolean operators (like AND, OR) to achieve this.
 
 <codeblock id="01_04">
 
-Enter the term in place of the dotted line
+Enter a term in place of the dotted line. Try out some alternative tags like [TI] for just the title or [TIAB] for title and abstract.
 
 </codeblock>
 
