@@ -4,7 +4,7 @@ type: slides
 
 # Introduction
 
-Notes: Hi. Today we're going to be going over an introduction to 'evidence-informed' practice or 'evidence-based' practice.  We'll be covering this in far more detail, but in brief, evidence-Based practice is best described as the integration of clinical expertise, patient values, and the best research evidence into the decision making process for patient care (Sackett D, 2002). Ok, time to get started.
+Notes: Hi. Today we're going to be going over an introduction to 'evidence-informed' practice or 'evidence-based' practice.  We'll be covering this in far more detail, but in brief, evidence-Based practice is best described by David Sackett as the integration of clinical expertise, patient values, and the best research evidence into the decision making process for patient care. Ok, time to get started.
 
 ---
 
