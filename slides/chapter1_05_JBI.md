@@ -8,7 +8,7 @@ Notes:
 
 ---
 
-<img src="https://github.com/awconway/NUR1027-FALL-2019/blob/master/images/JBI.png?raw=true" height="700px" width = "auto">
+<img src=https://github.com/awconway/NUR1027-FALL-2019/blob/master/images/JBI.png?raw=true height=500px width = "auto">
 
 Notes: with reference to contributing factors, and positive and negative consequences/impacts for nursing and health care
 
