@@ -72,11 +72,6 @@ const SEO = ({ title, description }) => (
                             rel="stylesheet"
                         />
                     )}
-                    <script type="application/json" class="js-hypothesis-config">
-                                {
-                                "openSidebar": "whenSidebarOpen"
-                                    }
-                    </script>
                     <script src="https://hypothes.is/embed.js" async></script>
                 </Helmet>
             )
