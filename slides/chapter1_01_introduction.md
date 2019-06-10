@@ -4,7 +4,7 @@ type: slides
 
 # Introduction
 
-Notes: Hi. Today we're going to be going over an introduction to 'evidence-informed' practice or 'evidence-based' practice.  We'll be covering this in far more detail, but in brief, evidence-Based practice is best described by David Sackett as the integration of clinical expertise, patient values, and the best research evidence into the decision making process for patient care. Ok, time to get started.
+Notes: Hi. Today I'm going to be talking to you about 'evidence-based' practice.  We'll be covering this in far more detail, but in brief, evidence-based practice was best described by David Sackett as "the integration of clinical expertise, patient values, and the best research evidence into the decision making process for patient care." Ok, time to get started.
 
 ---
 
@@ -16,7 +16,37 @@ Notes: Hi. Today we're going to be going over an introduction to 'evidence-infor
 
 - To examine and propose roles for nursing leaders in advancing the <br> integration of evidence in health care delivery.
 
-Notes: with reference to contributing factors, and positive and negative consequences/impacts for nursing and health care
+Notes: We have a few objectives set out to achieve in this module. One of our goals is to critically analyze the emergence of the evidence-based practice movement, paying particular attention to contributing factors, as well as the positive and negative consequences or impacts for nursing and health care more generally.
+
+Another goal is to review and critique some of the models that have been developed to support the use of evidence-based nursing practice.
+
+And finally, we want to examine and propose roles for nursing leaders in advancing the integration of evidence in health care delivery. First things first, let's start to unpack what evidence-based practice actually is. 
+
+---
+# Misconceptions about EBP
+
+Notes: What do people mean when they say evidence-based practice? A common misconception is that it’s entirely about ensuring that the latest and greatest research evidence available is getting used by clinicians to treat their patients. This, however, is quite a limited definition and it doesn’t encompass all the aspects of evidence-based practice. One thing that comes to mind for some, because of ways that evidence-based practice has been taught in the past, is the evidence-hierarchy pyramid. You may have seen one of these, where typically at the bottom there are things like case reports or expert opinion and at the top are things like systematic reviews and meta-analyses. Evidence hierarchies like this only provide a very simplified ordering of the different types of research studies that can be used to evaluate the effects of an intervention, and infact, the utility of these pyramids is very limited. A big prolem with evidence hierarchies is that the hierarchy doesn't adequalty consider the context for the clinical question being investigated or the methodological quality of the studies at each step of the hierarchy. 
+
+---
+# Integrating evidence, patient values and clinical expertise (experience)
+
+Notes: Now that we've got that really common misconception about evidence-based practice out of the way, let's turn the focus towards teasing out some of the core components for how clinicians can go about making decisions for patient care using an evidence-based practice approach. As we all well know, decision making in healthcare is complex. The first thing we need to consider is the evidence itself. Central to this is the quality of the research and broadly speaking we need to consider how likely it is that the results were affected by any one of a number of different forms of bias and also how generalizable the findings of the study are to the present situation at hand. 
+
+A second consideration are the patients themselves.  Each patient has a different set of values and preferences, so what works for one patient may not ideally suit another and we have to think about that when we're looking at the evidence in trying to incorporate it into patient care. The final component is us, the clinicians. The experiences that I've had may be very different than yours and how I apply the evidence to a specific group of patients therefore may be justifiably quite different. Where we see these three things intersecting, the evidence, the patient values and preferences, as well as our own judgment and experience, is generally what we like to call evidence based practice.
+
+---
+# 'Models' of Evidence-based practice
+
+Notes: Various different models of EBP developed to translate this general concept of EBP involving the integration of  distinct yet related dimensions like research, clinical experience and patient values into the decision-making process. 
+
+In the next exercise I'm going to show diagrams that depict two different models for conceptualizing evidence-based practice. Both of them contain basically the same elements, but have an important distinction. Take a look and see if you can pick it out. 
+
+---
+
+# Critiques of evidence-based practice
+
+Notes: I think it's worth answering the question are there any risks associated with evidence-based medicine. And There are in fact quite a few to consider. One such ‘side effect’ of the rise in importance of ‘evidence-based practice’ has been termed, evidence-based paralysis. you may have had this experience before where you have a clinical question and you go to the evidence to look for the perfect evidence and lo and behold it doesn't exist. Despite all this effort you’re left with no answer at all and therefore paralyzed in your decision-making.  Another important thing to keep in mind is that there is no perfect evidence. All we have to deal with is the best available evidence at any given time and sometimes the best available evidence may just be expert opinion. A second major risk with evidence-based medicine is being taken in by the latest and greatest research and changing your whole approach to treatment based on one you study. I think it's really important to take a look at all studies that are done on a topic and for this reason, my go-to source of information is always looking to systematic reviews, because they do just that. A final important consideration for evidence-based practice is being careful when presenting our views for how we think research should be used in practice. Who you are, where you work and who you work with may be very different than others and, because of these differing experiences,the results and finsings of research studies may mean something different to them. 
+
 
 ---
 

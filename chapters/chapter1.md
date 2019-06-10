@@ -1,5 +1,5 @@
 ---
-title: 'Module 1: Evidence-informed Nursing Practice'
+title: 'Module 1: Evidence-Based Nursing Practice'
 description:
   'The notion of evidence-based (or evidence-informed) practice is well-established in nursing and in the health sciences in general. In Module 1 we will examine the evolution of the evidence-based practice (EBP) movement, and different models for conceptualizing EBP. We will discuss both the purported benefits and the criticisms of the EBP movement in healthcare.'
 prev: null
@@ -70,3 +70,25 @@ Enter a term in place of the dotted line. Try out some alternative tags like [TI
 </slides>
 
 </exercise>
+
+
+<exercise id="6" title="Reading" type="slides">
+Enter a term in place of the dotted line. Try out some alternative tags like [TI] for just the title or [TIAB] for title and abstract.
+<iframe src="https://aconway.dev/NUR1027/dobrow.pdf" height="500px" width="1200px"</iframe>
+
+</exercise>
+
+
+<exercise id="7" title="Spot the difference">
+<section>
+    <img width="300" src="http://static.slid.es.s3.amazonaws.com/support/insert-video.png">
+    <img width="300" src="http://static.slid.es.s3.amazonaws.com/support/insert-video.png">
+</section>
+</exercise>
+
+<exercise id="8" title="Reading" type="slides">
+Enter a term in place of the dotted line. Try out some alternative tags like [TI] for just the title or [TIAB] for title and abstract.
+<iframe src="https://aconway.dev/NUR1027/dobrow.pdf" height="500px" width="1200px"</iframe>
+
+</exercise>
+

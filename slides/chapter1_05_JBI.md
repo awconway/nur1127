@@ -4,11 +4,11 @@ type: slides
 
 # Joanna Briggs Institute Model for Evidence-based Health Care
 
-Notes: 
+Notes: JBI model
 
 ---
 
-<img src="https://github.com/awconway/NUR1027-FALL-2019/blob/master/images/JBI.png?raw=true" height="500px" width="500px">
+<img src="JBI.png" alt="An image located in /static" height="500px" width="500px">
 
 
 Notes: with reference to contributing factors, and positive and negative consequences/impacts for nursing and health care
