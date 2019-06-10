@@ -60,7 +60,7 @@ const SEO = ({ title, description }) => (
                 },
                 {
                     name: 'twitter:description',
-                    content: pageDesc,`
+                    content: pageDesc,
                 },
             ]
 
@@ -72,11 +72,11 @@ const SEO = ({ title, description }) => (
                             rel="stylesheet"
                         />
                     )}
-                    window.hypothesisConfig = function () {
-                    return {
-                                "openSidebar": true
-                            };
-                            };
+                    <script type="application/json" class="js-hypothesis-config">
+                        {
+                                "openSidebar": whenSidebarOpen
+                                    }
+                    </script>
                     <script src="https://hypothes.is/embed.js" async></script>
                 </Helmet>
             )
