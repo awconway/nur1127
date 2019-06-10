@@ -1,6 +1,5 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { Helmet } from 'react-helmet'
 
 import Layout from '../components/layout'
 import { Link } from '../components/link'
@@ -72,13 +71,3 @@ export const pageQuery = graphql`
         }
     }
 `
-
-export default () => {
-  return (
-    <div>
-      <Helmet>
-        <script src="https://hypothes.is/embed.js" async></script>
-      </Helmet>
-    </div>
-  )
-}
