@@ -102,5 +102,37 @@ This is not correct either.
 </exercise>
 
 <exercise id="8" title="Iframe" type="slides">
-<iframe src="dobrow.pdf" height="500px" width="1200px"</iframe>
+<slides source="chapter1_08_video">
+
+</exercise>
+
+<exercise id="9" title="After Iframe">
+Whats is the major difference between them?
+<choice>
+<opt text="Answer one">
+
+This is not the correct answer.
+
+</opt>
+
+<opt text="Answer two" correct="true">
+
+Good job!
+
+</opt>
+
+<opt text="Answer three">
+
+This is not correct either.
+
+</opt>
+</choice>
+</section>
+</exercise>
+
+<exercise id="10" title="Week 1 learning activity on Voicethread">
+
+Let's head on over to [Voicethread](https://voicethread.com) now to complete this week's main learning activity.
+
+Please locate which discussion group you are in (Groups tab on left hand side) and respond to your group's discussion questions on VT and provide one response to your peers post. There are four discussion groups.
 </exercise>

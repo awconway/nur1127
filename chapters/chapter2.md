@@ -15,14 +15,16 @@ id: 2
 
 </exercise>
 
-<exercise id="2" title="Reading" type="slides">
-<iframe src="dobrow.pdf" height="500px" width="1200px"</iframe>
-</exercise>
+<exercise id="2" title="Iframe" type="slides">
+<slides source="chapter1_08_video">
 
+</exercise>
 
 <exercise id="3" title="Joanna Briggs Institute Model for Evidence-based Health Care" type="slides">
 
-</slides>
+<div><center>Two different models of evidence-based practice are presented below. Consider these first, and then answer the questions.</center></div>
+<div><center><img height="400px" width="400px" src="JBI.png">
+<img height="400px" width="400px" src="JBI.png"></center></div>
 
 </exercise>
 
