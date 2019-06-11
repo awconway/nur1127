@@ -102,4 +102,6 @@ This is not correct either.
 </section>
 </exercise>
 
-
+<exercise id="8" title="Iframe" type="slides">
+<iframe enable-annotation src="dobrow.pdf" height="500px" width="1200px" allowFullScreen="true"</iframe>
+</exercise>

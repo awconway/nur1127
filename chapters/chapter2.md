@@ -10,7 +10,7 @@ id: 2
 
 <exercise id="1" title="Reading" type="slides">
 Enter a term in place of the dotted line. Try out some alternative tags like [TI] for just the title or [TIAB] for title and abstract.
-<iframe src="https://aconway.dev/NUR1027/dobrow.pdf" height="500px" width="1200px"</iframe>
+<iframe src="dobrow.pdf" height="500px" width="1200px"</iframe>
 
 </exercise>
 
