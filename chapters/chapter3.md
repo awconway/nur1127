@@ -1,11 +1,11 @@
 ---
-title: 'Module 1: Evidence-Based Nursing Practice'
+title: 'Module 3: Evidence-Based Nursing Practice'
 description:
   'The notion of evidence-based (or evidence-informed) practice is well-established in nursing and in the health sciences in general. In Module 1 we will examine the evolution of the evidence-based practice (EBP) movement, and different models for conceptualizing EBP. We will discuss both the purported benefits and the criticisms of the EBP movement in healthcare.'
-prev: null
-next: /chapter2
+prev: /chapter2
+next: null
 type: chapter
-id: 1
+id: 3
 ---
 
 <exercise id="1" title="Introduction" type="slides">
