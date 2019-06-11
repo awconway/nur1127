@@ -13,8 +13,7 @@ const SEO = ({ title, description }) => (
                 : `${siteMetadata.title} · ${siteMetadata.slogan}`
             const pageDesc = description || siteMetadata.description
             const image = `${siteMetadata.siteUrl}/social.jpg`
-            const script = 
-                    window.hypothesisConfig = function () {
+            const script = window.hypothesisConfig = function () {
                     return {
                     "showHighlights": "whenSidebarOpen"
                             };
