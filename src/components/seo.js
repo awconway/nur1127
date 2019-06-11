@@ -72,17 +72,13 @@ const SEO = ({ title, description }) => (
                             rel="stylesheet"
                         />
                     )}
-                    <script
-    dangerouslySetInnerHTML={{
-        __html: `
-            window.hypothesisConfig = function () {
-  return {
-    "showHighlights": "whenSidebarOpen"
-  };
-};
-        `
-    }}
-/>
+                    <script>
+                    window.hypothesisConfig = function () {
+                    return {
+                    "showHighlights": "whenSidebarOpen"
+                            };
+                        };
+                    </script>
                     <script src="https://hypothes.is/embed.js" async></script>
                 </Helmet>
             )
