@@ -72,12 +72,8 @@ const SEO = ({ title, description }) => (
                             rel="stylesheet"
                         />
                     )}
-                    <script>
-                    window.hypothesisConfig = function () {
-                    return {
-                    "showHighlights": "whenSidebarOpen"
-                            };
-                        };
+                    <script type="application/json" class="js-hypothesis-config">
+                         "showHighlights": "whenSidebarOpen";
                     </script>
                     <script src="https://hypothes.is/embed.js" async></script>
                 </Helmet>
