@@ -17,18 +17,16 @@ id: 2
 
 <exercise id="2" title="Reading" type="slides">
 <iframe src="dobrow.pdf" height="500px" width="1200px"</iframe>
-
 </exercise>
 
 
-<exercise id="3" title="Spot the difference" type="slides">
-<section>
-<center>Two different models of evidence-based practice are presented below. Consider these first, and then answer the questions about them in the next section.<br><br>
-<img width="600" src="http://static.slid.es.s3.amazonaws.com/support/insert-video.png">
-<img width="600" src="http://static.slid.es.s3.amazonaws.com/support/insert-video.png"></center>
+<exercise id="3" title="Joanna Briggs Institute Model for Evidence-based Health Care" type="slides">
+
+</slides>
+
 </exercise>
 
-<exercise id="4" title="Spot the difference">
+<exercise id="4" title="Iframe">
 Whats is the major difference between them?
 <choice>
 <opt text="Answer one">
@@ -52,4 +50,6 @@ This is not correct either.
 </section>
 </exercise>
 
-
+<exercise id="5" title="Iframe" type="slides">
+<iframe src="dobrow.pdf" height="500px" width="1200px"</iframe>
+</exercise>

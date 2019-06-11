@@ -72,13 +72,12 @@ Enter a term in place of the dotted line. Try out some alternative tags like [TI
 </exercise>
 
 <exercise id="6" title="Spot the difference" type="slides">
-<section>
-<center>Two different models of evidence-based practice are presented below. Consider these first, and then answer the questions about them in the next section.<br><br>
-<img width="600" src="http://static.slid.es.s3.amazonaws.com/support/insert-video.png">
-<img width="600" src="http://static.slid.es.s3.amazonaws.com/support/insert-video.png"></center>
+<div><center>Two different models of evidence-based practice are presented below. Consider these first, and then answer the questions.</center></div>
+<div><center><img height="400px" width="400px" src="JBI.png">
+<img height="400px" width="400px" src="JBI.png"></center></div>
 </exercise>
 
-<exercise id="7" title="Spot the difference">
+<exercise id="7" title="Iframe">
 Whats is the major difference between them?
 <choice>
 <opt text="Answer one">
