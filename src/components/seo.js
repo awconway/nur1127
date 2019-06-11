@@ -13,11 +13,6 @@ const SEO = ({ title, description }) => (
                 : `${siteMetadata.title} · ${siteMetadata.slogan}`
             const pageDesc = description || siteMetadata.description
             const image = `${siteMetadata.siteUrl}/social.jpg`
-            const script = window.hypothesisConfig = function () {
-                    return {
-                    "showHighlights": "whenSidebarOpen"
-                            };
-                        };
             const meta = [
                 {
                     name: 'description',
@@ -77,6 +72,7 @@ const SEO = ({ title, description }) => (
                             rel="stylesheet"
                         />
                     )}
+                    <script src='showHighlights.js' />
                     <script src="https://hypothes.is/embed.js" async></script>
                 </Helmet>
             )
