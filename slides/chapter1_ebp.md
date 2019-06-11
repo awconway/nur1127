@@ -32,14 +32,7 @@ Notes: What do people mean when they say evidence-based practice? A common misco
 
 Notes: Now that we've got some of the common misconceptions about evidence-based practice out of the way, let's turn the focus towards teasing out how clinicians can go about making decisions for patient care using an evidence-based practice approach. As we all well know, decision making in healthcare is complex. The first thing we need to consider is the evidence itself. Central to this is the quality of the research and broadly speaking we need to consider how likely it is that the results were affected by any one of a number of different forms of bias and also how generalizable the findings of the study are to the present situation at hand. 
 
-A second consideration are the patients themselves.  Each patient has a different set of values and preferences, so what works for one patient may not ideally suit another and we have to think about that when we're looking at the evidence in trying to incorporate it into patient care. The final component is us, the clinicians. The experiences that I've had may be very different than yours and how I apply the evidence to a specific group of patients therefore may be justifiably quite different. Where we see these three things intersecting, the evidence, the patient values and preferences, as well as our own judgment and experience, is generally what we like to call evidence based practice.
-
----
-# 'Models' of Evidence-based practice
-
-Notes: Various different models of EBP developed to translate this general concept of EBP involving the integration of  distinct yet related dimensions like research, clinical experience and patient values into the decision-making process. 
-
-In the next exercise I'm going to show diagrams that depict two different models for conceptualizing evidence-based practice. Both of them contain basically the same elements, but have an important distinction. Take a look and see if you can pick it out. 
+A second consideration are the patients themselves.  Each patient has a different set of values and preferences, so what works for one patient may not ideally suit another and we have to think about that when we're looking at the evidence in trying to incorporate it into patient care. The final component is us, the clinicians. The experiences that I've had may be very different than yours and how I apply the evidence to a specific group of patients therefore may be justifiably quite different. Where we see these three things intersecting, the evidence, the patient values and preferences, as well as our own judgment and experience, is generally what we like to call evidence-based practice.
 
 ---
 

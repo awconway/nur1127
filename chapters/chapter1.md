@@ -1,5 +1,5 @@
 ---
-title: 'Module 1: Evidence-Based Nursing Practice'
+title: 'Week 1: Evidence-Based Practice'
 description:
   'The notion of evidence-based (or evidence-informed) practice is well-established in nursing and in the health sciences in general. In Module 1 we will examine the evolution of the evidence-based practice (EBP) movement, and different models for conceptualizing EBP. We will discuss both the purported benefits and the criticisms of the EBP movement in healthcare.'
 prev: null
@@ -8,126 +8,62 @@ type: chapter
 id: 1
 ---
 
-<exercise id="1" title="Introduction" type="slides">
 
-<slides source="chapter1_01_introduction">
+<exercise id="1" title="What is EBP?" type="slides">
+
+<slides source="chapter1_ebp">
 </slides>
-
 </exercise>
 
-<exercise id="2" title="Getting Started">
 
-Let's ask some questions about the slides. Whats the correct answer?
 
-<choice>
-<opt text="Answer one">
-
-This is not the correct answer.
-
-</opt>
-
-<opt text="Answer two" correct="true">
-
-Good job!
-
-</opt>
-
-<opt text="Answer three">
-
-This is not correct either.
-
-</opt>
-</choice>
-
+<exercise id="2" title="Models of EBP" type="slides">
+<slides source="chapter1_models">
 </exercise>
 
-<exercise id="3" title="First search">
-
-Have a go at using a MeSH term in a search of the pubmed database. Search for the term 'nursing' and see how many results are returned. 
-
-<codeblock id="01_03">
-
-Enter the term in place of the dotted line
-
-</codeblock>
-
-</exercise>
-<exercise id="4" title="Refining a search">
-
-Now it's time to combine keywords to refine our results. Say we're interested in finding evidence for intentional rounding by nurses, but want to limit the search to less than 50 results. Add in one or more extra search terms combined with boolean operators (like AND, OR) to achieve this.
-
-<codeblock id="01_04">
-
-Enter a term in place of the dotted line. Try out some alternative tags like [TI] for just the title or [TIAB] for title and abstract.
-
-</codeblock>
-
-</exercise>
-
-<exercise id="5" title="Joanna Briggs Institute Model for Evidence-based Health Care" type="slides">
-
-<slides source="chapter1_05_JBI">
-</slides>
-
-</exercise>
-
-<exercise id="6" title="Spot the difference" type="slides">
-<div><center>Two different models of evidence-based practice are presented below. Consider these first, and then answer the questions.</center></div>
+<exercise id="3" title="Important distinctions between different EBP models" type="slides">
 <div><center><img height="400px" width="400px" src="JBI.png">
 <img height="400px" width="400px" src="JBI.png"></center></div>
-</exercise>
-
-<exercise id="7" title="Iframe">
-Whats is the major difference between them?
+<br><br>
+Whats is the major difference between the two different EBP models presented above?<br><br>
 <choice>
-<opt text="Answer one">
+<opt text="One model values patient-centred care more than clinical expertise" correct="true">
 
-This is not the correct answer.
-
-</opt>
-
-<opt text="Answer two" correct="true">
-
-Good job!
+Good job! It is clear the Rycroft-Malone model is focused on the outcome of achieving  patient-centered care by explictly stating this outcome in the center of the model. In contrast, 'clinical expertise' is seen as the core element unifying the other components of achieving evidence-based clinical decisions in the other model.
 
 </opt>
 
-<opt text="Answer three">
+<opt text="Health care resources are not considered in both models">
 
-This is not correct either.
+This is one of the differences, however, what is different at the 'core' (center) of these two different models, suggesting it as the component of most value to the model?
 
-</opt>
 </choice>
-</section>
 </exercise>
 
-<exercise id="8" title="Iframe" type="slides">
-<slides source="chapter1_08_video">
+<exercise id="4" title="Process models for EBP" type="slides">
+<slides source="chapter1_models2">
 
 </exercise>
 
-<exercise id="9" title="After Iframe">
-Whats is the major difference between them?
-<choice>
-<opt text="Answer one">
+<exercise id="5" title="Criticisms of EBP" type="slides">
+<slides source="chapter1_critiques">
 
-This is not the correct answer.
+</exercise>
 
-</opt>
+<exercise id="6" title="What constitutes 'good' research evidence?">
 
-<opt text="Answer two" correct="true">
+Nurses must be knowledgeable consumers of research in order to use evidence effectively to guide practice.
 
-Good job!
 
-</opt>
+**Methodological quality**
 
-<opt text="Answer three">
+How research is conducted influences the conclusions we can draw from it.
 
-This is not correct either.
+**Clinical and contextual relevance**
 
-</opt>
-</choice>
-</section>
+
+
+
 </exercise>
 
 <exercise id="10" title="Week 1 learning activity on Voicethread">
@@ -136,3 +72,5 @@ Let's head on over to [Voicethread](https://voicethread.com) now to complete thi
 
 Please locate which discussion group you are in (Groups tab on left hand side) and respond to your group's discussion questions on VT and provide one response to your peers post. There are four discussion groups.
 </exercise>
+
+
