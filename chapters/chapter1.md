@@ -65,9 +65,11 @@ How research is conducted influences the conclusions we can draw from it.
 
 
 
-<exercise id="7" title="iframe of pdf with hypothes.is" type="slides">
+<exercise id="7" title="iframe of pdf with hypothes.is">
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/dobrow.pdf" height="600px" width="1200px"></iframe>
+`If you get an error message in the pdf viewer - just refresh the page and it should work.`
+
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/dobrow.pdf" width="750px" height="1050px"></iframe>
 
 </exercise>
 
