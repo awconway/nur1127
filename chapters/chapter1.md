@@ -61,8 +61,13 @@ How research is conducted influences the conclusions we can draw from it.
 
 **Clinical and contextual relevance**
 
+</exercise>
 
 
+
+<exercise id="7" title="iframe of pdf with hypothes.is" type="slides">
+
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/dobrow.pdf" height="600px" width="1200px"></iframe>
 
 </exercise>
 

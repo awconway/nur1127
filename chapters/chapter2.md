@@ -52,6 +52,8 @@ This is not correct either.
 </section>
 </exercise>
 
-<exercise id="5" title="Iframe" type="slides">
-<iframe src="dobrow.pdf" height="500px" width="1200px"</iframe>
+<exercise id="5" title="iframe of pdf with hypothes.is" type="slides">
+
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/dobrow.pdf" height="600px" width="1200px"></iframe>
+
 </exercise>

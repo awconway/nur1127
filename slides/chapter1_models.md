@@ -12,7 +12,6 @@ Various different models of EBP have been developed. Each tries in their own way
 
 As an initial introduction to using models for evidence-based practice, in the next exercise I'm going to show diagrams depicting two different models for conceptualizing evidence-based practice. Both of them contain basically the same elements, but have an important distinction. Take a look and see if you can pick it out. Then we'll discuss further.
 
-
 ---
 
 # Let's practice!
