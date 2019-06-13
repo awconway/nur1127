@@ -25,11 +25,11 @@ What is different about the JBI model, are the other segments that start to hint
 
 # ACE Star Model of Knowledge Transformation
 
-<img src="ACE.png" height="500px" width="500px">
+<img src="/ACE.jpg" height="500px" width="500px">
 
 Notes: A different model that presents a more process-focused view of evidence-based practice is the ACE Star Model of Knowledge Transformation. In this model, the path to making an evidence-based decision is paved out with discrete steps, starting at a stage termed 'Discovery'. Importantly, the cyclical nature of the model implies that the process of knowledge transformation does not end with stage 5 'Process, outcome evaluation', but rather continues as new evidence from research or information from the patient's individual circumstances comes to light.
 
-
+<a href="http://nursing.uthscsa.edu/onrs/starmodel/star-model.asp" target="_blank">ACE Star Model of Knowledge Transformation</a>
 ---
 
 

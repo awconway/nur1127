@@ -29,7 +29,7 @@ Whats is the major difference between the two different EBP models presented abo
 <choice>
 <opt text="One model values patient-centred care more than clinical expertise" correct="true">
 
-Good job! It is clear the Rycroft-Malone model is focused on the outcome of achieving  patient-centered care by explictly stating this outcome in the center of the model. In contrast, 'clinical expertise' is seen as the core element unifying the other components of achieving evidence-based clinical decisions in the other model.
+Good job! It is clear the Rycroft-Malone model is heavily focused on the outcome of achieving  patient-centered care by explictly stating this outcome in the center of the model. In contrast, 'clinical expertise' is seen as the core element unifying the other components of achieving evidence-based clinical decisions in the other model.
 
 </opt>
 
@@ -46,11 +46,13 @@ This is one of the differences, however, what is different at the 'core' (center
 </exercise>
 
 <exercise id="5" title="Criticisms of EBP" type="slides">
-<slides source="chapter1_critiques">
+
 
 </exercise>
 
 <exercise id="6" title="What constitutes 'good' research evidence?">
+
+
 
 Nurses must be knowledgeable consumers of research in order to use evidence effectively to guide practice.
 
@@ -63,9 +65,24 @@ How research is conducted influences the conclusions we can draw from it.
 
 </exercise>
 
+<exercise id="7" title="Why do we need evidence-based practice?">
 
+An abundance of research has been undertaken to evaluate the effects of using evidence-based practice. In general, the benefits of evidence-based practice include that patient
 
-<exercise id="7" title="iframe of pdf with hypothes.is">
+A landmark <a href="https://www.nejm.org/doi/full/10.1056/nejmsa022615" >study</a> in the US by Elizabeth McGlynn and colleagues (2003) revealed that:
+- Patients received only 55% of recommended care;
+- Range in getting the right care varies according to medical condition; and
+- 20 – 30% of patients received unnecessary/harmful care.
+
+Substantial progress has been made in ensuring that health professionals are capable users of evidence in their practice.  Recently, a consensus statement on core competencies in evidence-based practice for health professionals were developed. 
+
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/albarqouni.pdf" width="750px" height="1050px"></iframe>
+
+Teachers of evidence-based healthcare. 
+
+</exercise>
+
+<exercise id="8" title="Barriers and Challenges to Evidence-Based Practice">
 
 `If you get an error message in the pdf viewer - just refresh the page and it should work.`
 
@@ -73,7 +90,7 @@ How research is conducted influences the conclusions we can draw from it.
 
 </exercise>
 
-<exercise id="10" title="Week 1 learning activity on Voicethread">
+<exercise id="9" title="Week 1 learning activity on Voicethread">
 
 Let's head on over to [Voicethread](https://voicethread.com) now to complete this week's main learning activity.
 
