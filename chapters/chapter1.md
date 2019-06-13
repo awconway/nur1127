@@ -67,7 +67,10 @@ How research is conducted influences the conclusions we can draw from it.
 
 <exercise id="7" title="Why do we need evidence-based practice?">
 
-An abundance of research has been undertaken to evaluate the effects of using evidence-based practice. In general, the benefits of evidence-based practice include that patient
+An abundance of research has been undertaken to evaluate the effects of using evidence-based practice. In general, the benefits of evidence-based practice include that patients have better outcomes, the practitioner can have an increased sense of confidence that their decisions and actions are based on sound rationale and evidence
+- Professional accountability and justification of actions
+- Basis for team collaboration regarding plan of care
+- Empowerment of patients and families
 
 A landmark <a href="https://www.nejm.org/doi/full/10.1056/nejmsa022615" >study</a> in the US by Elizabeth McGlynn and colleagues (2003) revealed that:
 - Patients received only 55% of recommended care;
