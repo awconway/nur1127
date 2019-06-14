@@ -47,21 +47,26 @@ This is one of the differences, however, what is different at the 'core' (center
 
 <exercise id="5" title="Criticisms of EBP" type="slides">
 
-
+<slides source="chapter1_critiques">
 </exercise>
 
 <exercise id="6" title="What constitutes 'good' research evidence?">
 
+Although evidence-based practice must consider sources outside of research evidence to inform decision-making, nurses must still be knowledgeable consumers of research in order to use evidence effectively to guide practice. Central to this is the understanding that different types of research designs are appropriate for different research question. For example, in most cases, the most rigorous research design to evaluate the clinical safety and efficacy of an intervention is the randomized controlled trial design. Other research designs are more appropriate to use when the research question instead focuses on, for example, exploring the lived experience of patients with a specific disease or condition. This concept can be broadly referred to as clinical and contextual relevance. Many critical appraisal tools contain items that draw clinician's attention to the clinical and contextual relevance of the piece of research being evaluated. For example, section C of the <a href="https://casp-uk.net/casp-tools-checklists/">CASP</a> (Crticial Appraisal Skills Program) suite of tools pictured below asks the question, *'Will the results help locally?'*.
 
+<img src="CASP.png"/>
 
-Nurses must be knowledgeable consumers of research in order to use evidence effectively to guide practice.
-
+<br><br>
 
 **Methodological quality**
 
-How research is conducted influences the conclusions we can draw from it.
+Another core component in deciding what constitutes 'good' research evidence concerns _how_ research is conducted. The way in which research is conducted has a great influence on the conclusions we can draw from it. As we touched on earlier, evidence hierarchies seldom tell the whole story. A systematic review that combined the results of many small randomized controlled trials, which each had limitations in the way they carried out important elements of study procedures such as the randomization procedure and concealment of assigned interventions from participants and outcome assesors, would not provide as important information as a, rigorously conducted single randomized controlled trial - despite the fact that it is 'lower' down on an evidence hierarchy such as that pictured below.
 
-**Clinical and contextual relevance**
+<center><img src="hierarchy.png"/></center>
+<br>
+
+Later in the course, we'll be going into far greater detail about the methodological aspects of different research designs that are important to consider when deciding about the quality of research evidence that is available to inform decision-making as one component of the evidence-based practice framework.
+
 
 </exercise>
 
@@ -95,9 +100,10 @@ Teachers of evidence-based healthcare.
 
 <exercise id="9" title="Week 1 learning activity on Voicethread">
 
-Let's head on over to [Voicethread](https://voicethread.com) now to complete this week's main learning activity.
+Let's head on over to [Voicethread](https://voicethread.com) now to complete this week's main learning activity. 
 
 Please locate which discussion group you are in (Groups tab on left hand side) and respond to your group's discussion questions on VT and provide one response to your peers post. There are four discussion groups.
+
 </exercise>
 
 
