@@ -10,4 +10,3 @@ filter(stringr::str_detect(uri, 'chapter1'))
 pdf <- hs_search(uri = "https://www.aaronconway.info/NUR1027/dobrow.pdf")
 # combine with others in same chapter
 combined <- rbind(chapter1_any, pdf)
-

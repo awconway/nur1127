@@ -40,17 +40,34 @@ This is one of the differences, however, what is different at the 'core' (center
 </choice>
 </exercise>
 
-<exercise id="4" title="Process models for EBP" type="slides">
+<exercise id="4" title="What counts as 'evidence' (Required reading and learning activity for Group 1)">
+
+`If you get an error message in the pdf viewer - just refresh the page and it should work.`
+
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Rycroft-Malone.pdf" width="750px" height="1050px"></iframe>
+
+</exercise>
+
+<exercise id="5" title="Process models for EBP" type="slides">
 <slides source="chapter1_models2">
 
 </exercise>
 
-<exercise id="5" title="Criticisms of EBP" type="slides">
+<exercise id="6" title="Criticisms of EBP" type="slides">
 
 <slides source="chapter1_critiques">
 </exercise>
 
-<exercise id="6" title="What constitutes 'good' research evidence?">
+<exercise id="7" title="Challenging the assumptions (Required reading and learning activity for Group 2)">
+
+`If you get an error message in the pdf viewer - just refresh the page and it should work.`
+
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/wall.pdf" width="750px" height="1050px"></iframe>
+</exercise>
+
+
+
+<exercise id="8" title="What constitutes 'good' research evidence?">
 
 Although evidence-based practice must consider sources outside of research evidence to inform decision-making, nurses must still be knowledgeable consumers of research in order to use evidence effectively to guide practice. Central to this is the understanding that different types of research designs are appropriate for different research question. For example, in most cases, the most rigorous research design to evaluate the clinical safety and efficacy of an intervention is the randomized controlled trial design. Other research designs are more appropriate to use when the research question instead focuses on, for example, exploring the lived experience of patients with a specific disease or condition. This concept can be broadly referred to as clinical and contextual relevance. Many critical appraisal tools contain items that draw clinician's attention to the clinical and contextual relevance of the piece of research being evaluated. For example, section C of the <a href="https://casp-uk.net/casp-tools-checklists/">CASP</a> (Crticial Appraisal Skills Program) suite of tools pictured below asks the question, *'Will the results help locally?'*.
 
@@ -70,7 +87,7 @@ Later in the course, we'll be going into far greater detail about the methodolog
 
 </exercise>
 
-<exercise id="7" title="Why do we need evidence-based practice?">
+<exercise id="9" title="Why do we need evidence-based practice?">
 
 An abundance of research has been undertaken to evaluate the effects of using evidence-based practice. In general, the benefits of evidence-based practice include that patients have better outcomes, the practitioner can have an increased sense of confidence that their decisions and actions are based on sound rationale and evidence
 - Professional accountability and justification of actions
@@ -90,19 +107,46 @@ Teachers of evidence-based healthcare.
 
 </exercise>
 
-<exercise id="8" title="Barriers and Challenges to Evidence-Based Practice">
+<exercise id="10" title="Barriers and Challenges to Evidence-Based Practice (Required reading and learning activity for Group 3)">
+
+For group 1 -
 
 `If you get an error message in the pdf viewer - just refresh the page and it should work.`
-
 <iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/dobrow.pdf" width="750px" height="1050px"></iframe>
 
 </exercise>
 
-<exercise id="9" title="Week 1 learning activity on Voicethread">
+<exercise id="11" title="Factors influencing Evidence-Based Practice (Required reading and learning activity for Group 4)">
 
-Let's head on over to [Voicethread](https://voicethread.com) now to complete this week's main learning activity. 
+`If you get an error message in the pdf viewer - just refresh the page and it should work.`
 
-Please locate which discussion group you are in (Groups tab on left hand side) and respond to your group's discussion questions on VT and provide one response to your peers post. There are four discussion groups.
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Gerrish.pdf" width="750px" height="1050px"></iframe>
+
+</exercise>
+
+<exercise id="12" title="Additional Recommended Readings">
+
+The links to these webpages have the _hypothes.is_ toolbar enabled. Please feel free to annotate as you read to contribut to on-going discussion between members of the class (this is optional). 
+
+<a href="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/bliss-holtz.pdf">Bliss-Holtz, J. (2007).  Evidence-based practice:  A primer for action.  Issues in Comprehensive Pediatric Nursing, 30(4), 165-182.</a>
+
+<a href="https://journals-scholarsportal-info.myaccess.library.utoronto.ca/pdf/08943184/v25i0002/199_taenp.xml">Fawcett, J. (2012). Thoughts about evidence-based nursing practice. Nursing Science Quarterly, 25(2). 199-200.</a> 
+
+Gray, J.R., Grove, S.K. & Sutherland, S.  (2017). The Practice of Nursing Research (8th ed.) Chapter 1: Discovering the world of nursing research (pp. 1 - 17). Chapter 2: Evolution of research in building evidence-based nursing practice (pp. 18 – 36).
+
+<a href="http://www.nets.nihr.ac.uk/programmes/hsdr">The Health Services and Delivery Research (HS&DR) Programme from the National institutes of Health Research Evaluation, Trials and Studies programme in the UK funds research relevant to health services organization and delivery.</a>
+
+<a href="https://journals-scholarsportal-info.myaccess.library.utoronto.ca/pdf/02779536/v62i0011/2633_afenoeim.xml">Lambert, H. (2006). Accounting for EBM: notions of evidence in medicine. Social Science & Medicine, 62, 2733-45.</a> 
+
+Melnyk, B. (2014). Evidence-based practice versus evidence-informed practice: a debate that could stall forward momentum in improving healthcare quality, safety, patient outcomes, and costs. Worldviews on evidence-based nursing, 11 (6), 347-349. https://sigmapubs-onlinelibrary-wiley-com.myaccess.library.utoronto.ca/doi/epdf/10.1111/wvn.12070
+
+Melnyk, B., Fineout-Overholt, E., Stillwell, S., & Williamson, K. (2009).  Igniting a spirit of inquiry:  An essential foundation for evidence-based practice.  American Journal of Nursing, 109(11), 49-52.
+
+https://www-jstororg.myaccess.library.utoronto.ca/stable/pdf/25734232.pdf?refreqid=excelsior%3A9d43bf44f35c02bddd680daf491eb451
+
+Melnyk, B., Fineout-Overholt, E., Stillwell, S., & Williamson, K. (2010).  The seven-steps of evidence-based practice. American Journal of Nursing, 110(1), 51-53. https://www-jstor-org.myaccess.library.utoronto.ca/stable/pdf/25734261.pdf?refreqid=excelsior%3Acdc8de1feefcabedabeda0f9eae517e3
+
+Morse, J.M. (2006). The politics of evidence. Qualitative Health Research, 16 (3), 395-404. https://journals-scholarsportal-info.myaccess.library.utoronto.ca/pdf/10497323/v16i0003/395_tpoe.xml
 
 </exercise>
 
