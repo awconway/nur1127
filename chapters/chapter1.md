@@ -40,7 +40,10 @@ This is one of the differences, however, what is different at the 'core' (center
 </choice>
 </exercise>
 
-<exercise id="4" title="What counts as 'evidence' (Required reading and learning activity for Group 1)">
+<exercise id="4" title="Learning activity for Group 1 to lead: What counts as 'evidence'">
+
+Use the annotation feature to discuss the sources of evidence that comprise evidence-based practice. As nursing practice advances and new roles emerge, do you think there are additional sources of evidence that should be considered?
+
 
 `If you get an error message in the pdf viewer - just refresh the page and it should work.`
 
@@ -58,7 +61,7 @@ This is one of the differences, however, what is different at the 'core' (center
 <slides source="chapter1_critiques">
 </exercise>
 
-<exercise id="7" title="Challenging the assumptions (Required reading and learning activity for Group 2)">
+<exercise id="7" title="Learning activity for Group 2 to lead: Challenging the assumptions ">
 
 `If you get an error message in the pdf viewer - just refresh the page and it should work.`
 
@@ -107,7 +110,7 @@ Teachers of evidence-based healthcare.
 
 </exercise>
 
-<exercise id="10" title="Barriers and Challenges to Evidence-Based Practice (Required reading and learning activity for Group 3)">
+<exercise id="10" title="Learning activity for Group 3 to lead: Barriers and Challenges to Evidence-Based Practice">
 
 For group 1 -
 
@@ -116,7 +119,7 @@ For group 1 -
 
 </exercise>
 
-<exercise id="11" title="Factors influencing Evidence-Based Practice (Required reading and learning activity for Group 4)">
+<exercise id="11" title="Learning activity for Group 4 to lead: Factors influencing Evidence-Based Practice">
 
 `If you get an error message in the pdf viewer - just refresh the page and it should work.`
 
@@ -126,7 +129,7 @@ For group 1 -
 
 <exercise id="12" title="Additional Recommended Readings">
 
-The links to these webpages have the _hypothes.is_ toolbar enabled. Please feel free to annotate as you read to contribut to on-going discussion between members of the class (this is optional). 
+The links to these webpages have the _hypothes.is_ toolbar enabled. Please feel free to annotate as you read to contribute to on-going discussion between members of the class (this is optional). 
 
 <a href="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/bliss-holtz.pdf">Bliss-Holtz, J. (2007).  Evidence-based practice:  A primer for action.  Issues in Comprehensive Pediatric Nursing, 30(4), 165-182.</a>
 
