@@ -78,12 +78,16 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 </exercise>
 
 
-<exercise id="5" title="Weekly course schedule">
+<exercise id="6" title="Weekly course schedule">
 
-| Date    |   Week  | Topic |
-| --- | --- | ----- |
-| Sept. 11 |	Week 1 |	Module 1: Evidence-informed Nursing Practice |
-| Sept. 18| 	Week 2 |	Module 1: continues:Knowledge Translation |
+| Date    |   Week  | Topic | Assessnment |
+| --- | --- | ----- |  ---| 
+| Sept. 11 |	Week 1 |	Module 1: Evidence-informed Nursing Practice |   |
+| Sept. 18 | 	Week 2 |	Module 1: continues:Knowledge Translation |   |
+| Sept. 25 |	Week 3 |	Module 2: Systematic Approaches to Locating Research Evidence | |
+| Oct. 2	 |  Week 4   |	Module 2 continues| Evidence-based Practice Critique due Friday Oct 5th at 4:00 pm |
+
+</exercise>
 
 
 </exercise>
