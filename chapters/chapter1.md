@@ -47,7 +47,7 @@ Use the annotation feature to discuss the sources of evidence that comprise evid
 
 `If you get an error message in the pdf viewer - just refresh the page and it should work.`
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Rycroft-Malone.pdf" width="100%" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Rycroft-Malone.pdf" width="750px" height="1050px"></iframe>
 
 </exercise>
 
@@ -125,7 +125,7 @@ Teachers of evidence-based healthcare.
 For group 1 -
 
 `If you get an error message in the pdf viewer - just refresh the page and it should work.`
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/dobrow.pdf" width="100%" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/dobrow.pdf" width="750px" height="1050px"></iframe>
 
 </exercise>
 
