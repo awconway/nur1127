@@ -22,8 +22,8 @@ id: 1
 </exercise>
 
 <exercise id="3" title="Important distinctions between different EBP models" type="slides">
-<div><center><img height="400px" width="400px" src="JBI.png">
-<img height="400px" width="400px" src="JBI.png"></center></div>
+<div><center><img height="300px" width="300px" src="JBI.png">
+<img height="300px" width="300px" src="JBI.png"></center></div>
 <br><br>
 What is the major difference between the two different EBP models presented above?<br><br>
 <choice>
@@ -47,7 +47,7 @@ Use the annotation feature to discuss the sources of evidence that comprise evid
 
 `If you get an error message in the pdf viewer - just refresh the page and it should work.`
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Rycroft-Malone.pdf" width="750px" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Rycroft-Malone.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 
@@ -164,3 +164,7 @@ Morse, J.M. (2006). The politics of evidence. Qualitative Health Research, 16 (3
 </exercise>
 
 
+<exercise id="12" title="Discussion board">
+
+
+<a target="_parent" href="https://q.utoronto.ca/groups/63242/discussion_topics/322304">Link to discussion group 1</a>
