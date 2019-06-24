@@ -25,7 +25,7 @@ id: 1
 <div><center><img height="400px" width="400px" src="JBI.png">
 <img height="400px" width="400px" src="JBI.png"></center></div>
 <br><br>
-Whats is the major difference between the two different EBP models presented above?<br><br>
+What is the major difference between the two different EBP models presented above?<br><br>
 <choice>
 <opt text="One model values patient-centred care more than clinical expertise" correct="true">
 
@@ -40,14 +40,14 @@ This is one of the differences, however, what is different at the 'core' (center
 </choice>
 </exercise>
 
-<exercise id="4" title="Learning activity for Group 1 to lead: What counts as 'evidence'">
+<exercise id="4" title="Learning activity for Group 1 to lead: What counts as 'evidence'" type="slides">
 
 Use the annotation feature to discuss the sources of evidence that comprise evidence-based practice. As nursing practice advances and new roles emerge, do you think there are additional sources of evidence that should be considered?
 
 
 `If you get an error message in the pdf viewer - just refresh the page and it should work.`
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Rycroft-Malone.pdf" width="750px" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Rycroft-Malone.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 
@@ -87,6 +87,16 @@ Another core component in deciding what constitutes 'good' research evidence con
 
 Later in the course, we'll be going into far greater detail about the methodological aspects of different research designs that are important to consider when deciding about the quality of research evidence that is available to inform decision-making as one component of the evidence-based practice framework.
 
+All research generates evidence. However, not all evidence is the same, and it is important that the best evidence is used  in nursing and midwifery practice. To that end, an internationally recognised approach known as GRADE (which stands for Grading of Recommendations Assessment, Development and Evaluation) is recommended by the National Health and Medical Research Council of Australia (NHMRC 2016) as the standard in clinical guideline development. The GRADE system is also used in Cochrane Collaboration systematic reviews to grade the quality of evidence. This system of grading the quality of evidence updates earlier advice that used only research design considerations for evidence grading. By contrast, the GRADE approach involves rating the quality of evidence for each outcome along a continuum of very low, low, moderate or high quality (Table 9.2). Evidence from a randomised controlled trial (or meta-analysis where the results of multiple randomised controlled trials have been combined using a statistical approach) is automatically assigned a rating of high quality and non-randomised studies automatically assigned a low rating. However, the evidence rating is then modified downward if there are concerns about:
+1.	The risk of bias associated with the design of the study or studies that provided evidence for that outcome (termed study limitations by GRADE and assessed by risk of detection, performance, attrition, ;
+2.	How precise the results of a study are (termed imprecision by GRADE);
+3.	The degree to which results from different similar studies (comparing the same interventions for example) have varied (termed inconsistency by GRADE);
+4.	The evidence available not being totally relevant to the research question at hand (termed indirectness by GRADE); and 
+5.	The completeness of reporting of research (termed publication bias by grade). 
+
+It is also possible to upgrade the quality of evidence assigned to an outcome from a non-randomised or observational study. Upgrading evidence quality for an observational study can be considered when a dose-response gradient is present and large effects are identified (i.e. 2-5 fold reductions or increases in risk) (Guyatt et al., 2011). 
+
+
 
 </exercise>
 
@@ -110,12 +120,12 @@ Teachers of evidence-based healthcare.
 
 </exercise>
 
-<exercise id="10" title="Learning activity for Group 3 to lead: Barriers and Challenges to Evidence-Based Practice">
+<exercise id="10" title="Learning activity for Group 3 to lead: Barriers and Challenges to Evidence-Based Practice" type="slides">
 
 For group 1 -
 
 `If you get an error message in the pdf viewer - just refresh the page and it should work.`
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/dobrow.pdf" width="750px" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/dobrow.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 
