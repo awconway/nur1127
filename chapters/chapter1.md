@@ -47,7 +47,7 @@ Use the annotation feature to discuss the sources of evidence that comprise evid
 
 `If you get an error message in the pdf viewer - just refresh the page and it should work.`
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Rycroft-Malone.pdf" width="100%" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Rycroft-Malone.pdf" width="100%" height="600px"></iframe>
 
 </exercise>
 
@@ -61,11 +61,11 @@ Use the annotation feature to discuss the sources of evidence that comprise evid
 <slides source="chapter1_critiques">
 </exercise>
 
-<exercise id="7" title="Learning activity for Group 2 to lead: Challenging the assumptions ">
+<exercise id="7" title="Learning activity for Group 2 to lead: Challenging the assumptions" type="slides">
 
 `If you get an error message in the pdf viewer - just refresh the page and it should work.`
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/wall.pdf" width="750px" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/wall.pdf" width="100%" height="600px"></iframe>
 </exercise>
 
 
@@ -125,15 +125,15 @@ Teachers of evidence-based healthcare.
 For group 1 -
 
 `If you get an error message in the pdf viewer - just refresh the page and it should work.`
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/dobrow.pdf" width="750px" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/dobrow.pdf" width="100%" height="600px"></iframe>
 
 </exercise>
 
-<exercise id="11" title="Learning activity for Group 4 to lead: Factors influencing Evidence-Based Practice">
+<exercise id="11" title="Learning activity for Group 4 to lead: Factors influencing Evidence-Based Practice" type="slides">
 
 `If you get an error message in the pdf viewer - just refresh the page and it should work.`
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Gerrish.pdf" width="750px" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Gerrish.pdf" width="100%" height="600px"></iframe>
 
 </exercise>
 
