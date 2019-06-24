@@ -2,7 +2,10 @@
 type: slides
 ---
 
-# Paper– Practice question and search strategy 
+# Practice question and search strategy<br>30% of final grade
+
+---
+# Description
 
 The purpose of this assignment is to develop a practice question that may be answered through a search of the literature, and develop and execute a systematic search strategy to address the question. 
 
@@ -20,7 +23,8 @@ Define the problem, put the question into context, and build the question, using
 
 **Results:** evaluation of the effectiveness of the search strategy (final number and types of studies that you included, relevance of studies to question).
 
-Maximum 4 pages, double-spaced on standard-sized paper (8.5" x 11") with 1" margins on all sides. You should use 12 pt. font, such as Times New Roman (pages over the limit will not be read or marked).
+- Maximum 4 pages, double-spaced on standard-sized paper (8.5" x 11") with 1" margins on all sides. 
+- You should use 12 pt. font, such as Times New Roman (pages over the limit will not be read or marked).
 
 ---
 
@@ -33,8 +37,6 @@ Maximum 4 pages, double-spaced on standard-sized paper (8.5" x 11") with 1" marg
 
 ---
 
-# Due date
+# Due week 7 (Friday October 25, 2019 by 4:00 pm EDT)
 
-**Due the Friday of week 7 (Friday October 25, 2019) by 4:00 pm EDT**
 
-30% of final grade

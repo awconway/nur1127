@@ -2,7 +2,7 @@
 type: slides
 ---
 
-# Paper – Critique of EBP framework or model <br>20% of final grade
+# Critique of EBP framework or model <br>20% of final grade
 
 ---
 # Description
@@ -27,4 +27,4 @@ In this paper you will critique a framework or model for evidence-based nursing 
 
 ---
 
-Due the Friday of week 4 (Friday October 4, 2019) by 4:00 pm EDT 
+# Due in week 4 (Friday October 4, 2019 by 4:00 pm EDT)
