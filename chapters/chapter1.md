@@ -172,10 +172,10 @@ Morse, J.M. (2006). The politics of evidence. Qualitative Health Research, 16 (3
 </exercise>
 
 
-<exercise id="13" title="Embed mp4">
+<exercise id="13" title="Embed mp4" type="slides">
 
 
-<video width="100%" height="500" controls>
+<video width="100%" height="600px" controls>
   <source src="PSA.mp4" type="video/mp4" />
 </video>
 </exercise>
