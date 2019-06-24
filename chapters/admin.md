@@ -69,3 +69,21 @@ The reading list for this course in included in this syllabus. Unless otherwise 
 # Recommended resource
 
 The Equator (Enhancing the Quality and Transparency of Health Research) Network is a collection of reporting frameworks and guidelines for different types of studies. These resources are intended to provide guidance to researchers in reporting their studies. However they may be useful in helping you understand the essential components of different types of research reports. You can access this network at: http://www.equator-network.org/ 
+
+</exercise>
+
+<exercise id="5" title="Course structure">
+
+This course follows a modular format. In a series of 6 modules over 12 weeks, you will learn key information about how to find, appraise, and use research in your practice. Each of the modules will include: learning objectives, resources and activities to help you understand and apply the concepts. Each week will begin on a Tuesday and end on the following Monday at 11:59pm.
+</exercise>
+
+
+<exercise id="5" title="Weekly course schedule">
+
+| Date    |   Week  | Topic |
+| --- | --- | ----- |
+| Sept. 11 |	Week 1 |	Module 1: Evidence-informed Nursing Practice |
+| Sept. 18| 	Week 2 |	Module 1: continues:Knowledge Translation |
+
+
+</exercise>
