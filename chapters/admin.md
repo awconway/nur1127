@@ -61,14 +61,14 @@ Craig, JV & Smyth, RL. (2012). The Evidence-based Practice Manual for Nurses (3r
 *Note: Unfortunately, the latest edition of this text will not be published until October 2019, which means we will not be able to use it for the course this semester.*
 
 Textbooks can be purchased in person at the U of T Bookstore (214 College St.) or ordered online through the <a href="http://www.uoftbookstore.com/">bookstore</a>.
---------
+
 # Required readings/resources
 
 The reading list for this course in included in this syllabus. Unless otherwise stated, all articles listed in the course syllabus are available electronically by clicking on the links provided or through the University of Toronto Libraries <a href="http://www.library.utoronto.ca/">website</a>.  
-----------
+
 # Recommended resource
 
-The Equator (Enhancing the Quality and Transparency of Health Research) Network is a collection of reporting frameworks and guidelines for different types of studies. These resources are intended to provide guidance to researchers in reporting their studies. However they may be useful in helping you understand the essential components of different types of research reports. You can access this network at: http://www.equator-network.org/ 
+The [Equator](http://www.equator-network.org/) (Enhancing the Quality and Transparency of Health Research) Network is a collection of reporting frameworks and guidelines for different types of studies. These resources are intended to provide guidance to researchers in reporting their studies. However they may be useful in helping you understand the essential components of different types of research reports. 
 
 </exercise>
 
@@ -99,7 +99,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 <tbody>
 <tr style="height: 48px;">
 <td style="height: 48px;" width="15%">
-<p>Sept. 11</p>
+<p>Sept. 8</p>
 </td>
 <td style="height: 48px;" width="15%">
 <p>Week 1</p>
@@ -111,20 +111,19 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 </tr>
 <tr style="height: 59px;">
 <td style="height: 59px;" width="15%">
-<p>Sept. 18</p>
+<p>Sept. 15</p>
 </td>
 <td style="height: 59px;" width="15%">
 <p>Week 2</p>
 </td>
 <td style="height: 59px;" width="35%">
-<p>Module 1: continues:</p>
-<p>Knowledge Translation</p>
+<p>Module 1: continues: Knowledge Translation</p>
 </td>
 <td style="height: 59px;" width="35%">&nbsp;</td>
 </tr>
 <tr style="height: 47px;">
 <td style="height: 47px;" width="15%">
-<p>Sept. 25</p>
+<p>Sept. 22</p>
 </td>
 <td style="height: 47px;" width="15%">
 <p>Week 3</p>
@@ -136,7 +135,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 </tr>
 <tr style="height: 74px;">
 <td style="height: 74px;" width="15%">
-<p>Oct. 2</p>
+<p>Sept. 29</p>
 </td>
 <td style="height: 74px;" width="15%">
 <p>Week 4</p>
@@ -151,20 +150,20 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 </tr>
 <tr style="height: 61px;">
 <td style="height: 61px;" width="15%">
-<p>Oct. 9</p>
+<p>Oct. 6</p>
 </td>
 <td style="height: 61px;" width="15%">
 <p>Week 5</p>
 <p><em>&nbsp;</em></p>
 </td>
 <td style="height: 61px;" width="35%">
-<p>Module 3: Introduction to Major Approaches to&nbsp; Knowledge Production in the Health Sciences &nbsp;</p>
+<p>Module 3: Introduction to Major Approaches to&nbsp; Knowledge Production in the Health Sciences</p>
 </td>
 <td style="height: 61px;" width="35%">&nbsp;</td>
 </tr>
 <tr style="height: 72px;">
 <td style="height: 72px;" width="15%">
-<p>Oct. 16</p>
+<p>Oct. 13</p>
 </td>
 <td style="height: 72px;" width="15%">
 <p>Week 6</p>
@@ -177,7 +176,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 </tr>
 <tr style="height: 74px;">
 <td style="height: 74px;" width="15%">
-<p>Oct. 23</p>
+<p>Oct. 20</p>
 </td>
 <td style="height: 74px;" width="15%">
 <p>Week 7</p>
@@ -192,7 +191,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 </tr>
 <tr style="height: 48px;">
 <td style="height: 48px;" width="15%">
-<p>Oct. 30</p>
+<p>Oct. 27</p>
 </td>
 <td style="height: 48px;" width="15%">
 <p>Week 8</p>
@@ -204,7 +203,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 </tr>
 <tr style="height: 61px;">
 <td style="height: 61px;" width="15%">
-<p>Nov. 6</p>
+<p>Nov. 3</p>
 </td>
 <td style="height: 61px;" width="15%">
 <p>Week 9</p>
@@ -216,7 +215,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 </tr>
 <tr style="height: 96px;">
 <td style="height: 96px;" width="15%">
-<p>Nov. 13</p>
+<p>Nov. 10</p>
 </td>
 <td style="height: 96px;" width="15%">
 <p>Week 10</p>
@@ -224,36 +223,32 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 </td>
 <td style="height: 96px;" width="35%">
 <p>Module 6: Interpretation and Critical Appraisal of Descriptive Studies</p>
-<p>&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quantitative description</p>
-<p>&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Correlation designs</p>
 </td>
 <td style="height: 96px;" width="35%">&nbsp;</td>
 </tr>
 <tr style="height: 59px;">
 <td style="height: 59px;" width="15%">
-<p>Nov. 20</p>
+<p>Nov. 17</p>
 </td>
 <td style="height: 59px;" width="15%">
 <p>Week 11</p>
 <p><em>&nbsp;</em></p>
 </td>
 <td style="height: 59px;" width="35%">
-<p>Module 6 continues:</p>
-<p>Qualitative Description</p>
+<p>Module 6 continues: Qualitative Description</p>
 </td>
 <td style="height: 59px;" width="35%">&nbsp;</td>
 </tr>
 <tr style="height: 59px;">
 <td style="height: 59px;" width="15%">
-<p>Nov. 27</p>
+<p>Nov. 24</p>
 </td>
 <td style="height: 59px;" width="15%">
 <p>Week 12</p>
 <p>&nbsp;</p>
 </td>
 <td style="height: 59px;" width="35%">
-<p>Module 6 continues:</p>
-<p>Phenomenology</p>
+<p>Module 6 continues: Phenomenology</p>
 </td>
 <td style="height: 59px;" width="35%">Research Study Analysis due Friday Dec. 7th at 4:00 pm</td>
 </tr>
@@ -305,8 +300,142 @@ Other helpful writing websites include:
 
 All written assignments should be carefully proofread and well edited. The required style manual for the formatting of essays and assignments at the Lawrence S. Bloomberg Faculty of Nursing is that of the American Psychological Association (APA) 6th edition, which is described in: 
 
->Publications Manual of the American Psychological Association (6th ed.). Washington: American Psychological Association, 2010.
+*Publications Manual of the American Psychological Association (6th ed.). Washington: American Psychological Association, 2010.*
 
 The Purdue Online Writing Lab provides a helpful overview of the [General APA guidelines](http://owl.english.purdue.edu/owl/resource/560/01/)
+
+</exercise>
+
+<exercise id="13" title="Other useful links">
+
+1.	[University of Toronto Library System](http://www.library.utoronto.ca)
+2.	[Gerstein Science Information Centre](http://gerstein.library.utoronto.ca/)
+3.	[School of Graduate Studies](http://www.sgs.utoronto.ca/)
+
+</exercise>
+
+<exercise id="14" title="Course communication">
+
+Please ensure that you have an active your.name@utoronto.ca or your.name@mail.utoronto.ca e-mail address as this is the only one to which faculty will respond.  If your contact information changes, please notify the MN Graduate and Curriculum Assistant (academic.nursing@utoronto.ca) and update ACORN immediately.  
+
+Quercus will be used to post the course syllabus, recorded lectures, weekly readings and other learning activities, and important announcements.  Click [here](https://q.utoronto.ca/courses/46670) for Quercus information and resources.
+
+Please also use our course Quercus site Discussion section to ask questions about class content and assignments.  Many of you will have similar questions and we can ensure consistent responses to your concerns by using Quercus.  We (the Teaching Assistant or I) will read and respond to Quercus postings and messages and our Discussions (via Quercus and Voicethread) on Mondays, Wednesdays and Fridays by 5 pm.  E-mail communication with either the Professor or the TA should be used only for purposes other than asking questions about course content (e.g., for scheduling a one-to-one appointment) or for communication of a personal nature.  
+
+Forwarding your utoronto.ca email to a Hotmail or Yahoo or other type of email account is not advisable. In some cases, messages from utoronto.ca addresses sent to Hotmail or Yahoo accounts are filtered as junk mail, which means that emails from your course instructor may end up in your spam or junk mail folder. 
+
+</exercise>
+
+<exercise id="15" title="Technical requirements">
+
+There are technical requirements that will allow you to participate in the course. The course includes online webinars and assignments that are submitted online.
+ 
+*Minimum Computer System Requirements*
+
+- Laptop or Desktop
+- 2GB Ram
+- 3.0 GHz Single Core Processor
+- Windows 7 or Mac OSX 10.9
+- Webcam with at least 640 x 480 resolutions
+- Headphones
+- Microphone (Built-in, on headphones, or external)
+ 
+As a general rule, if you have purchased your computer within the last 3-5 years you will likely have no trouble meeting these requirements.  If your computer does not meet the minimum requirements you may have difficulty using some of the applications.
+ 
+ Most new laptops (within 3-5 years) have webcams built in. If you are using a desktop computer you may need to purchase a webcam. In addition, you will need a microphone (most webcams and laptops have built-in microphones) and a set of headphones such as the kind that come with mobile devices and smartphones.
+ 
+In addition to the computer system requirements it is also recommended you have sufficiently fast Internet. Ensure you have DSL or Cable Internet with at least 1.5 Mbps download speed and at least 1.5 Mbps upload speed. Dial-up Internet is not sufficient and is not recommended.
+ 
+You can test your Internet speed by going to ww.speedtest.net and clicking the “Begin” button.
+ 
+In addition it is important to note that some computer applications may be required to communicate throughout this course.  Ensure you have the latest versions of:
+ 
+o	[Acrobat Reader, Flash Player, and Shockwave](https://www.adobe.com)
+o	[Java](http://www.java.com/en/)
+o	Google Chrome, Firefox, Internet Explore, and/or Safari (we recommend having two browsers installed just in case you run into issues with one of them)
+ 
+Please note: If you are accessing the Internet through a large organization (e.g. a hospital) you may need to contact your organization’s IT department to arrange these downloads and confirm internet speed.
+ 
+Please note, the university also provides free [antivirus software](http://antivirus.utoronto.ca/index.php?page=students ) to all students which is strongly recommended.
+
+
+</exercise>
+
+<exercise id="16" title="Course participation">
+
+The Quercus Discussion Board and Voicethread is our virtual classroom. This is where we will engage in discussion and clarification of the course material, and practise applying course concepts. In order to make the most of this opportunity, we need to allow time for these asynchronous discussions to unfold over the week. Thus it is important that you go join the discussions several times over the week, rather than posting only at the end of the week.
+To facilitate discussion there will be a number of questions posed each week. It is important that all students participate in these discussions. I ask that you please keep your postings succinct **(maximum 200 words (text) or 2 minutes audio/video)** so that others have an opportunity to respond as well. Postings must be presented in your own words and reflect a critical analysis and interpretation of course material, exercises, and other learning activities.  You are encouraged to share insights into the application and use of course concepts in practice. Please include relevant references in your posts (not included in the word count).
+Students are expected to read assigned material for each week and respond to each other’s postings and questions.  The minimum expectation is that you submit one posting of your own and provide a short but substantive response to at least one other student’s post each week.
+
+
+*Relevance and Content*
+
+The student:
+-	Comments and questions and thoughtfully addresses the topic and question.
+-	Demonstrates s/he has read the discussion and has taken the discussion into consideration before posting.
+-	Contributes new ideas (e.g., new perspectives, examples) in integrating relevant readings.
+-	Makes connections between ideas (e.g., connects concepts, explains similarities).
+-	Applies and rephrases ideas from previous classes accurately and appropriately.
+-	Asks questions that promote in-depth discussion.
+
+*Tone and Clarity*
+-	Tone is respectful, friendly and professional.
+-	Proofreads comments for clarity before posting.
+-	Communicates ideas in a professional but engaging way.
+-	Addresses other students by name.
+-	Humour, emotions, and colloquial language, if used at all, are used sparingly and with sensitivity to other students.
+-	Responds to other students as well as the instructor.
+
+*Netiquette*
+Certain rules of etiquette are also recommended for online discussions (Netiquette). These include:
+- Always be courteous to other students
+- Before introducing a new topic area, search to see if a similar discussion point already exists
+- Stay on-topic
+- Avoid the use of all CAPTIAL LETTERS in posts. ALL CAPS is considered shouting
+
+</exercise>
+
+<exercise id="17" title="Important University and Faculty policies">
+
+To be inserted.
+
+</exercise>
+
+<exercise id="18" title="Evaluation methods">
+
+Method 1: Paper – Evidence-based Practice and Knowledge Translation
+In this paper you will critique a framework or model for evidence-based nursing practice or knowledge translation. You will provide an in-depth description of the framework, a critical analysis of the framework, and a discussion of the framework’s relevancy and application to nursing practice.
+
+Maximum 3 pages, double-spaced on standard-sized paper (8.5" x 11") with 1" margins on all sides. Use 12 pt. font, such as Times New Roman (pages over the limit will not be read or marked).
+
+Evaluation Criteria: 
+1.	Clarity and accuracy of presentation of framework/model
+2.	Depth of critical analysis
+3.	Comprehensiveness and balance of critique
+4.	Clarity, format and style
+
+Due the Friday of week 4 (Friday October 5, 2018) by 4:00 pm EDT
+20% of final grade
+
+Method 2: Paper– Practice question and search strategy 
+The purpose of this assignment is to develop a practice question that may be answered through a search of the literature, and develop and execute a systematic search strategy to address the question. 
+
+Define the problem, put the question into context, and build the question, using the elements of framing a question (PICO or PIE). Describe your search strategy for the evidence. Search two databases I need to add this for next time. It is important to show what you did to conduct the search including effective, appropriate use of Boolean operators and other database search functions. Place the results of your search in an Appendix - this will not count toward the page limit of the assignment. Show how you expanded and/or contracted your search. 
+
+Headings to be used within the paper should include the following:
+Background: brief description of the situation or problem, formal statement of the search question, specifying concepts that form the basis of your search (the Population, Intervention, Comparison, and Outcome or the Population/problem, Intervention/exposure, and Evaluation/Outcomes) and justification for the importance or relevance of the question
+Search Methodology: description of search strategies used to conduct the electronic search (search terms, combinations of terms, databases used, the number and types of studies you discovered etc.)
+Results: evaluation of the effectiveness of the search strategy (final number and types of studies that you included, relevance of studies to question).
+
+Maximum 4 pages, double-spaced on standard-sized paper (8.5" x 11") with 1" margins on all sides. You should use 12 pt. font, such as Times New Roman (pages over the limit will not be read or marked).
+Evaluation Criteria: 
+1.	Justification of the relevance of the practice question. 
+2.	Clarity and feasibility of practice question (population/patient/problem, intervention/issue, comparison [if appropriate], and outcome/evaluation/effect) and search strategy.
+3.	Comprehensiveness and appropriateness of search strategy. 
+4.	Clarity, format and style.
+
+Due the Friday of week 7 (Friday October 26, 2018) by 4:00 pm EDT
+30% of final grade
+
 
 
