@@ -13,7 +13,7 @@ id: 1
 |     |     |
 | --- | --- |
 |*Course Location* |  On-line  |
-| *Faculty* | **Aaron Conway RN, PhD**<br>155 College Street<br>Rm. 247<br> (416) 978-1965<br> Email: aaron.conway@utoronto.ca|
+| *Faculty* | **Aaron Conway RN, PhD**<br>155 College Street<br>Rm. 247<br>(416) 946-7112 <br> Email: aaron.conway@utoronto.ca|
 | *Office Hours* | By appointment |
 |*Teaching Assistant* | TBC|
 | *Course Website* |On Quercus: https://q.utoronto.ca|
@@ -23,7 +23,7 @@ id: 1
 
 <exercise id="2" title="Course description">
 
-A major responsibility for masters-prepared advanced practiced nurses in leadership roles (formal or informal) is promoting evidence-informed practice and policy decisions within nursing. In order to be successful in this endeavour, nurses must be knowledgeable consumers of nursing and related (e.g. health services and social sciences) research. This course and the subsequent course NUR 1127H will further develop your knowledge, skill, and judgment related to research competencies for advanced practice nurses as outlined in the Canadian Nurses’ Association document “Advanced Nursing Practice: A National Framework (2008)”. The focus of NUR 1027H is on critical examination and reflection on research and evidence-informed practice, with an emphasis on integration of theory and research to guide practice. You will develop an understanding of the philosophical foundations of contemporary approaches to knowledge production in nursing and the health sciences, and essential competencies in locating, interpreting, critiquing, and using research evidence in practice. Critical analysis of both qualitative and quantitative approaches and their underlying theoretical frameworks will enable you to understand and appropriately integrate research into practice.
+A major responsibility for masters-prepared advanced practiced nurses in leadership roles (formal or informal) is promoting evidence-informed practice and policy decisions within nursing. In order to be successful in this endeavour, nurses must be knowledgeable consumers of nursing and related (e.g. health services and social sciences) research. This course and the subsequent course NUR 1127H will further develop your knowledge, skill, and judgment related to research competencies for advanced practice nurses as outlined in the Canadian Nurses’ Association document “Advanced Practice Nursing: A Pan-Canadian Framework (2019)”. The focus of NUR 1027H is on critical examination and reflection on research and evidence-informed practice, with an emphasis on integration of theory and research to guide practice. You will develop an understanding of the philosophical foundations of contemporary approaches to knowledge production in nursing and the health sciences, and essential competencies in locating, interpreting, critiquing, and using research evidence in practice. Critical analysis of both qualitative and quantitative approaches and their underlying theoretical frameworks will enable you to understand and appropriately integrate research into practice.
 
 </exercise>
 
@@ -51,3 +51,21 @@ A major responsibility for masters-prepared advanced practiced nurses in leaders
 4. Critically appraise and interpret descriptive research studies that employ different approaches.
 
 </exercise>
+
+<exercise id="4" title="Reading">
+
+# Required textbook
+
+Craig, JV & Smyth, RL. (2012). The Evidence-based Practice Manual for Nurses (3rd ed.) Churchill Livingstone Elsevier.
+
+*Note: Unfortunately, the latest edition of this text will not be published until October 2019, which means we will not be able to use it for the course this semester.*
+
+Textbooks can be purchased in person at the U of T Bookstore (214 College St.) or ordered online through the <a href="http://www.uoftbookstore.com/">bookstore</a>.
+
+# Required readings/resources
+
+The reading list for this course in included in this syllabus. Unless otherwise stated, all articles listed in the course syllabus are available electronically by clicking on the links provided or through the University of Toronto Libraries <a href="http://www.library.utoronto.ca/">website</a>.  
+
+# Recommended resource
+
+The Equator (Enhancing the Quality and Transparency of Health Research) Network is a collection of reporting frameworks and guidelines for different types of studies. These resources are intended to provide guidance to researchers in reporting their studies. However they may be useful in helping you understand the essential components of different types of research reports. You can access this network at: http://www.equator-network.org/ 
