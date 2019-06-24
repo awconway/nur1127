@@ -1,5 +1,5 @@
 ---
-title: 'Course information'
+title: 'Syllabus'
 description:
 prev: null
 next: null
@@ -99,7 +99,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 <tbody>
 <tr style="height: 48px;">
 <td style="height: 48px;" width="15%">
-<p>Sept. 8</p>
+<p>Sept. 10</p>
 </td>
 <td style="height: 48px;" width="15%">
 <p>Week 1</p>
@@ -111,7 +111,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 </tr>
 <tr style="height: 59px;">
 <td style="height: 59px;" width="15%">
-<p>Sept. 15</p>
+<p>Sept. 17</p>
 </td>
 <td style="height: 59px;" width="15%">
 <p>Week 2</p>
@@ -123,7 +123,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 </tr>
 <tr style="height: 47px;">
 <td style="height: 47px;" width="15%">
-<p>Sept. 22</p>
+<p>Sept. 24</p>
 </td>
 <td style="height: 47px;" width="15%">
 <p>Week 3</p>
@@ -135,7 +135,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 </tr>
 <tr style="height: 74px;">
 <td style="height: 74px;" width="15%">
-<p>Sept. 29</p>
+<p>Oct. 1</p>
 </td>
 <td style="height: 74px;" width="15%">
 <p>Week 4</p>
@@ -145,25 +145,25 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 <p>Module 2 continues</p>
 </td>
 <td style="height: 74px;" width="35%">
-<p><em>Evidence-based Practice Critique due Friday Oct 5 at 4:00 pm</em></p>
+<p><em>Evidence-based Practice Critique due Friday Oct 4 at 4:00 pm</em></p>
 </td>
 </tr>
 <tr style="height: 61px;">
 <td style="height: 61px;" width="15%">
-<p>Oct. 6</p>
+<p>Oct. 8</p>
 </td>
 <td style="height: 61px;" width="15%">
 <p>Week 5</p>
 <p><em>&nbsp;</em></p>
 </td>
 <td style="height: 61px;" width="35%">
-<p>Module 3: Introduction to Major Approaches to&nbsp; Knowledge Production in the Health Sciences</p>
+<p>Module 3: Introduction to Major Approaches to Knowledge Production in the Health Sciences</p>
 </td>
 <td style="height: 61px;" width="35%">&nbsp;</td>
 </tr>
 <tr style="height: 72px;">
 <td style="height: 72px;" width="15%">
-<p>Oct. 13</p>
+<p>Oct. 15</p>
 </td>
 <td style="height: 72px;" width="15%">
 <p>Week 6</p>
@@ -176,7 +176,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 </tr>
 <tr style="height: 74px;">
 <td style="height: 74px;" width="15%">
-<p>Oct. 20</p>
+<p>Oct. 22</p>
 </td>
 <td style="height: 74px;" width="15%">
 <p>Week 7</p>
@@ -186,12 +186,12 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 <p>Module 4 continues: Interpreting Results of Quantitative Research</p>
 </td>
 <td style="height: 74px;" width="35%">&nbsp;
-<p><em>Search Paper due at 4:00 pm</em></p>
+<p><em>Search Paper due Friday Oct 25 at 4:00 pm</em></p>
 </td>
 </tr>
 <tr style="height: 48px;">
 <td style="height: 48px;" width="15%">
-<p>Oct. 27</p>
+<p>Oct. 29</p>
 </td>
 <td style="height: 48px;" width="15%">
 <p>Week 8</p>
@@ -203,7 +203,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 </tr>
 <tr style="height: 61px;">
 <td style="height: 61px;" width="15%">
-<p>Nov. 3</p>
+<p>Nov. 5</p>
 </td>
 <td style="height: 61px;" width="15%">
 <p>Week 9</p>
@@ -215,7 +215,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 </tr>
 <tr style="height: 96px;">
 <td style="height: 96px;" width="15%">
-<p>Nov. 10</p>
+<p>Nov. 12</p>
 </td>
 <td style="height: 96px;" width="15%">
 <p>Week 10</p>
@@ -228,7 +228,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 </tr>
 <tr style="height: 59px;">
 <td style="height: 59px;" width="15%">
-<p>Nov. 17</p>
+<p>Nov. 19</p>
 </td>
 <td style="height: 59px;" width="15%">
 <p>Week 11</p>
@@ -241,7 +241,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 </tr>
 <tr style="height: 59px;">
 <td style="height: 59px;" width="15%">
-<p>Nov. 24</p>
+<p>Nov. 26</p>
 </td>
 <td style="height: 59px;" width="15%">
 <p>Week 12</p>
@@ -250,7 +250,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 <td style="height: 59px;" width="35%">
 <p>Module 6 continues: Phenomenology</p>
 </td>
-<td style="height: 59px;" width="35%">Research Study Analysis due Friday Dec. 7th at 4:00 pm</td>
+<td style="height: 59px;" width="35%">Research Study Analysis due Friday Dec. 6th at 4:00 pm</td>
 </tr>
 </tbody>
 </table>
@@ -403,18 +403,19 @@ To be inserted.
 
 <exercise id="18" title="Evaluation methods">
 
-Method 1: Paper – Evidence-based Practice and Knowledge Translation
+**Method 1: Paper – Evidence-based Practice and Knowledge Translation**
+
 In this paper you will critique a framework or model for evidence-based nursing practice or knowledge translation. You will provide an in-depth description of the framework, a critical analysis of the framework, and a discussion of the framework’s relevancy and application to nursing practice.
 
 Maximum 3 pages, double-spaced on standard-sized paper (8.5" x 11") with 1" margins on all sides. Use 12 pt. font, such as Times New Roman (pages over the limit will not be read or marked).
 
 Evaluation Criteria: 
-1.	Clarity and accuracy of presentation of framework/model
+-	Clarity and accuracy of presentation of framework/model
 2.	Depth of critical analysis
 3.	Comprehensiveness and balance of critique
 4.	Clarity, format and style
 
-Due the Friday of week 4 (Friday October 5, 2018) by 4:00 pm EDT
+Due the Friday of week 4 **(Friday October 4, 2019)** by 4:00 pm EDT
 20% of final grade
 
 Method 2: Paper– Practice question and search strategy 
@@ -422,20 +423,66 @@ The purpose of this assignment is to develop a practice question that may be ans
 
 Define the problem, put the question into context, and build the question, using the elements of framing a question (PICO or PIE). Describe your search strategy for the evidence. Search two databases I need to add this for next time. It is important to show what you did to conduct the search including effective, appropriate use of Boolean operators and other database search functions. Place the results of your search in an Appendix - this will not count toward the page limit of the assignment. Show how you expanded and/or contracted your search. 
 
-Headings to be used within the paper should include the following:
-Background: brief description of the situation or problem, formal statement of the search question, specifying concepts that form the basis of your search (the Population, Intervention, Comparison, and Outcome or the Population/problem, Intervention/exposure, and Evaluation/Outcomes) and justification for the importance or relevance of the question
-Search Methodology: description of search strategies used to conduct the electronic search (search terms, combinations of terms, databases used, the number and types of studies you discovered etc.)
-Results: evaluation of the effectiveness of the search strategy (final number and types of studies that you included, relevance of studies to question).
+*Headings to be used within the paper should include the following:*
+
+**Background:** brief description of the situation or problem, formal statement of the search question, specifying concepts that form the basis of your search (the Population, Intervention, Comparison, and Outcome or the Population/problem, Intervention/exposure, and Evaluation/Outcomes) and justification for the importance or relevance of the question
+
+**Search Methodology:** description of search strategies used to conduct the electronic search (search terms, combinations of terms, databases used (minimum of 2), the number and types of studies you discovered etc.)
+
+**Results:** evaluation of the effectiveness of the search strategy (final number and types of studies that you included, relevance of studies to question).
 
 Maximum 4 pages, double-spaced on standard-sized paper (8.5" x 11") with 1" margins on all sides. You should use 12 pt. font, such as Times New Roman (pages over the limit will not be read or marked).
 Evaluation Criteria: 
-1.	Justification of the relevance of the practice question. 
-2.	Clarity and feasibility of practice question (population/patient/problem, intervention/issue, comparison [if appropriate], and outcome/evaluation/effect) and search strategy.
-3.	Comprehensiveness and appropriateness of search strategy. 
-4.	Clarity, format and style.
+-	Justification of the relevance of the practice question. 
+-	Clarity and feasibility of practice question (population/patient/problem, intervention/issue, comparison [if appropriate], and outcome/evaluation/effect) and search strategy.
+-	Comprehensiveness and appropriateness of search strategy. 
+-	Clarity, format and style.
 
-Due the Friday of week 7 (Friday October 26, 2018) by 4:00 pm EDT
+Due the Friday of week 7 (Friday October 25, 2019) by 4:00 pm EDT
 30% of final grade
 
 
+Method 3: Exploring the elements of a research study
 
+Students will examine a published research study based on the approach to knowledge production (positivist, critical social or constructivist) that underpins the study. In the analysis, you will address the extent to which the philosophical approach, research question, study design, data collection and analysis, and study conclusions are aligned. 
+
+Maximum 6 pages, double-space on standard-sized paper (8.5" x 11") with 1" margins on all sides. You should use 12 pt. font, such as Times New Roman (pages over the limit will not be read or marked).
+
+**Due Friday December 6, 2018 by 4:00 pm EDT**
+35% of final grade
+
+Evaluation criteria: 
+1.	Level of understanding of philosophical approach (ontology, epistemology, methodology) 
+2.	Depth of analysis of study elements 
+3.	Clarity, format and style
+
+**Method 4: Class Online Participation**
+
+Active participation in assigned learning activities and discussions is required each week. The participation grade will be based on consistency of engagement in the weekly learning activities and discussions, and the quality of the comments and contributions. 
+
+15% of final grade
+
+The overall online participation grade will be assigned as follows:
+
+*Excellent*
+
+Regular and thoughtful contributions to learning activities and discussions push the conversation to a deeper level and encourage others to join.
+
+*Acceptable* 
+
+Learning activity and discussion contributions are regular and keep the discussions on topic and help it to develop.
+
+*Inadequate* 
+
+Contributions do not add to the development and progression of the discussion or learning activities. The student is missing from the discussion for several days, or regularly makes a first or last post without engaging with others.
+
+<exercise id="19" title="Modular course design"
+
+The content for NUR 1027 is organized into 6 modules over 12 weeks. Each week there will be a specific topic with associated objectives, readings, and learning activities. 
+
+Module 1: Evidence-Informed Nursing Practice 
+Module 2: Systematic Approaches to Locating Research Evidence
+Module 3: Introduction to Major Approaches to Knowledge Production in the Health Sciences 
+Module 4: Quantitative Approaches to Research Weeks 
+Module 5: Qualitative Approaches to Research Weeks 
+Module 6: Interpretation and Critical Appraisal of Descriptive Studies Weeks
