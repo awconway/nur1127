@@ -47,7 +47,7 @@ Use the annotation feature to discuss the sources of evidence that comprise evid
 
 `If you get an error message in the pdf viewer - just refresh the page and it should work.`
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Rycroft-Malone.pdf" width="100%" height="600px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Rycroft-Malone.pdf" width="100%" height="500px"></iframe>
 
 </exercise>
 
@@ -65,7 +65,7 @@ Use the annotation feature to discuss the sources of evidence that comprise evid
 
 `If you get an error message in the pdf viewer - just refresh the page and it should work.`
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/wall.pdf" width="100%" height="600px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/wall.pdf" width="100%" height="500px"></iframe>
 </exercise>
 
 
@@ -125,7 +125,7 @@ Teachers of evidence-based healthcare.
 For group 1 -
 
 `If you get an error message in the pdf viewer - just refresh the page and it should work.`
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/dobrow.pdf" width="100%" height="600px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/dobrow.pdf" width="100%" height="500px"></iframe>
 
 </exercise>
 
@@ -133,7 +133,7 @@ For group 1 -
 
 `If you get an error message in the pdf viewer - just refresh the page and it should work.`
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Gerrish.pdf" width="100%" height="600px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Gerrish.pdf" width="100%" height="500px"></iframe>
 
 </exercise>
 
