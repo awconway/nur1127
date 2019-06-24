@@ -79,16 +79,187 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 </exercise>
 
 
-<exercise id="6" title="Weekly course schedule" type="slides">
+<exercise id="6" title="Weekly course schedule">
 
-| Date    |   Week  | Topic | Assessnment |
-| --- | --- | ----- |  --- | 
-| Sept. 11 |	Week 1 |	Module 1: Evidence-informed Nursing Practice |   |
-| Sept. 18 | 	Week 2 |	Module 1: continues:Knowledge Translation |   |
-| Sept. 25 |Week 3 |Module 2: Systematic Approaches to Locating Research Evidence |   |
-| Oct. 2	 |  Week 4   |	Module 2 continues | Evidence-based Practice Critique due Friday Oct 5th at 4:00 pm |
-
-</exercise>
-
+<table width="100%">
+<thead>
+<tr style="height: 35px;">
+<td style="height: 35px;" width="15%">
+<p><strong>Date</strong></p>
+</td>
+<td style="height: 35px;" width="15%">
+<p><strong>Week</strong></p>
+</td>
+<td style="height: 35px;" width="35%">
+<p><strong>Topic</strong></p>
+</td>
+<td style="height: 35px;" width="35%">&nbsp;<strong>Assessment</strong></td>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 48px;">
+<td style="height: 48px;" width="15%">
+<p>Sept. 11</p>
+</td>
+<td style="height: 48px;" width="15%">
+<p>Week 1</p>
+</td>
+<td style="height: 48px;" width="35%">
+<p>Module 1: Evidence-informed Nursing Practice</p>
+</td>
+<td style="height: 48px;" width="35%">&nbsp;</td>
+</tr>
+<tr style="height: 59px;">
+<td style="height: 59px;" width="15%">
+<p>Sept. 18</p>
+</td>
+<td style="height: 59px;" width="15%">
+<p>Week 2</p>
+</td>
+<td style="height: 59px;" width="35%">
+<p>Module 1: continues:</p>
+<p>Knowledge Translation</p>
+</td>
+<td style="height: 59px;" width="35%">&nbsp;</td>
+</tr>
+<tr style="height: 47px;">
+<td style="height: 47px;" width="15%">
+<p>Sept. 25</p>
+</td>
+<td style="height: 47px;" width="15%">
+<p>Week 3</p>
+</td>
+<td style="height: 47px;" width="35%">
+<p>Module 2: Systematic Approaches to Locating Research Evidence</p>
+</td>
+<td style="height: 47px;" width="35%">&nbsp;</td>
+</tr>
+<tr style="height: 74px;">
+<td style="height: 74px;" width="15%">
+<p>Oct. 2</p>
+</td>
+<td style="height: 74px;" width="15%">
+<p>Week 4</p>
+<p>&nbsp;</p>
+</td>
+<td style="height: 74px;" width="35%">
+<p>Module 2 continues</p>
+</td>
+<td style="height: 74px;" width="35%">
+<p><em>Evidence-based Practice Critique due Friday Oct 5<sup>t</sup><sup>h</sup> </em></p>
+<p><em>at 4:00 pm</em></p>
+</td>
+</tr>
+<tr style="height: 61px;">
+<td style="height: 61px;" width="15%">
+<p>Oct. 9</p>
+</td>
+<td style="height: 61px;" width="15%">
+<p>Week 5</p>
+<p><em>&nbsp;</em></p>
+</td>
+<td style="height: 61px;" width="35%">
+<p>Module 3: Introduction to Major Approaches to&nbsp; Knowledge Production in the Health Sciences &nbsp;</p>
+</td>
+<td style="height: 61px;" width="35%">&nbsp;</td>
+</tr>
+<tr style="height: 72px;">
+<td style="height: 72px;" width="15%">
+<p>Oct. 16</p>
+</td>
+<td style="height: 72px;" width="15%">
+<p>Week 6</p>
+</td>
+<td style="height: 72px;" width="35%">
+<p>Module 4: Quantitative Approaches to Research</p>
+<p><em>&nbsp;</em></p>
+</td>
+<td style="height: 72px;" width="35%">&nbsp;</td>
+</tr>
+<tr style="height: 74px;">
+<td style="height: 74px;" width="15%">
+<p>Oct. 23</p>
+</td>
+<td style="height: 74px;" width="15%">
+<p>Week 7</p>
+<p>&nbsp;</p>
+</td>
+<td style="height: 74px;" width="35%">
+<p>Module 4 continues: Interpreting Results of Quantitative Research</p>
+</td>
+<td style="height: 74px;" width="35%">&nbsp;
+<p><em>Search Paper due </em></p>
+<p><em>Friday Oct 26<sup>th</sup> at 4:00 pm</em></p>
+</td>
+</tr>
+<tr style="height: 48px;">
+<td style="height: 48px;" width="15%">
+<p>Oct. 30</p>
+</td>
+<td style="height: 48px;" width="15%">
+<p>Week 8</p>
+</td>
+<td style="height: 48px;" width="35%">
+<p>Module 5: Qualitative Approaches to Research</p>
+</td>
+<td style="height: 48px;" width="35%">&nbsp;</td>
+</tr>
+<tr style="height: 61px;">
+<td style="height: 61px;" width="15%">
+<p>Nov. 6</p>
+</td>
+<td style="height: 61px;" width="15%">
+<p>Week 9</p>
+</td>
+<td style="height: 61px;" width="35%">
+<p>Module 5 continues: Sampling, Data Collection and Data Analysis Approaches in Qualitative Research</p>
+</td>
+<td style="height: 61px;" width="35%">&nbsp;</td>
+</tr>
+<tr style="height: 96px;">
+<td style="height: 96px;" width="15%">
+<p>Nov. 13</p>
+</td>
+<td style="height: 96px;" width="15%">
+<p>Week 10</p>
+<p>&nbsp;</p>
+</td>
+<td style="height: 96px;" width="35%">
+<p>Module 6: Interpretation and Critical Appraisal of Descriptive Studies</p>
+<p>&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quantitative description</p>
+<p>&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Correlation designs</p>
+</td>
+<td style="height: 96px;" width="35%">&nbsp;</td>
+</tr>
+<tr style="height: 59px;">
+<td style="height: 59px;" width="15%">
+<p>Nov. 20</p>
+</td>
+<td style="height: 59px;" width="15%">
+<p>Week 11</p>
+<p><em>&nbsp;</em></p>
+</td>
+<td style="height: 59px;" width="35%">
+<p>Module 6 continues:</p>
+<p>Qualitative Description</p>
+</td>
+<td style="height: 59px;" width="35%">&nbsp;</td>
+</tr>
+<tr style="height: 59px;">
+<td style="height: 59px;" width="15%">
+<p>Nov. 27</p>
+</td>
+<td style="height: 59px;" width="15%">
+<p>Week 12</p>
+<p>&nbsp;</p>
+</td>
+<td style="height: 59px;" width="35%">
+<p>Module 6 continues:</p>
+<p>Phenomenology</p>
+</td>
+<td style="height: 59px;" width="35%">Research Study Analysis due Friday Dec. 7th at 4:00 pm</td>
+</tr>
+</tbody>
+</table>
 
 </exercise>
