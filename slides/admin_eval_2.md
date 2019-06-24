@@ -2,14 +2,16 @@
 type: slides
 ---
 
-# Practice question and search strategy<br>30% of final grade
+# Assessment 2<br>Practice question and search strategy<br>30% of final grade
 
 ---
 # Description
 
 The purpose of this assignment is to develop a practice question that may be answered through a search of the literature, and develop and execute a systematic search strategy to address the question. 
 
-Define the problem, put the question into context, and build the question, using the elements of framing a question (PICO or PIE). Describe your search strategy for the evidence. Search two databases I need to add this for next time. It is important to show what you did to conduct the search including effective, appropriate use of Boolean operators and other database search functions. Place the results of your search in an Appendix - this will not count toward the page limit of the assignment. Show how you expanded and/or contracted your search. 
+- Define the problem, put the question into context, and build the question, using the elements of framing a question (PICO or PIE). 
+- Describe your search strategy for the evidence (it is important to show what you did to conduct the search including effective, appropriate use of Boolean operators and other database search functions)
+- Place the results of your search in an Appendix - this will not count toward the page limit of the assignment. Show how you expanded and/or contracted your search. 
 
 ---
 
@@ -37,6 +39,6 @@ Define the problem, put the question into context, and build the question, using
 
 ---
 
-# Due week 7 (Friday October 25, 2019 by 4:00 pm EDT)
+# Due week 7 (Friday October 25 by 4:00 pm EDT)
 
 

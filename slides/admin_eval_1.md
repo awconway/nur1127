@@ -2,12 +2,16 @@
 type: slides
 ---
 
-# Critique of EBP framework or model <br>20% of final grade
+# Assessment 1<br>Critique of EBP framework or model<br>20% of final grade
 
 ---
 # Description
 
-In this paper you will critique a framework or model for evidence-based nursing practice or knowledge translation. You will provide an in-depth description of the framework, a critical analysis of the framework, and a discussion of the framework’s relevancy and application to nursing practice.
+In this paper you will critique a framework or model for evidence-based nursing practice or knowledge translation. You will provide:
+
+- an in-depth description of the framework;
+- a critical analysis of the framework; and 
+- a discussion of the framework’s relevancy and application to nursing practice.
 
 ---
 
@@ -27,4 +31,4 @@ In this paper you will critique a framework or model for evidence-based nursing 
 
 ---
 
-# Due in week 4 (Friday October 4, 2019 by 4:00 pm EDT)
+# Due in week 4 (Friday October 4 by 4:00 pm EDT)

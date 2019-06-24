@@ -2,7 +2,7 @@
 type: slides
 ---
 
-# Exploring the elements of a research study<br>35% of final grade
+# Assessment 3<br>Exploring the elements of a research study<br>35% of final grade
 
 ---
 # Description
@@ -27,4 +27,4 @@ Students will examine a published research study based on the approach to knowle
 
 ---
 
-# Due Friday December 6, 2018 by 4:00 pm EDT
+# Due Friday December 6 by 4:00 pm EDT

@@ -185,7 +185,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 <td style="height: 74px;" width="35%">
 <p>Module 4 continues: Interpreting Results of Quantitative Research</p>
 </td>
-<td style="height: 74px;" width="35%">&nbsp;
+<td style="height: 74px;" width="35%">
 <p><em>Search Paper due Friday Oct 25 at 4:00 pm</em></p>
 </td>
 </tr>
@@ -250,7 +250,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 <td style="height: 59px;" width="35%">
 <p>Module 6 continues: Phenomenology</p>
 </td>
-<td style="height: 59px;" width="35%">Research Study Analysis due Friday Dec. 6th at 4:00 pm</td>
+<td style="height: 59px;" width="35%"><em>Research Study Analysis due Friday Dec. 6th at 4:00 pm</em></td>
 </tr>
 </tbody>
 </table>
