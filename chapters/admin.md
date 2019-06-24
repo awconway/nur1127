@@ -401,88 +401,48 @@ To be inserted.
 
 </exercise>
 
-<exercise id="18" title="Evaluation methods">
+<exercise id="18" title="Evaluation methods: Assessment 1" type="slides">
 
-**Method 1: Paper – Evidence-based Practice and Knowledge Translation**
-
-In this paper you will critique a framework or model for evidence-based nursing practice or knowledge translation. You will provide an in-depth description of the framework, a critical analysis of the framework, and a discussion of the framework’s relevancy and application to nursing practice.
-
-Maximum 3 pages, double-spaced on standard-sized paper (8.5" x 11") with 1" margins on all sides. Use 12 pt. font, such as Times New Roman (pages over the limit will not be read or marked).
-
-Evaluation Criteria: 
--	Clarity and accuracy of presentation of framework/model
-2.	Depth of critical analysis
-3.	Comprehensiveness and balance of critique
-4.	Clarity, format and style
-
-Due the Friday of week 4 **(Friday October 4, 2019)** by 4:00 pm EDT
-20% of final grade
-
-Method 2: Paper– Practice question and search strategy 
-The purpose of this assignment is to develop a practice question that may be answered through a search of the literature, and develop and execute a systematic search strategy to address the question. 
-
-Define the problem, put the question into context, and build the question, using the elements of framing a question (PICO or PIE). Describe your search strategy for the evidence. Search two databases I need to add this for next time. It is important to show what you did to conduct the search including effective, appropriate use of Boolean operators and other database search functions. Place the results of your search in an Appendix - this will not count toward the page limit of the assignment. Show how you expanded and/or contracted your search. 
-
-*Headings to be used within the paper should include the following:*
-
-**Background:** brief description of the situation or problem, formal statement of the search question, specifying concepts that form the basis of your search (the Population, Intervention, Comparison, and Outcome or the Population/problem, Intervention/exposure, and Evaluation/Outcomes) and justification for the importance or relevance of the question
-
-**Search Methodology:** description of search strategies used to conduct the electronic search (search terms, combinations of terms, databases used (minimum of 2), the number and types of studies you discovered etc.)
-
-**Results:** evaluation of the effectiveness of the search strategy (final number and types of studies that you included, relevance of studies to question).
-
-Maximum 4 pages, double-spaced on standard-sized paper (8.5" x 11") with 1" margins on all sides. You should use 12 pt. font, such as Times New Roman (pages over the limit will not be read or marked).
-Evaluation Criteria: 
--	Justification of the relevance of the practice question. 
--	Clarity and feasibility of practice question (population/patient/problem, intervention/issue, comparison [if appropriate], and outcome/evaluation/effect) and search strategy.
--	Comprehensiveness and appropriateness of search strategy. 
--	Clarity, format and style.
-
-Due the Friday of week 7 (Friday October 25, 2019) by 4:00 pm EDT
-30% of final grade
+<slides source="admin_eval_1">
 
 
-Method 3: Exploring the elements of a research study
+</exercise>
 
-Students will examine a published research study based on the approach to knowledge production (positivist, critical social or constructivist) that underpins the study. In the analysis, you will address the extent to which the philosophical approach, research question, study design, data collection and analysis, and study conclusions are aligned. 
+<exercise id="19" title="Evaluation methods: Assessment 2" type="slides">
 
-Maximum 6 pages, double-space on standard-sized paper (8.5" x 11") with 1" margins on all sides. You should use 12 pt. font, such as Times New Roman (pages over the limit will not be read or marked).
+<slides source="admin_eval_2">
 
-**Due Friday December 6, 2018 by 4:00 pm EDT**
-35% of final grade
 
-Evaluation criteria: 
-1.	Level of understanding of philosophical approach (ontology, epistemology, methodology) 
-2.	Depth of analysis of study elements 
-3.	Clarity, format and style
+</exercise>
 
-**Method 4: Class Online Participation**
+<exercise id="20" title="Evaluation methods: Assessment 3" type="slides">
 
-Active participation in assigned learning activities and discussions is required each week. The participation grade will be based on consistency of engagement in the weekly learning activities and discussions, and the quality of the comments and contributions. 
+<slides source="admin_eval_3">
 
-15% of final grade
+</exercise>
 
-The overall online participation grade will be assigned as follows:
+<exercise id="21" title="Evaluation methods: Assessment 4" type="slides">
 
-*Excellent*
+<slides source="admin_eval_4">
 
-Regular and thoughtful contributions to learning activities and discussions push the conversation to a deeper level and encourage others to join.
+</exercise>
 
-*Acceptable* 
 
-Learning activity and discussion contributions are regular and keep the discussions on topic and help it to develop.
 
-*Inadequate* 
+<exercise id="22" title="Modular course design">
 
-Contributions do not add to the development and progression of the discussion or learning activities. The student is missing from the discussion for several days, or regularly makes a first or last post without engaging with others.
+The content for NUR 1027 is organized into 6 modules over 12 weeks. Each week there will be a specific topic with associated objectives, learning activities and readings. 
 
-<exercise id="19" title="Modular course design"
+Module 1: Evidence-Informed Nursing Practice
 
-The content for NUR 1027 is organized into 6 modules over 12 weeks. Each week there will be a specific topic with associated objectives, readings, and learning activities. 
-
-Module 1: Evidence-Informed Nursing Practice 
 Module 2: Systematic Approaches to Locating Research Evidence
+
 Module 3: Introduction to Major Approaches to Knowledge Production in the Health Sciences 
+
 Module 4: Quantitative Approaches to Research Weeks 
+
 Module 5: Qualitative Approaches to Research Weeks 
-Module 6: Interpretation and Critical Appraisal of Descriptive Studies Weeks
+
+Module 6: Interpretation and Critical Appraisal of Descriptive Studies
+
+</exercise>
