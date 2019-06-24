@@ -146,8 +146,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 <p>Module 2 continues</p>
 </td>
 <td style="height: 74px;" width="35%">
-<p><em>Evidence-based Practice Critique due Friday Oct 5<sup>t</sup><sup>h</sup> </em></p>
-<p><em>at 4:00 pm</em></p>
+<p><em>Evidence-based Practice Critique due Friday Oct 5 at 4:00 pm</em></p>
 </td>
 </tr>
 <tr style="height: 61px;">
@@ -188,8 +187,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 <p>Module 4 continues: Interpreting Results of Quantitative Research</p>
 </td>
 <td style="height: 74px;" width="35%">&nbsp;
-<p><em>Search Paper due </em></p>
-<p><em>Friday Oct 26<sup>th</sup> at 4:00 pm</em></p>
+<p><em>Search Paper due at 4:00 pm</em></p>
 </td>
 </tr>
 <tr style="height: 48px;">
@@ -263,3 +261,52 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 </table>
 
 </exercise>
+
+<exercise id="7" title="Discussion group">
+
+Participation in an asynchronous discussion group, found by clicking on "Discussions" in Quercus will give you an opportunity for further clarification and commentary on the key concepts and learning activities, through dialogue with your classmates, professor and teaching assistant. It is expected that students will regularly respond to questions and comments posed on the discussion board, and that posts will develop increasing depth and sophistication as the course progresses.
+
+</exercise>
+
+<exercise id="8" title="Online activities">
+
+In addition to independent learning activities, there will be regular online group activities designed to create learning synergies, extend your critical thinking about the course material, and build a sense of community among students. 
+
+</exercise>
+
+<exercise id="9" title="Working in an online environment">
+
+How do I work and learn in an online environment?
+The online environment provides increased flexibility in terms of when and where you engage in learning activities. However it can also present challenges, requiring a degree of self-discipline to ensure you are able to take advantage of group discussions and learn from the observations and insights of your colleagues, as well as the course faculty. Here are some tips to help you be successful in engaging in on-line learning:
+•	This is a relatively self-directed learning environment, so it is important to manage your time carefully.
+•	As is the case in all graduate programs (both in-class and on-line), the course requires a considerable amount of independent study, guided by modules that contain resources and learning activities for one or more weeks. Be sure to complete the weekly learning activities, and to participate in the Discussion every week. This is where we will work through together any questions you have about the material you are studying.
+•	Organize your time to ensure that you can complete the weekly reading and other learning activities on time. It is critical that you do not get behind. 
+•	While completing the weekly learning activities, compile a list of questions or concerns that arise so that you can seek help via your colleagues on the discussion board.
+
+</exercise>
+
+<exercise id="10" title="Course time commitment">
+
+Most students will need a **minimum 8-10 hours/week** to complete the readings and learnings activities and participate in the discussion group.  **Additional time** will be required to complete assignments.
+
+</exercise>
+
+<exercise id="11" title="Writing resources">
+
+We strongly recommend a visit to the [University of Toronto Writing Centre Website](http://writing.utoronto.ca/). This website has a wealth of information regarding academic writing including information about writing when English is not your first language, writing courses and workshops available for students, and information about using other Writing Centres at the University of Toronto. The “Writing Advice” tab contains a host of online writing support resources. Sample topics include: preparing an outline, revising an essay, developing coherent paragraphs, style and editing, grammar and punctuation, etc.
+
+Other helpful writing websites include:
+1.	[Health Sciences Writing Centre](http://www.hswriting.ca/)
+2.	[How to avoid plagiarism](http://www.writing.utoronto.ca/advice/using-sources/how-not-to-plagiarize)
+
+</exercise>
+
+<exercise id="12" title="Appearance and editing of assignments">
+
+All written assignments should be carefully proofread and well edited. The required style manual for the formatting of essays and assignments at the Lawrence S. Bloomberg Faculty of Nursing is that of the American Psychological Association (APA) 6th edition, which is described in: 
+
+>Publications Manual of the American Psychological Association (6th ed.). Washington: American Psychological Association, 2010.
+
+The Purdue Online Writing Lab provides a helpful overview of the [General APA guidelines](http://owl.english.purdue.edu/owl/resource/560/01/)
+
+
