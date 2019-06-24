@@ -61,11 +61,11 @@ Craig, JV & Smyth, RL. (2012). The Evidence-based Practice Manual for Nurses (3r
 *Note: Unfortunately, the latest edition of this text will not be published until October 2019, which means we will not be able to use it for the course this semester.*
 
 Textbooks can be purchased in person at the U of T Bookstore (214 College St.) or ordered online through the <a href="http://www.uoftbookstore.com/">bookstore</a>.
-
+--------
 # Required readings/resources
 
 The reading list for this course in included in this syllabus. Unless otherwise stated, all articles listed in the course syllabus are available electronically by clicking on the links provided or through the University of Toronto Libraries <a href="http://www.library.utoronto.ca/">website</a>.  
-
+----------
 # Recommended resource
 
 The Equator (Enhancing the Quality and Transparency of Health Research) Network is a collection of reporting frameworks and guidelines for different types of studies. These resources are intended to provide guidance to researchers in reporting their studies. However they may be useful in helping you understand the essential components of different types of research reports. You can access this network at: http://www.equator-network.org/ 
@@ -78,7 +78,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 </exercise>
 
 
-<exercise id="6" title="Weekly course schedule">
+<exercise id="6" title="Weekly course schedule" type="slides">
 
 | Date    |   Week  | Topic | Assessnment |
 | --- | --- | ----- |  ---| 
