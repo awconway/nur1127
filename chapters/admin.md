@@ -32,23 +32,16 @@ A major responsibility for masters-prepared advanced practiced nurses in leaders
 *The overall objectives of the course are to enable students to:*
 
 - Appreciate the integral role of research evidence in informing nursing practice.
-
-2. Understand the development of major approaches to knowledge production in the health sciences (philosophy of science.)
-
-3. Situate qualitative and quantitative modes of inquiry within their respective ontological and epistemological foundations.
-
-4. Understand the relationship between the philosophical foundations of different research designs and approaches, and apply criteria for assessing rigour (truth value) of these designs and approaches.
-
-5. Cultivate a sensitivity to, and appreciation of, the complexity and diversity of nursing research approaches relevant to leadership and health services.
+- Understand the development of major approaches to knowledge production in the health sciences (philosophy of science.)
+- Situate qualitative and quantitative modes of inquiry within their respective ontological and epistemological foundations.
+- Understand the relationship between the philosophical foundations of different research designs and approaches, and apply criteria for assessing rigour (truth value) of these designs and approaches.
+- Cultivate a sensitivity to, and appreciation of, the complexity and diversity of nursing research approaches relevant to leadership and health services.
 
 *Specifically, students will develop the ability to:*
 - Critically appraise and use frameworks and strategies to support evidence-informed practice and knowledge translation.
-
-2. Formulate clear, specific questions about health care practice that can be addressed with research evidence.
-
-3. Plan and execute a systematic search to locate evidence to answer practice questions.
-
-4. Critically appraise and interpret descriptive research studies that employ different approaches.
+- Formulate clear, specific questions about health care practice that can be addressed with research evidence.
+- Plan and execute a systematic search to locate evidence to answer practice questions.
+- Critically appraise and interpret descriptive research studies that employ different approaches.
 
 </exercise>
 
@@ -75,6 +68,19 @@ The [Equator](http://www.equator-network.org/) (Enhancing the Quality and Transp
 <exercise id="5" title="Course structure">
 
 This course follows a modular format. In a series of 6 modules over 12 weeks, you will learn key information about how to find, appraise, and use research in your practice. Each of the modules will include: learning objectives, resources and activities to help you understand and apply the concepts. Each week will begin on a Tuesday and end on the following Monday at 11:59pm.
+
+
+Module 1: Evidence-Based Nursing Practice
+
+Module 2: Systematic Approaches to Locating Research Evidence
+
+Module 3: Introduction to Major Approaches to Knowledge Production in the Health Sciences 
+
+Module 4: Quantitative Approaches to Research Weeks 
+
+Module 5: Qualitative Approaches to Research Weeks 
+
+Module 6: Interpretation and Critical Appraisal of Descriptive Studies
 
 </exercise>
 
@@ -105,7 +111,7 @@ This course follows a modular format. In a series of 6 modules over 12 weeks, yo
 <p>Week 1</p>
 </td>
 <td style="height: 48px;" width="35%">
-<p>Module 1: Evidence-informed Nursing Practice</p>
+<p>Module 1: Evidence-Based Nursing Practice</p>
 </td>
 <td style="height: 48px;" width="35%">&nbsp;</td>
 </tr>
@@ -424,25 +430,5 @@ To be inserted.
 <exercise id="21" title="Evaluation methods: Assessment 4" type="slides">
 
 <slides source="admin_eval_4">
-
-</exercise>
-
-
-
-<exercise id="22" title="Modular course design">
-
-The content for NUR 1027 is organized into 6 modules over 12 weeks. Each week there will be a specific topic with associated objectives, learning activities and readings. 
-
-Module 1: Evidence-Informed Nursing Practice
-
-Module 2: Systematic Approaches to Locating Research Evidence
-
-Module 3: Introduction to Major Approaches to Knowledge Production in the Health Sciences 
-
-Module 4: Quantitative Approaches to Research Weeks 
-
-Module 5: Qualitative Approaches to Research Weeks 
-
-Module 6: Interpretation and Critical Appraisal of Descriptive Studies
 
 </exercise>

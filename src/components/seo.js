@@ -72,8 +72,6 @@ const SEO = ({ title, description }) => (
                             rel="stylesheet"
                         />
                     )}
-                    <script src="showHighlights.js" async></script>
-                    <script src="https://hypothes.is/embed.js" async></script>
                 </Helmet>
             )
         }}
