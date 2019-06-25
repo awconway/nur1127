@@ -1,7 +1,7 @@
 ---
 title: 'Syllabus'
 description:
-        'Find essential course information here'
+        'Please review the syllabus carefully, and pay particular attention to details regarding university policies, important dates, and the due dates and descriptions for course assignments.Please feel free to contact me if you have any questions.'
 prev: null
 next: null
 type: chapter
