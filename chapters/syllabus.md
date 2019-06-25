@@ -69,20 +69,8 @@ The [EQUATOR](http://www.equator-network.org/) (Enhancing the Quality and Transp
 
 <exercise id="5" title="Course structure">
 
-This course follows a modular format. In a series of 6 modules over 12 weeks, you will learn key information about how to find, appraise, and use research in your practice. Each of the modules will include: learning objectives, resources and activities to help you understand and apply the concepts. Each week will begin on a Tuesday and end on the following Monday at 11:59pm.
+Over 12 weeks, you will learn key information about how to find, appraise, and use research in your practice. Each week's learning activities will include: learning objectives, resources and content as well as online class discussion to help you understand and apply the concepts. Each week will begin on a Tuesday and end on the following Monday at 11:59pm.
 
-
-Module 1: Evidence-Based Nursing Practice
-
-Module 2: Systematic Approaches to Locating Research Evidence
-
-Module 3: Introduction to Major Approaches to Knowledge Production in the Health Sciences 
-
-Module 4: Quantitative Approaches to Research Weeks 
-
-Module 5: Qualitative Approaches to Research Weeks 
-
-Module 6: Interpretation and Critical Appraisal of Descriptive Studies
 
 </exercise>
 
@@ -107,64 +95,73 @@ Module 6: Interpretation and Critical Appraisal of Descriptive Studies
 <td>Sept. 10</td>
 <td>Week 1</td>
 <td>Evidence-Based Nursing Practice</td>
+<td></td>
 </tr>
 <tr>
 <td>Sept. 17</td>
 <td>Week 2</td>
 <td>Knowledge Translation</td>
+<td></td>
 </tr>
 <tr>
 <td>Sept. 24</td>
 <td>Week 3</td>
 <td>Systematic Approaches to Locating Research Evidence</td>
+<td></td>
 </tr>
 <tr>
 <td>Oct. 1</td>
 <td>Week 4</td>
 <td>Systematic Approaches to Locating Research Evidence (cont'd)</td>
-<td>Evidence-based Practice Critique due Friday Oct 4 at 4:00 pm</td>
+<td><strong>Evidence-based Practice Critique due Friday Oct 4 at 4:00 pm</strong></td>
 </tr>
 <tr>
 <td>Oct. 8</td>
 <td>Week 5</td>
 <td>Introduction to Major Approaches to Knowledge Production in the Health Sciences</td>
+<td></td>
 </tr>
 <tr>
 <td>Oct. 15</td>
 <td>Week 6</td>
 <td>Quantitative Approaches to Research</td>
+<td></td>
 </tr>
 <tr>
 <td>Oct. 22</td>
 <td>Week 7</td>
 <td>Interpreting Results of Quantitative Research</td>
-<td>Search Paper due Friday Oct 25 at 4:00 pm</td>
+<td><strong>Search Paper due Friday Oct 25 at 4:00 pm</strong></td>
 </tr>
 <tr>
 <td>Oct. 29</td>
 <td>Week 8</td>
 <td>Interpretation and Critical Appraisal of Descriptive Studies</td>
+<td></td>
 </tr>
 <tr>
 <td>Nov. 5</td>
 <td>Week 9</td>
 <td>Qualitative Approaches to Research</td>
+<td></td>
 </tr>
 <tr>
 <td>Nov. 12</td>
 <td>Week 10</td>
 <td>Sampling, Data Collection and Data Analysis Approaches in Qualitative Research</td>
+<td></td>
 </tr>
 <tr>
 <td>Nov. 19</td>
 <td>Week 11</td>
 <td>Qualitative Description</td>
+<td></td>
 </tr>
 <tr>
 <td>Nov. 26</td>
 <td>Week 12</td>
 <td>Phenomenology</td>
-<td>Research Study Analysis due Friday Dec. 6th at 4:00 pm</td>
+<td><strong>Research Study Analysis due Friday Dec. 6th at 4:00 pm</strong></td>
 </tr>
 </tbody>
 </table>
@@ -188,7 +185,7 @@ How do I work and learn in an online environment?
 The online environment provides increased flexibility in terms of when and where you engage in learning activities. However it can also present challenges, requiring a degree of self-discipline to ensure you are able to take advantage of group discussions and learn from the observations and insights of your colleagues, as well as the course faculty. Here are some tips to help you be successful in engaging in on-line learning:
 
 - This is a relatively self-directed learning environment, so it is important to manage your time carefully.
-- As is the case in all graduate programs (both in-class and on-line), the course requires a considerable amount of independent study, guided by modules that contain resources and learning activities for one or more weeks. Be sure to complete the weekly learning activities, and to participate in the Discussion every week. This is where we will work through together any questions you have about the material you are studying.
+- As is the case in all graduate programs (both in-class and on-line), the course requires a considerable amount of independent study, guided by the resources and learning activities provided each week. Be sure to complete the weekly learning activities, and to participate in the Discussion every week. This is where we will work through together any questions you have about the material you are studying.
 - Organize your time to ensure that you can complete the weekly reading and other learning activities on time. It is critical that you do not get behind. 
 - While completing the weekly learning activities, compile a list of questions or concerns that arise so that you can seek help via your colleagues on the discussion board.
 
