@@ -1,6 +1,7 @@
 ---
 title: 'Syllabus'
 description:
+        'Find essential course information here'
 prev: null
 next: null
 type: chapter
@@ -88,21 +89,85 @@ Module 6: Interpretation and Critical Appraisal of Descriptive Studies
 
 <exercise id="6" title="Weekly course schedule">
 
-|Date|Week|Topic|Assessment|
-|--- |--- |--- |--- |
-|Sept. 10|Week 1|Evidence-Based Nursing Practice||
-|Sept. 17|Week 2|Knowledge Translation||
-|Sept. 24|Week 3|Systematic Approaches to Locating Research Evidence||
-|Oct. 1|Week 4|Systematic Approaches to Locating Research Evidence (cont'd)|Evidence-based Practice Critique due Friday Oct 4 at 4:00 pm|
-|Oct. 8|Week 5| Introduction to Major Approaches to Knowledge Production in the Health Sciences||
-|Oct. 15|Week 6|Quantitative Approaches to Research||
-|Oct. 22|Week 7|Interpreting Results of Quantitative Research|Search Paper due Friday Oct 25 at 4:00 pm|
-|Oct. 29|Week 8|Interpretation and Critical Appraisal of Descriptive Studies||
-|Nov. 5|Week 9|Qualitative Approaches to Research||
-|Nov. 12|Week 10|Sampling, Data Collection and Data Analysis Approaches in Qualitative Research||
-|Nov. 19|Week 11|Qualitative Description||
-|Nov. 26|Week 12|Phenomenology|Research Study Analysis due Friday Dec. 6th at 4:00 pm|
-
+<table>
+  <col width="15%">
+  <col width="15%">
+  <col width="35%">
+  <col width="35%">
+<thead>
+<tr>
+<th>Date</th>
+<th>Week</th>
+<th>Topic</th>
+<th>Assessment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sept. 10</td>
+<td>Week 1</td>
+<td>Evidence-Based Nursing Practice</td>
+</tr>
+<tr>
+<td>Sept. 17</td>
+<td>Week 2</td>
+<td>Knowledge Translation</td>
+</tr>
+<tr>
+<td>Sept. 24</td>
+<td>Week 3</td>
+<td>Systematic Approaches to Locating Research Evidence</td>
+</tr>
+<tr>
+<td>Oct. 1</td>
+<td>Week 4</td>
+<td>Systematic Approaches to Locating Research Evidence (cont'd)</td>
+<td>Evidence-based Practice Critique due Friday Oct 4 at 4:00 pm</td>
+</tr>
+<tr>
+<td>Oct. 8</td>
+<td>Week 5</td>
+<td>Introduction to Major Approaches to Knowledge Production in the Health Sciences</td>
+</tr>
+<tr>
+<td>Oct. 15</td>
+<td>Week 6</td>
+<td>Quantitative Approaches to Research</td>
+</tr>
+<tr>
+<td>Oct. 22</td>
+<td>Week 7</td>
+<td>Interpreting Results of Quantitative Research</td>
+<td>Search Paper due Friday Oct 25 at 4:00 pm</td>
+</tr>
+<tr>
+<td>Oct. 29</td>
+<td>Week 8</td>
+<td>Interpretation and Critical Appraisal of Descriptive Studies</td>
+</tr>
+<tr>
+<td>Nov. 5</td>
+<td>Week 9</td>
+<td>Qualitative Approaches to Research</td>
+</tr>
+<tr>
+<td>Nov. 12</td>
+<td>Week 10</td>
+<td>Sampling, Data Collection and Data Analysis Approaches in Qualitative Research</td>
+</tr>
+<tr>
+<td>Nov. 19</td>
+<td>Week 11</td>
+<td>Qualitative Description</td>
+</tr>
+<tr>
+<td>Nov. 26</td>
+<td>Week 12</td>
+<td>Phenomenology</td>
+<td>Research Study Analysis due Friday Dec. 6th at 4:00 pm</td>
+</tr>
+</tbody>
+</table>
 </exercise>
 
 <exercise id="7" title="Discussion group">
