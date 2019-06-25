@@ -1,7 +1,7 @@
 ---
 title: 'Week 3: Locating Research Evidence'
 description:
-  'Having explored the idea of evidence-informed practice and knowledge translation in Module 1, we will now address the question of how to find research evidence. The focus in Module 2 is on developing systematic and effective approaches to locating and accessing research evidence.'
+  'This week we address the question of how to find research evidence. The focus is on developing systematic and effective approaches to locating and accessing research evidence.'
 prev: null
 next: null
 type: chapter
