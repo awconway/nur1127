@@ -88,179 +88,20 @@ Module 6: Interpretation and Critical Appraisal of Descriptive Studies
 
 <exercise id="6" title="Weekly course schedule">
 
-<table width="100%">
-<thead>
-<tr style="height: auto;">
-<td style="height: auto;" width="15%">
-<p><strong>Date</strong></p>
-</td>
-<td style="height: auto;" width="15%">
-<p><strong>Week</strong></p>
-</td>
-<td style="height: auto;" width="35%">
-<p><strong>Topic</strong></p>
-</td>
-<td style="height: auto;" width="35%">&nbsp;<strong>Assessment</strong></td>
-</tr>
-</thead>
-<tbody>
-<tr style="height: auto;">
-<td style="height: auto;" width="15%">
-<p>Sept. 10</p>
-</td>
-<td style="height: auto;" width="15%">
-<p>Week 1</p>
-</td>
-<td style="height: auto;" width="35%">
-<p>Module 1: Evidence-Based Nursing Practice</p>
-</td>
-<td style="height: auto;" width="35%">&nbsp;</td>
-</tr>
-<tr style="height: auto;">
-<td style="height: auto;" width="15%">
-<p>Sept. 17</p>
-</td>
-<td style="height: auto;" width="15%">
-<p>Week 2</p>
-</td>
-<td style="height: auto;" width="35%">
-<p>Module 1: continues: Knowledge Translation</p>
-</td>
-<td style="height: auto;" width="35%">&nbsp;</td>
-</tr>
-<tr style="height: auto;">
-<td style="height: auto;" width="15%">
-<p>Sept. 24</p>
-</td>
-<td style="height: auto;" width="15%">
-<p>Week 3</p>
-</td>
-<td style="height: auto;" width="35%">
-<p>Module 2: Systematic Approaches to Locating Research Evidence</p>
-</td>
-<td style="height: auto;" width="35%">&nbsp;</td>
-</tr>
-<tr style="height: auto;">
-<td style="height: auto;" width="15%">
-<p>Oct. 1</p>
-</td>
-<td style="height: auto;" width="15%">
-<p>Week 4</p>
-<p>&nbsp;</p>
-</td>
-<td style="height: auto;" width="35%">
-<p>Module 2 continues</p>
-</td>
-<td style="height: auto;" width="35%">
-<p><em>Evidence-based Practice Critique due Friday Oct 4 at 4:00 pm</em></p>
-</td>
-</tr>
-<tr style="height: auto;">
-<td style="height: auto;" width="15%">
-<p>Oct. 8</p>
-</td>
-<td style="height: auto;" width="15%">
-<p>Week 5</p>
-<p><em>&nbsp;</em></p>
-</td>
-<td style="height: auto;" width="35%">
-<p>Module 3: Introduction to Major Approaches to Knowledge Production in the Health Sciences</p>
-</td>
-<td style="height: auto;" width="35%">&nbsp;</td>
-</tr>
-<tr style="height: auto;">
-<td style="height: auto;" width="15%">
-<p>Oct. 15</p>
-</td>
-<td style="height: auto;" width="15%">
-<p>Week 6</p>
-</td>
-<td style="height: auto;" width="35%">
-<p>Module 4: Quantitative Approaches to Research</p>
-<p><em>&nbsp;</em></p>
-</td>
-<td style="height: auto;" width="35%">&nbsp;</td>
-</tr>
-<tr style="height: auto;">
-<td style="height: auto;" width="15%">
-<p>Oct. 22</p>
-</td>
-<td style="height: auto;" width="15%">
-<p>Week 7</p>
-<p>&nbsp;</p>
-</td>
-<td style="height: auto;" width="35%">
-<p>Module 4 continues: Interpreting Results of Quantitative Research</p>
-</td>
-<td style="height: auto;" width="35%">
-<p><em>Search Paper due Friday Oct 25 at 4:00 pm</em></p>
-</td>
-</tr>
-<tr style="height: auto;">
-<td style="height: auto;" width="15%">
-<p>Oct. 29</p>
-</td>
-<td style="height: auto;" width="15%">
-<p>Week 8</p>
-</td>
-<td style="height: auto;" width="35%">
-<p>Module 5: Qualitative Approaches to Research</p>
-</td>
-<td style="height: auto;" width="35%">&nbsp;</td>
-</tr>
-<tr style="height: auto;">
-<td style="height: auto;" width="15%">
-<p>Nov. 5</p>
-</td>
-<td style="height: auto;" width="15%">
-<p>Week 9</p>
-</td>
-<td style="height: auto;" width="35%">
-<p>Module 5 continues: Sampling, Data Collection and Data Analysis Approaches in Qualitative Research</p>
-</td>
-<td style="height: auto;" width="35%">&nbsp;</td>
-</tr>
-<tr style="height: auto;">
-<td style="height: auto;" width="15%">
-<p>Nov. 12</p>
-</td>
-<td style="height: auto;" width="15%">
-<p>Week 10</p>
-<p>&nbsp;</p>
-</td>
-<td style="height: auto;" width="35%">
-<p>Module 6: Interpretation and Critical Appraisal of Descriptive Studies</p>
-</td>
-<td style="height: auto;" width="35%">&nbsp;</td>
-</tr>
-<tr style="height: auto;">
-<td style="height: auto;" width="15%">
-<p>Nov. 19</p>
-</td>
-<td style="height: auto;" width="15%">
-<p>Week 11</p>
-<p><em>&nbsp;</em></p>
-</td>
-<td style="height: auto;" width="35%">
-<p>Module 6 continues: Qualitative Description</p>
-</td>
-<td style="height: auto;" width="35%">&nbsp;</td>
-</tr>
-<tr style="height: auto;">
-<td style="height: auto;" width="15%">
-<p>Nov. 26</p>
-</td>
-<td style="height: auto;" width="15%">
-<p>Week 12</p>
-<p>&nbsp;</p>
-</td>
-<td style="height: auto;" width="35%">
-<p>Module 6 continues: Phenomenology</p>
-</td>
-<td style="height: auto;" width="35%"><em>Research Study Analysis due Friday Dec. 6th at 4:00 pm</em></td>
-</tr>
-</tbody>
-</table>
+|Date|Week|Topic|Assessment|
+|--- |--- |--- |--- |
+|Sept. 10|Week 1|Evidence-Based Nursing Practice||
+|Sept. 17|Week 2|Knowledge Translation||
+|Sept. 24|Week 3|Systematic Approaches to Locating Research Evidence||
+|Oct. 1|Week 4|Systematic Approaches to Locating Research Evidence (cont'd)|Evidence-based Practice Critique due Friday Oct 4 at 4:00 pm|
+|Oct. 8|Week 5| Introduction to Major Approaches to Knowledge Production in the Health Sciences||
+|Oct. 15|Week 6|Quantitative Approaches to Research||
+|Oct. 22|Week 7|Interpreting Results of Quantitative Research|Search Paper due Friday Oct 25 at 4:00 pm|
+|Oct. 29|Week 8|Interpretation and Critical Appraisal of Descriptive Studies||
+|Nov. 5|Week 9|Qualitative Approaches to Research||
+|Nov. 12|Week 10|Sampling, Data Collection and Data Analysis Approaches in Qualitative Research||
+|Nov. 19|Week 11|Qualitative Description||
+|Nov. 26|Week 12|Phenomenology|Research Study Analysis due Friday Dec. 6th at 4:00 pm|
 
 </exercise>
 
@@ -302,6 +143,7 @@ Other helpful writing websites include:
 
 1.	[Health Sciences Writing Centre](http://www.hswriting.ca/)
 2.	[How to avoid plagiarism](http://www.writing.utoronto.ca/advice/using-sources/how-not-to-plagiarize)
+3. [Graduate Centre for Academic Communication](http://www.sgs.utoronto.ca/currentstudents/Pages/GCAC.aspx)
 
 </exercise>
 
@@ -320,6 +162,7 @@ The Purdue Online Writing Lab provides a helpful overview of the [General APA gu
 1.	[University of Toronto Library System](http://www.library.utoronto.ca)
 2.	[Gerstein Science Information Centre](http://gerstein.library.utoronto.ca/)
 3.	[School of Graduate Studies](http://www.sgs.utoronto.ca/)
+4.      [Nursing Resource Guide](https://guides.library.utoronto.ca/nursing-eresources)
 
 </exercise>
 
