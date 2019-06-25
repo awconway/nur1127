@@ -3,7 +3,7 @@ title: 'Week 1: Evidence-Based Practice'
 description:
   'The notion of evidence-based (or evidence-informed) practice is well-established in nursing and in the health sciences in general. In Module 1 we will examine the evolution of the evidence-based practice (EBP) movement, and different models for conceptualizing EBP. We will discuss both the purported benefits and the criticisms of the EBP movement in healthcare.'
 prev: null
-next: null
+next: /week2kt
 type: chapter
 id: 2
 ---
@@ -167,7 +167,7 @@ Morse, J.M. (2006). The politics of evidence. Qualitative Health Research, 16 (3
 <exercise id="12" title="Discussion board">
 
 
-<a target="_parent" href="https://q.utoronto.ca/groups/63242/discussion_topics/322304">Link to discussion group 1</a>
+<a target="_parent" href="https://q.utoronto.ca/courses/86697/discussion_topics/322298">Link to discussion group 1</a>
 
 </exercise>
 
