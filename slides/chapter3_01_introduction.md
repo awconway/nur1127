@@ -4,8 +4,6 @@ type: slides
 
 # Introduction
 
-Notes: 
-
 ---
 
 # Objectives 

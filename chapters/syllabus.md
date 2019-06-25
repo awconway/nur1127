@@ -38,6 +38,7 @@ A major responsibility for masters-prepared advanced practiced nurses in leaders
 - Cultivate a sensitivity to, and appreciation of, the complexity and diversity of nursing research approaches relevant to leadership and health services.
 
 *Specifically, students will develop the ability to:*
+
 - Critically appraise and use frameworks and strategies to support evidence-informed practice and knowledge translation.
 - Formulate clear, specific questions about health care practice that can be addressed with research evidence.
 - Plan and execute a systematic search to locate evidence to answer practice questions.
@@ -61,7 +62,7 @@ The reading list for this course in included in this syllabus. Unless otherwise 
 
 # Recommended resource
 
-The [Equator](http://www.equator-network.org/) (Enhancing the Quality and Transparency of Health Research) Network is a collection of reporting frameworks and guidelines for different types of studies. These resources are intended to provide guidance to researchers in reporting their studies. However they may be useful in helping you understand the essential components of different types of research reports. 
+The [EQUATOR](http://www.equator-network.org/) (Enhancing the Quality and Transparency of Health Research) Network is a collection of reporting frameworks and guidelines for different types of studies. These resources are intended to provide guidance to researchers in reporting their studies. However they may be useful in helping you understand the essential components of different types of research reports. 
 
 </exercise>
 
@@ -89,174 +90,174 @@ Module 6: Interpretation and Critical Appraisal of Descriptive Studies
 
 <table width="100%">
 <thead>
-<tr style="height: 35px;">
-<td style="height: 35px;" width="15%">
+<tr style="height: auto;">
+<td style="height: auto;" width="15%">
 <p><strong>Date</strong></p>
 </td>
-<td style="height: 35px;" width="15%">
+<td style="height: auto;" width="15%">
 <p><strong>Week</strong></p>
 </td>
-<td style="height: 35px;" width="35%">
+<td style="height: auto;" width="35%">
 <p><strong>Topic</strong></p>
 </td>
-<td style="height: 35px;" width="35%">&nbsp;<strong>Assessment</strong></td>
+<td style="height: auto;" width="35%">&nbsp;<strong>Assessment</strong></td>
 </tr>
 </thead>
 <tbody>
-<tr style="height: 48px;">
-<td style="height: 48px;" width="15%">
+<tr style="height: auto;">
+<td style="height: auto;" width="15%">
 <p>Sept. 10</p>
 </td>
-<td style="height: 48px;" width="15%">
+<td style="height: auto;" width="15%">
 <p>Week 1</p>
 </td>
-<td style="height: 48px;" width="35%">
+<td style="height: auto;" width="35%">
 <p>Module 1: Evidence-Based Nursing Practice</p>
 </td>
-<td style="height: 48px;" width="35%">&nbsp;</td>
+<td style="height: auto;" width="35%">&nbsp;</td>
 </tr>
-<tr style="height: 59px;">
-<td style="height: 59px;" width="15%">
+<tr style="height: auto;">
+<td style="height: auto;" width="15%">
 <p>Sept. 17</p>
 </td>
-<td style="height: 59px;" width="15%">
+<td style="height: auto;" width="15%">
 <p>Week 2</p>
 </td>
-<td style="height: 59px;" width="35%">
+<td style="height: auto;" width="35%">
 <p>Module 1: continues: Knowledge Translation</p>
 </td>
-<td style="height: 59px;" width="35%">&nbsp;</td>
+<td style="height: auto;" width="35%">&nbsp;</td>
 </tr>
-<tr style="height: 47px;">
-<td style="height: 47px;" width="15%">
+<tr style="height: auto;">
+<td style="height: auto;" width="15%">
 <p>Sept. 24</p>
 </td>
-<td style="height: 47px;" width="15%">
+<td style="height: auto;" width="15%">
 <p>Week 3</p>
 </td>
-<td style="height: 47px;" width="35%">
+<td style="height: auto;" width="35%">
 <p>Module 2: Systematic Approaches to Locating Research Evidence</p>
 </td>
-<td style="height: 47px;" width="35%">&nbsp;</td>
+<td style="height: auto;" width="35%">&nbsp;</td>
 </tr>
-<tr style="height: 74px;">
-<td style="height: 74px;" width="15%">
+<tr style="height: auto;">
+<td style="height: auto;" width="15%">
 <p>Oct. 1</p>
 </td>
-<td style="height: 74px;" width="15%">
+<td style="height: auto;" width="15%">
 <p>Week 4</p>
 <p>&nbsp;</p>
 </td>
-<td style="height: 74px;" width="35%">
+<td style="height: auto;" width="35%">
 <p>Module 2 continues</p>
 </td>
-<td style="height: 74px;" width="35%">
+<td style="height: auto;" width="35%">
 <p><em>Evidence-based Practice Critique due Friday Oct 4 at 4:00 pm</em></p>
 </td>
 </tr>
-<tr style="height: 61px;">
-<td style="height: 61px;" width="15%">
+<tr style="height: auto;">
+<td style="height: auto;" width="15%">
 <p>Oct. 8</p>
 </td>
-<td style="height: 61px;" width="15%">
+<td style="height: auto;" width="15%">
 <p>Week 5</p>
 <p><em>&nbsp;</em></p>
 </td>
-<td style="height: 61px;" width="35%">
+<td style="height: auto;" width="35%">
 <p>Module 3: Introduction to Major Approaches to Knowledge Production in the Health Sciences</p>
 </td>
-<td style="height: 61px;" width="35%">&nbsp;</td>
+<td style="height: auto;" width="35%">&nbsp;</td>
 </tr>
-<tr style="height: 72px;">
-<td style="height: 72px;" width="15%">
+<tr style="height: auto;">
+<td style="height: auto;" width="15%">
 <p>Oct. 15</p>
 </td>
-<td style="height: 72px;" width="15%">
+<td style="height: auto;" width="15%">
 <p>Week 6</p>
 </td>
-<td style="height: 72px;" width="35%">
+<td style="height: auto;" width="35%">
 <p>Module 4: Quantitative Approaches to Research</p>
 <p><em>&nbsp;</em></p>
 </td>
-<td style="height: 72px;" width="35%">&nbsp;</td>
+<td style="height: auto;" width="35%">&nbsp;</td>
 </tr>
-<tr style="height: 74px;">
-<td style="height: 74px;" width="15%">
+<tr style="height: auto;">
+<td style="height: auto;" width="15%">
 <p>Oct. 22</p>
 </td>
-<td style="height: 74px;" width="15%">
+<td style="height: auto;" width="15%">
 <p>Week 7</p>
 <p>&nbsp;</p>
 </td>
-<td style="height: 74px;" width="35%">
+<td style="height: auto;" width="35%">
 <p>Module 4 continues: Interpreting Results of Quantitative Research</p>
 </td>
-<td style="height: 74px;" width="35%">
+<td style="height: auto;" width="35%">
 <p><em>Search Paper due Friday Oct 25 at 4:00 pm</em></p>
 </td>
 </tr>
-<tr style="height: 48px;">
-<td style="height: 48px;" width="15%">
+<tr style="height: auto;">
+<td style="height: auto;" width="15%">
 <p>Oct. 29</p>
 </td>
-<td style="height: 48px;" width="15%">
+<td style="height: auto;" width="15%">
 <p>Week 8</p>
 </td>
-<td style="height: 48px;" width="35%">
+<td style="height: auto;" width="35%">
 <p>Module 5: Qualitative Approaches to Research</p>
 </td>
-<td style="height: 48px;" width="35%">&nbsp;</td>
+<td style="height: auto;" width="35%">&nbsp;</td>
 </tr>
-<tr style="height: 61px;">
-<td style="height: 61px;" width="15%">
+<tr style="height: auto;">
+<td style="height: auto;" width="15%">
 <p>Nov. 5</p>
 </td>
-<td style="height: 61px;" width="15%">
+<td style="height: auto;" width="15%">
 <p>Week 9</p>
 </td>
-<td style="height: 61px;" width="35%">
+<td style="height: auto;" width="35%">
 <p>Module 5 continues: Sampling, Data Collection and Data Analysis Approaches in Qualitative Research</p>
 </td>
-<td style="height: 61px;" width="35%">&nbsp;</td>
+<td style="height: auto;" width="35%">&nbsp;</td>
 </tr>
-<tr style="height: 96px;">
-<td style="height: 96px;" width="15%">
+<tr style="height: auto;">
+<td style="height: auto;" width="15%">
 <p>Nov. 12</p>
 </td>
-<td style="height: 96px;" width="15%">
+<td style="height: auto;" width="15%">
 <p>Week 10</p>
 <p>&nbsp;</p>
 </td>
-<td style="height: 96px;" width="35%">
+<td style="height: auto;" width="35%">
 <p>Module 6: Interpretation and Critical Appraisal of Descriptive Studies</p>
 </td>
-<td style="height: 96px;" width="35%">&nbsp;</td>
+<td style="height: auto;" width="35%">&nbsp;</td>
 </tr>
-<tr style="height: 59px;">
-<td style="height: 59px;" width="15%">
+<tr style="height: auto;">
+<td style="height: auto;" width="15%">
 <p>Nov. 19</p>
 </td>
-<td style="height: 59px;" width="15%">
+<td style="height: auto;" width="15%">
 <p>Week 11</p>
 <p><em>&nbsp;</em></p>
 </td>
-<td style="height: 59px;" width="35%">
+<td style="height: auto;" width="35%">
 <p>Module 6 continues: Qualitative Description</p>
 </td>
-<td style="height: 59px;" width="35%">&nbsp;</td>
+<td style="height: auto;" width="35%">&nbsp;</td>
 </tr>
-<tr style="height: 59px;">
-<td style="height: 59px;" width="15%">
+<tr style="height: auto;">
+<td style="height: auto;" width="15%">
 <p>Nov. 26</p>
 </td>
-<td style="height: 59px;" width="15%">
+<td style="height: auto;" width="15%">
 <p>Week 12</p>
 <p>&nbsp;</p>
 </td>
-<td style="height: 59px;" width="35%">
+<td style="height: auto;" width="35%">
 <p>Module 6 continues: Phenomenology</p>
 </td>
-<td style="height: 59px;" width="35%"><em>Research Study Analysis due Friday Dec. 6th at 4:00 pm</em></td>
+<td style="height: auto;" width="35%"><em>Research Study Analysis due Friday Dec. 6th at 4:00 pm</em></td>
 </tr>
 </tbody>
 </table>
@@ -279,10 +280,11 @@ In addition to independent learning activities, there will be regular online gro
 
 How do I work and learn in an online environment?
 The online environment provides increased flexibility in terms of when and where you engage in learning activities. However it can also present challenges, requiring a degree of self-discipline to ensure you are able to take advantage of group discussions and learn from the observations and insights of your colleagues, as well as the course faculty. Here are some tips to help you be successful in engaging in on-line learning:
-•	This is a relatively self-directed learning environment, so it is important to manage your time carefully.
-•	As is the case in all graduate programs (both in-class and on-line), the course requires a considerable amount of independent study, guided by modules that contain resources and learning activities for one or more weeks. Be sure to complete the weekly learning activities, and to participate in the Discussion every week. This is where we will work through together any questions you have about the material you are studying.
-•	Organize your time to ensure that you can complete the weekly reading and other learning activities on time. It is critical that you do not get behind. 
-•	While completing the weekly learning activities, compile a list of questions or concerns that arise so that you can seek help via your colleagues on the discussion board.
+
+- This is a relatively self-directed learning environment, so it is important to manage your time carefully.
+- As is the case in all graduate programs (both in-class and on-line), the course requires a considerable amount of independent study, guided by modules that contain resources and learning activities for one or more weeks. Be sure to complete the weekly learning activities, and to participate in the Discussion every week. This is where we will work through together any questions you have about the material you are studying.
+- Organize your time to ensure that you can complete the weekly reading and other learning activities on time. It is critical that you do not get behind. 
+- While completing the weekly learning activities, compile a list of questions or concerns that arise so that you can seek help via your colleagues on the discussion board.
 
 </exercise>
 
@@ -297,6 +299,7 @@ Most students will need a **minimum 8-10 hours/week** to complete the readings a
 We strongly recommend a visit to the [University of Toronto Writing Centre Website](http://writing.utoronto.ca/). This website has a wealth of information regarding academic writing including information about writing when English is not your first language, writing courses and workshops available for students, and information about using other Writing Centres at the University of Toronto. The “Writing Advice” tab contains a host of online writing support resources. Sample topics include: preparing an outline, revising an essay, developing coherent paragraphs, style and editing, grammar and punctuation, etc.
 
 Other helpful writing websites include:
+
 1.	[Health Sciences Writing Centre](http://www.hswriting.ca/)
 2.	[How to avoid plagiarism](http://www.writing.utoronto.ca/advice/using-sources/how-not-to-plagiarize)
 
@@ -326,7 +329,7 @@ Please ensure that you have an active your.name@utoronto.ca or your.name@mail.ut
 
 Quercus will be used to post the course syllabus, recorded lectures, weekly readings and other learning activities, and important announcements.  Click [here](https://q.utoronto.ca/courses/46670) for Quercus information and resources.
 
-Please also use our course Quercus site Discussion section to ask questions about class content and assignments.  Many of you will have similar questions and we can ensure consistent responses to your concerns by using Quercus.  We (the Teaching Assistant or I) will read and respond to Quercus postings and messages and our Discussions (via Quercus and Voicethread) on Mondays, Wednesdays and Fridays by 5 pm.  E-mail communication with either the Professor or the TA should be used only for purposes other than asking questions about course content (e.g., for scheduling a one-to-one appointment) or for communication of a personal nature.  
+Please also use our course Quercus site Discussion section to ask questions about class content and assignments.  Many of you will have similar questions and we can ensure consistent responses to your concerns by using Quercus.  We (the Teaching Assistant or I) will read and respond to Quercus postings and messages and our Discussions (via Quercus) on Mondays, Wednesdays and Fridays by 5 pm.  E-mail communication with either the Professor or the TA should be used only for purposes other than asking questions about course content (e.g., for scheduling a one-to-one appointment) or for communication of a personal nature.  
 
 Forwarding your utoronto.ca email to a Hotmail or Yahoo or other type of email account is not advisable. In some cases, messages from utoronto.ca addresses sent to Hotmail or Yahoo accounts are filtered as junk mail, which means that emails from your course instructor may end up in your spam or junk mail folder. 
 
@@ -356,9 +359,9 @@ You can test your Internet speed by going to ww.speedtest.net and clicking the �
  
 In addition it is important to note that some computer applications may be required to communicate throughout this course.  Ensure you have the latest versions of:
  
-o	[Acrobat Reader, Flash Player, and Shockwave](https://www.adobe.com)
-o	[Java](http://www.java.com/en/)
-o	Google Chrome, Firefox, Internet Explore, and/or Safari (we recommend having two browsers installed just in case you run into issues with one of them)
+- [Acrobat Reader, Flash Player, and Shockwave](https://www.adobe.com)
+- [Java](http://www.java.com/en/)
+- Google Chrome, Firefox, Internet Explorer, and/or Safari (we recommend having two browsers installed just in case you run into issues with one of them)
  
 Please note: If you are accessing the Internet through a large organization (e.g. a hospital) you may need to contact your organization’s IT department to arrange these downloads and confirm internet speed.
  
@@ -369,7 +372,7 @@ Please note, the university also provides free [antivirus software](http://antiv
 
 <exercise id="16" title="Course participation">
 
-The Quercus Discussion Board and Voicethread is our virtual classroom. This is where we will engage in discussion and clarification of the course material, and practise applying course concepts. In order to make the most of this opportunity, we need to allow time for these asynchronous discussions to unfold over the week. Thus it is important that you go join the discussions several times over the week, rather than posting only at the end of the week.
+The Quercus Discussion Board is our virtual classroom. This is where we will engage in discussion and clarification of the course material, and practise applying course concepts. In order to make the most of this opportunity, we need to allow time for these asynchronous discussions to unfold over the week. Thus it is important that you go join the discussions several times over the week, rather than posting only at the end of the week.
 To facilitate discussion there will be a number of questions posed each week. It is important that all students participate in these discussions. I ask that you please keep your postings succinct **(maximum 200 words (text) or 2 minutes audio/video)** so that others have an opportunity to respond as well. Postings must be presented in your own words and reflect a critical analysis and interpretation of course material, exercises, and other learning activities.  You are encouraged to share insights into the application and use of course concepts in practice. Please include relevant references in your posts (not included in the word count).
 Students are expected to read assigned material for each week and respond to each other’s postings and questions.  The minimum expectation is that you submit one posting of your own and provide a short but substantive response to at least one other student’s post each week.
 
@@ -377,6 +380,7 @@ Students are expected to read assigned material for each week and respond to eac
 *Relevance and Content*
 
 The student:
+
 -	Comments and questions and thoughtfully addresses the topic and question.
 -	Demonstrates s/he has read the discussion and has taken the discussion into consideration before posting.
 -	Contributes new ideas (e.g., new perspectives, examples) in integrating relevant readings.
@@ -385,6 +389,7 @@ The student:
 -	Asks questions that promote in-depth discussion.
 
 *Tone and Clarity*
+
 -	Tone is respectful, friendly and professional.
 -	Proofreads comments for clarity before posting.
 -	Communicates ideas in a professional but engaging way.
@@ -393,7 +398,9 @@ The student:
 -	Responds to other students as well as the instructor.
 
 *Netiquette*
+
 Certain rules of etiquette are also recommended for online discussions (Netiquette). These include:
+
 - Always be courteous to other students
 - Before introducing a new topic area, search to see if a similar discussion point already exists
 - Stay on-topic
