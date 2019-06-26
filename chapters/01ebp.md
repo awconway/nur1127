@@ -22,7 +22,7 @@ id: 2
 </exercise>
 
 <exercise id="3" title="Important distinctions between different EBP models" type="slides">
-<div><center><img height="300px" width="300px" src="JBI.png">
+<div><center><img height="300px" width="300px" src="rycroft-malone.png">
 <img height="300px" width="300px" src="JBI.png"></center></div>
 <br><br>
 What is the major difference between the two different EBP models presented above?<br><br>
@@ -40,14 +40,11 @@ This is one of the differences, however, what is different at the 'core' (center
 </choice>
 </exercise>
 
-<exercise id="4" title="Learning activity for Group 1 to lead: What counts as 'evidence'" type="slides">
+<exercise id="4" title="What counts as 'evidence'">
 
 Use the annotation feature to discuss the sources of evidence that comprise evidence-based practice. As nursing practice advances and new roles emerge, do you think there are additional sources of evidence that should be considered?
 
-
-`If you get an error message in the pdf viewer - just refresh the page and it should work.`
-
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Rycroft-Malone.pdf" width="100%" height="500px"></iframe>
+<iframe src="https://www.aaronconway.info/NUR1027/Rycroft-Malone.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 
@@ -63,9 +60,7 @@ Use the annotation feature to discuss the sources of evidence that comprise evid
 
 <exercise id="7" title="Learning activity for Group 2 to lead: Challenging the assumptions" type="slides">
 
-`If you get an error message in the pdf viewer - just refresh the page and it should work.`
-
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/wall.pdf" width="100%" height="500px"></iframe>
+<iframe src="https://www.aaronconway.info/NUR1027/wall.pdf" width="100%" height="500px"></iframe>
 </exercise>
 
 
@@ -114,34 +109,30 @@ A landmark <a href="https://www.nejm.org/doi/full/10.1056/nejmsa022615" >study</
 
 Substantial progress has been made in ensuring that health professionals are capable users of evidence in their practice.  Recently, a consensus statement on core competencies in evidence-based practice for health professionals were developed. 
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/albarqouni.pdf" width="750px" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/NUR1027/albarqouni.pdf" width="750px" height="1050px"></iframe>
 
 Teachers of evidence-based healthcare. 
 
 </exercise>
 
-<exercise id="10" title="Learning activity for Group 3 to lead: Barriers and Challenges to Evidence-Based Practice" type="slides">
+<exercise id="10" title="Barriers and Challenges to Evidence-Based Practice">
 
-For group 1 -
 
-`If you get an error message in the pdf viewer - just refresh the page and it should work.`
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/dobrow.pdf" width="100%" height="500px"></iframe>
+<iframe src="https://www.aaronconway.info/NUR1027/dobrow.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 
-<exercise id="11" title="Learning activity for Group 4 to lead: Factors influencing Evidence-Based Practice" type="slides">
+<exercise id="11" title="Factors influencing Evidence-Based Practice" >
 
-`If you get an error message in the pdf viewer - just refresh the page and it should work.`
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Gerrish.pdf" width="100%" height="500px"></iframe>
+
+<iframe src="https://www.aaronconway.info/NUR1027/Gerrish.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 
 <exercise id="12" title="Additional Recommended Readings">
 
-The links to these webpages have the _hypothes.is_ toolbar enabled. Please feel free to annotate as you read to contribute to on-going discussion between members of the class (this is optional). 
-
-<a href="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/bliss-holtz.pdf">Bliss-Holtz, J. (2007).  Evidence-based practice:  A primer for action.  Issues in Comprehensive Pediatric Nursing, 30(4), 165-182.</a>
+<a href="https://www.aaronconway.info/bliss-holtz.pdf">Bliss-Holtz, J. (2007).  Evidence-based practice:  A primer for action.  Issues in Comprehensive Pediatric Nursing, 30(4), 165-182.</a>
 
 <a href="https://journals-scholarsportal-info.myaccess.library.utoronto.ca/pdf/08943184/v25i0002/199_taenp.xml">Fawcett, J. (2012). Thoughts about evidence-based nursing practice. Nursing Science Quarterly, 25(2). 199-200.</a> 
 

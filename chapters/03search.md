@@ -44,7 +44,3 @@ Enter a term in place of the dotted line. Try out some alternative tags like [TI
 
 </exercise>
 
-<exercise id="8" title="Iframe" type="slides">
-<slides source="chapter1_08_video">
-
-</exercise>
