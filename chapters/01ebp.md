@@ -9,21 +9,27 @@ id: 2
 ---
 
 
-<exercise id="1" title="What is EBP?" type="slides">
+<exercise id="1" title="What is EBP?">
 
 <slides source="chapter1_ebp">
 </slides>
 </exercise>
 
+<exercise id="2" title="What counts as 'evidence'">
 
+Time for some reading. This discussion paper focuses in on the 'evidence' aspect of evidence-based practice. The authors take a somewhat different stance to the original notion of EBP devised by David Sackett and colleagues, in that they conceptualized 'evidence' as also incorporating knowledge derived from sources other than original research - namely 'clinical experience', 'patient experience' and information from the 'local context'. 
 
-<exercise id="2" title="Models of EBP" type="slides">
+<iframe src="https://www.aaronconway.info/NUR1027/Rycroft-Malone.pdf" width="100%" height="1050px"></iframe>
+
+</exercise>
+
+<exercise id="3" title="Models of EBP">
 <slides source="chapter1_models">
 </exercise>
 
-<exercise id="3" title="Important distinctions between different EBP models" type="slides">
-<div><center><img height="300px" width="300px" src="rycroft-malone.png">
-<img height="300px" width="300px" src="JBI.png"></center></div>
+<exercise id="4" title="Important distinctions between different EBP models" >
+<div><center><img  src="rycroft.png">
+<img src="guyatt.png"></center></div>
 <br><br>
 What is the major difference between the two different EBP models presented above?<br><br>
 <choice>
@@ -40,25 +46,18 @@ This is one of the differences, however, what is different at the 'core' (center
 </choice>
 </exercise>
 
-<exercise id="4" title="What counts as 'evidence'">
 
-Use the annotation feature to discuss the sources of evidence that comprise evidence-based practice. As nursing practice advances and new roles emerge, do you think there are additional sources of evidence that should be considered?
-
-<iframe src="https://www.aaronconway.info/NUR1027/Rycroft-Malone.pdf" width="100%" height="1050px"></iframe>
-
-</exercise>
-
-<exercise id="5" title="Process models for EBP" type="slides">
+<exercise id="5" title="Process models for EBP">
 <slides source="chapter1_models2">
 
 </exercise>
 
-<exercise id="6" title="Criticisms of EBP" type="slides">
+<exercise id="6" title="Criticisms of EBP">
 
 <slides source="chapter1_critiques">
 </exercise>
 
-<exercise id="7" title="Learning activity for Group 2 to lead: Challenging the assumptions" type="slides">
+<exercise id="7" title="Learning activity for Group 2 to lead: Challenging the assumptions">
 
 <iframe src="https://www.aaronconway.info/NUR1027/wall.pdf" width="100%" height="500px"></iframe>
 </exercise>

@@ -25,6 +25,8 @@ And finally, we want to examine and propose roles for nursing leaders in advanci
 ---
 # Misconceptions about EBP
 
+<img src="Evidence_Hierarchy.png" height="600px" width="600px">
+
 Notes: What do people mean when they say evidence-based practice? A common misconception is that it’s entirely about ensuring that the latest and greatest research evidence available is getting used by clinicians to treat their patients. This, however, is quite a limited definition and it doesn’t encompass each of the core components of the evidence-based practice movement. One thing that comes to mind for some, because of ways that evidence-based practice has been taught in the past, is the evidence-hierarchy pyramid. You may have seen one of these, where typically at the bottom there are things like case reports or expert opinion and at the top are things like systematic reviews and meta-analyses. Evidence hierarchies like this only provide a very simplified ordering of the different types of research studies that can be used to evaluate the effects of an intervention, and infact, the utility of these pyramids is very limited. A big prolem with evidence hierarchies is that the hierarchy doesn't adequalty consider the context for the clinical question being investigated or the methodological quality of the studies at each step of the hierarchy. 
 
 ---
@@ -38,4 +40,4 @@ A second consideration are the patients themselves.  Each patient has a differen
 
 # Let's practice!
 
-Notes: Now it's time to revisit some of the core concepts we've just introduced in the following exercises.
+Notes: Now it's time to revisit some of the core concepts we've just introduced from a somewhat different perspecitive of what counts as 'evidence' from a group of nursing researchers who are leaders in the field of implementing evidence into practice. 
