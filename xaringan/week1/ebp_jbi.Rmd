@@ -41,7 +41,7 @@ Let's first take a look at the JBI model for evidence-based healthcare. The firs
 class: middle
 
 .pull-left[
-<img src="/static/JBI.png" height="400px" width="300px">
+<img src="/static/jbiInner.png"  >
 ]
 
 ???
@@ -71,9 +71,9 @@ The ‘inner segments’ provide the Institute’s conceptualization of the majo
 
 class: center, middle
 
-# Let's practice
+# Further reading
 
 ???
 
-At this point, it would be good to review the JBI model in a little more detail. In the next exercise, there's a link to 
+At this point, it would be good to review the JBI model in a little more detail. In the next section, you'll be able to read more about this model.
 
