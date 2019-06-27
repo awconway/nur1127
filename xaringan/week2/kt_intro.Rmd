@@ -1,0 +1,53 @@
+---
+output:
+  xaringan::moon_reader:
+    seal: false
+    lib_dir: libs
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>`
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(icon)
+library(emo)
+```
+
+class:  center, middle
+
+# Introduction
+
+
+???
+
+This week we look at different approaches for moving knowledge into practice focussing primarily on knowledge generated through research. 
+
+---
+.pull-left[
+
+# Objectives
+
+
+- To appreciate the complexity involved in moving research evidence into practice.
+
+- To understand and use frameworks to guide activities to move evidence into practice. 
+
+]
+
+???
+
+You'll see as you work your way through the learning material this week that due to the complex nature of health care systems - there really is no one perfect way to move research evidence into practice. And as a result there have been a large number of different frameworks and models produced to try and support nurses to translate knowledge produced from research into their clinical practice.
+
+So let's get started with some definitions of key terms and concepts related to knowledge translation.
+
+---
+
+.pull-left[
+
+# Key terms and concepts
+
+- 
