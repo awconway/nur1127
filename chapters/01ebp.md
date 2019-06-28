@@ -11,10 +11,9 @@ id: 2
 
 <exercise id="1" title="What is EBP?">
 
-<video autoplay playsinline controls height="500px" width="100%">
-    <source src="https://aconway.dev/images/test-no-crop.mp4" type="video/mp4"/>
+<video playsinline controls height="500px" width="100%">
+    <source src="https://aconway.dev/images/resize.mp4" type="video/mp4"/>
 </video>
-
 
 </exercise>
 
