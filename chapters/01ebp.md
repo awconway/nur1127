@@ -11,8 +11,11 @@ id: 2
 
 <exercise id="1" title="What is EBP?">
 
-<slides source="chapter1_ebp">
-</slides>
+<video autoplay playsinline controls height="500px" width="100%">
+    <source src="https://aconway.dev/images/test-no-crop.mp4" type="video/mp4"/>
+</video>
+
+
 </exercise>
 
 <exercise id="2" title="What counts as 'evidence'">

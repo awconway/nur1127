@@ -29,7 +29,7 @@ As you will have noticed, the two models just introduced are very conceptual, an
 class: middle
 
 .pull-left[
-<img src="/static/JBI.png" height="400px" width="300px">
+<img src="https://aconway.dev/images/JBI.png" height="400px" width="300px">
 ]
 
 ???
@@ -41,7 +41,7 @@ Let's first take a look at the JBI model for evidence-based healthcare. The firs
 class: middle
 
 .pull-left[
-<img src="/static/jbiInner.png"  >
+<img src="https://aconway.dev/images/jbiInner.png"  >
 ]
 
 ???
@@ -58,7 +58,7 @@ So although different terminology is used, these core concepts are still somewha
 class: middle
 
 .pull-left[
-<img src="/static/JBI.png" height="400px" width="300px">
+<img src="https://aconway.dev/images/JBI.png" height="400px" width="300px">
 ]
 
 ???

@@ -1,6 +1,7 @@
 ---
 output:
   xaringan::moon_reader:
+    css: fonts.css
     seal: false
     lib_dir: libs
     nature:
@@ -56,10 +57,12 @@ And finally, we want to examine and propose roles for nursing leaders in advanci
 So what do people mean when they say evidence-based practice? A common misconception is that it’s entirely about ensuring that the latest and greatest research evidence available is getting used by clinicians to treat their patients. This, however, is quite a limited definition and it doesn’t encompass each of the core components of the evidence-based practice movement. One thing that comes to mind for some, because of ways that evidence-based practice has been taught in the past, is the evidence-hierarchy pyramid. Typically at the bottom there are things like case reports or expert opinion and at the top are things like systematic reviews and meta-analyses. Evidence hierarchies like this only provide a very simplified ordering of the different types of research studies that can be used to evaluate the effects of an intervention, and in fact, they are rarely useful. The biggest problems are that the hierarchy doesn't adequalty consider the context for the clinical question being investigated or the methodological quality of the studies at each step of the hierarchy. 
 
 ---
-background-image: url("https://aconway.dev/images/EBP.png")
-background-position: left
 
 ### Integrating evidence, patient values and clinical expertise 
+
+.pull-left[
+<img src="https://aconway.dev/images/EBP.png" height="400px" width="400px" />
+]
 
 ???
 
