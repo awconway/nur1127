@@ -24,7 +24,7 @@ class:  center, middle
 
 ???
 
-This week we look at different approaches for moving knowledge into practice focussing primarily on knowledge generated through research. 
+This week we look at different approaches for moving knowledge into practice focusing primarily on knowledge generated through research. 
 
 ---
 .pull-left[
@@ -40,7 +40,7 @@ This week we look at different approaches for moving knowledge into practice foc
 
 ???
 
-You'll see as you work your way through the learning material this week that due to the complex nature of health care systems - there really is no one perfect way to move research evidence into practice. And as a result there have been a large number of different frameworks and models produced to try and support nurses to translate knowledge produced from research into their clinical practice.
+You'll see as you work your way through the learning material this week that due to the complex nature of health care systems - there really is no one perfect way to move research evidence into practice. And as a result, there has been a large number of different frameworks and models produced to try and support nurses and other healthcare clinicians to translate knowledge produced from research into their clinical practice.
 
 So let's get started with some definitions of key terms and concepts related to knowledge translation.
 

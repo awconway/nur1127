@@ -1,7 +1,7 @@
 ---
 title: 'Syllabus'
 description:
-        'Please review the syllabus carefully, and pay particular attention to details regarding university policies, important dates, and the due dates and descriptions for course assignments.Please feel free to contact me if you have any questions.'
+        'Please review the syllabus carefully, and pay particular attention to details regarding university policies, important dates, and the due dates and descriptions for course assignments. Please feel free to contact me if you have any questions.'
 prev: null
 next: null
 type: chapter
@@ -16,15 +16,17 @@ id: 1
 |*Course Location* |  On-line  |
 | *Faculty* | **Aaron Conway RN, PhD**<br>155 College Street<br>Rm. 247<br>(416) 946-7112 <br> Email: aaron.conway@utoronto.ca|
 | *Office Hours* | By appointment |
-|*Teaching Assistant* | TBC|
-| *Course Website* |On Quercus: https://q.utoronto.ca|
-| *Quercus resources* |  See Quercus student guide under “Course Information” on Quercus|
+|*Teaching Assistant* | Danielle Just<br> PhD nursing student<br>Email: danielle.just@mail.utoronto.ca|
+| *Course Website* | [NUR1027 Quercus site](https://q.utoronto.ca/courses/113018/) |
+| *Quercus resources* | [Quercus student guide](https://q.utoronto.ca/courses/46670)|
 
 </exercise>
 
 <exercise id="2" title="Course description">
 
-A major responsibility for masters-prepared advanced practiced nurses in leadership roles (formal or informal) is promoting evidence-informed practice and policy decisions within nursing. In order to be successful in this endeavour, nurses must be knowledgeable consumers of nursing and related (e.g. health services and social sciences) research. This course and the subsequent course NUR 1127H will further develop your knowledge, skill, and judgment related to research competencies for advanced practice nurses as outlined in the Canadian Nurses’ Association document “Advanced Practice Nursing: A Pan-Canadian Framework (2019)”. The focus of NUR 1027H is on critical examination and reflection on research and evidence-informed practice, with an emphasis on integration of theory and research to guide practice. You will develop an understanding of the philosophical foundations of contemporary approaches to knowledge production in nursing and the health sciences, and essential competencies in locating, interpreting, critiquing, and using research evidence in practice. Critical analysis of both qualitative and quantitative approaches and their underlying theoretical frameworks will enable you to understand and appropriately integrate research into practice.
+A major responsibility for masters-prepared advanced practiced nurses in leadership roles (formal or informal) is promoting evidence-informed practice and policy decisions within nursing. In order to be successful in this endeavour, nurses must be knowledgeable consumers of nursing and related (e.g. health services and social sciences) research. This course and the subsequent course NUR1127 will further develop your knowledge, skill, and judgment related to research competencies for advanced practice nurses as outlined in the [Canadian Nurses’ Association document “Advanced Practice Nursing: A Pan-Canadian Framework (2019)”](https://cna-aiic.ca/en/nursing-practice/the-practice-of-nursing/advanced-nursing-practice). 
+
+The focus of NUR1027 is on critical examination and reflection on research and evidence-informed practice, with an emphasis on integration of theory and research to guide practice. You will develop an understanding of the philosophical foundations of contemporary approaches to knowledge production in nursing and the health sciences, and essential competencies in locating, interpreting, critiquing, and using research evidence in practice. Critical analysis of both qualitative and quantitative approaches and their underlying theoretical frameworks will enable you to understand and appropriately integrate research into practice.
 
 </exercise>
 
@@ -55,6 +57,8 @@ Craig, JV & Smyth, RL. (2012). The Evidence-based Practice Manual for Nurses (3r
 
 *Note: Unfortunately, the latest edition of this text will not be published until October 2019, which means we will not be able to use it for the course this semester.*
 
+Gray, J.R., Grove, S.K. & Sutherland, S.  (2017). The Practice of Nursing Research (8th ed.) St. Louis Missouri: Elsevier. 
+
 Textbooks can be purchased in person at the U of T Bookstore (214 College St.) or ordered online through the <a href="http://www.uoftbookstore.com/">bookstore</a>.
 
 # Required readings/resources
@@ -82,6 +86,7 @@ Over 12 weeks, you will learn key information about how to find, appraise, and u
   <col width="15%">
   <col width="35%">
   <col width="35%">
+  <row height="10px">
 <thead>
 <tr>
 <th>Date</th>
@@ -113,7 +118,7 @@ Over 12 weeks, you will learn key information about how to find, appraise, and u
 <td>Oct. 1</td>
 <td>Week 4</td>
 <td>Systematic Approaches to Locating Research Evidence (cont'd)</td>
-<td><strong>Evidence-based Practice Critique due Friday Oct 4 at 4:00 pm</strong></td>
+<td><strong><a href="https://q.utoronto.ca/courses/113018/assignments/172861">Evidence-based Practice Critique due Friday Oct 4 at 4:00 pm</a></strong></td>
 </tr>
 <tr>
 <td>Oct. 8</td>
@@ -131,7 +136,7 @@ Over 12 weeks, you will learn key information about how to find, appraise, and u
 <td>Oct. 22</td>
 <td>Week 7</td>
 <td>Interpreting Results of Quantitative Research</td>
-<td><strong>Search Paper due Friday Oct 25 at 4:00 pm</strong></td>
+<td><strong><a href="https://q.utoronto.ca/courses/113018/assignments/172862">Search Paper due Friday Oct 25 at 4:00 pm</a></strong></td>
 </tr>
 <tr>
 <td>Oct. 29</td>
@@ -161,10 +166,11 @@ Over 12 weeks, you will learn key information about how to find, appraise, and u
 <td>Nov. 26</td>
 <td>Week 12</td>
 <td>Phenomenology</td>
-<td><strong>Research Study Analysis due Friday Dec. 6th at 4:00 pm</strong></td>
+<td><strong><a hfref="https://q.utoronto.ca/courses/113018/assignments/172863">Research Study Analysis due Friday Dec. 6th at 4:00 pm</strong></td>
 </tr>
 </tbody>
 </table>
+
 </exercise>
 
 <exercise id="7" title="Discussion group">

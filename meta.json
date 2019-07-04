@@ -17,7 +17,7 @@
     },
     "showProfileImage": true,
     "footerLinks": [
-        { "text": "Website", "url": "https://www.aaronconway.info" },
+        { "text": "Website", "url": "https://NUR1027-FALL-2019.netlify.com" },
         { "text": "Source", "url": "https://github.com/awconway/NUR1027-FALL-2019" },
         { "text": "Built with ♥", "url": "https://github.com/ines/course-starter-r" }
     ],

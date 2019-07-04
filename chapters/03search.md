@@ -8,39 +8,67 @@ type: chapter
 id: 4
 ---
 
-<exercise id="1" title="Introduction" type="slides">
-<slides source="chapter3_01_introduction">
-</slides>
+<exercise id="1" title="Introduction">
+Having already explored the idea of evidence-informed practice and knowledge translation, we will now address the question of how to find research evidence. The focus is on developing systematic and effective approaches to locating and accessing research evidence.  This week we focus on formulating a search question and identifying search terms. 
+<br><br>
+
+**The learning objectives are:**
+- To develop skills in formulating practice questions to guide a systematic search of the evidence.
+-  To develop skills in identifying search terms to guide a systematic search of the evidence.
 
 </exercise>
 
-<exercise id="3" title="First search">
+<exercise id="2" title="Webinar">
 
-In the next exercises, we'll be using the Pubmed database to search for research evidence. Everything entered within the quotations is just like entering a search on the Pubmed website.
-
-<img src="/pubmed-nursing.png"/>
-
-
-The first time you enter your search by pressing the 'Submit' button, it will take a little while to load. If the search result hasn't returned after 1 minute - refresh the page. Each subsequent time you press 'Submit' the result will be returned much faster (unless it is idle for >10 minutes).
-
-This first exercise is just a simple practice exercise to demonstrate the process and make sure everything is working right. Have a go at using a MeSH term in a search of the pubmed database. Search for the term 'nursing' and see how many results are returned. 
-
-<codeblock id="01_03">
-
-Enter the term in place of the dotted line
-
-</codeblock>
+<iframe src="https://ca.bbcollab.com/guest/4359a93a38ad4440b2356f1a4e4ceaee" width="100%" height="550px" allowfullscreen></iframe>
 
 </exercise>
-<exercise id="4" title="Refining a search">
 
-Now it's time to combine keywords to refine our results. Say we're interested in finding evidence for intentional rounding by nurses, but want to limit the search to less than 50 results. Add in one or more extra search terms combined with boolean operators (like AND, OR) to achieve this.
+<exercise id="3" title="Formulating clinical questions">
 
-<codeblock id="01_04">
+This paper provides a practical overview for how to formulate clear clinical questions, which is an essential step towards devising an effective literature search strategy. 
 
-Enter a term in place of the dotted line. Try out some alternative tags like [TI] for just the title or [TIAB] for title and abstract.
+<iframe src="https://www.aaronconway.info/NUR1027/stillwell.pdf" width="100%" height="1050px" allowfullscreen webkitallowfullscreen></iframe>
 
-</codeblock>
+</exercise>
+
+<exercise id="4" title="Steps for searching the literature">
+
+These [step by step instructions](https://guides.library.utoronto.ca/comprehensivesearching) are also going to be a useful resource for you on formulating a search question. In particular, see the sections entitled “Formulate your Search Question,” “Determine Whether to Search Precisely or Sensitively”, and “ Gather Synonyms for your Search Concepts.”
+
+</exercise>
+
+
+<exercise id="5" title="Readings">
+
+*Required*
+
+Craig, JV & Smyth, RL. (2012). The Evidence-based Practice Manual for Nurses (3rd ed.) Churchill Livingstone Elsevier. Chapter 2: How to ask the right question; Chapter 3: Searching the literature.
+
+
+*Additional*
+
+Gray, J.R., Grove, S.K. & Sutherland, S.  (2017). The Practice of Nursing Research (8th ed.) Chapter 7: Review of relevant literature (pp. 120 – 137).
+
+</exercise>
+
+
+
+<exercise id="6" title="Discussion board">
+
+This week each of you will practice the first steps in conducting a search strategy: **developing the search question and defining the search terms.**
+
+Identify an area in your practice that is a source of question or uncertainty -  a situation in which you wondered why you engage in a certain practice or why you were doing what you do with patients/clients or co-workers. Think back to the issues discussed previously in the course for inspiration. Complete the following activity individually and include it as your discussion post this week in your group on teh discussion board in Quercus: 
+
+- Write a short scenario (2-3 sentences) to describe the situation.
+- Compose a formal search question (just one) to assist you in locating the evidence to guide practice using PICO as appropriate to your situation: Population, Intervention/exposure/situation, Comparison and Outcome.
+- Identify some key search terms you would want to include under each PICO heading as appropriate to your situation.
+
+ Remember to respond to one of your peer’s posts!
+
+<a target="_parent" href="https://q.utoronto.ca/courses/86697/discussion_topics/">Link to discussions on Quercus</a>
+
+`Note: If you are viewing this on the 'Student' mobile app, it is better to navigate back to the discussion section through the app rather than clicking on the link above.`
 
 </exercise>
 

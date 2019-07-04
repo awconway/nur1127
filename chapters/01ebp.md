@@ -12,7 +12,7 @@ id: 2
 <exercise id="1" title="What is EBP?">
 
 <video playsinline controls height="500px" width="100%">
-    <source src="https://aconway.dev/images/resize.mp4" type="video/mp4"/>
+    <source src="https://res.cloudinary.com/awcoway/video/upload/v1562154714/resize_hoprsq.mp4" type="video/mp4"/>
 </video>
 
 </exercise>
@@ -144,7 +144,15 @@ Substantial progress has been made in ensuring that health professionals are cap
 
 </exercise>
 
-<exercise id="14" title="Additional Recommended Readings">
+<exercise id="14" title="Readings">
+
+*Required*
+
+Craig, JV & Smyth, RL. (2012). The Evidence-based Practice Manual for Nurses (3rd ed.) Churchill Livingstone Elsevier. Chapter 1: Evidence-based Practice in Nursing.
+
+
+*Additional*
+
 
 <a href="https://www.aaronconway.info/NUR1027/bliss-holtz.pdf">Bliss-Holtz, J. (2007).  Evidence-based practice:  A primer for action.  Issues in Comprehensive Pediatric Nursing, 30(4), 165-182.</a>
 
@@ -167,7 +175,7 @@ Gray, J.R., Grove, S.K. & Sutherland, S.  (2017). The Practice of Nursing Resear
 
 <a target="_parent" href="https://q.utoronto.ca/courses/86697/discussion_topics/322298">Link to discussions on Quercus</a>
 
+`Note: If you are viewing this on the 'Student' mobile app, it is better to navigate back to the discussion section through the app rather than clicking on the link above.`
+
 </exercise>
-
-
 
