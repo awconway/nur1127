@@ -21,7 +21,7 @@ id: 2
 
 Time for some reading. This discussion paper focuses in on the 'evidence' aspect of evidence-based practice. The authors take a somewhat different stance to the original notion of EBP devised by David Sackett and colleagues, in that they conceptualized 'evidence' as also incorporating knowledge derived from sources other than original research - namely 'clinical experience', 'patient experience' and information from the 'local context'. 
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Rycroft-Malone.pdf" width="100%" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/NUR1027/Rycroft-Malone.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 
@@ -55,7 +55,7 @@ This is one of the differences, however, what is different at the 'core' (center
 </exercise>
 <exercise id="6" title="Joanna Briggs Institute Model for Evidence-Based Healthcare"> 
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/jbi.pdf" width="100%" height="500px"></iframe>
+<iframe src="https://www.aaronconway.info/NUR1027/jbi.pdf" width="100%" height="500px"></iframe>
 </exercise>
 
 <exercise id="7" title="ACE Star Model of Knowledge Transformation"> 
@@ -78,7 +78,7 @@ More information on the ACE Star Model of Knowledge Transformation  can be found
 
 <exercise id="9" title="Challenging the assumptions">
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/wall.pdf" width="100%" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/NUR1027/wall.pdf" width="100%" height="1050px"></iframe>
 </exercise>
 
 <exercise id="10" title="What constitutes 'good' research evidence?">
@@ -125,14 +125,14 @@ A landmark <a href="https://www.nejm.org/doi/full/10.1056/nejmsa022615" >study</
 
 Substantial progress has been made in ensuring that health professionals are capable users of evidence in their practice.  Recently, a consensus statement on core competencies in evidence-based practice for health professionals were developed. This resource may be helpful for you in future administration and leadership roles when advocating for support and resources required by nursing staff to be able to fulfill these competencies.
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/albarqouni.pdf" width="750px" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/NUR1027/albarqouni.pdf" width="750px" height="1050px"></iframe>
 
 </exercise>
 
 <exercise id="12" title="Barriers and Challenges to Evidence-Based Practice">
 
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/dobrow.pdf" width="100%" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/NUR1027/dobrow.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 
@@ -140,7 +140,7 @@ Substantial progress has been made in ensuring that health professionals are cap
 
 
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Gerrish.pdf" width="100%" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/NUR1027/Gerrish.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 
@@ -173,7 +173,18 @@ Gray, J.R., Grove, S.K. & Sutherland, S.  (2017). The Practice of Nursing Resear
 
 <exercise id="15" title="Discussion board">
 
-<a target="_parent" href="https://q.utoronto.ca/courses/86697/discussion_topics/322298">Link to discussions on Quercus</a>
+Don't forget to head back to Quercus to participate in the discussion activity with the class. 
+
+This week, you are asked to consider the question,
+
+**"What is the 'evidence' we need for leadership and administration in nursing?"**
+
+You may like to think about this in terms of providing some examples of research questions/issues/problems are most highly relevant to this field. It may also help to think about and discuss what specific outcomes are highly relevant to leadership and administration issues in nursing. 
+
+Each original post should be a maximum of 200 words. It's a good idea to use APA referencing for evidence cited in your posts, as this is what will be expected of you in the written assignments also.  You are also required to respond to at least one of your peer's posts. 
+
+
+<a target="_parent" href="https://q.utoronto.ca/courses/113018/discussion_topics/326843">Link to discussions on Quercus</a>
 
 `Note: If you are viewing this on the 'Student' mobile app, it is better to navigate back to the discussion section through the app rather than clicking on the link above.`
 

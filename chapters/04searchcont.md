@@ -53,6 +53,8 @@ Enter a term in place of the dotted line. Try out some alternative tags like [TI
 
 <exercise id="4" title="Using Covidence to manage search results">
 
+Click [here](https://ca-lti.bbcollab.com/recording/97683bb4ca8e445483919ec1d5f55a12) if you' like to open the link in an external window.
+
 <iframe src="https://ca-lti.bbcollab.com/recording/97683bb4ca8e445483919ec1d5f55a12" width="100%" height="550px" allowfullscreen></iframe>
 
 </exercise>
@@ -69,9 +71,8 @@ This week you will each practice implementing your search strategy in indexed da
 
 **Remember to respond to one of your peer’s posts!**
 
-<a target="_parent" href="https://q.utoronto.ca/courses/86697/discussion_topics/">Link to discussions on Quercus</a>
+<a target="_parent" href="https://q.utoronto.ca/courses/113018/discussion_topics">Link to discussions on Quercus</a>
 
 `Note: If you are viewing this on the 'Student' mobile app, it is better to navigate back to the discussion section through the app rather than clicking on the link above.`
-
 
 </exercise>

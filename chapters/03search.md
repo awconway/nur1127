@@ -28,7 +28,7 @@ Having already explored the idea of evidence-informed practice and knowledge tra
 
 This paper provides a practical overview for how to formulate clear clinical questions, which is an essential step towards devising an effective literature search strategy. 
 
-<iframe src="https://www.aaronconway.info/NUR1027/stillwell.pdf" width="100%" height="1050px" allowfullscreen webkitallowfullscreen></iframe>
+<iframe src="https://www.aaronconway.info/NUR1027/stillwell.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 
@@ -66,7 +66,7 @@ Identify an area in your practice that is a source of question or uncertainty - 
 
  Remember to respond to one of your peer’s posts!
 
-<a target="_parent" href="https://q.utoronto.ca/courses/86697/discussion_topics/">Link to discussions on Quercus</a>
+<a target="_parent" href="https://q.utoronto.ca/courses/113018/discussion_topics">Link to discussions on Quercus</a>
 
 `Note: If you are viewing this on the 'Student' mobile app, it is better to navigate back to the discussion section through the app rather than clicking on the link above.`
 
