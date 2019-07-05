@@ -26,7 +26,9 @@ Time for some reading. This discussion paper focuses in on the 'evidence' aspect
 </exercise>
 
 <exercise id="3" title="Models of EBP">
-<slides source="chapter1_models">
+<video playsinline controls height="500px" width="100%">
+    <source src="https://res.cloudinary.com/awcoway/video/upload/v1562154714/resize_hoprsq.mp4" type="video/mp4"/>
+</video>
 </exercise>
 
 <exercise id="4" title="Important distinctions between different EBP models" >
@@ -50,7 +52,9 @@ This is one of the differences, however, what is different at the 'core' (center
 
 
 <exercise id="5" title="Process models for EBP">
-<slides source="chapter1_models2">
+<video playsinline controls height="500px" width="100%">
+    <source src="https://res.cloudinary.com/awcoway/video/upload/v1562154714/resize_hoprsq.mp4" type="video/mp4"/>
+</video>
 
 </exercise>
 <exercise id="6" title="Joanna Briggs Institute Model for Evidence-Based Healthcare"> 
@@ -72,9 +76,9 @@ More information on the ACE Star Model of Knowledge Transformation  can be found
 </exercise>
 
 <exercise id="8" title="Criticisms of EBP">
-
-<slides source="chapter1_critiques">
-</exercise>
+<video playsinline controls height="500px" width="100%">
+    <source src="https://res.cloudinary.com/awcoway/video/upload/v1562154714/resize_hoprsq.mp4" type="video/mp4"/>
+</video></exercise>
 
 <exercise id="9" title="Challenging the assumptions">
 
@@ -107,8 +111,6 @@ All research generates evidence. However, not all evidence is the same, and it i
 
 It is also possible to upgrade the quality of evidence assigned to an outcome from a non-randomised or observational study. Upgrading evidence quality for an observational study can be considered when a dose-response gradient is present and large effects are identified (i.e. 2-5 fold reductions or increases in risk). 
 
-
-
 </exercise>
 
 <exercise id="11" title="Why do we need evidence-based practice?">
@@ -137,8 +139,6 @@ Substantial progress has been made in ensuring that health professionals are cap
 </exercise>
 
 <exercise id="13" title="Factors influencing Evidence-Based Practice" >
-
-
 
 <iframe src="https://www.aaronconway.info/NUR1027/Gerrish.pdf" width="100%" height="1050px"></iframe>
 

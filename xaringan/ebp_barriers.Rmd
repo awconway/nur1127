@@ -27,20 +27,20 @@ class:  center, middle
 It's really well documented in the literature from many countries around the world that there are substantial barriers to implementing evidence into nursing practice. The barriers can be broadly categorized into those primarily impacting on the individual person, organizational factors and the actual evidence itself.
 
 ---
-class: top, left
-
+class: top
+.pull-left[
 # Individual
 
 
 ## `r icon::fa("hourglass-end")` Lack of time
-
---
 
 ## `r emo::ji("fearful")` Lack of expertise and confidence
 
 ### `r icon::fa("angle-double-right")`Appraisal
 
 ### `r icon::fa("angle-double-right")`Implementing change
+
+]
 
 ???
 
