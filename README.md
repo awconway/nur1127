@@ -1,5 +1,5 @@
 <p align="center">
-<img src="static/logo.svg" align="center" width="450px"/>
+<a href="https://nur1027.netlify.com"><img src="static/logo.svg" align="center" width="450px" alt="NUR1027"></a>
 </p>
 
 
