@@ -127,7 +127,7 @@ A landmark <a href="https://www.nejm.org/doi/full/10.1056/nejmsa022615" >study</
 
 Substantial progress has been made in ensuring that health professionals are capable users of evidence in their practice.  Recently, a consensus statement on core competencies in evidence-based practice for health professionals were developed. This resource may be helpful for you in future administration and leadership roles when advocating for support and resources required by nursing staff to be able to fulfill these competencies.
 
-<iframe src="https://www.aaronconway.info/NUR1027/albarqouni.pdf" width="750px" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/NUR1027/albarqouni.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 

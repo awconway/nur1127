@@ -33,7 +33,7 @@ This week we look at different approaches for moving knowledge into practice foc
 class: top, animated, fadeIn
 
 .pull-left[
-
+  
 # Objectives
 
 

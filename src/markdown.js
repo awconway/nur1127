@@ -7,6 +7,7 @@ import { Link } from './components/link'
 import Slides from './components/slides'
 import Choice, { Option } from './components/choice'
 import { H3, Hr, Ol, Ul, Li, InlineCode } from './components/typography'
+import { qu } from './components/qu'
 
 export const renderAst = new rehypeReact({
     createElement: React.createElement,
@@ -23,5 +24,6 @@ export const renderAst = new rehypeReact({
         ul: Ul,
         li: Li,
         code: InlineCode,
+        qu: qu,
     },
 }).Compiler
