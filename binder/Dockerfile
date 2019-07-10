@@ -15,7 +15,7 @@ COPY . ${HOME}
 ## COPY binder ${HOME}
 RUN chown -R ${NB_USER} ${HOME}
 RUN Rscript -e "install.packages('RISmed')"
-RUN installGithub.r awconway/nurFunctions
+RUN installGithub.r awconway/pubmed
 
 ## Become normal user again
 USER ${NB_USER}
