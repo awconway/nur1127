@@ -1,0 +1,42 @@
+---
+output:
+  xaringan::moon_reader:
+    seal: false
+    lib_dir: libs
+    css: [default, fonts.css, animate.css]
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      ratio: '16:9'
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(icon)
+library(emo)
+```
+
+class:  center, top
+
+# Facilitation as the essential requirement for successful implementation
+
+???
+
+We saw from Grimshaw's summary of evidence that the more active implementation strategies such as the use of key opinion leaders was more effect at changin practice in comparison with passive interventions like disseminating research findings.
+
+A group of researchers who developed one of the knowledge translation models, known as PARIHS, have expanded on this by hypothesising that 'facilitation' is the key ingredient in translating new knowledge into practice in healthcare. 
+
+---
+
+class:  left, middle 
+
+<img src="facilitation.gif">
+
+
+???
+
+
+

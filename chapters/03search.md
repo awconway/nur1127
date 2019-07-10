@@ -28,7 +28,7 @@ Having already explored the idea of evidence-informed practice and knowledge tra
 
 This paper provides a practical overview for how to formulate clear clinical questions, which is an essential step towards devising an effective literature search strategy. 
 
-<iframe src="https://www.aaronconway.info/NUR1027/stillwell.pdf" width="100%" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/stillwell.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 

@@ -59,7 +59,7 @@ This is one of the differences, however, what is different at the 'core' (center
 </exercise>
 <exercise id="6" title="Joanna Briggs Institute Model for Evidence-Based Healthcare"> 
 
-<iframe src="https://www.aaronconway.info/NUR1027/jbi.pdf" width="100%" height="500px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/jbi.pdf" width="100%" height="500px"></iframe>
 </exercise>
 
 <exercise id="7" title="ACE Star Model of Knowledge Transformation"> 
@@ -82,7 +82,7 @@ More information on the ACE Star Model of Knowledge Transformation  can be found
 
 <exercise id="9" title="Challenging the assumptions">
 
-<iframe src="https://www.aaronconway.info/NUR1027/wall.pdf" width="100%" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/wall.pdf" width="100%" height="1050px"></iframe>
 </exercise>
 
 <exercise id="10" title="What constitutes 'good' research evidence?">
@@ -127,20 +127,20 @@ A landmark <a href="https://www.nejm.org/doi/full/10.1056/nejmsa022615" >study</
 
 Substantial progress has been made in ensuring that health professionals are capable users of evidence in their practice.  Recently, a consensus statement on core competencies in evidence-based practice for health professionals were developed. This resource may be helpful for you in future administration and leadership roles when advocating for support and resources required by nursing staff to be able to fulfill these competencies.
 
-<iframe src="https://www.aaronconway.info/NUR1027/albarqouni.pdf" width="100%" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/albarqouni.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 
 <exercise id="12" title="Barriers and Challenges to Evidence-Based Practice">
 
 
-<iframe src="https://www.aaronconway.info/NUR1027/dobrow.pdf" width="100%" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/dobrow.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 
 <exercise id="13" title="Factors influencing Evidence-Based Practice" >
 
-<iframe src="https://www.aaronconway.info/NUR1027/Gerrish.pdf" width="100%" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Gerrish.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 

@@ -26,7 +26,7 @@ At this point you may wish to first review some of the information first present
 
 <qu>This paper below also provides a simple description of the general process you may wish to take when undertaking a literature search.</qu>
 
-<iframe src="https://www.aaronconway.info/NUR1027/stillwell-2.pdf" width="100%" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/stillwell-2.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 
