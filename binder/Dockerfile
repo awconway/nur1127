@@ -19,5 +19,5 @@ RUN Rscript -e "install.packages('RISmed')"
 ## Become normal user again
 USER ${NB_USER}
 
-CMD R -e "source('search.R')"
+RUN R -e "source('search.R')"
 
