@@ -1,2 +1,1 @@
-source("search.R")
-search("____[MeSH]")
+pubmed::search("____[MeSH]")

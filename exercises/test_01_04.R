@@ -5,8 +5,11 @@ test <- function() {
   if (!grepl("AND", .solution, fixed = TRUE)) {
     stop("The boolean operator that will reduce the number of results returned by a search is AND.")
   }
-  if (!grepl("rounding[TI", .solution, fixed = TRUE)) {
+  if (!grepl("[TI", .solution, fixed = TRUE)) {
     stop("Try using the [TI] or [TIAB] search tag")
+  }
+  if (!grepl("intentional rounding", .solution, fixed = TRUE)) {
+    stop("Did you add in the search term for intentional rounding?")
   }
   
   # This function is defined in the testTemplate

@@ -39,12 +39,10 @@ In the next exercises, we'll be using the Pubmed database (pubmed has mostly the
 <img src="/pubmed-nursing.png"/>
 <br><br>
 
-The first time you enter your search by pressing the 'Submit' button, it will take a little while to load. If the search result hasn't returned after 1 minute - refresh the page. Each subsequent time you press 'Submit' the result will be returned much faster (unless it is idle for >10 minutes).
+<qu>The first time you enter your search by pressing the 'Submit' button, it will take a little while to load. If the search result hasn't returned after 1 minute - refresh the page. Each subsequent time you press 'Submit' in this and the susequent exercises, the result will be returned much faster (unless it is idle for >10 minutes).</qu>
 
 This first exercise is just a simple practice exercise to demonstrate the process and make sure everything is working right. Have a go at using a MeSH term in a search of the pubmed database. Search for the term 'nursing' and see how many results are returned. 
-
-`Be careful not to remove the line of code reading 'source("search.R")', otherwise the result will not be returned.`
-
+  
 <codeblock id="01_03">
 
 Enter the term in place of the dotted line
@@ -80,7 +78,7 @@ In the last exercise we didn't account for the fact that not all studies would h
 
 <exercise id="6" title="Recap">
 
-Great work. In the previous exercises we have practiced refining a search strategy using the pubmed database. It is important to remember that there are differences between databases in regard to wildcacrd operators, adjacency operators, search tags and filters. So careful consideration of this needs to be taken when searching multiple databases. In the next section, I'm going to be introducing you to a tool that can help you manage the next step of the process in searching the literature - screening through the results of the search!
+In the previous exercises we have practiced refining a search strategy using the pubmed database. It is important to remember that there are differences between databases in regard to wildcacrd operators, adjacency operators, search tags and filters. So careful consideration of this needs to be taken when searching multiple databases. In the next section, I'm going to be introducing you to a tool that can help you manage the next step of the process in searching the literature - screening through the results of the search!
 
 </exercise>
 

@@ -21,7 +21,7 @@ id: 2
 
 Time for some reading. This discussion paper focuses in on the 'evidence' aspect of evidence-based practice. The authors take a somewhat different stance to the original notion of EBP devised by David Sackett and colleagues, in that they conceptualized 'evidence' as also incorporating knowledge derived from sources other than original research - namely 'clinical experience', 'patient experience' and information from the 'local context'. 
 
-<iframe src="https://www.aaronconway.info/NUR1027/Rycroft-Malone.pdf" width="100%" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Rycroft-Malone.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 

@@ -15,6 +15,7 @@ test <- function() {
     stop("We need to wrap the synonyms that were combined with OR in brackets before combining them with AND rounding[TIAB]")
   }
   # This function is defined in the testTemplate
-  success("Great work! Combining the different synonyms with rounding really increased how many results were returned by the search but still kept it within a reasonable number to filter through.")
+  success("Great work! Combining the different synonyms with rounding really increased how many results were returned by the search but still kept it within a reasonable 
+number to filter through.")
 }
     
