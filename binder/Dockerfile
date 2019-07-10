@@ -15,10 +15,9 @@ COPY . ${HOME}
 ## COPY binder ${HOME}
 RUN chown -R ${NB_USER} ${HOME}
 RUN Rscript -e "install.packages('RISmed')"
-CMD R -e "source('${HOME}/search.R')"
-
-
 
 ## Become normal user again
 USER ${NB_USER}
+
+CMD R -e "source('search.R')"
 
