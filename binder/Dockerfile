@@ -15,8 +15,8 @@ COPY . ${HOME}
 ## COPY binder ${HOME}
 RUN chown -R ${NB_USER} ${HOME}
 RUN Rscript -e "install.packages('RISmed')"
-RUN Rscript -e "library(RISmed)"
-RUN Rscript -e "search <- function(keyword){QueryCount(EUtilsSummary(keyword))}"
+CMD Rscript search.R
+
 
 
 ## Become normal user again
