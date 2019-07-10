@@ -15,11 +15,13 @@ COPY . ${HOME}
 ## COPY binder ${HOME}
 RUN chown -R ${NB_USER} ${HOME}
 RUN Rscript -e "install.packages('RISmed')"
-RUN installGithub.r awconway/nurFunctions
-
 
 ## Become normal user again
 USER ${NB_USER}
+
+RUN wget https://github.com/karthik/binder-test-fastest/raw/master/DESCRIPTION && \
+R -e "devtools::install_deps()"
+RUN installGithub.r awconway/nurFunctions
 
 
 
