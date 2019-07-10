@@ -19,5 +19,7 @@ RUN Rscript -e "install.packages('RISmed')"
 ## Become normal user again
 USER ${NB_USER}
 
-RUN R -e "source('search.R')"
+RUN Rscript -e "library(RISmed)"
+RUN Rscript -e "pubmedsearch <- function(keyword){QueryCount(EUtilsSummary(keyword))}"
+
 
