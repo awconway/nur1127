@@ -111,6 +111,7 @@ studies to determine Cause and effect relationships
 
 ---
 
+class: center middle
 # Up next
 
 ???
