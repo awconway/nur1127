@@ -12,6 +12,8 @@ id: 7
 
 quant_intro.Rmd
 
+<iframe src="https://player.vimeo.com/video/348165991" width="100%" height="500" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 </exercise>
 
 

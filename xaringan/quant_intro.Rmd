@@ -59,6 +59,7 @@ To understand and apply criteria for assessing rigour in quantitative studies.
 
 ---
 
+class: center, middle
 
 # What makes a study 'quantitative'?
 
@@ -69,12 +70,16 @@ In simplistic terms, there is an easy way to determine if a research study is qu
 
 ---
 
+class: center, middle
 
 ???
 
 As with all research, it is the  question that drives all aspects of the study, and indeed will determine which method is required. Quantitative research usually has a hypothesis which is derived from the research question, and this is tested by studying the effects of ‘predictor’ variables on an ‘outcome’ using inferential statistical methods. Some texts and other sources use the terms 'dependent' variable as a synonym for the 'predictor' and 'independent' variable as a synonym for the 'outcome'. Personally, I prefer to use the terms predictors and outcomes. 
 
 ---
+
+class: center, middle
+
 
 # Epistemology
 
