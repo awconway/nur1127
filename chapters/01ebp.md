@@ -93,23 +93,77 @@ Although evidence-based practice must consider sources outside of research evide
 
 <br><br>
 
-**Methodological quality**
+# Methodological quality
 
 Another core component in deciding what constitutes 'good' research evidence concerns _how_ research is conducted. The way in which research is conducted has a great influence on the conclusions we can draw from it. As we touched on earlier, evidence hierarchies seldom tell the whole story. A systematic review that combined the results of many small randomized controlled trials, which each had limitations in the way they carried out important elements of study procedures such as the randomization procedure and concealment of assigned interventions from participants and outcome assesors, would not provide as important information as a, rigorously conducted single randomized controlled trial - despite the fact that it is 'lower' down on an evidence hierarchy such as that pictured below.
 
 <center><img src="hierarchy.png"/></center>
 <br>
 
-Later in the course, we'll be going into far greater detail about the methodological aspects of different research designs that are important to consider when deciding about the quality of research evidence that is available to inform decision-making as one component of the evidence-based practice framework.
 
-All research generates evidence. However, not all evidence is the same, and it is important that the best evidence is used  in nursing and midwifery practice. To that end, an internationally recognised approach known as GRADE (which stands for Grading of Recommendations Assessment, Development and Evaluation) is recommended by the National Health and Medical Research Council of Australia (NHMRC 2016) as the standard in clinical guideline development. The GRADE system is also used in Cochrane Collaboration systematic reviews to grade the quality of evidence. This system of grading the quality of evidence updates earlier advice that used only research design considerations for evidence grading. By contrast, the GRADE approach involves rating the quality of evidence for each outcome along a continuum of very low, low, moderate or high quality. Evidence from a randomised controlled trial (or meta-analysis where the results of multiple randomised controlled trials have been combined using a statistical approach) is automatically assigned a rating of high quality and non-randomised studies automatically assigned a low rating. However, the evidence rating is then modified downward if there are concerns about:
-1.	The risk of bias associated with the design of the study or studies that provided evidence for that outcome (termed study limitations by GRADE and assessed by risk of detection, performance, attrition, ;
-2.	How precise the results of a study are (termed imprecision by GRADE);
-3.	The degree to which results from different similar studies (comparing the same interventions for example) have varied (termed inconsistency by GRADE);
-4.	The evidence available not being totally relevant to the research question at hand (termed indirectness by GRADE); and 
-5.	The completeness of reporting of research (termed publication bias by grade). 
+# GRADE
 
-It is also possible to upgrade the quality of evidence assigned to an outcome from a non-randomised or observational study. Upgrading evidence quality for an observational study can be considered when a dose-response gradient is present and large effects are identified (i.e. 2-5 fold reductions or increases in risk). 
+<p>All research generates evidence. However, not all evidence is the same, and it is important that the best evidence is used in nursing and midwifery practice. To that end, an internationally recognised approach known as <a href="http://www.gradeworkinggroup.org/">GRADE</a> (which stands for Grading of Recommendations Assessment, Development and Evaluation) is recommended as the standard in clinical guideline development. The GRADE system is also used in <a href="https://www.cochrane.org">Cochrane Collaboration</a> systematic reviews to grade the quality of evidence. This system of grading the quality of evidence updates earlier advice that used only research design considerations for evidence grading. By contrast, the GRADE approach involves rating the quality of evidence for each outcome along a continuum of very low, low, moderate or high quality.</p>
+<p style="text-align: center;"><strong><span>Table 1 Explanations for interpreting level of evidence</span></strong></p>
+<table style="margin-left: auto; margin-right: auto;"></table>
+<table class="ic-Table ic-Table--hover-row">
+<thead>
+<tr>
+<th>Evidence Rating</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="168">
+<p>High</p>
+</td>
+<td width="471">
+<p>Confident that the true effect in the target population is close to the estimate of the effect observed from the participants included in prior research.</p>
+</td>
+</tr>
+<tr>
+<td width="168">
+<p>Moderate</p>
+</td>
+<td width="471">
+<p>There is a possibility that the true effect in the target population is substantially different from the estimate of the effect observed from the participants included in prior research</p>
+</td>
+</tr>
+<tr>
+<td width="168">
+<p>Low</p>
+</td>
+<td width="471">
+<p>True effect in the target population may be substantially different from the estimate of the effect observed from the participants included in prior research</p>
+</td>
+</tr>
+<tr>
+<td width="168">
+<p>Very low</p>
+</td>
+<td width="471">
+<p>The true effect in the target population is likely substantially different from the estimate of the effect observed from the participants included in prior research</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;">&nbsp;</p>
+<p>Evidence from a randomised controlled trial (or meta-analysis where the results of multiple randomised controlled trials have been combined using a statistical approach) is automatically assigned a rating of <em><strong>high</strong></em> quality and non-randomised studies automatically assigned a <em><strong>low</strong></em> rating. However, the evidence rating is then <em><strong>modified downward</strong> </em>if there are concerns about:</p>
+
+
+- The risk of <em><strong>bias</strong></em> associated with the design of the study or studies that provided evidence for that outcome (termed study limitations by GRADE and assessed by risk of detection, performance, attrition);
+- How <em><strong>precise</strong></em> the results of a study are (termed imprecision by GRADE);
+- The degree to which results from different similar studies (comparing the same interventions for example) have <em><strong>varied</strong></em> (termed <strong>inconsistency</strong> by GRADE);
+- The evidence available not being totally <em><strong>relevant</strong></em> to the research question at hand (termed indirectness by GRADE);
+- The completeness of <em><strong>reporting</strong></em> of research (termed publication bias by grade).
+
+
+
+It is also possible to <strong><em>upgrade</em></strong> the quality of evidence assigned to an outcome from a non-randomised or observational study. Upgrading evidence quality for an observational study can be considered when a dose-response gradient is present and large effects are identified (i.e. 2-5 fold reductions or increases in risk) (Guyatt et al., 2011).</p>
+
+
+<qu>Later in the course, we'll be going into far greater detail about the methodological aspects of different research designs that are important to consider when deciding about the quality of research evidence that is available to inform decision-making as one component of the evidence-based practice framework.</qu>
 
 </exercise>
 
