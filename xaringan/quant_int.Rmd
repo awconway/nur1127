@@ -19,26 +19,42 @@ library(icon)
 library(emo)
 ```
 
+class: center, middle
+# Introduction
+
+???
+
+Studies of interventions are focused on determining whether the intervention has some sort of causal relationship with an outcome of interest. To infer causality, a study must provide evidence that the:
+
+---
 
 class: left top
 
 
 ## To infer causality, a study requires that the:
  
-### explanatory (causal) and outcome (effect) variables are associated with each other
-### cause preceded the effect
-### relationship is not able to be explained by another (extraneous) variable/s.
+### `r icon::fa("arrow-right")`  explanatory and outcome variables are associated with each other
+
+--
+
+### `r icon::fa("arrow-right")`  relationship is not able to be explained by another (extraneous) variable/s
+
+--
+
+### `r icon::fa("arrow-right")`  cause preceded the effect
 
 ???
 
-
-Studies of interventions are focused on determining whether the intervention has some sort of causal relationship with an outcome of interest. To infer causality, a study must provide evidence that the:
  
-explanatory (causal) and outcome (effect) variables are associated with each other
-that the cause preceded the effect; and
-that the relationship between the explanatory and outcome variable is not able to be explained by another extraneous effect.
+explanatory and outcome variables are associated with each other
+
+that the relationship between the explanatory and outcome variable is not able to be explained by another extraneous effect; and
+
+that the cause preceded the effect
 
 ---
+
+
 
 # Studies of interventions
 
@@ -50,19 +66,19 @@ that the relationship between the explanatory and outcome variable is not able t
 
 ???
 
-The strongest design to test cause and effect relationships is the randomised controlled trial because these types of studies use the concepts of control, manipulation and randomization. In my opinion, studies that do not use randomization but still apply an intervention are best described simply as a non-randomized study of an intervention. This is in line with the current terminology used by the Cochrane Collaboration, which as you know is a well respected organization revered for it's contribution to evidence-based practice. You may have heard other terms like experimental and quasi-experimental designs, but it's best that we try an move away from that terminology, as it is too ambiguous and can mean different things to different people.
+The strongest design to test cause and effect relationships in an intervention study is the randomised controlled trial because these types of studies use the concepts of control, manipulation and randomization. Studies that do not use randomization but still apply an intervention are best described simply as a non-randomized study of an intervention. This is in line with the current terminology used by the Cochrane Collaboration, which as you know is a well respected organization revered for it's contribution to evidence-based practice. You may have heard other terms like experimental and quasi-experimental designs, but it's best that we try an move away from that terminology, as it is too ambiguous and can mean different things when used in different contexts.
 
 ]
-
-
-## Non-randomized studies of interventions
 
 
 ---
 
 
+## Up next
 
 
 ???
 
-Non-randomized studies of interventions allows for the effect of variables that will bring a degree of bias to the study and thus reduce the likelihood of the study to determine whether measured differences in a particular outcome between a group of people who received a particular intervention/treatment were due to the effects of that particular intervention/treatment instead of some other reason (Cartwright 2010). The RCT should be conducted with every effort possible to reduce risk of bias. The RCT is considered the &lsquo;gold standard&rsquo; in quantitative research, but an RCT often difficult. It may not be practical to allocate participants randomly, or it may not be feasible to blind them or the researchers as to what arm (branch) of the study they have been allocated. There are many reasons why a RCT may not be possible, or ethical. That is why the GRADE approach incorporates a system of classifying the quality of evidence from non-randomised and observational studies.
+In the next section, there is a brief overview of different types of quantitative research design that fit into the category of non-randomized studies of interventions. These types of non-randomised studies of interventions manipulate the treatment but either don't have a control group or they don't use randomisation. For this reason, the ability for these studies to determine cause and effect relationships is weakened.
+
+

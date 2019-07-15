@@ -4,6 +4,8 @@ output:
     seal: false
     lib_dir: libs
     css: [default, fonts.css, animate.css]
+    includes:
+      in_header: fa.html
     nature:
       slideNumberFormat: |
         <div class="progress-bar-container">
@@ -61,7 +63,8 @@ manipulation
 
 class: center, middle
 
-# Control
+# Control `r icon::fa("users")` <i class="far fa-users"></i>
+
 
 ???
 
@@ -71,7 +74,7 @@ Control is achieved in a study by comparing an outcome between one or more group
 
 class: center, middle
 
-# Randomization
+# Randomization `r icon::fa("dice")`
 
 ???
 
@@ -81,7 +84,7 @@ Random assignment to study groups is designed to ensure that the participants in
 
 class: center, middle
 
-# Manipulation
+# Manipulation `r icon::fa("random")`
 
 ???
 

@@ -12,7 +12,6 @@ id: 7
 
 quant_intro.Rmd
 
-<iframe src="https://player.vimeo.com/video/348165991" width="100%" height="500" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
@@ -75,7 +74,7 @@ Observational studies can be either retrospective or prospective. In a retrospec
 
 Select the research design used by the study outlined below.
 
-A case control study was used by a group of Australian nurse researchers to identify risk factors for incident delirium in patients admitted to hospital for acute medical care (Tomlinson et al 2016). An audit tool was used to review medical records of patients admitted to acute medical units for data regarding potential risk factors for delirium. Included in the study were 161 patients admitted to an acute medical ward and diagnosed **with** incident delirium as well as 321 patients sampled from the acute medical population admitted within the same time range, stratified for admission location but **without** a diagnosis of incident delirium during their admission. The researchers identified a selection of predisposing and precipitating risk factors. Predisposing risk factors included dementia, cognitive impairment, functional impairment, previous delirium and fracture on admission. Precipitating risk factors included the use of an indwelling catheter, adding more than three medications during admission and having an abnormal sodium level during admission.
+A case control study was used by a group of Australian nurse researchers to identify risk factors for incident delirium in patients admitted to hospital for acute medical care (<a href="https://onlinelibrary-wiley-com.myaccess.library.utoronto.ca/doi/full/10.1111/jocn.13529">Tomlinson et al 2017</a>). An audit tool was used to review medical records of patients admitted to acute medical units for data regarding potential risk factors for delirium. Included in the study were 161 patients admitted to an acute medical ward and diagnosed **with** incident delirium as well as 321 patients sampled from the acute medical population admitted within the same time range, stratified for admission location but **without** a diagnosis of incident delirium during their admission. The researchers identified a selection of predisposing and precipitating risk factors. Predisposing risk factors included dementia, cognitive impairment, functional impairment, previous delirium and fracture on admission. Precipitating risk factors included the use of an indwelling catheter, adding more than three medications during admission and having an abnormal sodium level during admission.
 
 <choice>
 
@@ -141,13 +140,117 @@ quant_int.Rmd
 
 </exercise>
 
-<exercise id="8" title="Sampling">
+<exercise id="8" title="Non-randomized studies of interventions">
 
-quant_samplings.Rmd
+The gold standard for testing interventions is usually a randomised controlled trial but for many reasons a researcher may decide to use a different type of design. For example, suppose you were interested in the effects of a new discharge education program that is being introduced into your service. You could randomly assign participants to either receive the new program or the usual aproach but there may be a number of practical or administrative reasons why this is not feasible. As an alternative, you may decide it is would be possible to compare the outcomes of the patients admitted to your unit (the intervention group) with those of a similar unit that has not implemented the program (the control group). 
+These types of non-randomised studies of interventions manipulate the treatment (intervention, explanatory variable) but lack at least one of either a control arm or randomisation. The common types of non-randomized studies of interventions are:
+
+- Non-equivalent control group studies
+- Pre-test–post-test studies
+- Before–after design
+- Interrupted time-series studies
+
+
+# Non-equivalent control group studies
+
+The example provided above about comparing patient outcomes between similar units that either did or did not introduce a new discharge education program could be described as a non-equivalent control group study. A major limitation of this design is that it assumes the two groups are equivalent before the intervetion was introduced, which is highly likely not to be the case.
+
+# Pre-test–post-test studies
+
+This approach is used to determine the effect of a treatment or intervention on a given sample of participants. Despite its severe weakness arising from the fact that there is no way to tell that the intervention was the source of any change observed between the two measurement time-points, the design is frequently used to study the effectiveness of interventions in nursing (<a href="https://journals-sagepub-com.myaccess.library.utoronto.ca/doi/full/10.1177/1054773816666280">Knapp, 2016</a>). 
+
+# Before–after design
+
+This design is particularly common in health service research and implementation studies where the focus of the intervention is at the service or facility level. For example, it is common in knowledge translation studies for there to be a pre-intervention baseline measurement of clinician's adherence to guideline recommendations followed by a measurement after the implementation of some sort of intervention to improve adherence. Similar to all non-randomised designs, the lack of randomisation increases the risk of bias from systematic errors.
+
+# Interrupted time-series studies
+
+Another approach when only one group is available is to study that group over a longer period using a time-series design. In this design, the variable of interest is measured at multiple time points with the intervention introduced at a predetermined mid-midpoint. If the intervention has a casual effect then the mean, or the slop of the trend, of the pre intervention data should be different to that of the post intervention data. For example, researchers used this type of design to determine if the quality of handover improved after implementing a 'evidence-based nursing shift handover blueprint' (<a href="https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S0897189716300878">Smeulers et al., 2016</a>).
 
 </exercise>
 
-<exercise id="12" title="Reading">
+<exercise id="9" title="Randomized controlled trials">
+
+quant_RCT.Rmd
+
+</exercise>
+
+<exercise id="10" title="Sampling">
+
+Sampling in quantiative research can be categorized as having either used probalistic or non-probabistic methods.
+
+# Probability sampling
+
+If probability sampling methods are used, every member of the population has an equal chance of being included in the sample. A specific type of probability sampling is 'stratified random sampling'. This approach may be used when researchers are interested in ensuring that their sample is representative of particular subgroups. Broad stratification variables could include age, sex or particular medical diagnosis groups. Systematic sampling is a different type of probability sampling approach. This approach is possible when an ordered list of the population is available, and every n<sup>th</sup> person can be included in the sample. What makes this approach 'probabilistic' is if the starting point is selected at random.
+
+
+
+# Non-probability sampling
+
+Non-probability sampling is commonly used in quantitative research. It is commonly termed 'convenience sampling'. In other words, participants are selected because they are 'conveniently' available and accessible to the researchers. When non-probability sampling is used, one must consider the extent to which the sampling approach could have influenced the external validity of the results. It is possible that the participants who were conveniently available to the researchers are not an accurate represenation of the broader population that they belong to. 
+
+Another subtype of non-probability sampling is known as 'quota sampling'. This could be used when a researcher pre-specifies the number of participants they will recruit who share a common characteristic that is important to the study. 
+
+<qu>It is important to note the distinction between 'random sampling' and 'random allocation' to intervention and control groups in a randomized controlled trial. RCT's often use non-probability sampling methods, especially in clinical research.</qu>
+
+</exercise>
+
+<exercise id="11" title="Sampling review">
+
+Which study used systematic sampling?
+
+<choice>
+
+<opt text="A nurse distributes a questionnaire about breastfeeding intentions to the first 100 available pregnant women.">
+</opt>
+<opt text="Every 8th person on a diabetic clinic client roster was asked to participate in the study. A random number table was used to start the sampling during the first sampling interval." correct="TRUE">
+</opt>
+<opt text="Using a random number table, a sample of 50 participants was selected from a list of all mothers who gave birth in the country during the first six months of the year.">
+</opt>
+</exercise>
+
+<exercise id="12" title="Risk of bias">
+
+quant_bias.Rmd
+
+</exercise>
+
+
+<exercise id="13" title="Learning activity">
+
+There will be no online discussion this week. Please read the article and answer the following critical appraisal and reflection questions.
+
+Critical appraisal questions:
+
+- Was there a clear statement of the study purpose? Consider: what was the goal of the research; why it was thought important; its relevance.
+
+- Was the research design appropriate to address the aims/purpose of the research?
+
+- What sampling method was used? Was the recruitment strategy appropriate to the aims of the research? Consider if the researcher has explained how the participants were selected.
+
+- Can the results be generalized (applied) to the population of interest? (External validity)
+
+- How were the variables conceptualized and operationalized?
+
+[We will address measures & results in Week 7]. Reminder: there is no online discussion this week- we will continue this discussion in Week 7.
+
+Reflection:
+
+a) How did you feel about your understanding of the article? What parts did you feel most confident about?
+
+b) Were there any aspects of the article that you felt unclear about? 
+
+c) What are the main assumptions about knowledge that underpin quantitative research? (You may want to think back to some of the ideas discussed in Week 5.)
+
+d) How do these assumptions lead to criteria for judging the “goodness” of a quantitative research report?
+
+
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/curtis.pdf" width="100%" height="1050px"></iframe>
+
+
+</exercise>
+
+<exercise id="14" title="Reading">
 
 **Required Reading**
 
