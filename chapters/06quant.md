@@ -93,13 +93,13 @@ Although technically correct in that the data were collected retrospectively, th
 </exercise>
 
 
-<exercise id="5" title="Elements of quantitative designs">
+<exercise id="4" title="Elements of quantitative designs">
 
 quant_elements.Rmd
 
 </exercise>
 
-<exercise id="6" title="Exercise">
+<exercise id="5" title="Exercise">
 
 Which of these statements is true?
 
@@ -134,13 +134,13 @@ This description is more in line with a 'pre-test post-test' study design, which
 </exercise>
 
 
-<exercise id="7" title="Interventional designs">
+<exercise id="6" title="Interventional designs">
 
 quant_int.Rmd
 
 </exercise>
 
-<exercise id="8" title="Non-randomized studies of interventions">
+<exercise id="7" title="Non-randomized studies of interventions">
 
 The gold standard for testing interventions is usually a randomised controlled trial but for many reasons a researcher may decide to use a different type of design. For example, suppose you were interested in the effects of a new discharge education program that is being introduced into your service. You could randomly assign participants to either receive the new program or the usual aproach but there may be a number of practical or administrative reasons why this is not feasible. As an alternative, you may decide it is would be possible to compare the outcomes of the patients admitted to your unit (the intervention group) with those of a similar unit that has not implemented the program (the control group). 
 These types of non-randomised studies of interventions manipulate the treatment (intervention, explanatory variable) but lack at least one of either a control arm or randomisation. The common types of non-randomized studies of interventions are:
@@ -169,13 +169,13 @@ Another approach when only one group is available is to study that group over a 
 
 </exercise>
 
-<exercise id="9" title="Randomized controlled trials">
+<exercise id="8" title="Randomized controlled trials">
 
 quant_RCT.Rmd
 
 </exercise>
 
-<exercise id="10" title="Sampling">
+<exercise id="9" title="Sampling">
 
 Sampling in quantiative research can be categorized as having either used probalistic or non-probabistic methods.
 
@@ -195,7 +195,7 @@ Another subtype of non-probability sampling is known as 'quota sampling'. This c
 
 </exercise>
 
-<exercise id="11" title="Sampling review">
+<exercise id="10" title="Sampling review">
 
 Which study used systematic sampling?
 
@@ -209,20 +209,22 @@ Which study used systematic sampling?
 </opt>
 </exercise>
 
-<exercise id="12" title="Risk of bias">
+<exercise id="11" title="Risk of bias">
 
 quant_bias.Rmd
 
 </exercise>
 
 
-<exercise id="13" title="Learning activity">
+<exercise id="12" title="Learning activity">
 
-There will be no online discussion this week. Please read the article and answer the following critical appraisal and reflection questions.
+There will be no online discussion this week. Please read the article and consider the following critical appraisal and reflection questions.
+
+<qu>You may wish to contribute some of your critical appraisal as annotations using the 'hypothes.is' feature that has been enabled in the pdf viewer. This will enable others in the course to reply to your annotations with additional viewpoints about the critical appraisal issues you may have raised. To do this, you would need to sign up for an account. More information is available [here.](https://hypothes.is)</qu>
 
 Critical appraisal questions:
 
-- Was there a clear statement of the study purpose? Consider: what was the goal of the research; why it was thought important; its relevance.
+- Was there a clear statement of the study purpose? Consider: the goal of the research; why it was thought to be important; its relevance.
 
 - Was the research design appropriate to address the aims/purpose of the research?
 
@@ -232,7 +234,7 @@ Critical appraisal questions:
 
 - How were the variables conceptualized and operationalized?
 
-[We will address measures & results in Week 7]. Reminder: there is no online discussion this week- we will continue this discussion in Week 7.
+[We will address measures & results in Week 7].
 
 Reflection:
 
@@ -250,7 +252,7 @@ d) How do these assumptions lead to criteria for judging the “goodness” of a
 
 </exercise>
 
-<exercise id="14" title="Reading">
+<exercise id="13" title="Reading">
 
 **Required Reading**
 
@@ -266,8 +268,8 @@ Lancaster, G.A. & Titman, A.C. (2012). Using evidence from quantitative studies.
 
 **Additional**
 
-Fineout-Overholt, E., Melnyk, B., Stillwell, S., & Williamson, K.  (2010). Critical appraisal of the evidence:  Part I.  American Journal of Nursing, 110(7), 47-52. http://simplelink.library.utoronto.ca/url.cfm/114802 
-Fineout-Overholt, E., Melnyk, B., Stillwell, S., & Williamson, K.  (2010). Critical appraisal of the evidence:  Part II.  American Journal of Nursing, 110(9), 41-48. http://simplelink.library.utoronto.ca/url.cfm/114803 
+[Fineout-Overholt, E., Melnyk, B., Stillwell, S., & Williamson, K.  (2010). Critical appraisal of the evidence:  Part I.  American Journal of Nursing, 110(7), 47-52.](http://simplelink.library.utoronto.ca/url.cfm/114802)
+[Fineout-Overholt, E., Melnyk, B., Stillwell, S., & Williamson, K.  (2010). Critical appraisal of the evidence:  Part II.  American Journal of Nursing, 110(9), 41-48.](http://simplelink.library.utoronto.ca/url.cfm/114803 )
 
 
 </exercise>

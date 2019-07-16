@@ -52,6 +52,7 @@ module.exports = {
             options: {
                 plugins: [
                     `gatsby-remark-copy-linked-files`,
+                   `gatsby-remark-emoji-unicode`,
                     {
                         resolve: `gatsby-remark-prismjs`,
                         options: {
