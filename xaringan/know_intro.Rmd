@@ -39,7 +39,7 @@ class: left, top
 
 ???
 
-Our objectives are to start to understand the paradigms that have informed the development of different research and theoretical approaches used in nursing and in particular, to situate qualitative and quantitative research within their respective philosophical/epistemological foundations.
+Our objectives are to start to understand the philosophies that have informed the development of different research and theoretical approaches used in nursing and in particular, to situate qualitative and quantitative research within their respective epistemological foundations.
 
 ---
 class: left, middle
@@ -52,7 +52,7 @@ class: left, middle
 
 ???
 
-First up, I want to introduce you to the terms ontology, epistemology and methodology. Understanding what these terms means will help you understand the basis for different types of quantitative and qualitative research. This is essential because there are implications for appraising and using the evidence derived from the research. Let's look what ontology is first.
+First up, I want to introduce you to the terms ontology, epistemology and methodology. Understanding what these terms mean will help you understand the basis for different types of quantitative and qualitative research. This is essential because there are implications for appraising and using the evidence derived from that research. Let's look at ontology is first.
 
 ---
 
@@ -63,7 +63,7 @@ class: left, middle
 ><h1>one's beliefs about reality</h1>
 
 ???
-Basically, ontology is one's beliefs about reality. Different kinds of research are founded on different beliefs about what we think truth is. In other words, what we think reality is, will shape what we think we can know about reality. That is why it is important to understand ontology when you are learning about and critiquing research.
+Basically, ontology is one's beliefs about reality. Different kinds of research are founded on different beliefs about what we think truth is. In other words, what we think reality is, will shape what we think we can KNOW about reality. That is why it is important to understand ontology when you are learning about, and critiquing research.
 
 Philosophies about reality can be divided in different ways. When you are just starting to learn about research it helps to understand the two types of ontology that are essentially opposites: 
 
@@ -76,7 +76,7 @@ class: left, middle
 # Relativism
 
 ???
-These are Realism and Relativism. Once you understand these two types of ontology you can more easily understand others.
+These are Realism and Relativism.
 
 First let's look into realism. 
 
@@ -103,7 +103,7 @@ class: left, top
 
 ???
 
-The opposite view of reality is called relativism. Relativists believe in multiple versions of reality. For relativists, what is real is going to depend on the meaning you attach to it. And since reality is created by how we see things, it is going to evolve and change depending on your experiences. Because reality for relativists is context bound it cannot be generalized. It can only be transferred to other similar contexts.
+The opposite view of reality is called relativism. Relativists believe in multiple versions of reality. For relativists, what is real is going to depend on the meaning you attach to it. And since reality is created by how we see things, it is going to evolve and change depending on your experiences. Because reality for relativists is context bound it can't be generalized. It can only be transferred to other similar contexts.
 
 
 ---

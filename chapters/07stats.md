@@ -7,3 +7,10 @@ next: null
 type: chapter
 id: 8
 ---
+
+<exercise id="1" title="Introduction">
+
+stats_intro.Rmd
+
+</exercise>
+

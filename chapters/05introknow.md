@@ -53,7 +53,24 @@ know_method.Rmd
 
 </exercise>
 
-<exercise id="6" title="Summary of approaches to knowledge production">
+<exercise id="6" title="Multiple paradigms of nursing science">
+
+This article will introduce you to research paradigms and to two paradigms in particular: Empiricism and the Interpretive paradigm. While reading this, try and keep in mind what we just learnt about ontology. What ontological view is aligned with the Interprative paradigm? Realist or Relativism??:confused:  
+
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/monti.pdf" width="100%" height="1050px"></iframe>
+
+</exercise>
+
+<exercise id="7" title="Summary of approaches to knowledge production">
+
+This diagram may be useful in helping you understand how the different paradigms align with ontology and epistemology. It is clear that positivist and interpretivism are opposites, with critical realism borrowing aspects from both ontological and epistemological viewpoints. Research conducted within the critical realism paradigm often uses qualitative methodology or mixed methods.
+
+<img src="paradigm.png"></img>
+<br><br>
+Figure source: [The Use of Digital Analytics for_Measuring_and_
+Optimizing Digital Marketing Performance](https://www.researchgate.net/publication/310628854_)
+
+
 
 
 # Positivism/Postpositivism Paradigms
@@ -83,11 +100,14 @@ know_method.Rmd
 
 </exercise>
 
-<exercise id="7" title="Multiple paradigms of nursing science">
+<exercise id="9" title="Research paradigms explained">
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/monti.pdf" width="100%" height="1050px"></iframe>
+To bring everything together, it would be good to read through this paper. In includes illustrative examples from nursing researcher's about their thought processes in choosing a research paradigm and how it informed each component of the design of their studies, including the methodology and methods. 
+
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/houghton.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
+
 
 <exercise id="12" title="Readings">
 

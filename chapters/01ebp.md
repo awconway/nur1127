@@ -32,7 +32,6 @@ Time for some reading. This discussion paper focuses in on the 'evidence' aspect
 </exercise>
 
 <exercise id="4" title="Important distinctions between different EBP models" >
-
 What is the major difference between the two different EBP models presented below?<br><br>
 <choice>
 <opt text="One model values patient-centred care more than clinical expertise" correct="true">
@@ -44,12 +43,13 @@ Good job! It is clear the Rycroft-Malone model is heavily focused on the outcome
 <opt text="Health care resources are not considered in both models">
 
 This is one of the differences, however, what is different at the 'core' (center) of these two different models, suggesting it as the component of most value to the model?
+</opt>
 
 </choice>
 
 <div><center><img  src="rycroft.png">
 <img src="guyatt.png"></center></div>
-<br><br>
+
 
 </exercise>
 
