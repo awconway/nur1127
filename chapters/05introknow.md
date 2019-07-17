@@ -11,7 +11,7 @@ id: 6
 
 <exercise id="1" title="Introduction">
 
-know_intro.Rmd
+know_intro.Rmd :smile:
 
 
 </exercise>
@@ -29,7 +29,7 @@ Relativistis believe that multiple realities exist that need to be interpreted. 
 </opt>
 
 <opt text="Realism" correct="TRUE">
-Although you will never read a statement about the researcher's 'ontology' in the methods section of an RCT, the fact that this design was chosen implies that researchers are indeed aligned with a 'realist' ontology. Great work! Now - on to epistemology!
+Although you will never read a statement about the researcher's 'ontology' in the methods section of an RCT, the fact that this design was chosen implies that researchers are indeed aligned with a 'realist' ontology. Great work! Now - on to epistemology:sunglasses:
 </opt>
 
 </exercise>
