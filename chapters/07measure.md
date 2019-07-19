@@ -205,19 +205,43 @@ measure_consistency.Rmd
 
 </exercise>
 
-<exercise id="14" title="Stability">
+<exercise id="14" title="Stability Exercise 1">
 
-The stability of a measurement instrument can be assessed by determinig the extent to which similar results are obtained on successive a applications. It is most commonly assessed by calculating test-retest reliability. In terms of calculation it is similar to inter-rater reliability in that we are interested in estimating the *agreement* between ratings beyond random chance. Assessment of the stability of a measurement instrument is a necessary requirement to be able to determine if the magnitude of a difference between two measurements is real (i.e. a difference larger than measurement error). 
+The stability of a measurement instrument can be assessed by determinig the extent to which similar results are obtained on successive applications. It can be assessed by calculating test-retest reliability. In terms of calculation, this is similar to inter-rater reliability in that we are interested in estimating the *agreement* between ratings beyond random chance.
 
-The difference is that the ratings should be performed by the same person within a period of time in which, theoretically, the underlying construct being measured should not have changed. Another consideration for measuring test-retest reliability, in particular for *indirect* measurements, is that the interval between measurements should ideally be long enough so that the respondent would not just be able to recall their exact responses from the previous rating.
+The difference is that the ratings should be performed by the same person within a period of time that the underlying construct being measured should not have changed. However, complicating things a little, we need to also ensure, in particular for *indirect* measurements, that the interval between measurements is not so brief that the respondent would just be able to recall their exact responses from their previous rating.
 
-Stability is important for both *direct* and *indirect* measurements and is calculated in a similar way. Let's again use one of my studies as an example to demonstrate the concept. In a [study](https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S1053077015005510) I conducted a few years ago, we measured pre and post-procedural temperature of a sample of patients undergoing procedures in a cath lab using an infrared aural canal thermometer. To reduce *random* error, we measured temperature 3 times in a row with the same thermometer and took the average fo use in our analysis. However, this device is commonly used in practice, so we also wanted to determine the test-retest reliability for temperature measurements with an infrared aural canal thermometer. First, let's see what the data looks like by making a plot.
+Stability is important for both *direct* and *indirect* measurements and is calculated in a similar way. Let's again use one of my studies as an example to demonstrate the concept. 
+
+In a [study](https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S1053077015005510) I conducted a few years ago, we measured pre and post-procedural temperature of a sample of patients undergoing procedures in a cath lab using an infrared aural canal thermometer. To reduce *random* error, we measured temperature 3 times in a row with the same thermometer and took the average fo use in our analysis. However, this device is commonly used in practice, so we also wanted to determine the test-retest reliability for temperature measurements with an infrared aural canal thermometer. First, let's see what the data looks like by making a plot.
 
 <qu>We want to create a line plot of the 3 repeated measurements of temperature recorded before procedures for the first 20 participants. In place of the dotted lines, plot *time* on the x-axis and *temp* on the y-axis.</qu>
 
 <codeblock id="07_06">
 Replace the dotted lines with the words time for the x-axis and temp for the y-axis.
 </codeblock>
+
+</exercise>
+
+
+<exercise id="15" title="Stability Exercise 2">
+
+We clearly saw that temperature measurements changed over the repeated measurements even though they were taken immediately after one another. So evaluating the stability of the measurement is vital. 
+
+
+The **intra-class correlation coefficient (ICC)** is the recommended reliability statistic for measurements taken on a continuous scale - i.e. interval and ratio (and also ordinal if using the special case of treating the numbers assigned to rankings as interval) ([COSMIN](http://www.cosmin.nl/images/upload/files/COSMIN%20checklist%20manual%20v9.pdf)). ICC values range between 0 and 1, with values closer to 1 reflecting strong reliability. Below is a reference table from ([Koo & Li, 2015](https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S1556370716000158)), that you may find useful when appraising studies using instruments that you consider should have demonstrated adequate test-retest reliability in order to determine that the data collected from the instrument is 'trustworthy'.
+
+|ICC |Interpretation|
+|---|---|
+|<0.5 | Poor reliability|
+|0.5 - 0.75| Moderate reliability|
+|0.75 - 0.9| Good reliability|
+|>0.9| Excellent reliability|
+
+
+ICC calculates both consistency of measurements from test to retest (within subject changes), and change in average measurements of participating subjects over time (systematic changes). 
+
+It is also important to note that assessment of the stability of a measurement instrument is a necessary requirement to be able to determine if the magnitude of a difference between two measurements is real (i.e. a difference larger than measurement error). 
 
 </exercise>
 
