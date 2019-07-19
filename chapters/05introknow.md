@@ -100,16 +100,18 @@ Optimizing Digital Marketing Performance](https://www.researchgate.net/publicati
 
 </exercise>
 
-<exercise id="9" title="Research paradigms explained">
+<exercise id="8" title="Research paradigms explained">
 
-To bring everything together, it would be good to read through this paper. In includes illustrative examples from nursing researcher's about their thought processes in choosing a research paradigm and how it informed each component of the design of their studies, including the methodology and methods. 
+That brings to an end the summary of important concepts around research paradigms that I wanted to introduce you to this week :raised_hands:
+
+To bring everything together, you may like to read through this paper. It includes illustrative examples from nursing researchers about their thought processes in choosing a research paradigm and how their final decision then informed each component of the design of their studies, including the methodology and methods. 
 
 <iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/houghton.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 
 
-<exercise id="12" title="Readings">
+<exercise id="9" title="Readings">
 
 *Required*
 
@@ -124,7 +126,7 @@ Gray, J.R., Grove, S.K. & Sutherland, S.  (2017). The Practice of Nursing Resear
 
 
 
-<exercise id="13" title="Discussion">
+<exercise id="10" title="Discussion">
 
 
 In this week’s readings, you have encountered the different ways major approaches to research have been categorized (e.g., Monti &  Tingen, and Long & Dunphy).
@@ -132,5 +134,9 @@ In this week’s readings, you have encountered the different ways major approac
 - Reflecting on your clinical and/or research experiences, how would you describe your own epistemological, ontological, and methodological assumptions? Think about which of the approaches we have explored is/are closest to your own assumptions about truth, knowledge, and the nature of reality.
 - Think back to the practice question you developed in Week 3. Which paradigm does your question fit into? Why?
 
+
+<a target="_parent" href="https://q.utoronto.ca/courses/113018/discussion_topics/326843">Link to discussions on Quercus</a>
+
+<qu>Note: If you are viewing this on the 'Student' mobile app, it is better to navigate back to the discussion section through the app rather than clicking on the link above.</qu>
 
 </exercise>

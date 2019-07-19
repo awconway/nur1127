@@ -1,7 +1,7 @@
 ---
-title: 'Week 10: Sampling, Data Collection, and Data Analysis in Qualitative Research'
+title: 'Week 10: Qualitative Approaches to Research'
 description:
-  'We will look at common approaches to sampling, data collection, and data analysis in qualitative research.'
+  'This is an introduction to qualitative research methodology used in social and health sciences. We look at how critical-social and constructivist-interpretive views have shaped knowledge production through qualitative research approaches.'
 prev: null
 next: null
 type: chapter

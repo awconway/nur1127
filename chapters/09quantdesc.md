@@ -1,9 +1,9 @@
 ---
-title: 'Week 8: Interpretation and Critical Appraisal of Quantitative Descriptive Studies'
+title: 'Week 9: Quantitative descriptive'
 description:
   'Important concepts regarding the purpose and major approaches for quantitative description.'
 prev: null
 next: null
 type: chapter
-id: 9
+id: 10
 ---

@@ -3,13 +3,13 @@ test <- function() {
   # string value of the solution, available as .solution. See the testTemplate
   # in the meta.json for details.
   if (!grepl("AND", .solution, fixed = TRUE)) {
-    stop("The boolean operator that will reduce the number of results returned by a search is AND.")
+    stop("The boolean operator that will reduce the number of results returned by a search is AND. For the solution or a hint, press the buttons below.")
   }
   if (!grepl("[TI", .solution, fixed = TRUE)) {
-    stop("Try using the [TI] or [TIAB] search tag")
+    stop("Try using the [TI] or [TIAB] search tag. For the solution or a hint, press the buttons below.")
   }
   if (!grepl("intentional rounding", .solution, fixed = TRUE)) {
-    stop("Did you add in the search term for intentional rounding?")
+    stop("Did you add in the search term for intentional rounding? For the solution or a hint, press the buttons below.")
   }
   
   # This function is defined in the testTemplate

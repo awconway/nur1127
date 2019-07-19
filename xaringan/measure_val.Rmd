@@ -1,0 +1,34 @@
+
+
+
+
+class: left top
+
+# Inter-rater reliability
+
+
+???
+
+We could simply calculate how many of the individual items within an instrument 
+
+
+---
+
+class: left top
+
+# Measurement validity
+
+<img src="validity.png" height="500px" width="auto">
+
+???
+Now for validity. This is concerned with determining if we are measuring what we claim? There are several different ways that researchers can test the validity of the measurement they are using. An easy way of remembering these may be thinking of the 3 C's of validity. They are Content, Construct and Criterion.  
+
+---
+
+class: center, middle
+
+# Up next
+
+
+???
+
