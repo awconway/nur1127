@@ -11,7 +11,7 @@ the other. For the solution or a hint, press the buttons below.")
 value. So we can't calculate the average. For the solution or a hint, press the buttons below.")
   }
   # This function is defined in the testTemplate
-  success("You got this down! In this example, we used the special case for ordinal 
+success("You got this down! In this example, we used the special case for ordinal 
 variables whereby we treated the numerical values assigned to the rankings 
 essentially as an interval level measurement.")
 }

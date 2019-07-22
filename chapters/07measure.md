@@ -157,7 +157,7 @@ Let's go through a real example for how this is done. One of my recent studies a
 
 <codeblock id="07_03">
 
-Insert the word airway and quality in place of the dotted lines and then press 'run code'.
+Insert the words airway and quality in place of the dotted lines and then press 'submit'.
 
 </codeblock>
 
@@ -170,11 +170,11 @@ One simple way we can determine agreement is to calculate the proportion of time
 <qu>Use the `agree::percent` function to calculate overall agreement between the two raters for the airway and quality dataframes</qu>
 
 <codeblock id="07_04">
-
+We need to insert the words airway and quality into the brackets to run the analysis
 </codeblock>
 </exercise>
 
-<exercise id="12" title="Inter-rater reliability 3">
+<exercise id="13" title="Inter-rater reliability 3">
 
 In the last exercise, you calculated some basic statistics for agreement between the two raters. *However,* this calculation does not account for the potential that agreement was observed due to random chance. To adjust for that, we need to use a different statistical test. In research papers that use some sort of indirect measurement instrument, like a scale or a survey, it is likely that you will come across this statistic being reported when the researchers are talking about the reliability of the instrument they used. 
 
@@ -192,30 +192,30 @@ Kappa is a better way to measure reliability than simple percent agreement calcu
 |0.8 - 1| Very strong agreement|
 
 
-<qu>Use the `agree:weightedKappa` function to calculate correlation coefficient with 95% confidence intervals between the two raters for the airway and quality dataframes</qu>
+<qu>Use the `agree:weightedKappa` function to calculate the correlation coefficient between the two raters for the airway and quality dataframes</qu>
 
 <codeblock id="07_05">
 
 </codeblock>
 </exercise>
 
-<exercise id="13" title="Internal consistency">
+<exercise id="14" title="Internal consistency">
 
 measure_consistency.Rmd
 
 </exercise>
 
-<exercise id="14" title="Stability Exercise 1">
+<exercise id="15" title="Stability Exercise 1">
 
-The stability of a measurement instrument can be assessed by determinig the extent to which similar results are obtained on successive applications. It can be assessed by calculating test-retest reliability. In terms of calculation, this is similar to inter-rater reliability in that we are interested in estimating the *agreement* between ratings beyond random chance.
+The stability of a measurement instrument can be assessed by determinig the extent to which similar results are obtained on successive applications. It can be assessed by calculating test-retest reliability. In terms of calculation, this is similar to inter-rater reliability in that we are interested in estimating the agreement between ratings *beyond random chance.*
 
 The difference is that the ratings should be performed by the same person within a period of time that the underlying construct being measured should not have changed. However, complicating things a little, we need to also ensure, in particular for *indirect* measurements, that the interval between measurements is not so brief that the respondent would just be able to recall their exact responses from their previous rating.
 
-Stability is important for both *direct* and *indirect* measurements and is calculated in a similar way. Let's again use one of my studies as an example to demonstrate the concept. 
+However, stability is important for both *direct* and *indirect* measurements and is calculated in a similar way. Let's again use one of my studies as an example to demonstrate the concept. 
 
-In a [study](https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S1053077015005510) I conducted a few years ago, we measured pre and post-procedural temperature of a sample of patients undergoing procedures in a cath lab using an infrared aural canal thermometer. To reduce *random* error, we measured temperature 3 times in a row with the same thermometer and took the average fo use in our analysis. However, this device is commonly used in practice, so we also wanted to determine the test-retest reliability for temperature measurements with an infrared aural canal thermometer. First, let's see what the data looks like by making a plot.
+In a [study](https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S1053077015005510) I conducted a few years ago, we measured pre and post-procedural temperature of a sample of patients undergoing procedures in a cath lab using an infrared aural canal thermometer. To reduce *random* error for the primary outcome of the study (prevalence of hypothermia defined as temperature below 36&deg;C), we measured temperature 3 times in a row with the same thermometer and took the average fo use in our analysis. However, this is not how thermometers like this are commonly used in clinica practice. It is more common to just take one reading. So, as a secondary analysis, we also wanted to determine the test-retest reliability for temperature measurements with an infrared aural canal thermometer. First, let's get a sense of how much variation in temperature measurements there were over the three repeated measurements (termed T1, T2, T3 in the dataset). The best way to do this is with data visualization.
 
-<qu>We want to create a line plot of the 3 repeated measurements of temperature recorded before procedures for the first 20 participants. In place of the dotted lines, plot *time* on the x-axis and *temp* on the y-axis.</qu>
+<qu>We want to create a line plot of the 3 repeated measurements of temperature recorded for the first 20 participants. In place of the dotted lines, plot *time* on the x-axis and *temp* on the y-axis.</qu>
 
 <codeblock id="07_06">
 Replace the dotted lines with the words time for the x-axis and temp for the y-axis.
@@ -224,7 +224,7 @@ Replace the dotted lines with the words time for the x-axis and temp for the y-a
 </exercise>
 
 
-<exercise id="15" title="Stability Exercise 2">
+<exercise id="16" title="Stability Exercise 2">
 
 We clearly saw that temperature measurements changed over the repeated measurements even though they were taken immediately after one another. So evaluating the stability of the measurement is vital. 
 
@@ -239,9 +239,32 @@ The **intra-class correlation coefficient (ICC)** is the recommended reliability
 |>0.9| Excellent reliability|
 
 
-ICC calculates both consistency of measurements from test to retest (within subject changes), and change in average measurements of participating subjects over time (systematic changes). 
+ICC calculates both consistency of measurements from test to retest (within subject changes), and change in average measurements of participating subjects over time (systematic changes).
+
+<qu>To calculate the intraclass correlation coefficient for the three repeated temperature measurements in the 767 participants included in the sample, insert the name of the full dataset (iccdata) in place of the dotted lines and press 'submit'</qu>
+
+<codeblock id="07_07">
+We just need to input the name of the data set (iccdata). 
+</codeblock>
+
+</exercise>
+
+<exercise id="17" title="Stability Exercise 3">
+
+Although that reference guide for interpreting ICC's for test-retest reliability is useful, a downside of the ICC is that it is essentially 'unitless'. A different statistic, known as Standard Error of Meaurement (SEM), provides an absolute index of reliability, which has the same units as the measurement of interest. The SEM can be calculated with the formula: 
+
+*SEM=SD√1-ICC,* 
+
+where SD is the average of the standard deviations of repeated measurements. Let's calculate for SEM for the temperature measurements.
+
+<qu>In the first line of code, input the names of the timepoints in which temperature was measured so that we can calculate the average of the standard deviations of temperature measurements. In the second line of code, insert the value for the ICC we calculated in the last exercise.</qu>
+
+<codeblock id="07_08">
+The icc calculated in the last exercise was 0.74. Think back to the plot we made for the names of the timepoints that temperature was measured.
+</codeblock>
+
+
 
 It is also important to note that assessment of the stability of a measurement instrument is a necessary requirement to be able to determine if the magnitude of a difference between two measurements is real (i.e. a difference larger than measurement error). 
-
 </exercise>
 

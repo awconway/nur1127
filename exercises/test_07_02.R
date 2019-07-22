@@ -7,6 +7,7 @@ test <- function() {
 the other. For the solution or a hint, press the buttons below.")
   }
   # This function is defined in the testTemplate
-  success("Correct! Nominal variables can not be used to determine if one observation is lesser or greathan than another observation.")
+success("Correct! Nominal variables can not be used to determine if one observation 
+is lesser or greathan than another observation.")
 }
     

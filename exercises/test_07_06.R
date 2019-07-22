@@ -9,7 +9,6 @@ test <- function() {
     stop("No need to use quotes. Just write the word time")
   }  
   # This function is defined in the testTemplate
-  success("Looks like a lot of variation between repeated measurements.
-We definitely need to calculate the agreement here. Move on to the next
-exercise to find out how.")
+success("Looks like a lot of variation between repeated measurements. We definitely 
+need to calculate the agreement here. Move on to the next exercise to find out how.")
 }

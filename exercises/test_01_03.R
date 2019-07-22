@@ -7,5 +7,5 @@ test <- function() {
 press the buttons below")
     }
     # This function is defined in the testTemplate
-    success("Well done!")
+success("Well done!")
 }
