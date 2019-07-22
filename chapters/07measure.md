@@ -211,9 +211,9 @@ The stability of a measurement instrument can be assessed by determinig the exte
 
 The difference is that the ratings should be performed by the same person within a period of time that the underlying construct being measured should not have changed. However, complicating things a little, we need to also ensure, in particular for *indirect* measurements, that the interval between measurements is not so brief that the respondent would just be able to recall their exact responses from their previous rating.
 
-However, stability is important for both *direct* and *indirect* measurements and is calculated in a similar way. Let's again use one of my studies as an example to demonstrate the concept. 
+Stability is important for both *direct* and *indirect* measurements and is calculated in a similar way. Let's again use one of my studies as an example to demonstrate the concept. 
 
-In a [study](https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S1053077015005510) I conducted a few years ago, we measured pre and post-procedural temperature of a sample of patients undergoing procedures in a cath lab using an infrared aural canal thermometer. To reduce *random* error for the primary outcome of the study (prevalence of hypothermia defined as temperature below 36&deg;C), we measured temperature 3 times in a row with the same thermometer and took the average fo use in our analysis. However, this is not how thermometers like this are commonly used in clinica practice. It is more common to just take one reading. So, as a secondary analysis, we also wanted to determine the test-retest reliability for temperature measurements with an infrared aural canal thermometer. First, let's get a sense of how much variation in temperature measurements there were over the three repeated measurements (termed T1, T2, T3 in the dataset). The best way to do this is with data visualization.
+In this [study](https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S1053077015005510), we measured pre and post-procedural temperature of a large sample of patients undergoing procedures in a cath lab using an infrared aural canal thermometer. To reduce *random* error for the primary outcome of the study (prevalence of hypothermia defined as temperature below 36&deg;C), we measured temperature 3 times in a row with the same thermometer and took the average for use in our analysis. However, this is not how thermometers like this are commonly used in clinica practice. It is more common to just take one reading. So, as a secondary analysis, we also wanted to determine the test-retest reliability for temperature measurements with an infrared aural canal thermometer. First, let's get a sense of how much variation in temperature measurements there were over the three repeated measurements (these variables were named T1, T2, T3 in the dataset). The best way to do this is with data visualization.
 
 <qu>We want to create a line plot of the 3 repeated measurements of temperature recorded for the first 20 participants. In place of the dotted lines, plot *time* on the x-axis and *temp* on the y-axis.</qu>
 
@@ -244,7 +244,7 @@ ICC calculates both consistency of measurements from test to retest (within subj
 <qu>To calculate the intraclass correlation coefficient for the three repeated temperature measurements in the 767 participants included in the sample, insert the name of the full dataset (iccdata) in place of the dotted lines and press 'submit'</qu>
 
 <codeblock id="07_07">
-We just need to input the name of the data set (iccdata). 
+We just need to input the name of the data set, which is iccdata. 
 </codeblock>
 
 </exercise>
@@ -260,7 +260,7 @@ where SD is the average of the standard deviations of repeated measurements. Let
 <qu>In the first line of code, input the names of the timepoints in which temperature was measured so that we can calculate the average of the standard deviations of temperature measurements. In the second line of code, insert the value for the ICC we calculated in the last exercise.</qu>
 
 <codeblock id="07_08">
-The icc calculated in the last exercise was 0.74. Head back to the plot we made for the names of the timepoints that temperature was measured.
+The icc calculated in the last exercise was 0.74. Head back to the plot we made for the names of the timepoints that temperature was measured. The $ is just an operator to select a column by name from a dataset.
 </codeblock>
 
 </exercise>
@@ -278,4 +278,20 @@ Because we measured temperature 3 times for each participant, and each score has
 <codeblock id="07_09">
 The icc calculated in the last exercise was 0.74. Head back to the plot we made for the names of the timepoints that temperature was measured.
 </codeblock>
+</exercise>
+
+<exercise id="19" title="Validity">
+
+measure_val.Rmd
+
+</exercise>
+
+<exercise id="20" title="Convergent validity">
+
+It is good to have evidence to support the validity of a measurement instrument from the populations in which it is being used. One common instrument used to measure depression is called the PHQ-9, which stands for the Patient Health Questionnaire 9-item scale. Psychological disorders, such as depression, are common after heart transplant. Prior to a [study](https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S0897189716300982I) I conducted a number of years ago, the validity of this scale had not been evaluated for heart transplant recipients. To demonstrate the principles of convergent validity - let's do some analyses!
+
+So, we know from the video that one way to demonstrate that the PHQ-9 measures what it intends to measure, would be to show that PHQ-9 scores from a sample of heart transplant recipients are associated with scores from a measure of a related construct. There is good evidence to support the theory that people with greater levels of depressive symptoms have worser health-related quality of life. So in the study, we asked a sample of 80 heart transplant recipients to rate both their level of depressive symptoms using the PHQ-9 and their health-related quality of life using the Medical Outcomes [Short Form 36-item Health Survey](https://www-sciencedirect-com.myaccess.library.utoronto.ca/topics/nursing-and-health-professions/short-form-36) (SF-36). Let's take a look at the data.
+
+
+
 </exercise>

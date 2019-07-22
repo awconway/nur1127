@@ -11,6 +11,6 @@ test <- function() {
   # This function is defined in the testTemplate
 success("So - looks like we were right. Agreement between ratings was only 80% for the 
 airway component of TROOPS. Agreement for sedation quality was much better. 
-However, we have not taken into account 'chance'agreement. Go on to the 
+However, we have not taken into account 'chance' agreement. Go on to the 
 next exercise to learn more about this.")
 }

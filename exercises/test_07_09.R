@@ -9,9 +9,9 @@ if (!grepl("measurements <- 3", .solution, fixed = TRUE)) {
     stop("There were 3 repeated measuements of temperature taken for each participant")
   }
   # This function is defined in the testTemplate
-success("Well done! But wow. The minimal difference is 0.87&deg;C! That means that 
+success("Well done! But wow. The minimal difference is 0.87°C! That means that 
 repeated measurements of temperature taken by infrared tympanic thermometers over 
-time are required to be at least 0.876°C higher or lower than the previous reading 
+time are required to be at least 0.87°C higher or lower than the previous reading 
 for the change to be considered real (i.e. not as a result of random variation or 
 measurement error).")
 }

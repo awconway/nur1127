@@ -11,7 +11,7 @@ id: 2
 
 <exercise id="1" title="What is EBP?">
 
-<video playsinline controls height="500px" width="100%">
+<video playsinline controls poster="logo.svg" height="500px" width="100%">
     <source src="https://res.cloudinary.com/awcoway/video/upload/v1562154714/resize_hoprsq.mp4" type="video/mp4"/>
 </video>
 
