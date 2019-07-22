@@ -1,7 +1,4 @@
-library(agree)
+agree::percent(____)
 
-irr::agree(____)  
-
-irr::agree(____)  
-
+agree::percent(____)
 

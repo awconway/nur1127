@@ -1,6 +1,3 @@
-library(agree)
-options(warn=-1)
+agree::weightedKappa(____)
 
-psych::cohen.kappa(table(____))
-
-psych::cohen.kappa(table(____))
+agree::weightedKappa(____)

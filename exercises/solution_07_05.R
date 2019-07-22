@@ -1,6 +1,3 @@
-library(agree)
-options(warn=-1)
+agree::weightedKappa(airway)
 
-psych::cohen.kappa(table(airway))
-
-psych::cohen.kappa(table(quality))
+agree::weightedKappa(quality)

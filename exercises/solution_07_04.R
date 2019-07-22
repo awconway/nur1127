@@ -1,7 +1,4 @@
-library(agree)
+agree::percent(____)
 
-irr::agree(airway)
-
-
-irr::agree(quality)
+agree::percent(____)
 

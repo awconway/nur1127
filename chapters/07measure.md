@@ -167,7 +167,7 @@ Insert the word airway and quality in place of the dotted lines and then press '
 
 One simple way we can determine agreement is to calculate the proportion of times in which there was agreement. Let's do that now. 
 
-<qu>Use the `irr::agree` function to calculate overall agreement between the two raters for the airway and quality dataframes</qu>
+<qu>Use the `agree::percent` function to calculate overall agreement between the two raters for the airway and quality dataframes</qu>
 
 <codeblock id="07_04">
 
@@ -192,7 +192,7 @@ Kappa is a better way to measure reliability than simple percent agreement calcu
 |0.8 - 1| Very strong agreement|
 
 
-<qu>Use the `psych::cohen.kappa` function to calculate correlation coefficient with 95% confidence intervals between the two raters for the airway and quality dataframes</qu>
+<qu>Use the `agree:weightedKappa` function to calculate correlation coefficient with 95% confidence intervals between the two raters for the airway and quality dataframes</qu>
 
 <codeblock id="07_05">
 
