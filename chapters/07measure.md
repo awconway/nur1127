@@ -260,11 +260,22 @@ where SD is the average of the standard deviations of repeated measurements. Let
 <qu>In the first line of code, input the names of the timepoints in which temperature was measured so that we can calculate the average of the standard deviations of temperature measurements. In the second line of code, insert the value for the ICC we calculated in the last exercise.</qu>
 
 <codeblock id="07_08">
-The icc calculated in the last exercise was 0.74. Think back to the plot we made for the names of the timepoints that temperature was measured.
+The icc calculated in the last exercise was 0.74. Head back to the plot we made for the names of the timepoints that temperature was measured.
 </codeblock>
 
-
-
-It is also important to note that assessment of the stability of a measurement instrument is a necessary requirement to be able to determine if the magnitude of a difference between two measurements is real (i.e. a difference larger than measurement error). 
 </exercise>
 
+<exercise id="18" title="Stability Exercise 4">
+
+Where SEM comes in really handy is when it is used to determine if the magnitude of a difference between two measurements is real (i.e. if the difference is larger than measurement error). It is calculated with the following formula:
+
+*SEM x 1.96 x √number of measurements*
+
+Because we measured temperature 3 times for each participant, and each score has a 'true' component and 'error' component,  multiplying the SEM by the square root of the number of measurements solves for the standard deviation of difference scores and then multiplying by 1.96 allows for construction of 95% confidence intervals. Let's calculate it now.
+
+<qu>In the first line of code, enter in the SEM that we calculated in the last exercise. In the second line of code, enter in the number of repeated measurements that were taken for each participant in the study.</qu>
+
+<codeblock id="07_09">
+The icc calculated in the last exercise was 0.74. Head back to the plot we made for the names of the timepoints that temperature was measured.
+</codeblock>
+</exercise>
