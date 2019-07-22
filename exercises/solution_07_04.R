@@ -1,4 +1,4 @@
-agree::percent(____)
+agree::percent(airway)
 
-agree::percent(____)
+agree::percent(quality)
 
