@@ -12,7 +12,7 @@ test <- function() {
 success("Good job! What we can see from the results above is that both 
 dataframes consist of two ordinal variables with 40 observations each. 
 What we can also already see is that agreement between the two raters is 
-not perfect. For example, rater 1's 3rd observation was classes as 'None', 
-whereas rater 2 classed this as a 'Minor' complication. Let's invesigate
-further in the next exercise.")
+not perfect. For example, rater 1's 3rd observation was classed as 'None', 
+whereas rater 2 classed this procedure as having a 'Minor' airway complication. 
+Let's invesigate further in the next exercise.")
 }
