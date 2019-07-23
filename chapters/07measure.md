@@ -286,12 +286,91 @@ measure_val.Rmd
 
 </exercise>
 
-<exercise id="20" title="Convergent validity">
+<exercise id="20" title="Convergent validity Exercise 1">
 
 It is good to have evidence to support the validity of a measurement instrument from the populations in which it is being used. One common instrument used to measure depression is called the PHQ-9, which stands for the Patient Health Questionnaire 9-item scale. Psychological disorders, such as depression, are common after heart transplant. Prior to a [study](https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S0897189716300982I) I conducted a number of years ago, the validity of this scale had not been evaluated for heart transplant recipients. To demonstrate the principles of convergent validity - let's do some analyses!
 
-So, we know from the video that one way to demonstrate that the PHQ-9 measures what it intends to measure, would be to show that PHQ-9 scores from a sample of heart transplant recipients are associated with scores from a measure of a related construct. There is good evidence to support the theory that people with greater levels of depressive symptoms have worser health-related quality of life. So in the study, we asked a sample of 80 heart transplant recipients to rate both their level of depressive symptoms using the PHQ-9 and their health-related quality of life using the Medical Outcomes [Short Form 36-item Health Survey](https://www-sciencedirect-com.myaccess.library.utoronto.ca/topics/nursing-and-health-professions/short-form-36) (SF-36). Let's take a look at the data.
+So, we know from the video that one way to demonstrate that the PHQ-9 measures what it intends to measure, would be to show that PHQ-9 scores from a sample of heart transplant recipients are associated with scores from a measure of a related construct. There is good evidence to support the theory that people with greater levels of depressive symptoms have worse health-related quality of life. In our study, we asked a sample of 80 heart transplant recipients to rate both their level of depressive symptoms using the PHQ-9 and their health-related quality of life using the Medical Outcomes [Short Form 36-item Health Survey](https://www-sciencedirect-com.myaccess.library.utoronto.ca/topics/nursing-and-health-professions/short-form-36) (SF-36). In particular, the Mental Component Summary (MCS) subscale within the SF-36 measures the mental health dimension that makes up the construct of health-related quality of life as a whole. So if we think back to the target, in this situation it would be split into two halves - the shots fired on one side of the target represent the items contained within the Mental Health subscale and the shots fired that hit the other side of the target represent the items contained within the Physical Health subscale. Frist take a look at the data and then answer the question below.
 
+<qu>We want to plot participant scores for the mental health (MCS) and physical health (PCS) subscales of the SF-36 against their scores on the PHQ9. To do this, place SF36 subscales on the x-axes for the two plots and PHQ9 on the y-axes.</qu>
+
+
+<codeblock id="07_10">
+The name of the variable for the mental health subscale is MCS and for physical health it is PCS. The name of the variable for the PHQ9 is PHQ9.
+</codeblock>
+
+
+What is true about these plots?
+
+<choice>
+<opt text="Participants who had high MCS scores tended to have lower PHQ9 scores" correct="TRUE">
+
+:smile:
+
+</opt>
+
+<opt text="Participants who had high PCS scores tended to have lower PHQ9 scores">
+
+I wouldn't be confident to draw this conclusion from the plot. There seems to be clusters of points in the bottom left corner that probably wouldn't be there if there was a really strong negative correlation between these two scores.
+
+</opt>
+
+<opt text="There is a positive correlation between MCS scores and PHQ9 scores">
+
+The fact that higher MCS scores seem to be associated with lower PHQ9 scores would be better characterized as a 'negative' correlation because they are headed in opposite directions.
+
+</opt>
+
+</choice>
+
+</exercise>
+
+<exercise id="21" title="Convergent validity Exercise 2">
+
+Plotting the scores gave us some good initial insight into the associations between health-related quality of life and severity of depression scores measured by the PHQ-9. It seemed that there may have been an association for the mental health dimension, but not quite so for the physical health. This is of course to be expected. Now, we should do some statistical tests to properly evaluate the convergent validity of the PHQ-9. To provide evidence of convergent validity, we *hypothesize* that greater scores on the PHQ-9 scores (indicating worse depressive symptoms) are associated with lower scores in the mental health subscale of the SF36 (lower scores indicate worse quality of life). To do this, we can conduct a test to determine the correlation between the two scores. The updated plot below shows clearly that there was a statistically significant (p<0.001) negative correlation between the MCS and PHQ9 scores. This confirms our hypothesis and provides evidence of the convergent validity of the PHQ9.
+<div align="center">
+<img src="MCS.png">
+</div>
+<br><br>
+<qu>I haven't shown an example of divergent validity, but this is just the opposite of convergent. We would instead make a hypothesis that scores on the new instrument would *not* be associated with the another measurement that theoretically should not be related to the construct in question.</qu>
+</exercise>
+
+<exercise id="22" title="Criterion validity">
+
+measure_criterion.Rmd
+
+</exercise>
+
+<exercise id="23" title="Reading">
+
+**Relevant chapters on measurement from your text for your reference**
+
+Gray, J.R., Grove, S.K. & Sutherland, S.  (2017). The Practice of Nursing Research (8th ed.)
+- Chapter 16: Measurement concepts (pp. 363 - 393).
+- Chapter 17: Measurement methods used in developing evidence-based practice (pp. 411-430).
+
+</exercise>
+
+
+<exercise id="24" title="Discussion">
+
+We're looking at the same article as last week except focusing our discussion on the measurement, validity and reliability aspects of the research design.
+
+Each student is asked to respond to one of the following questions:
+
+- How were the variables conceptualized and operationalized?
+
+- Were the data collection methods clearly described? Do these methods align with the main assumptions underpinning quantitative research?
+
+- Were the instrument(s) (e.g., questionnaire) clearly described?
+
+- How were reliability and validity of the measures (e.g., instruments) assessed?  
+
+<a target="_parent" href="https://q.utoronto.ca/courses/113018/discussion_topics/326843">Link to discussions on Quercus</a>
+
+`Note: If you are viewing this on the 'Student' mobile app, it is better to navigate back to the discussion section through the app rather than clicking on the link above.`
+
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/curtis.pdf" width="100%" height="1050px"></iframe>
 
 
 </exercise>
