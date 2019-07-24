@@ -20,7 +20,6 @@ RUN Rscript -e "install.packages('irr')"
 RUN installGithub.r awconway/pubmed
 RUN installGithub.r awconway/retest
 RUN installGithub.r awconway/agree
-RUN installGithub.r awconway/validity
 
 
 
