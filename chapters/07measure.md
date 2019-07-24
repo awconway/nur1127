@@ -327,11 +327,13 @@ The fact that higher MCS scores seem to be associated with lower PHQ9 scores wou
 
 <exercise id="21" title="Convergent validity 2">
 
-Plotting the scores gave us some good initial insight into the associations between health-related quality of life and severity of depression scores measured by the PHQ-9. It seemed that there may have been an association for the mental health dimension, but not quite so for the physical health. This is of course to be expected. Now, we should do some statistical tests to properly evaluate the convergent validity of the PHQ-9. To provide evidence of convergent validity, we *hypothesize* that greater scores on the PHQ-9 scores (indicating worse depressive symptoms) are associated with lower scores in the mental health subscale of the SF36 (lower scores indicate worse quality of life). To do this, we can conduct a test to determine the correlation between the two scores. The updated plot below shows clearly that there was a statistically significant (p<0.001) negative correlation between the MCS and PHQ9 scores. This confirms our hypothesis and provides evidence of the convergent validity of the PHQ9.
-<div align="center">
-<img src="MCS.png">
-</div>
-<br><br>
+Plotting the scores gave us some good initial insight into the associations between health-related quality of life and severity of depression scores measured by the PHQ-9. It seemed that there may have been an association for the mental health dimension, but not quite so for the physical health. This is of course to be expected. Now we should do some statistical tests to properly evaluate the convergent validity of the PHQ-9. To provide evidence of convergent validity, we *hypothesize* that greater scores on the PHQ-9 (indicating worse depressive symptoms) are associated with lower scores in the mental health subscale of the SF36 (lower scores indicate worse quality of life). To do this, we can conduct a test to determine the correlation between the two scores. 
+
+<qu>Create a new plot below using the `corrPlot` function to determine if there is a statistically significant correlation between the MCS and PHQ9 scores. This plot will fit a regression line to the data points and show the Pearson's correlation coefficient</qu>
+
+<codeblock id="07_11">
+The name of the variable for the mental health subscale is MCS and the name of the variable for the PHQ9 is PHQ9.
+</codeblock>
 
 <qu>I haven't shown an example of divergent validity, but this is just the opposite of convergent. We would instead make a hypothesis that scores on the new instrument would *not* be associated with the another measurement that theoretically should not be related to the construct in question.</qu>
 
