@@ -286,7 +286,7 @@ measure_val.Rmd
 
 </exercise>
 
-<exercise id="20" title="Convergent validity 1">
+<exercise id="20" title="Convergent Validity Exercise 1">
 
 It is good to have evidence to support the validity of a measurement instrument from the populations in which it is being used. One common instrument used to measure depression is called the PHQ-9, which stands for the Patient Health Questionnaire 9-item scale. Psychological disorders, such as depression, are common after heart transplant. Prior to a [study](https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S0897189716300982I) I conducted a number of years ago, the validity of this scale had not been evaluated for heart transplant recipients. To demonstrate the principles of convergent validity - let's do some analyses!
 
@@ -303,11 +303,6 @@ The name of the variable for the mental health subscale is MCS and for physical 
 What is true about these plots?
 
 <choice>
-<opt text="Participants who had high MCS scores tended to have lower PHQ9 scores" correct="TRUE">
-
-:smile:
-
-</opt>
 
 <opt text="Participants who had high PCS scores tended to have lower PHQ9 scores">
 
@@ -321,15 +316,22 @@ The fact that higher MCS scores seem to be associated with lower PHQ9 scores wou
 
 </opt>
 
+<opt text="Participants who had high MCS scores tended to have lower PHQ9 scores" correct="TRUE">
+
+:smile:
+
+</opt>
+
+
 </choice>
 
 </exercise>
 
-<exercise id="21" title="Convergent validity 2">
+<exercise id="21" title="Convergent Validity Exercise 2">
 
 Plotting the scores gave us some good initial insight into the associations between health-related quality of life and severity of depression scores measured by the PHQ-9. It seemed that there may have been an association for the mental health dimension, but not quite so for the physical health. This is of course to be expected. Now we should do some statistical tests to properly evaluate the convergent validity of the PHQ-9. To provide evidence of convergent validity, we *hypothesize* that greater scores on the PHQ-9 (indicating worse depressive symptoms) are associated with lower scores in the mental health subscale of the SF36 (lower scores indicate worse quality of life). To do this, we can conduct a test to determine the correlation between the two scores. 
 
-<qu>Create a new plot below using the `corrPlot` function to determine if there is a statistically significant correlation between the MCS and PHQ9 scores. This plot will fit a regression line to the data points and show the Pearson's correlation coefficient</qu>
+<qu>Create a new plot below using the `corrPlot` function to determine if there is a statistically significant correlation between the MCS and PHQ9 scores. This plot will fit a regression line to the data points and show the Pearson's correlation coefficient.</qu>
 
 <codeblock id="07_11">
 The name of the variable for the mental health subscale is MCS and the name of the variable for the PHQ9 is PHQ9.

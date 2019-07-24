@@ -7,3 +7,40 @@ next: null
 type: chapter
 id: 9
 ---
+
+
+
+<exercise id="23" title="Reading">
+
+**Relevant chapters on measurement from your text for your reference**
+
+Gray, J.R., Grove, S.K. & Sutherland, S.  (2017). The Practice of Nursing Research (8th ed.)
+- Chapter 21: Introduction to Statistical Analysis
+- Chapter 22: Using Statistics to Describe Variables
+- Chapter 23: Using Statistics to Examine Relationships
+- Chapter 24: Using Statistics to Predict
+- Chapter 25: Using Statistics to Determine Differences
+
+</exercise>
+
+<exercise id="24" title="Discussion">
+
+This week we continue with our critical appraisal of the Curtis & Glacken (2014) article.
+
+Each student is asked to respond to one of the following questions. Some of you may discuss the same question, but please ensure all questions are addressed.
+
+- Were the data analysis procedures clearly described and appropriate for the type of data collected?
+- Were the results presented in a clear and understandable format? (e.g., tables, etc).
+- What were the study results? Did the results address the study purpose and research questions?
+- What does this study contribute to our knowledge? How does it extend or connect with what we already know?
+- How are the results relevant to practice in your context?
+- Were the identified implications for practice appropriate, based on the study findings?
+- Did the study have weaknesses not identified by the researcher?
+
+<a target="_parent" href="https://q.utoronto.ca/courses/113018/discussion_topics/326843">Link to discussions on Quercus</a>
+
+`Note: If you are viewing this on the 'Student' mobile app, it is better to navigate back to the discussion section through the app rather than clicking on the link above.`
+
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/curtis.pdf" width="100%" height="1050px"></iframe>
+
+</exercise>
