@@ -46,12 +46,7 @@ class: middle
 ]
 
 ???
-The first concept is feasibility, which  relates to the extent to which an activity or intervention is practical or viable in a given context or situation.
-Appropriateness relates to the extent to which an intervention or activity fits with a context or situation.
-Meaningfulness refers to how an intervention or activity is experienced by an individual or group and the meanings they ascribe to that experience.
-Effectiveness relates to the extent to which an intervention achieves the intended result or outcome. 
-
-So although different terminology is used, these core concepts are still somewhat similar to the previous models we've already looked at, which broadly stated that evidence-based practice refers to incorporating research evidence, past experiences and patient values into decision-making. 
+The concepts include feasibility, appropriateness, Meaningfulness and effectiveness. Although different terminology is used, these core concepts are still somewhat similar to the previous models we've already looked at, which broadly stated that evidence-based practice refers to incorporating research evidence, past experiences and patient values into decision-making. 
 
 
 ---
