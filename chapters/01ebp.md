@@ -11,7 +11,7 @@ id: 2
 
 <exercise id="1" title="What is EBP?">
 
-<iframe src="https://player.vimeo.com/video/350140601" width="100%" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/353020834" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
@@ -76,9 +76,9 @@ More information on the ACE Star Model of Knowledge Transformation  can be found
 </exercise>
 
 <exercise id="8" title="Criticisms of EBP">
-<video playsinline controls height="500px" width="100%">
-    <source src="https://res.cloudinary.com/awcoway/video/upload/v1562154714/resize_hoprsq.mp4" type="video/mp4"/>
-</video></exercise>
+
+<iframe src="https://player.vimeo.com/video/353023203" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 
 <exercise id="9" title="Challenging the assumptions">
 
