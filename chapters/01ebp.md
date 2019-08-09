@@ -53,9 +53,8 @@ This is one of the differences, however, what is different at the 'core' (center
 
 
 <exercise id="5" title="Process models for EBP">
-<video playsinline controls height="500px" width="100%">
-    <source src="https://res.cloudinary.com/awcoway/video/upload/v1562154714/resize_hoprsq.mp4" type="video/mp4"/>
-</video>
+
+<iframe src="https://player.vimeo.com/video/353012900" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 <exercise id="6" title="Joanna Briggs Institute Model for Evidence-Based Healthcare"> 
