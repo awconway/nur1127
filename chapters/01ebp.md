@@ -79,6 +79,7 @@ More information on the ACE Star Model of Knowledge Transformation  can be found
 
 <iframe src="https://player.vimeo.com/video/353023203" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
+</exercise>
 
 <exercise id="9" title="Challenging the assumptions">
 
