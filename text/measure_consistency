@@ -1,0 +1,10 @@
+We've already covered one of the ways that a measurement instruement can demonstrate reliability. The next type of measurement reliability we'll cover is commonly known as internal consistency. So what exactly are we trying to measure here? Let's find out.
+---
+Internal consistency measures the extent to which an instrument is consistent within itself. There are a number of different ways that a researcher can evaluate the internal consistency of an instrument. I'll introduce you to two of these. First up is split-half reliability.
+---
+This type of calculation aims to answer the question, do all parts of the instrument contribute equally to measurement? And it works exactly how you would think it does. The items in the instrument are split in half and the correlation between the two halves is calculated. High correlations would indicate reliability. Although this is an accepted approach to measure internal consistency, it isn't used as commonly as another approach, known as Cronbach's alpha. One big downside of split-half reliability is that it can really only be used for surveys with a really large number of items that are meant to be measuring just one construct.
+---
+Cronbach's alpha coefficient is calculated to answer the question, are all items consistent measures of the construct? You will definitely come across this coefficient in research papers you are appraising, so it's important you understand what it means. So, how do we know if the Cronbach's alpha coefficient reported in a paper is good or not? Fortunately, there are some rules of thumb to guide us. In general terms, an instrument with a Cronbach's alpha greater than 0.7 would be considered reliable. Values lower than that may mean the instrument requires further revision. On the other hand, a Cronbach's alpha may be too high. Values approach 1 would indicate that items within the survey may be too alike, which can cause issues down the line when applying other statistical techniques with data collected using that instrument. 
+---
+The final way to establish measurement reliability is termed stability. This will be covered in the next exercises. 
+

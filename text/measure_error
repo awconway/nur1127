@@ -1,0 +1,15 @@
+Any type of measurement is subject to some error. It is important to understand the difference between two sources of error. 
+---
+One is random measurement error. This is caused by factors that effect a measurement in an unpredictable way where the result will be higher or lower than is actually the case. Let's use an example of measuring a person's weight on a scale. Weight scales are not perfectly calibrated so each time you use it, the measurement may be a little higher or lower than your true weight. The underlying factors contributing to this random error may be the internal mechanisms within the scale, but the key point is whether or not it id unpredictable if the scale measures your weight a little below or a little above your true weight. In other words - the error is random. The best way to account for this random error in this example, would be to step on the scale multiple times and take the average of the measurements. What this is doing is averaging out the errors. 
+---
+The other type of measurement error to be aware of when appraising quantiative research is systematic error. This is caused by factors that effect the measure in a predictable way, whether that be higher or lower than the true value. Suppose that the scale you use to measure weight is placed on a floor that is slightly warped. Each time you measure your weight, it slightly increases your weight by a few hundred grams over your true weight. This is a systematic measurement error because it effected the measurement of weight in a predictable way. 
+
+Sometimes, systematic errors may be able to be corrected whereas random error, by definition really can't be because it is unpredictable. 
+---
+Now that we understand that with each measurement there is some sort of error, which may be systematic or random, we can appreciate that a measurement will comprise three components. These are: the underlying True value of the measurement; the observed value that we got when we measured it; and the total value of the errors. This can be rewritten in equation form in a couple of different ways to make the concept easier to understand. 
+
+So for example, when we observe a measurement, we can simply think of this as the true value plus the error. 
+---
+To summarise, measurements can be effected by both systematic and random error. Random error can be reduced by repeating measurements and taking the average. Repeating measurements will not change systematic error but the underlying causes for systematic error can be corrected if they are detected. 
+
+Now that we have an understanding of measurement error, let's move on to the concepts of reliability and validity.
