@@ -24,7 +24,7 @@ Time for some reading. This discussion paper focuses in on the 'evidence' aspect
 </exercise>
 
 <exercise id="3" title="Models of EBP">
-<iframe src="https://player.vimeo.com/video/354282823" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/354283924" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
