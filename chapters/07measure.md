@@ -10,14 +10,13 @@ id: 8
 
 <exercise id="1" title="Introduction">
 
-measure_intro.Rmd
+<iframe src="https://player.vimeo.com/video/354410232" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
 <exercise id="2" title="Types of variables">
 
-measure_variables.Rmd
-
+<iframe src="https://player.vimeo.com/video/354412784" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </exercise>
 
 <exercise id="3" title="Basketball standings">
@@ -92,8 +91,7 @@ A ratio variable is a variable similar to an interval variable, but it has a "tr
 
 <exercise id="5" title="Scales of measurement">
 
-measure_scales.Rmd
-
+<iframe src="https://player.vimeo.com/video/354418181" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </exercise>
 
 <exercise id="6" title="Level of measurement exercise 1">
@@ -138,13 +136,14 @@ Another important concept of measurement in quantitative research is the distinc
 </exercise>
 
 <exercise id="9" title="Measurement error">
-measure_error.Rmd
-</exercise>
 
+<iframe src="https://player.vimeo.com/video/354414904" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </exercise>
 
 <exercise id="10" title="Introduction to reliability & validity">
-measure_rel.Rmd
+
+<iframe src="https://player.vimeo.com/video/354415766" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 </exercise>
 
 <exercise id="11" title="Inter-rater reliability 1">
