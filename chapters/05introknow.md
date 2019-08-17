@@ -11,7 +11,7 @@ id: 6
 
 <exercise id="1" title="Introduction">
 
-know_intro.Rmd :smile:
+<iframe src="https://player.vimeo.com/video/354393602" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 
 </exercise>
@@ -36,7 +36,7 @@ Although you will never read a statement about the researcher's 'ontology' in th
 
 <exercise id="3" title="Epistemology">
 
-know_epi.Rmd
+<iframe src="https://player.vimeo.com/video/354396456" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 
 </exercise>
@@ -49,7 +49,7 @@ know_epi.Rmd
 
 <exercise id="5" title="Methodology">
 
-know_method.Rmd
+<iframe src="https://player.vimeo.com/video/354394689" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 

@@ -28,6 +28,9 @@ A methodology is a term used to describe how knowledge is discovered and analyse
 
 ---
 
+class: center, middle
+## Phenomenology is aligned with relativist ontology
+
 ???
 
 One example of a methodology that is aligned with a relativist ontology would be phenomenology. It is common in studies that use phenomenology for the researchers to conduct in-depth interviews with their participants so they can thoroughly understand the context of the situation. This is because it aligns with the epistemology of a researcher who believes that knowledge is derived from experiences.
