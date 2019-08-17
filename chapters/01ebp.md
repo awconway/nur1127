@@ -24,9 +24,8 @@ Time for some reading. This discussion paper focuses in on the 'evidence' aspect
 </exercise>
 
 <exercise id="3" title="Models of EBP">
-<video playsinline controls height="500px" width="100%">
-    <source src="https://res.cloudinary.com/awcoway/video/upload/v1562154714/resize_hoprsq.mp4" type="video/mp4"/>
-</video>
+<iframe src="https://player.vimeo.com/video/354283924" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 </exercise>
 
 <exercise id="4" title="Important distinctions between different EBP models" >
