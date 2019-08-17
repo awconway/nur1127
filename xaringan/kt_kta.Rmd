@@ -31,7 +31,7 @@ I want to introduce you to another of the commonly used knowledge translation fr
 
 class:  left, top
 
-<img src="kta.png" height="500px" width="500px">
+<img src="KTA.png" height="500px" width="500px">
 
 >Graham et al., (2006)
 

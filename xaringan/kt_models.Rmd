@@ -35,24 +35,15 @@ class:  left, top
 # Knowledge Translation Process
 > Perry, cited in Craig & Smith (2012)
 
---
-
 
 ### `r icon::fa("arrow-right")` Identify the problem
 
---
-
 ### `r icon::fa("arrow-right")` Understand the context
 
---
 
 ### `r icon::fa("arrow-right")` Knowledge
 
---
-
 ### `r icon::fa("arrow-right")` Implement intervention
-
---
 
 ### `r icon::fa("arrow-right")` Maintain and sustain change
 
