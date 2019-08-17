@@ -63,7 +63,7 @@ manipulation
 
 class: center, middle
 
-# Control `r icon::fa("users")` <i class="far fa-users"></i>
+# Control `r icon::fa("users")`
 
 
 ???

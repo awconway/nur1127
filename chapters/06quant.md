@@ -10,6 +10,8 @@ id: 7
 
 <exercise id="1" title="Introduction">
 
+<iframe src="https://player.vimeo.com/video/354400977" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 quant_intro.Rmd
 
 
@@ -95,7 +97,7 @@ Although technically correct in that the data were collected retrospectively, th
 
 <exercise id="4" title="Elements of quantitative designs">
 
-quant_elements.Rmd
+<iframe src="https://player.vimeo.com/video/354404399" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
@@ -136,7 +138,7 @@ This description is more in line with a 'pre-test post-test' study design, which
 
 <exercise id="6" title="Interventional designs">
 
-quant_int.Rmd
+<iframe src="https://player.vimeo.com/video/354406332" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
@@ -171,7 +173,7 @@ Another approach when only one group is available is to study that group over a 
 
 <exercise id="8" title="Randomized controlled trials">
 
-quant_RCT.Rmd
+<iframe src="https://player.vimeo.com/video/354408209" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
@@ -211,7 +213,7 @@ Which study used systematic sampling?
 
 <exercise id="11" title="Risk of bias">
 
-quant_bias.Rmd
+<iframe src="https://player.vimeo.com/video/354402956" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 

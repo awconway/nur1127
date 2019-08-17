@@ -73,6 +73,7 @@ The strongest design to test cause and effect relationships in an intervention s
 
 ---
 
+class: center, middle
 
 ## Up next
 
