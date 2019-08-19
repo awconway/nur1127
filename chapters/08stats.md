@@ -8,11 +8,61 @@ type: chapter
 id: 9
 ---
 
+<exercise id="1" title="Introduction">
+stats_intro.Rmd
+</exercise>
 
+<exercise id="2" title="Binomial distributions">
+
+<codeblock id="08_01">
+
+Enter the number of coin flips you want to simulate in the first argument and the probability of it being heads (as a proportion - eg 0.5 for 50% probability) as the third argument.
+
+
+</codeblock>
+
+</exercise>
+
+<exercise id="3" title="Density and Cumulative Density">
+stats_density.Rmd
+</exercise>
+
+<exercise id="4" title="Cumulative Density Exercise">
+
+There is about a 15% chance that if you tried flipping ten coins that each had a 30% probability of heads, at least five would turn up heads. 
+
+Run the code below, inspect the results and then answer the questions below. 
+
+<codeblock id="08_02">
+
+Run the code, inspect the results then answer the question. 
+
+</codeblock>
+
+Did you need all 10,000 trials to get an accurate answer?
+
+<choice>
+
+<opt text="No">
+
+100 simulations produced a fairly different result - 17% instead of 15%. It really depends on how close to the truth we need to get. A 2% difference may not be all that important to our decision-making in this situation, but in other situations, for example in studies of mortality, a 2% difference may be very important. 
+
+</opt>
+
+<opt text="Yes" correct="TRUE">
+
+Using only 100 simulations produced a fairly different result - 17% instead of 15%.
+
+</opt>
+
+</choice>
+
+
+</exercise>
 
 <exercise id="23" title="Reading">
 
-**Relevant chapters on measurement from your text for your reference**
+**Relevant chapters on statistics from your text for your reference**
 
 Gray, J.R., Grove, S.K. & Sutherland, S.  (2017). The Practice of Nursing Research (8th ed.)
 - Chapter 21: Introduction to Statistical Analysis
