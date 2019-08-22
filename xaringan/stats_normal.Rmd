@@ -33,7 +33,7 @@ class: top, left
 # Flipping 10 coins
 
 ```{r}
-flips <- rbinom(100000,10,0.5)
+flips <- rbinom(10000,10,0.5)
 ```
 
 ```{r echo=FALSE}
@@ -63,7 +63,7 @@ options(warn=-1)
 tibble::tibble(flips) %>% 
   mutate(Bet = ifelse(flips<=4, "Chances you win", "Chances you lose")) %>% 
 ggplot2::ggplot(aes(flips))+
-  geom_histogram(aes(y=..density..), colour=alpha("gray", 0.4), fill = "white", binwidth = 4)+
+  geom_histogram(aes(y=..density..), colour=alpha("gray", 0.4), fill = alpha("gray", 0.4), binwidth = 4)+
  geom_density(color = alpha("#FF6666", 0), alpha = 0.2, fill="#FF6666")+
   theme_minimal()+
   theme_bw() + theme(panel.border = element_blank(), panel.grid.major = element_blank(),
@@ -84,7 +84,7 @@ options(warn=-1)
 tibble::tibble(flips) %>% 
   mutate(Bet = ifelse(flips<=4, "Chances you win", "Chances you lose")) %>% 
 ggplot2::ggplot(aes(flips))+
-  geom_histogram(aes(y=..density..), colour=alpha("gray", 0.4), fill = "white", binwidth = 4)+
+  geom_histogram(aes(y=..density..), colour=alpha("gray", 0.4), fill = alpha("gray", 0.4), binwidth = 4)+
  geom_density(color = alpha("#FF6666", 0), alpha = 0.2, fill="#FF6666")+
   theme_minimal()+
   theme_bw() + theme(panel.border = element_blank(), panel.grid.major = element_blank(),
