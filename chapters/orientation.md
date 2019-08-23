@@ -61,28 +61,14 @@ orientation_discussion.Rmd
 
 </exercise>
 
-<exercise id="7" title="Assignment 1: Critique of EBP/KT Framework">
+<exercise id="7" title="Assignment information">
 
 orientation_assignment1.Rmd
 <iframe src="https://player.vimeo.com/video/" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
-<exercise id="8" title="Assignment 2: Practice Question & Search Strategy">
-
-orientation_assignment2.Rmd
-<iframe src="https://player.vimeo.com/video/" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-</exercise>
-
-<exercise id="9" title="Assignment 3: Analysis of a Research Report">
-
-orientation_assignment3.Rmd
-<iframe src="https://player.vimeo.com/video/" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-
-</exercise>
-
-<exercise id="10" title="Questions about the course">
+<exercise id="8" title="Questions about the course">
 
 Please post questions regarding the syllabus or course structure on the main discussion board in Quercus!
+</exercise>
