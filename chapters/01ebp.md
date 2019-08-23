@@ -11,7 +11,7 @@ id: 2
 
 <exercise id="1" title="What is EBP?">
 
-<iframe src="https://player.vimeo.com/video/353020834" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/355612314" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
@@ -24,7 +24,7 @@ Time for some reading. This discussion paper focuses in on the 'evidence' aspect
 </exercise>
 
 <exercise id="3" title="Models of EBP">
-<iframe src="https://player.vimeo.com/video/354283924" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/355616739" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
@@ -53,7 +53,7 @@ This is one of the differences, however, what is different at the 'core' (center
 
 <exercise id="5" title="Process models for EBP">
 
-<iframe src="https://player.vimeo.com/video/353014374" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/355614347" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 <exercise id="6" title="Joanna Briggs Institute Model for Evidence-Based Healthcare"> 
@@ -76,7 +76,7 @@ More information on the ACE Star Model of Knowledge Transformation  can be found
 
 <exercise id="8" title="Criticisms of EBP">
 
-<iframe src="https://player.vimeo.com/video/353023203" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/355606984" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
@@ -186,7 +186,9 @@ Substantial progress has been made in ensuring that health professionals are cap
 </exercise>
 
 <exercise id="12" title="Barriers and Challenges to Evidence-Based Practice">
-ebp_barriers.rmd
+
+<iframe src="https://player.vimeo.com/video/355604120" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 </exercise>
 <exercise id="13" title="Evidence-based health policy">
 </exercise>
