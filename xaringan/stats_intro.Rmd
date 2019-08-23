@@ -112,7 +112,7 @@ where size is the number of flips and p is the probability that each is heads.
 
 ???
 
-We can consider this process of flipping a number of biased coins and calculating the resulting number of heads - each outcome or in other words the number of heads in each draw is a random variable that follows a binomial distribution. We can describe a binomial distribution by two characteristics. These are the size, which in our example is the number of coin flips, and p, which is the probability that each flip is heads. Further on we're going to learn to reason about this distribution as a foundation for learning about statistical inference. 
+We can consider this process of flipping a number of biased coins and calculating the resulting number of heads as a random variable that follows a binomial distribution. We can describe a binomial distribution by two characteristics. These are the size, which in our example is the number of coin flips, and p, which is the probability that each flip is heads. Further on we're going to learn to reason about this distribution as a foundation for learning about statistical inference. 
 
 
 ---
@@ -121,7 +121,7 @@ class: center, middle
 # Up next
 
 ???
-Time now to have a bit of fun generating binomial distributions and plotting their results. 
+Time now to have a quick bit of fun generating binomial distributions and plotting their results. 
 
 
 

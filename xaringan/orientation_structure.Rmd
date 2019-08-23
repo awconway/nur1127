@@ -1,0 +1,42 @@
+---
+output:
+  xaringan::moon_reader:
+    seal: false
+    lib_dir: libs
+    css: [default, fonts.css, animate.css]
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      ratio: '16:9'
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(icon)
+library(emo)
+```
+
+class:  top, left
+
+.pull-left[
+### 12 weeks
+- Weekly activities run from Tuesday to the following Monday
+
+### Primarily asynchronous online delivery
+- Some live components that you can choose to participate in (eg. librarian webinar)
+
+### Learning activities
+- Recorded videos interspersed with reading and interactive components for real-time feedback
+- Interactive group learning through online discussions on Quercus
+]
+
+???
+
+
+This course will run for 12 weeks, with the weekly activities running from Tuesday to the following Monday. The reason for this timeframe is that it will better suit the primarily asynchronous nature of the online environment, in that it doesn't really matter what time of the day or day of the week that you choose to do the work. It's totally fine if you want to log-in at 4am to post in the discussion board if that is what is going to suit you best. That said, there are some live components that you can choose to participate in. For example, in week 3 we will have a webinar from the libraring about searching for evidence. If you are free at the time it is scheduled, you'll be able to participate live. Otherwise the session will be recorded so you'll be able to view it whenever you can. All the learning content will be accessible via Quercus and it will consist of videos interspersed with reading and other interactive components to provide you with some real-time feedback and to keep things interesting. The other core teaching strategy is interactive group learning via the online discussion board in Quercus. Let's take a look at the Quercus page now.
+
+
+

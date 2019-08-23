@@ -1,0 +1,43 @@
+---
+output:
+  xaringan::moon_reader:
+    seal: false
+    lib_dir: libs
+    css: [default, fonts.css, animate.css]
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      ratio: '16:9'
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(icon)
+library(emo)
+```
+
+class:  top, left
+
+# Practice Question and Search Strategy 
+
+- Develop a practice question that can be answered with empirical literature, and locate relevant literature:
+    - Background with rationale for conducting search
+    - Structured search question
+    - Identify relevant search terms
+
+- Search 2 databases
+    - Describe search process (attach copy of search history)
+
+- Conclusion
+    - what did you find? 
+
+    
+**More information in assignment tab in Quercus**
+
+???
+
+The second assignment for this course is a practice questions and search strategy. You'll need to develop a practice question, this could be a clinical or administrative focus, that can be answered with published research studies. You'll then need to locate relevant research literature in order to address that question. Components of the assignment should include the background and rationale for conducting the search, a structured search question, and identification of appropriate search terms. Two databases are required to be searched and we expect a description of the search process as well as an attachment of the search history in an appendix that does not contribute toward the word count for the assignment. A conclusion with a summary of how well the search strategy performed in identifying relevant literature will also be required. Again, please head over to the Assignments section of the quercus page for more details, and pay particular attention to the rubric which outlines how your work will be assessed. There is also a sample assignment from a previous student so that you can get a sense of the content and structure of the assignment. 
+

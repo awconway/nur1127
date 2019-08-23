@@ -1,0 +1,48 @@
+---
+output:
+  xaringan::moon_reader:
+    seal: false
+    lib_dir: libs
+    css: [default, fonts.css, animate.css]
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      ratio: '16:9'
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(icon)
+library(emo)
+```
+
+class:  top, left
+
+# EBP/KT Framework Critique
+
+In this paper you will critique a framework or model for evidence-based nursing practice or knowledge translation.
+
+*You will provide:*
+
+- an in-depth description of the framework;
+- a critical analysis of the framework; and
+- a discussion of the framework’s relevancy and application to nursing practice.
+
+*Consider these points:*
+
+- Describe framework (purpose, components, process)
+- Critically analyze the framework
+    - Appropriateness/fit for intended purpose
+    - Strengths and limitations in enhancing quality of care/service
+- Conclusion
+    - Useful? Under what circumstances?
+    
+**More information in assignment tab in Quercus**
+
+???
+
+The first assignment for this course is a critique of an evidence based practice or knowledge translation framework. The first two weeks of the course are dedicated to these topics. This is a critical analysis of the framework, so you're looking at such things as the appropriateness or how well the models fits with it's intended purpose whether that be promoting evidence based practice in general or a more focused framework geared towards moving knowledge into practice. Be sure to address the strengths and limitations of the model and draw your conclusions about what circumstances the model would be most effectice. Please head over to the assignment tab in Quercus for more information about the requirements for structuring the assignment as well as the marking criteria. You may also find the example of a past assignment useful to review. 
+

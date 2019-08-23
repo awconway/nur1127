@@ -1,0 +1,41 @@
+---
+output:
+  xaringan::moon_reader:
+    seal: false
+    lib_dir: libs
+    css: [default, fonts.css, animate.css]
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      ratio: '16:9'
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(icon)
+library(emo)
+```
+
+class:  top, left
+
+# Analysis of a Research Report 
+.pull-left[
+The paper will comprise three components including:
+
+- Study Overview
+    - Aims
+    - Methods
+    - Findings
+- Analysis of philosophical underpinnings
+    - Key elements characterizing the philosophical paradigm that guided the study
+- Analysis of research methods
+    
+
+**More information in assignment tab in Quercus**
+]
+???
+
+The third assignment for this course requires you to analyse a research report. For this assignment you'll select one of two research papers that I will provide for you and then you will analyze that study. The analysis will comprise three components. First, we want you to provide a summary of the study including the research aims, the methods that were used and the key study findings. Then in the next component I want you to analyze the key elements characterizing the philosophical paradigm that guided the study. In week 5, I'll be teaching you about the concepts of ontology, epistemology and methodology that will help you to undertake this analysis. The final component should be a detailed analysis of the research methods used in the study. In Weeks 6 through to the end of the course we will cover the content you need to be able to identify strengths and weaknesses of different types of quantitative and qualitative research designs. Be sure to review the information in the assignments tab about this paper in detail. There is an example paper provided. However, you need to note that the structure of this assignment has changed from last year. Previously the assignment entirely focused around the philiosophical paradigm informed the study design. This forms only one component for the assignment now. More detail of course is in the assignment rubric about how this paper will be marked. I strongly advise you check that out. And of course feel free to ask me any questions you may have about the assessment.

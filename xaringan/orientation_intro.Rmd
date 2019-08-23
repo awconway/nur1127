@@ -1,0 +1,32 @@
+---
+output:
+  xaringan::moon_reader:
+    seal: false
+    lib_dir: libs
+    css: [default, fonts.css, animate.css]
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      ratio: '16:9'
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(icon)
+library(emo)
+```
+
+class:  center, middle
+
+# Introduction
+
+
+???
+
+Hi. I'm Aaron Conway and in this course I'm going to aim to deepen your understanding of the key elements of research design so that you are better able to appraise and utilise research evidence. I'm the Chair of Cardiovascular Nursing Research at the Peter Munk Cardiac Centre and an Assistant Professor at the Bloomberg Faculty of Nursing. My research is focused on procedural sedation and analgesia and the overarching goal for my research is to make sedation as safe and effective as possible. The motivation for my research was driven directly from my clinical practice. Prior to joining UofT in 2018, I had practiced as a Registered Nurse in the cardiac cath lab setting in Australia for more than ten years and was actively involved in clinical research throughout this time, first as a PhD student and then as a Research Fellow developing my own program of research.  In total, I have prospectively recruited more than 1000 patients undergoing procedures in the cath lab into my studies to date. Through this experience, I have developed an in-depth understanding of the issues and challenges associated with conducting clinically relevant nursing research and I hope to be able to share the knowledge I've gained with you in this course. I've integrated into the course quite a few real-world examples from my own studies to explain important concepts related to research design that I hope you'll find interesting. There will also be interactive components for you to take part in that I've built into the online learning platform to give you a taste of the practical aspects of data analysis. I'm hoping these compoents will help to keep you engaged in the material and who knows, maybe entice you to undertake your own research some time down the track. In this orientation chapter, I just want to highlight some important points about the structure of the course. In the next section, I'll go through some more details about the structure of the course.
+
+
+

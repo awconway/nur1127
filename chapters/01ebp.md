@@ -186,19 +186,22 @@ Substantial progress has been made in ensuring that health professionals are cap
 </exercise>
 
 <exercise id="12" title="Barriers and Challenges to Evidence-Based Practice">
-
+ebp_barriers.rmd
+</exercise>
+<exercise id="13" title="Evidence-based health policy">
+</exercise>
 
 <iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/dobrow.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 
-<exercise id="13" title="Factors influencing Evidence-Based Practice" >
+<exercise id="14" title="Factors influencing Evidence-Based Practice" >
 
 <iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Gerrish.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 
-<exercise id="14" title="Readings">
+<exercise id="15" title="Readings">
 
 *Required*
 
@@ -225,7 +228,7 @@ Gray, J.R., Grove, S.K. & Sutherland, S.  (2017). The Practice of Nursing Resear
 </exercise>
 
 
-<exercise id="15" title="Discussion board">
+<exercise id="16" title="Discussion board">
 
 Don't forget to head back to Quercus to participate in the discussion activity with the class. 
 
