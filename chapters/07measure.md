@@ -200,7 +200,7 @@ Kappa is a better way to measure reliability than simple percent agreement calcu
 
 <exercise id="14" title="Internal consistency">
 
-measure_consistency.Rmd
+<iframe src="https://player.vimeo.com/video/355719841" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
@@ -281,7 +281,7 @@ The icc calculated in the last exercise was 0.74. Head back to the plot we made 
 
 <exercise id="19" title="Validity">
 
-measure_val.Rmd
+<iframe src="https://player.vimeo.com/video/355722488" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
@@ -342,8 +342,7 @@ The name of the variable for the mental health subscale is MCS and the name of t
 
 <exercise id="22" title="Criterion validity">
 
-measure_criterion.Rmd
-
+<iframe src="https://player.vimeo.com/video/355723384" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </exercise>
 
 <exercise id="23" title="Reading">
