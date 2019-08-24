@@ -9,9 +9,8 @@ id: 1
 ---
 
 <exercise id="1" title="Course overview">
-orientation_intro.Rmd
 
-<iframe src="https://player.vimeo.com/video/" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/355724601" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
@@ -30,22 +29,19 @@ orientation_intro.Rmd
 
 <exercise id="3" title="Course structure">
 
-orientation_structure.Rmd
 <iframe src="https://player.vimeo.com/video/" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
 <exercise id="4" title="Weekly learning content on Quercus">
 
-orientation_quercus.Rmd
-<iframe src="https://player.vimeo.com/video/" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/355731084" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
 <exercise id="5" title="Discussion boards">
 
-orientation_discussion.Rmd
-<iframe src="https://player.vimeo.com/video/" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/355726345" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
@@ -63,8 +59,7 @@ orientation_discussion.Rmd
 
 <exercise id="7" title="Assignment information">
 
-orientation_assignment1.Rmd
-<iframe src="https://player.vimeo.com/video/" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/355727762" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
