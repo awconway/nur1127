@@ -24,6 +24,7 @@ Time for some reading. This discussion paper focuses in on the 'evidence' aspect
 </exercise>
 
 <exercise id="3" title="Models of EBP">
+
 <iframe src="https://player.vimeo.com/video/355616739" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
@@ -56,9 +57,11 @@ This is one of the differences, however, what is different at the 'core' (center
 <iframe src="https://player.vimeo.com/video/355614347" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
+
 <exercise id="6" title="Joanna Briggs Institute Model for Evidence-Based Healthcare"> 
 
 <iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/jbi.pdf" width="100%" height="500px"></iframe>
+
 </exercise>
 
 <exercise id="7" title="ACE Star Model of Knowledge Transformation"> 
@@ -83,6 +86,7 @@ More information on the ACE Star Model of Knowledge Transformation  can be found
 <exercise id="9" title="Challenging the assumptions">
 
 <iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/wall.pdf" width="100%" height="1050px"></iframe>
+
 </exercise>
 
 <exercise id="10" title="What constitutes 'good' research evidence?">
@@ -190,8 +194,8 @@ Substantial progress has been made in ensuring that health professionals are cap
 <iframe src="https://player.vimeo.com/video/355604120" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
+
 <exercise id="13" title="Evidence-based health policy">
-</exercise>
 
 <iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/dobrow.pdf" width="100%" height="1050px"></iframe>
 

@@ -29,7 +29,7 @@ id: 1
 
 <exercise id="3" title="Course structure">
 
-<iframe src="https://player.vimeo.com/video/" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/355725241" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
