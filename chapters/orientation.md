@@ -19,7 +19,7 @@ id: 1
 |     |     |
 | --- | --- |
 |*Course Location* |  On-line  |
-| *Faculty* | **Aaron Conway RN, PhD**<br>155 College Street<br>Rm. 274<br>(416) 946-7112 <br> Email: aaron.conway@utoronto.ca|
+| *Faculty* | **Aaron Conway BN(Hons), PhD**<br>155 College Street<br>Rm. 274<br>(416) 946-7112 <br> Email: aaron.conway@utoronto.ca|
 | *Office Hours* | By appointment |
 |*Teaching Assistant* | Danielle Just<br> PhD nursing student<br>Email: danielle.just@mail.utoronto.ca|
 | *Course Website* | [NUR1027 Quercus site](https://q.utoronto.ca/courses/113018/) |

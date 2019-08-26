@@ -13,6 +13,8 @@ id: 2
 
 <iframe src="https://player.vimeo.com/video/355612314" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
+<div align="right"><qu>Adapted from Sketchy EBM</qu></div>
+
 </exercise>
 
 <exercise id="2" title="What counts as 'evidence'">
@@ -80,7 +82,7 @@ More information on the ACE Star Model of Knowledge Transformation  can be found
 <exercise id="8" title="Criticisms of EBP">
 
 <iframe src="https://player.vimeo.com/video/355606984" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
+<div align="right"><qu>Adapted from Sketchy EBM</qu></div>
 </exercise>
 
 <exercise id="9" title="Challenging the assumptions">
@@ -249,7 +251,7 @@ Each original post should be a maximum of 200 words. It's a good idea to use APA
 
 <a target="_parent" href="https://q.utoronto.ca/courses/113018/discussion_topics/326843">Link to discussions on Quercus</a>
 
-`Note: If you are viewing this on the 'Student' mobile app, it is better to navigate back to the discussion section through the app rather than clicking on the link above.`
+<qu>Note: If you are viewing this on the 'Student' mobile app, it is better to navigate back to the discussion section through the app rather than clicking on the link above.</qu>
 
 </exercise>
 
