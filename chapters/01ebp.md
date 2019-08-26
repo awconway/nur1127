@@ -9,11 +9,11 @@ id: 2
 ---
 
 
-<exercise id="1" title="What is EBP?">
+<exercise id="1" title="What is EBP?" type="slides">
 
 <iframe src="https://player.vimeo.com/video/355612314" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-<div align="right"><qu>Adapted from Sketchy EBM</qu></div>
+<qu>Adapted from Sketchy EBM</qu>
 
 </exercise>
 
@@ -25,7 +25,7 @@ Time for some reading. This discussion paper focuses in on the 'evidence' aspect
 
 </exercise>
 
-<exercise id="3" title="Models of EBP">
+<exercise id="3" title="Models of EBP" type="slides">
 
 <iframe src="https://player.vimeo.com/video/355616739" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
@@ -54,7 +54,7 @@ This is one of the differences, however, what is different at the 'core' (center
 </exercise>
 
 
-<exercise id="5" title="Process models for EBP">
+<exercise id="5" title="Process models for EBP" type="slides">
 
 <iframe src="https://player.vimeo.com/video/355614347" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
@@ -62,7 +62,7 @@ This is one of the differences, however, what is different at the 'core' (center
 
 <exercise id="6" title="Joanna Briggs Institute Model for Evidence-Based Healthcare"> 
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/jbi.pdf" width="100%" height="500px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/jbi.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 
@@ -79,10 +79,10 @@ More information on the ACE Star Model of Knowledge Transformation  can be found
 
 </exercise>
 
-<exercise id="8" title="Criticisms of EBP">
+<exercise id="8" title="Criticisms of EBP" type="slides">
 
 <iframe src="https://player.vimeo.com/video/355606984" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<div align="right"><qu>Adapted from Sketchy EBM</qu></div>
+<qu>Adapted from Sketchy EBM</qu>
 </exercise>
 
 <exercise id="9" title="Challenging the assumptions">
@@ -191,7 +191,7 @@ Substantial progress has been made in ensuring that health professionals are cap
 
 </exercise>
 
-<exercise id="12" title="Barriers and Challenges to Evidence-Based Practice">
+<exercise id="12" title="Barriers and Challenges to Evidence-Based Practice" type="slides">
 
 <iframe src="https://player.vimeo.com/video/355604120" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
