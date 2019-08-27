@@ -2,7 +2,7 @@
 title: 'Week 1: Evidence-Based Practice'
 description:
   'The notion of evidence-based (or evidence-informed) practice is well-established in nursing and in the health sciences in general. We will examine the evolution of the evidence-based practice (EBP) movement, and different models for conceptualizing EBP. We will discuss both the purported benefits and the criticisms of the EBP movement in healthcare.'
-prev: null
+prev: orientation
 next: null
 type: chapter
 id: 2
