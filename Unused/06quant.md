@@ -222,8 +222,6 @@ Which study used systematic sampling?
 
 There will be no online discussion this week. Please read the article and consider the following critical appraisal and reflection questions.
 
-<qu>You may wish to contribute some of your critical appraisal as annotations using the 'hypothes.is' feature that has been enabled in the pdf viewer. This will enable others in the course to reply to your annotations with additional viewpoints about the critical appraisal issues you may have raised. To do this, you would need to sign up for an account. More information is available [here.](https://hypothes.is)</qu>
-
 Critical appraisal questions:
 
 - Was there a clear statement of the study purpose? Consider: the goal of the research; why it was thought to be important; its relevance.
