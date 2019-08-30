@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>stats_hypothesis.utf8.md</title>
+    <meta charset="utf-8" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+     <head>
+        <!-- Place your kit's code here -->
+        <script src="https://kit.fontawesome.com/db7db5fd59.js"></script>
+      </head>
+    <link rel="stylesheet" href="fonts.css" type="text/css" />
+    <link rel="stylesheet" href="animate.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+class: left, middle, hide-count
+
+### Statistical inference is the process of making claims about a population based on information from a sample. 
+
+???
+
+As we have learnt, statistical inference is the process of making claims about a population based on information from a sample. We've already learnt about one way to do inference. We used the standard error to construct confidence intervals for a sample mean in the last exercise. Now we're going to extend this way of thinking to the common situation in quantitative research, where we are interested in making comparisons between groups.
+ 
+---
+
+class: left, top, hide-count
+## Statistical Inference
+
+- A **statistical inference** helps to make conclusions or decisions using data.
+
+
+- An *inference* in general is an uncertain conclusion.
+
+???
+
+Before we dive into this, I want to highlight some further important principles of statistical inference. The purpose of statistical inference is to help us make conclusion or decisions using data. However, we shouldn't forget that inference is an uncertain conclusion and our interpretations of the results from statistical analyses always need to take that uncertainty into account. But let's dive in now to hypothesis testing. The most common statistical approach to making comparisons between groups of participants in quantitative research is within a framework known as frequentist statistics that relies on hypothesis testing.
+
+---
+class: left, top, hide-count
+
+## The hypotheses
+
+Two claims:
+
+1. There is no difference in leadership capability of nurses who have and have not completed a masters degree.  This is the **null hypothesis**, written `\(H_0\)`. The difference in leadership scores is **zero**.
+$$ H_0: mean(masters)-mean(non-masters)=0 $$
+
+--
+
+2. There is a difference in leadership capability of nurses who have and have not completed a masters degree. This is the **alternative hypothesis**. The difference in mean scores between groups is **not zero**
+$$ H_1: mean(masters)-mean(non-masters)≠0$$
+--
+
+
+???
+
+Consider this hypothetical situation. Say we are interested in determining if nurses who have completed a masters degree have greater leadership capabilities than nurses who do not have a masters. To make the argument, the first step is to assume that there is no difference in leadership capabilities between the two populations, nurses with and without masters degrees. In statistical terms, this is the null hypothesis. Our statement that there is a difference in leadership capability between nurses who have or have not completed a masters degress is formally termed the alternative hypothesis. The second step in statistical inference after setting the null and alternative hypotheses, is to use data from a sample drawn from those populations to argue against the null hypothesis, which is that there is no true difference between the two groups of nurses. 
+
+---
+class: center, middle, hide-count
+
+### The "goal" is to disprove the null hypothesis. 
+
+???
+
+In simpler terms, the goal is to disprove the null hypothsis so that you can claim the alternative hypothesis is true. So how are we going to do that. Let's go through the steps now.
+
+
+---
+class: left, top, hide-count
+
+
+```r
+masters &lt;- data.frame(leadership = rnorm(n = 100, 
+                                         mean = 5, 
+                                         sd = 6.5),
+                      degree = "Masters")
+non_masters &lt;- data.frame(leadership = rnorm(n = 100,
+                                             mean = 4, 
+                                             sd = 6),
+                          degree = "Bachelors")
+data &lt;- rbind(masters, non_masters)
+
+data %&gt;% 
+  group_by(degree) %&gt;% 
+  summarize(average_leadership = mean(leadership))
+```
+
+```
+## # A tibble: 2 x 2
+##   degree    average_leadership
+##   &lt;fct&gt;                  &lt;dbl&gt;
+## 1 Masters                 4.85
+## 2 Bachelors               3.52
+```
+
+### Difference in means between the two groups in this sample was 1.3
+
+
+???
+
+First, let's create a dataset of leadership capability scores from a sample of two hundred nurses. One hundred of the nurses have a masters degree and the other hundred have a bachelors degree. In just this sample we can calculatate that the mean leadership capability score for the nurses with a masters degree was 4.8 and for the nurses with a bachelors degree it was 3.5. Don't concern yourself with the code, all you have to note here is that the difference in means between the two groups in this sample was 1.3.
+
+---
+class: left, top, hide-count
+
+
+## Understanding the null distribution
+
+Generating a distribution of the difference in means from the null population gives information about whether the observed data are inconsistent with the null hypothesis
+
+???
+
+We can use random sampling to build a distribution of differences in means assuming the null hypothesis that there is no difference in leadership scores between groups is true. The null distribution consists of randomly shuffled differences in leadership scores, so that the samples don't have any dependency between leadership scores and whether or not nurses have a masters degree. Let's step through how a null distribution is produced.
+
+---
+class: left, top, hide-count
+
+## Shuffle 1
+
+
+```r
+data %&gt;% 
+  specify(leadership ~ degree) %&gt;%
+  hypothesize(null = "independence") %&gt;%
+  generate(reps = 1, type = "permute") %&gt;% 
+  group_by(degree) %&gt;% 
+  summarize(average_leadership = mean(leadership))
+```
+
+```
+## # A tibble: 2 x 2
+##   degree    average_leadership
+##   &lt;fct&gt;                  &lt;dbl&gt;
+## 1 Masters                 3.86
+## 2 Bachelors               4.52
+```
+
+
+???
+
+First, we take the data from our sample and specify that we are interested in the relationship between leadership and whether or not nurses have a masters degree. We then state our null hypothesis that there is no difference in leadership scores between groups - in other words they are independent. Then we generate 1 random shuffle of data based on the sample size that we have and take a look at the results. In this first shuffle, unlike in our sample, the mean leadership score was lower in the Masters group. Let's do another random shuffle. 
+
+---
+class: left, top, hide-count
+
+## Shuffle 2
+
+
+
+```r
+data %&gt;% 
+  specify(leadership ~ degree) %&gt;%
+  hypothesize(null = "independence") %&gt;%
+  generate(reps = 1, type = "permute") %&gt;% 
+  group_by(degree) %&gt;% 
+  summarize(average_leadership = mean(leadership))
+```
+
+```
+## # A tibble: 2 x 2
+##   degree    average_leadership
+##   &lt;fct&gt;                  &lt;dbl&gt;
+## 1 Masters                 3.99
+## 2 Bachelors               4.39
+```
+???
+
+This time, the Masters degree nurses had a mean leadership score higher than the bachelors group. To build up the null distribution, we simply take lots and lots of random shuffles. Now let's do one thousand shuffles. 
+
+---
+class: left, top, hide-count
+
+### Null distribution
+
+```r
+null_distn &lt;- data %&gt;% 
+  specify(leadership ~ degree) %&gt;%
+  hypothesize(null = "independence") %&gt;%
+  generate(reps = 1000, type = "permute") %&gt;%
+  calculate(stat = "diff in means", order = c("Masters", "Bachelors"))
+visualize(null_distn) +
+  shade_p_value(obs_stat = d_hat, direction = "two_sided")
+```
+
+![](stats_hypothesis_files/figure-html/unnamed-chunk-4-1.png)&lt;!-- --&gt;
+
+???
+
+What we see when we have completely built the null distribution is that the mean differences in leadership scores were between negative two and positive two, although the majority of differences are between negative one and positive one. The solid red line in the plot is the mean difference in leadership score between groups that we observed in our sample. The Masters nurses scoring their leadership capabilities 1.4 points higher than nurses with baachelors degrees. So what we can tell already without yet calculating any p-values or confidence intervals, is that the observed mean difference in leadership capability doesn't seem really extreme compared to this collection of null differences.  
+
+---
+
+
+```r
+d_hat &lt;- data %&gt;% 
+  specify(leadership ~ degree) %&gt;%
+  calculate(stat = "diff in means", order = c("Masters", "Bachelors")) 
+
+null_distn %&gt;% 
+  get_p_value(obs_stat = d_hat, direction = "two_sided")
+```
+
+```
+## # A tibble: 1 x 1
+##   p_value
+##     &lt;dbl&gt;
+## 1    0.17
+```
+
+---
+
+class: center, middle, hide-count
+
+# Up next
+
+???
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create();
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

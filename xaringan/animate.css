@@ -1,3 +1,7 @@
+.hide-count .remark-slide-number {
+  display: none;
+}
+
 @charset "UTF-8";
 
 /*!

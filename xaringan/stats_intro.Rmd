@@ -121,7 +121,7 @@ class: center, middle
 # Up next
 
 ???
-Time now to have a quick bit of fun generating binomial distributions and plotting their results. 
+Time now to have a quick bit of fun and generate a binomial distribution "flipping" some coins yourself. 
 
 
 
