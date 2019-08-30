@@ -1,1 +1,2 @@
-pubmed::search("____[MeSH]")
+library(nur1027functions)
+pubmed_search("____[MeSH]")

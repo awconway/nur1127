@@ -1,3 +1,5 @@
-agree::weightedKappa(____)
+library(nur1027functions)
 
-agree::weightedKappa(____)
+weightedKappa(____)
+
+weightedKappa(____)

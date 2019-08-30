@@ -1,1 +1,2 @@
-retest::plot(x = time, y= temp)
+library(nur1027functions)
+plot_retest(x = time, y= temp)

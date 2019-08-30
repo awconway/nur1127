@@ -1,1 +1,2 @@
-irr::icc(retest::iccdata, model="twoway", type="agreement")
+library(nur1027functions)
+irr::icc(iccdata, model="twoway", type="agreement")

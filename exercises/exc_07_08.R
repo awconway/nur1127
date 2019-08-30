@@ -1,4 +1,4 @@
-suppressMessages(library(retest))
+suppressMessages(library(nur1027functions))
 SD  <- mean(sd(iccdata$____),sd(iccdata$____),sd(iccdata$____))
 icc <- ____
-SD*sqrt(1-icc)
+round(SD*sqrt(1-icc),2)

@@ -1,4 +1,6 @@
-agree::percent(airway)
+library(nur1027functions)
 
-agree::percent(quality)
+percent(airway)
+
+percent(quality)
 

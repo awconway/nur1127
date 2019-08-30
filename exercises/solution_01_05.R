@@ -1,1 +1,2 @@
-pubmed::search("(nurs*[MeSH] OR hourly OR intentional) AND rounding[TIAB]")
+library(nur1027functions)
+pubmed_search("(nurs*[MeSH] OR hourly OR intentional) AND rounding[TIAB]")

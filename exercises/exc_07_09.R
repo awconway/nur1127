@@ -1,3 +1,3 @@
 SEM <- ____
 measurements <- _
-SEM*1.96*sqrt(measurements)
+round(SEM*1.96*sqrt(measurements), 2)

@@ -1,3 +1,5 @@
-agree::weightedKappa(airway)
+library(nur1027functions)
 
-agree::weightedKappa(quality)
+weightedKappa(airway)
+
+weightedKappa(quality)
