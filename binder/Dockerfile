@@ -18,7 +18,7 @@ RUN Rscript -e "install.packages('RISmed')"
 RUN Rscript -e "install.packages('psych')"
 RUN Rscript -e "install.packages('irr')"
 RUN installGithub.r awconway/pubmed
-
+RUN installGithub.r awconway/nur1027functions
 
 
 ## Become normal user again
