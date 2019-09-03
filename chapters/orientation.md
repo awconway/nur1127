@@ -1,7 +1,7 @@
 ---
 title: 'Orientation'
 description:
-  'Introduction to the course'
+  'Introduction to NUR1027'
 prev: null
 next: /01ebp
 type: chapter
