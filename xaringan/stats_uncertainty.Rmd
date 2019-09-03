@@ -1,0 +1,204 @@
+---
+output:
+  xaringan::moon_reader:
+    seal: false
+    lib_dir: libs
+    css: [default, fonts.css, animate.css]
+    ratio: '16:9'
+    includes:
+      in_header: fa.html
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(tidyverse)
+library(infer)
+set.seed(272)
+```
+
+class: left, middle, hide-count
+
+class: left, top, hide-count
+## Statistical Inference
+
+- A **statistical inference** helps to make decisions using data.
+
+
+- An *inference* in general is an uncertain conclusion.
+
+???
+
+Now that we've got those pesky p-values sorted, I want to highlight some further important principles of statistical inference. The purpose of statistical inference is of course to help us make decisions using data from samples drawn from populations. However, we shouldn't forget that inference is an uncertain conclusion and our interpretations of the results from statistical analyses always need to take that uncertainty into account. Let's explore this concept by going further with the leadership capability example we covered in the last series of videos.
+
+---
+class: left, top, hide-count
+```{r include=FALSE}
+rgbeta <- function(n, mean, var, min = 0, max = 1)
+{
+  dmin <- mean - min
+  dmax <- max - mean
+  
+  if (dmin <= 0 || dmax <= 0)
+  {
+    stop(paste("mean must be between min =", min, "and max =", max)) 
+  }
+  
+  if (var >= dmin * dmax)
+  {
+    stop(paste("var must be less than (mean - min) * (max - mean) =", dmin * dmax))
+  }
+  
+  # mean and variance of the standard beta distributed variable
+  mx <- (mean - min) / (max - min)
+  vx <- var / (max - min)^2
+  
+  # find the corresponding alpha-beta parameterization
+  a <- ((1 - mx) / vx - 1 / mx) * mx^2
+  b <- a * (1 / mx - 1)
+  
+  # generate standard beta observations and transform
+  x <- rbeta(n, a, b)
+  y <- (max - min) * x + min
+  
+  return(y)
+}
+```
+
+```{r include=FALSE}
+set.seed(272)
+masters <- data.frame(leadership = rgbeta(n=100, mean=8, var=5^2, min = 3, max = 15),
+                      degree = "Masters")
+non_masters <- data.frame(leadership = rgbeta(n=100, mean=6.5, var=5^2, min = 3, max = 15),
+                          degree = "Bachelors")
+data <- rbind(masters, non_masters)
+
+d_hat <- data %>% 
+  specify(leadership ~ degree) %>% 
+  calculate("diff in means", order = c("Masters", "Bachelors"))
+```
+
+```{r include=FALSE}
+set.seed(272)
+null_distn <- data %>% 
+  specify(leadership ~ degree) %>%
+  hypothesize(null = "independence") %>%
+  generate(reps = 1000, type = "permute") %>%
+    calculate(stat = "diff in means", order = c("Masters", "Bachelors"))
+```
+
+```{r echo=FALSE, fig.retina=8}
+null_distn %>%
+  ggplot2::ggplot(aes(stat)) +
+  scale_x_continuous(limits = c(-2.5,2.5))+
+  theme_minimal()+
+  labs(x = "Difference in mean leadership score between groups", y = NULL)+
+  geom_vline(xintercept = 0, size = 1, color = "black")+
+  geom_dotplot(binwidth=0.075, method='histodot', colour = "white", fill = "blue", alpha=0.3) +
+  theme_minimal()+
+  labs(x = "Difference in mean leadership score between groups", y = NULL, subtitle = "Leadership scores higher in Bachelors group                Leadership scores higher in Masters group")+
+       annotate("rect", xmin = 1.8, xmax = Inf, ymin = 0, ymax = Inf,
+        alpha = .2, fill = "red") +
+   annotate("rect", xmin = -1.8, xmax = -Inf, ymin = 0, ymax = Inf,
+        alpha = .2, fill = "red") +
+    geom_vline(xintercept = 1.82, size = 1, color = "red", linetype = "dashed" )+
+  annotate(geom = "text", x = 2.3, y = 0.45, label = "p=0.022", hjust = "center")
+```
+
+???
+
+After constructing a null distribution based on our null hypothesis that there was no difference in mean leadership scores between masters and bachelors degree prepared nurses, we were able to calculate a p-value, which led us to the conclusion that we should reject the null hypothesis. So although we've been able to make a judgement that the the true mean difference between these groups is not zero IN THE POPULATION, we're really no closer to figuring our what the TRUE mean difference in leadership score between masters and bachelors degree prepared nurses actually is. To gain more insight into this, we can now revisit a concept we've already covered - and that is confidence intervals. 
+---
+class: left, top, hide-count
+
+<img src="General_empirical.jpg" />
+
+## 95% CI = sample mean ± 2*SEM
+
+
+???
+
+Hopefully you'll recall from the earlier videos that a confidence interval is constructed from the standard error, and the standard error is a measure of the spread of a sampling distribution. The null distribution that we've already constructed is a type of sampling distribution. And we can use it to construct some confidence intervals for this difference in mean leadership scores that we observed in our sample. Let's do that now.
+
+---
+
+class: center, middle, hide-count
+```{r include=FALSE}
+null_distn %>% 
+  get_p_value(obs_stat = d_hat, direction = "two_sided")
+
+
+null_distn %>% 
+  get_p_value(obs_stat = d_hat, direction = "two_sided")
+
+data %>%
+  t_test(leadership ~ degree, alternative="two.sided", order = c("Masters", "Bachelors"), direction = "two.sided")
+
+lowerCI <- d_hat-1.96*sd(null_distn$stat)
+upperCI <- d_hat+1.96*sd(null_distn$stat)
+#or
+ci <- null_distn %>%
+  get_confidence_interval(type = "se", point_estimate = d_hat)
+
+null_distn %>%
+  visualize(method = "simulation") +
+  shade_confidence_interval(c(ci$lower,ci$upper) )
+```
+
+```{r echo=FALSE, fig.retina=8}
+null_distn %>%
+  ggplot2::ggplot(aes(stat)) +
+  scale_x_continuous(limits = c(-2.5,2.5))+
+  theme_minimal()+
+  labs(x = "Difference in mean leadership score between groups", y = NULL)+
+  geom_vline(xintercept = 0, size = 1, color = "black")+
+  geom_dotplot(binwidth=0.075, method='histodot', colour = "white", fill = "blue", alpha=0.3) +
+  theme_minimal()+
+  labs(x = "Difference in mean leadership score between groups", y = NULL, subtitle = "Leadership scores higher in Bachelors group                Leadership scores higher in Masters group")+
+    geom_vline(xintercept = 1.82, size = 1, color = "red", linetype = "dashed" )
+```
+--
+
+```{r}
+sd(null_distn$stat)
+```
+
+
+???
+
+Here's the distribution again, with just the red line to indicate the mean difference in leadership scores observed from our sample. To get the standard error, we just calculate the standard deviation of the null distribution. The standard error is 0.75. To get the lower ninety five percent confidence intervals for a mean we multiplied the standard error of it's sampling distribution by 2 and subtracted that value from the mean. It was the opposite for the upper confidence interval - mean plus twice the standard error.
+---
+```{r echo=FALSE, fig.retina=8}
+null_distn %>%
+  ggplot2::ggplot() +
+  scale_y_continuous(limits = c(0,5))+
+  scale_x_continuous(limits = c(-2.5,3.3), breaks = c(-2, -1, 0, 1, 2, 3))+
+  theme_minimal()+
+  labs(x = "Difference in mean leadership score between groups", y = NULL)+
+  geom_vline(xintercept = 0, size = 1, color = "black")+
+  labs(x = "Difference in mean leadership score between groups", y = NULL, subtitle = "Leadership scores higher in Bachelors group                Leadership scores higher in Masters group")+
+  geom_errorbarh(aes(xmin=lowerCI$stat, xmax=upperCI$stat, y=2.5))+
+    geom_vline(xintercept = 1.82, size = 1, color = "red", linetype = "dashed" )+
+  theme(axis.text.y=element_blank())+
+  annotate(geom = "text", x = 1.55, y = 2.7, label = "95% CI", hjust = "center")+
+  annotate(geom = "text", x = lowerCI$stat, y = 1.9, label = round(lowerCI$stat,2), hjust = "center")+
+  annotate(geom = "text", x = upperCI$stat, y = 1.9, label = round(upperCI$stat,2), hjust = "center")
+```
+--
+
+### A 95% CI spans the range of values that we are 95% confident contains the **true** mean of the **population**
+
+
+95% confident that the true mean difference in leadership scores between masters and bachelors degree prepared nurses **in the population** is within the range of being 0.44 points higher in masters nurses to 3.2 points higher in masters nurses
+
+  
+  ???
+Then we add some shading to cover the region below the mean to the lower ninety five percent confidence interval and also the range above the mean to cover up to the upper ninety-five percent confidence interval. Remember, the ninety five percent confidence interval indicates the range of scores in which if we were to repeatedly sample 200 nurses from that same population over and over again, we would expect the mean difference to come up within the range from the lower to the upper confidence interval ninety five percent of the time. In other words, we are ninety five percent confident that the true mean difference in leadership scores between masters and bachelors degree prepared nurses IN THE POPULATION is within zero point 4 points higher in masters nurses to three point two points higher in masters nurses.
+
+---
+class: center, middle, hide-count
+
+# Up next
+
+???
+
+Have a go at constructing some confidence intervals in the next exercise then we'll cover some important aspects about their interpretation.
