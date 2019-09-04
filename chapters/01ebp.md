@@ -19,9 +19,7 @@ id: 2
 
 <exercise id="2" title="What counts as 'evidence'">
 
-Time for some reading. This discussion paper focuses in on the 'evidence' aspect of evidence-based practice. The authors take a somewhat different stance to the original notion of EBP devised by David Sackett and colleagues, in that they conceptualized 'evidence' as also incorporating knowledge derived from sources other than original research - namely 'clinical experience', 'patient experience' and information from the 'local context'. 
-
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Rycroft-Malone.pdf" width="100%" height="1050px"></iframe>
+Time for some reading. This <a href="https://onlinelibrary-wiley-com.myaccess.library.utoronto.ca/doi/full/10.1111/j.1365-2648.2004.03068.x?sid=Ovid%3Aovftdb">discussion paper</a> focuses in on the 'evidence' aspect of evidence-based practice. The authors take a somewhat different stance to the original notion of EBP devised by David Sackett and colleagues, in that they conceptualized 'evidence' as also incorporating knowledge derived from sources other than original research - namely 'clinical experience', 'patient experience' and information from the 'local context'. 
 
 </exercise>
 
@@ -62,7 +60,7 @@ This is one of the differences, however, what is different at the 'core' (center
 
 <exercise id="6" title="Joanna Briggs Institute Model for Evidence-Based Healthcare"> 
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/jbi.pdf" width="100%" height="1050px"></iframe>
+Click <a href="https://journals.lww.com/ijebh/Fulltext/2019/03000/The_updated_Joanna_Briggs_Institute_Model_of.8.aspx">here</a> to read more about the JBI model.
 
 </exercise>
 
@@ -87,7 +85,7 @@ More information on the ACE Star Model of Knowledge Transformation  can be found
 
 <exercise id="9" title="Challenging the assumptions">
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/wall.pdf" width="100%" height="1050px"></iframe>
+Click <a href="https://link.springer.com/article/10.1057/palgrave.sth.8700113">here</a> to access a disscussion paper that critiques Evidence-Based Practice in Nursing.
 
 </exercise>
 
@@ -197,23 +195,17 @@ Substantial progress has been made in ensuring that health professionals are cap
 
 </exercise>
 
-<exercise id="13" title="Evidence-based health policy">
-
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/dobrow.pdf" width="100%" height="1050px"></iframe>
-
-</exercise>
-
-<exercise id="14" title="Factors influencing Evidence-Based Practice" >
-
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/Gerrish.pdf" width="100%" height="1050px"></iframe>
-
-</exercise>
-
-<exercise id="15" title="Readings">
+<exercise id="13" title="Readings">
 
 *Required*
 
+
+<a href="https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S0277953603001667">Dobrow, M. J., Goel, V., & Upshur, R. E. G. (2004). Evidence-based health policy: context and utilisation. Social science & medicine, 58(1), 207-217.</a>
+
+<a href="https://sigmapubs-onlinelibrary-wiley-com.myaccess.library.utoronto.ca/doi/full/10.1111/j.1741-6787.2011.00230.x">Gerrish, K., Nolan, M., McDonnell, A., Tod, A., Kirshbaum, M., & Guillaume, L. (2012). Factors influencing advanced practice nurses’ ability to promote evidence‐based practice among frontline nurses. Worldviews on Evidence‐Based Nursing, 9(1), 30-39.</a>
+
 Craig, JV & Smyth, RL. (2012). The Evidence-based Practice Manual for Nurses (3rd ed.) Churchill Livingstone Elsevier. Chapter 1: Evidence-based Practice in Nursing.
+
 
 
 *Additional*
@@ -236,7 +228,7 @@ Gray, J.R., Grove, S.K. & Sutherland, S.  (2017). The Practice of Nursing Resear
 </exercise>
 
 
-<exercise id="16" title="Discussion board">
+<exercise id="14" title="Discussion board">
 
 Don't forget to head back to Quercus to participate in the discussion activity with the class. 
 
