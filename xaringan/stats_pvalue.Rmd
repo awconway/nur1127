@@ -4,9 +4,12 @@ output:
     seal: false
     lib_dir: libs
     css: [default, fonts.css, animate.css]
-    ratio: '16:9'
     includes:
       in_header: fa.html
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      ratio: '16:9'
 ---
 
 ```{r setup, include=FALSE}
@@ -60,91 +63,135 @@ d_hat <- data %>%
   calculate("diff in means", order = c("Masters", "Bachelors"))
 ```
 
-class: left, top, hide-count
-
-```{r echo=FALSE}
+```{r include=FALSE}
 set.seed(272)
 null_distn <- data %>% 
   specify(leadership ~ degree) %>%
   hypothesize(null = "independence") %>%
   generate(reps = 1000, type = "permute") %>%
-    calculate(stat = "diff in means", order = c("Masters", "Bachelors"))
+  calculate(stat = "diff in means", order = c("Masters", "Bachelors"))
+```
+
+class: left, top, hide-count
+
+.left-column[
+
+
+```{r echo=FALSE, fig.height=5, fig.retina=8, fig.align="center"}
 null_distn %>%
   ggplot2::ggplot(aes(stat)) +
-    scale_y_continuous( limits = c(0,1))+
-    scale_x_continuous(limits = c(-3,3))+
+  geom_dotplot(binwidth=0.075, method='histodot', colour = "white", fill = "blue", alpha=0.3) +
+  scale_y_continuous(limits = c(0,1))+
+  scale_x_continuous(limits = c(-2.5,3.3), breaks = c(-2, -1, 0, 1, 2, 3))+
   theme_minimal()+
-  labs(x = "Difference in mean leadership score between groups", y = NULL)+
+  labs(x = "Difference in mean leadership score between groups", y = NULL, title = "")+
   geom_vline(xintercept = 0, size = 1, color = "black")+
-  geom_dotplot(binwidth=0.068, method='histodot', colour = "white", fill = "blue", alpha=0.3) +
-  theme_minimal()+
-  labs(x = "Difference in mean leadership score between groups", y = NULL, subtitle = "Leadership scores higher in Bachelors group                Leadership scores higher in Masters group")
+      coord_cartesian(clip="off")+
+  geom_text(x = -1.5, y = 1.1, label = "Higher in Bachelors group",
+    check_overlap = TRUE, hjust = "center", fontface = 'bold', size = 5) +
+  geom_text(x = 1.5, y = 1.1, inherit.aes = FALSE, label = "Higher in Masters group",
+    check_overlap = TRUE, hjust = "center", fontface = 'bold', size = 5)+
+  annotate(
+    geom = "curve", xend = -1.3, yend = 0.25, x = -1.8, y = 0.48, 
+    curvature = .3, arrow = arrow(length = unit(2, "mm")))+
+  annotate(geom = "text", x = -1.8, y = 0.5, label = "Each dot is a random shuffle", hjust = "center")
 ```
---
-### P value is the probability of an event as or more extreme than that we observed in our sample, assuming the null hypothesis is true.
-```{r}
-null_distn %>%
+
+<br>
+
+The P value is the probability of an event **as or more extreme** than that we observed in our sample, assuming the null hypothesis is true.
+
+]
+
+???
+
+In the last video, we constructed a null distribution to help us test the null hypothesis that there is no difference in leadership score between nurses who do or do not have a masters degree. Here it is here again. What we can do now, is go ahead and calculate a p-value using this null distribution. A P value is the probability of an event occurring that is as, or more, extreme than what we observed in our sample, ASSUMING the null hypothesis is true. Remember, our null hypothesis was that there is NO DIFFERENCE in leadership score between groups. Caclulating a p-value is really easy.
+
+---
+class: top, left, hide-count
+
+
+```{r highlight.ouput=c(1:4)}
+null_distn %>% 
   get_p_value(obs_stat = 1.82, direction = "two_sided")
 ```
 
 ???
 
-In the last video, we constructed a null distribution to help us test the null hypothesis that there is no difference in leadership score between nurses who do or do not have a masters degree. What we can do now, is go ahead and calculate a p-value. A P value is the probability of an event occurring that is as, or more, extreme than what we observed in our sample, assuming the null hypothesis is true. The easy way of doing this is to run one line of code and get the computer to spit out the p value, which in our case is point zero two two. But I know what you're thinking - what is that supposed to mean! So let's instead take things a bit slower and go through with some visualizations to demonstrate what the p value actually means. First things first, in our sample the difference in mean leadership scores between groups was one point eight. Let's add that in to the plot of the null distribution as a red line.
+In fact, we could just run this one line of code and get the computer to spit out the answer in less than a second. In our case, the p-value turns out to be point zero two two. But I know what you're thinking - what, the heck, is that supposed to mean! So let's instead take things a little slower and go through with some visualizations to demonstrate what's actually going on so you will know how to to interpret pvalues correctly when you come across them reported in research papers. First things first, in our sample the difference in mean leadership scores between groups was one point eight. Let's add that in to the plot of the null distribution as a red line.
 
 ---
 class: left, top, hide-count
 
-```{r include=FALSE}
-
-d_hat <- data %>% 
-  specify(leadership ~ degree) %>%
-  calculate(stat = "diff in means", order = c("Masters", "Bachelors")) 
-
-
-set.seed(272)
-null_distn <- data %>% 
-  specify(leadership ~ degree) %>%
-  hypothesize(null = "independence") %>%
-  generate(reps = 1000, type = "permute") %>%
-    calculate(stat = "diff in means", order = c("Masters", "Bachelors"))
+.left-column[
+```{r echo=FALSE, fig.height=5, fig.retina=8, fig.align="center"}
 null_distn %>%
   ggplot2::ggplot(aes(stat)) +
-    scale_y_continuous( limits = c(0,1))+
-    scale_x_continuous(limits = c(-3,3))+
+  geom_dotplot(binwidth=0.075, method='histodot', colour = "white", fill = "blue", alpha=0.3) +
+  scale_y_continuous(limits = c(0,1))+
+  scale_x_continuous(limits = c(-2.5,3.3), breaks = c(-2, -1, 0, 1, 2, 3))+
   theme_minimal()+
-  labs(x = "Difference in mean leadership score between groups", y = NULL)+
+  labs(x = "Difference in mean leadership score between groups", y = NULL, title = "")+
   geom_vline(xintercept = 0, size = 1, color = "black")+
-  geom_dotplot(binwidth=0.068, method='histodot', colour = "white", fill = "blue", alpha=0.3) +
-  theme_minimal()+
-  labs(x = "Difference in mean leadership score between groups", y = NULL, subtitle = "Leadership scores higher in Bachelors group                Leadership scores higher in Masters group")+
-  geom_vline(xintercept = 1.82, size = 2, color = "red")
-
-
+      coord_cartesian(clip="off")+
+  geom_text(x = -1.5, y = 1.1, label = "Higher in Bachelors group",
+    check_overlap = TRUE, hjust = "center", fontface = 'bold', size = 5) +
+  geom_text(x = 1.5, y = 1.1, inherit.aes = FALSE, label = "Higher in Masters group",
+    check_overlap = TRUE, hjust = "center", fontface = 'bold', size = 5)+
+      geom_vline(xintercept = 1.82, size = 1, color = "red", linetype = "dashed" )+
+  annotate(
+    geom = "curve", xend = -1.3, yend = 0.25, x = -1.8, y = 0.48, 
+    curvature = .3, arrow = arrow(length = unit(2, "mm"))
+  ) +
+  annotate(geom = "text", x = -1.8, y = 0.5, label = "Each dot is a random shuffle", hjust = "center")+
+  annotate(
+    geom = "curve", xend = 1.83, yend = 0.4, x = 2.8, y = 0.63, 
+    curvature = -.3, arrow = arrow(length = unit(2, "mm"))
+  ) +
+  annotate(geom = "text", x = 2.8, y = 0.65, label = "Difference in our sample", hjust = "center")
 ```
+
+]
+
 ???
 
-Then, to get the p-value we have to work out how many times out of the 1000 random shuffles that made up the null distribution when the difference in means was more extreme than one point eight. Something to note here is that because we didn't specify a direction for our alternative hypothesis, we just simply stated that the difference in means between nurses with and without a masters degree would not be zero, the p-value takes into consideration values that were more extreme than what we observed from both sides of the curve - so both positive one point eight and negative one point eight. Let's shade this area on the null distribution now. 
+Then, to get the p-value we have to work out how many times out of the 1000 random shuffles that made up the null distribution when the difference in means was more extreme than one point eight. Something to note here is that because we didn't specify a direction for our null hypothesis, we just simply stated that the difference in means between nurses with and without a masters degree would be zero, the p-value takes into consideration values that were more extreme than what we observed from both sides of the curve - so both positive one point eight and negative one point eight. Let's shade this area on the null distribution now. 
 
 
 ---
 class: left, top, hide-count
 
-```{r echo=FALSE, fig.retina=8}
+
+.left-column[
+```{r echo=FALSE, fig.height=5, fig.retina=8, fig.align="center"}
 null_distn %>%
   ggplot2::ggplot(aes(stat)) +
-  scale_x_continuous(limits = c(-2.5,2.5))+
-  theme_minimal()+
-  labs(x = "Difference in mean leadership score between groups", y = NULL)+
-  geom_vline(xintercept = 0, size = 1, color = "black")+
   geom_dotplot(binwidth=0.075, method='histodot', colour = "white", fill = "blue", alpha=0.3) +
+  scale_y_continuous(limits = c(0,1))+
+  scale_x_continuous(limits = c(-2.5,3.3), breaks = c(-2, -1, 0, 1, 2, 3))+
   theme_minimal()+
-  labs(x = "Difference in mean leadership score between groups", y = NULL, subtitle = "Leadership scores higher in Bachelors group                Leadership scores higher in Masters group")+
-       annotate("rect", xmin = 1.8, xmax = Inf, ymin = 0, ymax = Inf,
+  labs(x = "Difference in mean leadership score between groups", y = NULL, title = "")+
+  geom_vline(xintercept = 0, size = 1, color = "black")+
+      coord_cartesian(clip="off")+
+  geom_text(x = -1.5, y = 1.1, label = "Higher in Bachelors group",
+    check_overlap = TRUE, hjust = "center", fontface = 'bold', size = 5) +
+  geom_text(x = 1.5, y = 1.1, inherit.aes = FALSE, label = "Higher in Masters group",
+    check_overlap = TRUE, hjust = "center", fontface = 'bold', size = 5)+
+      geom_vline(xintercept = 1.82, size = 1, color = "red", linetype = "dashed" )+
+  annotate(
+    geom = "curve", xend = -1.3, yend = 0.25, x = -1.8, y = 0.48, 
+    curvature = .3, arrow = arrow(length = unit(2, "mm"))
+  ) +
+annotate(geom = "text", x = -1.8, y = 0.5, label = "Each dot is a random shuffle", hjust = "center")+
+  annotate("rect", xmin = 1.8, xmax = Inf, ymin = 0, ymax = Inf,
         alpha = .2, fill = "red") +
    annotate("rect", xmin = -1.8, xmax = -Inf, ymin = 0, ymax = Inf,
-        alpha = .2, fill = "red") +
-  geom_vline(xintercept = 1.82, size = 2, color = "red")
+        alpha = .2, fill = "red")
 ```
+
+The difference in leadership score means turn was **as or more extreme** than our sample in 22 of the 1000 random shuffles
+
+]
 
 ???
 
@@ -153,37 +200,62 @@ As it turns out, in only 22 out of the 1000 random shuffles that made up the nul
 ---
 class: left, top, hide-count
 
-```{r echo=FALSE, fig.retina=8}
+.left-column[
+```{r echo=FALSE, fig.height=5, fig.retina=8, fig.align="center"}
 null_distn %>%
   ggplot2::ggplot(aes(stat)) +
-  scale_x_continuous(limits = c(-2.5,2.5))+
-  theme_minimal()+
-  labs(x = "Difference in mean leadership score between groups", y = NULL)+
-  geom_vline(xintercept = 0, size = 1, color = "black")+
   geom_dotplot(binwidth=0.075, method='histodot', colour = "white", fill = "blue", alpha=0.3) +
+  scale_y_continuous(limits = c(0,1))+
+  scale_x_continuous(limits = c(-2.5,3.3), breaks = c(-2, -1, 0, 1, 2, 3))+
   theme_minimal()+
-  labs(x = "Difference in mean leadership score between groups", y = NULL, subtitle = "Leadership scores higher in Bachelors group                Leadership scores higher in Masters group")+
-       annotate("rect", xmin = 1.8, xmax = Inf, ymin = 0, ymax = Inf,
+  labs(x = "Difference in mean leadership score between groups", y = NULL, title = "")+
+  geom_vline(xintercept = 0, size = 1, color = "black")+
+      coord_cartesian(clip="off")+
+  geom_text(x = -1.5, y = 1.1, label = "Higher in Bachelors group",
+    check_overlap = TRUE, hjust = "center", fontface = 'bold', size = 5) +
+  geom_text(x = 1.5, y = 1.1, inherit.aes = FALSE, label = "Higher in Masters group",
+    check_overlap = TRUE, hjust = "center", fontface = 'bold', size = 5)+
+      geom_vline(xintercept = 1.82, size = 1, color = "red", linetype = "dashed" )+
+  annotate(
+    geom = "curve", xend = -1.3, yend = 0.25, x = -1.8, y = 0.48, 
+    curvature = .3, arrow = arrow(length = unit(2, "mm"))
+  ) +
+annotate(geom = "text", x = -1.8, y = 0.5, label = "Each dot is a random shuffle", hjust = "center")+
+  annotate("rect", xmin = 1.8, xmax = Inf, ymin = 0, ymax = Inf,
         alpha = .2, fill = "red") +
    annotate("rect", xmin = -1.8, xmax = -Inf, ymin = 0, ymax = Inf,
-        alpha = .2, fill = "red") +
-  geom_vline(xintercept = 1.82, size = 2, color = "red")+
-  annotate(geom = "text", x = 2.3, y = 0.45, label = "p=0.022", hjust = "center")
+        alpha = .2, fill = "red")+
+  annotate(geom = "text", x = 2.3, y = 0.45, label = "p=0.022", hjust = "center", size = 5)
 ```
---
-### 2.2% probability of observing a mean difference in leadership score as or more extreme than 1.8, **assuming** the null hypothesis is true
+<br>
+
+2.2% probability of observing a mean difference in leadership score as or more extreme than 1.82, **assuming** the null hypothesis is true
+
+]
 
 ???
 
-And that, my friends, is where the p-value of point zero two two came from. Another way of looking at this is that there is a two point two percent probability of observing an event as or more extreme than the one we observed in our sample of nurses with an without masters degrees ASSUMING the null hypothesis was true.
+And that, my friends, is where our p-value came from. Twenty two divided by one thousand is point zero two two. Another way of looking at this is that there is a two point two percent probability of observing an event as or more extreme than the one we observed in our sample of nurses ASSUMING the null hypothesis was true.
 
---
+---
 
-### The "goal" is to disprove the null hypothesis. 
+class: center, middle, hide-count
+
+
+## The "goal" is to disprove the null hypothesis. 
 
 ???
 
-But what can we conclude from this p-value. Remember back to earlier in this series of videos when we established that the GOAL of hypothesis testing for statistical inference was to disprove the null hypothesis. I'm sure you would have all seen or heard p-values lower than the traditional benchmark of point zero five as being statistically significant. So what we have done by calculating this p-value is we have established some pretty compelling evidence against the null hypothesis. That there was only about a two percent probability of observing a result as or more extreme than the one point eight difference in mean score between groups in our sample strongly suggests that the null hypothesis is not true. In statistical terms, we would say that based on these results, we should therefore REJECT the null hypothesis that there was no difference in leadership scores between groups and hence we accept the alternative hypothesis that there is a statistically significant difference. 
+But what can we conclude from this p-value now that we've calculated it and know what it means. First we should remember back to earlier in this series of videos when we established that the GOAL of hypothesis testing for statistical inference was to disprove the null hypothesis. And I'm sure you would have all seen or heard p-values lower than the traditional benchmark of point zero five as being statistically significant. So what we have done by calculating this p-value is we have established some pretty compelling evidence against the null hypothesis. That there was only about a two percent probability of observing a result as or more extreme than the one point eight difference in mean score between groups in our sample strongly suggests that the null hypothesis is not true. 
+
+---
+class: center, middle, hide-count
+
+## Reject the null hypothesis if p value <0.05
+
+???
+
+In statistical terms, we would say that based on these results, we should therefore REJECT the null hypothesis that there was no difference in leadership scores between groups and hence we accept the alternative hypothesis that there is a statistically significant difference. 
 
 ---
 
@@ -193,5 +265,5 @@ class: center, middle, hide-count
 
 ???
 
-Just as a final note, p-values are a bit notorious for being misinterpreted. So I hope this series of videos where I have taken you through the process of simulating a null distribution and comparing that to our observed data has helped you to understand exactly what a p-value is testing. In the next section I've set up an exercise for you to practice setting null and alternative hypotheses and building a null distribution to test the null hypothesis.
+Just as a final note, p-values are a bit notorious for being misinterpreted. So I hope this series of videos where I have taken you through the process of simulating a null distribution and comparing that to our observed data has helped you to understand exactly what a p-value is testing. In the next section I've set up an exercise for you to practice statistical inference using a hypothesis testing framework.
 

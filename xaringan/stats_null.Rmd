@@ -18,7 +18,6 @@ library(tidyverse)
 library(infer)
 ```
 
----
 class: left, top, hide-count
 ```{r include=FALSE}
 rgbeta <- function(n, mean, var, min = 0, max = 1)
@@ -52,29 +51,41 @@ rgbeta <- function(n, mean, var, min = 0, max = 1)
 }
 ```
 
-```{r }
+```{r include=FALSE }
 set.seed(272)
 masters <- data.frame(leadership = rgbeta(n=100, mean=8, var=5^2, min = 3, max = 15),
                       degree = "Masters")
 non_masters <- data.frame(leadership = rgbeta(n=100, mean=6.5, var=5^2, min = 3, max = 15),
                           degree = "Bachelors")
 data <- rbind(masters, non_masters)
+```
+class: center, middle, hide-count
+# Introduction
 
+???
+
+In this video, we're going to build a null distribution so you can get your head around what a p-value is and how we can use that information to inform our decision as to whether we should accept or reject a null hypothesis. First, let's get our sample from the population. 
+
+---
+class: top, left, hide-count
+
+###<i class="fad fa-users"></i> 200 nurses sampled (100 with Masters)
+###<i class="fad fa-ruler"></i> Leadership score range from 0-15
+
+```{r echo=FALSE, fig.align="left"}
 data %>%
   group_by(degree) %>% 
-  summarize(average_leadership = mean(leadership))
-
-data %>% 
-  specify(leadership ~ degree) %>% 
-  calculate("diff in means", order = c("Masters", "Bachelors"))
+  summarize(average_leadership = mean(leadership)) %>% 
+  kableExtra::kable(col.names = c("Degree", "Mean Leadership Score"))
 ```
 
-### Difference in means between the two groups in this sample was 1.3
+### <i class="fad fa-calculator"></i> Difference in means is 1.82
+
 
 
 ???
 
-In this video, we're going to build a null distribution so you can get your head around what a p-value is and how we can use that information to inform our decision as to whether we should accept or reject a null hypothesis. First, let's get our sample from the population. We have here the leadership capability scores from a sample of two hundred nurses. The leadership capability scores range from 0 to 15, with higher scores meaning greater leadership capability. In our sample, one hundred of the nurses have a masters degree and the other hundred have a bachelors degree. In the sample, the mean leadership capability score for the nurses with a masters degree was eight point six and for the nurses with a bachelors degree it was six point eight. Something to take note of here is that the difference in means between the two groups in our sample was about one point eight points.
+We have here the leadership capability scores from a sample of two hundred nurses. The leadership capability scores range from 0 to 15, with higher scores meaning greater leadership capability. In our sample, one hundred of the nurses have a masters degree and the other hundred have a bachelors degree. In the sample, the mean leadership capability score for the nurses with a masters degree was eight point six and for the nurses with a bachelors degree it was six point eight. Something to take note of here is that the difference in means between the two groups in our sample was about one point eight points.
 
 ---
 class: left, top, hide-count
@@ -97,7 +108,7 @@ d_hat <- data %>%
   calculate("diff in means", order = c("Masters", "Bachelors"))
 ```
 
-```{r tx-wrangle,eval=FALSE}
+```{r eval=FALSE}
 data %>% 
   specify(leadership ~ degree) %>% #<<
   hypothesize(null = "independence") %>%
@@ -110,7 +121,7 @@ data %>%
 ---
 
 class: left, top, hide-count
-```{r tx-wrangle,eval=FALSE}
+```{r eval=FALSE}
 data %>% 
   specify(leadership ~ degree) %>% 
   hypothesize(null = "independence") %>% #<<
@@ -122,7 +133,7 @@ data %>%
 ---
 
 class: left, top, hide-count
-```{r tx-wrangle,eval=FALSE}
+```{r eval=FALSE}
 data %>% 
   specify(leadership ~ degree) %>% 
   hypothesize(null = "independence") %>% 
@@ -134,7 +145,7 @@ data %>%
 ---
 
 class: left, top, hide-count
-```{r tx-wrangle,eval=FALSE}
+```{r eval=FALSE}
 data %>% 
   specify(leadership ~ degree) %>% 
   hypothesize(null = "independence") %>% 
@@ -145,7 +156,7 @@ data %>%
 
 --
 
-```{r cache=TRUE, echo=FALSE, fig.height=5}
+```{r cache=TRUE, echo=FALSE, fig.height=5, fig.retina=8}
 set.seed(2)
 shuffle1 <- data %>% 
   specify(leadership ~ degree) %>%
@@ -192,7 +203,7 @@ First, we take the data from our sample and specify that we are interested in th
 ---
 class: left, top, hide-count
 
-```{r cache=TRUE, echo=FALSE, fig.height=5}
+```{r cache=TRUE, echo=FALSE, fig.height=5, fig.retina=8}
 plot +
   geom_point(aes(x=d_hat$stat, y=0), colour="red", size=5, alpha=0.3)+
   geom_point(aes(x=shuffle1$stat, y=0), colour="blue", size=5, alpha=0.3)+
@@ -221,7 +232,7 @@ This time, the Masters degree nurses had a mean leadership score lower than the 
 class: left, top, hide-count
 
 ### Null distribution
-```{r fig.height=5, fig.retina=5}
+```{r fig.height=5, fig.retina=8}
 set.seed(272)
 data %>% 
   specify(leadership ~ degree) %>%

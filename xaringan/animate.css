@@ -2,6 +2,12 @@
   display: none;
 }
 
+.left-column {
+  width: 75%;
+  height: 92%;
+  float: left;
+}
+
 @charset "UTF-8";
 
 /*!
