@@ -17,18 +17,42 @@ library(infer)
 
 class: center, middle, hide-count
 
-## Introduction
+## Difference in means is a type of effect estimate
 
 ???
 
-Up to now I've focused these lessons on statistical inference on the example of mean scores between two groups. Although this is a common situation encountered in quantitative research, there are lots and lots of different statistical tests that can be used. I do want to introduce you to some of them, but first want to highlight that the principles we've already learned about p-values, null hypotheses, confidence intervals etc, they all still apply regardless of the particular type of statistical tests used in a study. So it's not really important for you to know whether or not the researcher chose the right type of statistical test, but it is important that you can appraise the appropriateness of the conclusions that were drawn from those analyses, which in most cases are drawn from the statistical signficance, or in other words the p value, as well as hopefully the uncertainty associated with the result, which is of course the range of the confidence interval. So for example, wherever you see a p-value reported in a paper, a good thing to do is think to yourself, what is the null hypothesis associated with that p-value. ok - lets get to it.
+Up to now I've focused these lessons about statistical inference on the example of calculating a difference in the mean scores between two groups. A difference in means is one type of effect estimate. It is termed an effect estimate because it is a way to summarize the effect of some sort of comparison and it is an estimate because it was drawn from just a sample of the population.
+
+Although this is a common effect estimate you will encounter when reading and appraising quantitative research studies, there are lots and lots of different statistical tests that we can use to produce different effect estimates. I do want to introduce you to some of the common ones, but first want to highlight that the principles we've already learned about p-values, null hypotheses and confidence intervals, by and large all still apply regardless of the particular type of statistical test used and effect estimate that gets reported in a study. So it's not really important for you to know whether or not the researcher has chosen the right type of statistical test, but it is important that you can judge the appropriateness of the conclusions that were drawn from the analyses that were undertaken. In most cases, the researchers interpretations are drawn from the statistical signficance of the effect estimate, or in other words the p value, as well as hopefully the uncertainty associated with the effect estimate, which is of course the range of its confidence interval. So for example, wherever you see a p-value reported in a paper, a good thing to do is think to yourself, what is the null hypothesis associated with that p-value. ok - lets go over some other effect estimates.
 
 ---
 
-class: center, middle, hide-count
+class: top, left, hide-count
 
-## Common statistical tests
+## Other common effect estimates
+
+- Regression coefficients
+- Odds ratio
+- Absolute risk reduction
+- Relative risk ratio
+
 
 ???
+
+The effect estimates I want to introduce you to are the beta coefficient, the odds ratio, the absolute risk reduction and the relative risk ratio. Let's tackle the regression coefficient first, becuase it is the effect estimate calculated by a very common type of statistical test, called linear regression.
+
+---
+
+class: top, left, hide-count
+
+## Linear regression
+
+- Regression coefficients
+
+
+???
+
+When interpreting coefficients from regression models, one must pay particular attention to units and scales. Note that the units of the coefficients is the units of the response variable per unit of the explanatory variable. 
+
 
 The choice of a statistical test largely depends on the types of variables that have been measured. Last week we went over the different types of variables. In our previous example where we compared leadership scores between groups, we had one numerical variable, which was the leadership score, and one nominal variable, which was whether or not nurses had a masters or bachelors degree. In these circumstances where a numerical variable is the outcome and the predictor is nominal it will be common to see research studies reporting results of t-tests. When both the outcome and the predictor are categorical, a common type of statistical test is called the chi square test. If a researcher is interested in the association between two numerical variables, it is common to see correlations. 

@@ -1,0 +1,138 @@
+---
+output:
+  xaringan::moon_reader:
+    seal: false
+    lib_dir: libs
+    css: [default, fonts.css, animate.css]
+    ratio: '16:9'
+    includes:
+      in_header: fa.html
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(tidyverse)
+library(infer)
+library(gt)
+library(nur1027functions)
+library(moderndive)
+```
+
+class: center, middle, hide-count
+
+# Introduction
+
+???
+
+To understand regression coefficients, we should probably first go over what linear regression actually is. 
+
+---
+class: top, left, hide-count
+.left-column[
+```{r echo=FALSE, fig.align="center", fig.retina=8, fig.height=4}
+plot <- plot_qol(x=PHQ9, y=GH) +
+  labs(x = "Depression (PHQ-9)", y= "Quality of life (SF-36)")
+plot
+```
+
+Regression quantifies the relationship between an *outcome* and *predictor* variable by finding the line of best fit
+
+]
+
+???
+
+Let's consider the example from my previous research that we looked at in week 7 to learn about validity. This plot shows quality of life on the vertical axis and depression scores on the horizintal axis of a sample of heart transplant recipients. Quality of life was measured with the SF-36 on a scale from zero to one hundred with higher scores indicating better quality of life. Depression was measured with the PHQ-9 on a scale from 0 to 25 with higher scores indicating worse depression. What we can see is that there may be a negative correlation between these two measures because the clustering of scores at the top left make it seem like patients who had higher quality of life may have had lower depression scores. Linear regression provides us with insights into the relationship between an outcome and predictor variables by finding the line of best fit between these points. In our case, the outcome is quality of life and the predictor is depression.
+
+---
+class: top, left, hide-count
+
+```{r echo=FALSE, fig.align="left", fig.retina=8, fig.height=4}
+plot+
+    theme_minimal()+
+    scale_y_continuous(limits = c(0,100))+
+    scale_x_continuous(limits = c(0,25))+
+  geom_smooth(method = "lm", se = FALSE)
+```
+
+Regression line characterised by intercept and slope coefficients
+
+Slope coefficient tells us the magnitude of change that we should expect to see in the predictor variable for a unit increase in the outcome variable
+
+???
+
+This is what the regression line looks like and we can see that it indeed does slope kind of down from the top left of the plot as we suspected it might do. If we calculate the regression coefficients, we will be able to quantify this linear relationship between the two variables. 
+
+---
+
+class: top, left, hide-count
+
+## $\beta$ coefficients
+
+```{r echo=FALSE}
+model <- lm(GH ~ PHQ9, data = data)
+gt(moderndive::get_regression_table(model)) %>% 
+  cols_label(
+    estimate = html("&beta; coefficient")
+  )
+```
+```{r echo=FALSE, fig.align="left", fig.retina=8, fig.height=4}
+plot+
+    theme_minimal()+
+    scale_y_continuous(limits = c(0,100))+
+    scale_x_continuous(limits = c(0,25))+
+  geom_smooth(method = "lm", se = FALSE)+
+  annotate(
+    geom = "curve", xend = 0, yend = 67, x = 7.5, y = 3, 
+    curvature = -.3, arrow = arrow(length = unit(4, "mm"))
+  ) +
+  annotate(geom = "text", x = 7.5, y = 3, label = "Intercept is the point that line cross y-axis (67)", hjust = "left",
+           size = 5)
+```
+For every INCREASE of 1 unit in `GH`, there is an associated DECREASE of, on average, 1.4 units of `PHQ9`
+
+
+???
+
+
+The coefficients we calculate will be one coefficient for the intercept and a coefficient for the slope. The intercept is the point at which the regression line crosses the vertical axis. In this case, it is 67.  The slope coefficient tells us the magnitude of change that we should expect to see in the predictor variable for one unit increase in the outcome variable.
+
+---
+class: top, left, hide-count
+
+## $\beta$ coefficients
+
+```{r echo=FALSE}
+model <- lm(GH ~ PHQ9, data = data)
+gt(moderndive::get_regression_table(model)) %>% 
+  cols_label(
+    estimate = html("&beta; coefficient")
+  )
+```
+
+For every INCREASE of 1 unit in `quality of life`, there was an associated DECREASE of, on average, 1.4 units of `depression`
+
+???
+
+Remember, the outcome for our example is quality of life and the predictor is depression. So because the slope coefficient was negative one point four two. So for every INCREASE of 1 unit in quality of life, there was an associated DECREASE of,one point four units of depression.
+
+This is an example of how regression coefficients for linear regression models are often reported in quantitative studies. First of all, you'll notice that the coefficients are commonly termed beta coefficients with the greek symbol used for notation. The first row of the table shows the coefficient for the intercept along with it's associated 
+
+so that we know the magnitude of change that we should expect to see in depression scores for a unit increase in the quality of life score
+
+---
+class: top, left, hide-count
+
+.left-column[
+## $\beta$ coefficients
+
+<img src="regression.png"/>
+]
+
+???
+
+This is an example of how regression coefficients for a linear regression model are often reported in quantitative studies. These coefficients are also commonly termed beta coefficients with the greek symbol used for notation.
+
+When interpreting coefficients from regression models, one must pay particular attention to units and scales. Note that the units of the coefficients is the units of the response variable per unit of the explanatory variable. 
+
+
+The choice of a statistical test largely depends on the types of variables that have been measured. Last week we went over the different types of variables. In our previous example where we compared leadership scores between groups, we had one numerical variable, which was the leadership score, and one nominal variable, which was whether or not nurses had a masters or bachelors degree. In these circumstances where a numerical variable is the outcome and the predictor is nominal it will be common to see research studies reporting results of t-tests. When both the outcome and the predictor are categorical, a common type of statistical test is called the chi square test. If a researcher is interested in the association between two numerical variables, it is common to see correlations. 
