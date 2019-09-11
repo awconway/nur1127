@@ -85,7 +85,7 @@ More information on the ACE Star Model of Knowledge Transformation  can be found
 
 <exercise id="9" title="Challenging the assumptions">
 
-Click <a href="https://link.springer.com/article/10.1057/palgrave.sth.8700113">here</a> to access a disscussion paper that critiques Evidence-Based Practice in Nursing.
+Click <a href="https://link-springer-com.myaccess.library.utoronto.ca/content/pdf/10.1057%2Fpalgrave.sth.8700113.pdf">here</a> to access a disscussion paper that critiques Evidence-Based Practice in Nursing.
 
 </exercise>
 
