@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>quant_bias.utf8.md</title>
+    <meta charset="utf-8" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="fonts.css" type="text/css" />
+    <link rel="stylesheet" href="animate.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+class: center, middle
+# Introduction
+
+???
+
+Minimizing the risk of bias is a primary concern for all types of quantitative research studies. 
+
+---
+
+class: left, top
+&lt;img src="bias.png" height="550px" width="auto"&gt;
+
+???
+
+Some of the major sources of bias include selection bias, performance bias, attrition bias and detection bias. 
+
+---
+
+class: left, top
+&lt;img src="selection.png" height="550px" width="auto"&gt;
+
+???
+
+Selection bias occurs when there are systematic differences in the comparison groups. A randomized controlled trial is able to minimise the risk of selection bias by creating a random sequence and allocating patients to groups according to this sequence. It is important that the researchers recruiting participants have no knowledge about the allocation sequence, though. This is termed allocation concealment.
+
+---
+
+class: left, top
+&lt;img src="performance.png" height="550px" width="auto"&gt;
+
+???
+The risk of performance bias is decreased in randomized controlled trials that blind participants and personel involved in the study to group assignment. If a clinician was aware of what intervention the participant was receiving, there is the potential that they may treat the patient differently than if they did not have that information available to them. Likewise, if patients know what treatment they have been assigned, their decision-making would also be influenced.
+---
+
+class: left, top
+&lt;img src="attrition.png" height="550px" width="auto"&gt;
+
+???
+Attrition bias occurs when there are systematic differences in the number or type of patients that withdraw from a study. After the study has been completed, a number of analysis methods can be used to reduce the impact of attrition bias. One way is to use intention to treat analysis. Because anything that happens after randomisation can affect the chance that a study participant has the outcome of interest, it is important that all patients are analysed in the groups to which they were allocated - this applies to those who fail to adhere to the intervetion for whatever reason as well as those who accidentally or even intentionally receive the wrong intervention.
+
+We also have to pay attention to how the missing data from participants who withdrew early from the study were treated. One good thing a study can do to evaluate the extent of attrition bias is a 'worst case' scenario sensitivity analysis. In this approach, the data from the study would be analysed assuming that those who dropped out in the intervention group all got worse and all those who dropped out from the standard care group got better.
+
+But regardless of how the data were analysed, the reasons that participants leave the study should be carefully considered:  if we know that participants dropped out of the study for reasons unrelated to the intervention being tested or the outcome, this may have little or no impact on the results.
+---
+
+class: left, top
+&lt;img src="detection.png" height="550px" width="auto"&gt;
+
+???
+
+Finally, detection bias occurs when there are systematic differences in how outcomes are assessed between groups. There is a risk that this could occur if the researcher measuring the outcomes is aware of which group the participants have been assigned.
+
+---
+
+class: center, middle
+
+# Up next
+
+
+???
+
+The Cochrane Collaboration handbook for systematic reviews goes into more detail about assessing for risk of bias. I've included a link to this resource in the reading section below.
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"slideNumberFormat": "<div class=\"progress-bar-container\">   <div class=\"progress-bar\" style=\"width: calc(%current% / %total% * 100%);\">   </div> </div> ",
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

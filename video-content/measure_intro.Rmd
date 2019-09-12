@@ -1,0 +1,79 @@
+---
+output:
+  xaringan::moon_reader:
+    seal: false
+    lib_dir: libs
+    css: [default, fonts.css, animate.css]
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      ratio: '16:9'
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(icon)
+library(emo)
+```
+
+class: center, middle
+# Introduction
+
+???
+
+Quntitative research is concerned with representing reality through numbers, so an understanding of measurement concepts is going to be essential to developing your critical appraisal skills. 
+
+
+---
+class: left top
+
+# Learning objectives
+
+- To understand and apply concepts in measurement and instrumentation.
+- To understand and apply criteria for assessing rigour in quantitative studies.
+
+???
+
+This week I'll be discussing measurement error as well as introducing the concepts reliability and validity so that you'll be able to meet our learning objectives. 
+
+
+---
+
+class: left top
+
+# What is measurement?
+
+--
+
+
+- Observing and recording
+
+
+--
+
+<img src="ruler.png" height="300px" width="auto">
+
+--
+
+- Reliable & valid
+
+
+???
+
+
+We can define measurement as the process of observing and recording. To do that you generally require some sort of instrument or tool. Consider for example a ruler. It's a tool we use to measure height or length. Measuring something like nurses' intentions to stay working in the acute care setting is a little more complext than measuring height though. So we need to be able to check if the tool or instrument we're going to use to measure these complext constructs is reliable and valid. 
+
+---
+class: center, middle
+
+# Up next
+
+
+???
+
+To start, though, let's do some groundwork on the different types of ways that things can be measured. See you in the next video.
+
+

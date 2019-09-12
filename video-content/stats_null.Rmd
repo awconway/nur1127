@@ -1,0 +1,272 @@
+---
+output:
+  xaringan::moon_reader:
+    seal: false
+    lib_dir: libs
+    css: [default, fonts.css, animate.css]
+    ratio: '16:9'
+    includes:
+      in_header: fa.html
+    nature:
+      highlightStyle: github
+      highlightLines: true
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(tidyverse)
+library(infer)
+```
+
+class: left, top, hide-count
+```{r include=FALSE}
+rgbeta <- function(n, mean, var, min = 0, max = 1)
+{
+  dmin <- mean - min
+  dmax <- max - mean
+  
+  if (dmin <= 0 || dmax <= 0)
+  {
+    stop(paste("mean must be between min =", min, "and max =", max)) 
+  }
+  
+  if (var >= dmin * dmax)
+  {
+    stop(paste("var must be less than (mean - min) * (max - mean) =", dmin * dmax))
+  }
+  
+  # mean and variance of the standard beta distributed variable
+  mx <- (mean - min) / (max - min)
+  vx <- var / (max - min)^2
+  
+  # find the corresponding alpha-beta parameterization
+  a <- ((1 - mx) / vx - 1 / mx) * mx^2
+  b <- a * (1 / mx - 1)
+  
+  # generate standard beta observations and transform
+  x <- rbeta(n, a, b)
+  y <- (max - min) * x + min
+  
+  return(y)
+}
+```
+
+```{r include=FALSE }
+set.seed(272)
+masters <- data.frame(leadership = rgbeta(n=100, mean=8, var=5^2, min = 3, max = 15),
+                      degree = "Masters")
+non_masters <- data.frame(leadership = rgbeta(n=100, mean=6.5, var=5^2, min = 3, max = 15),
+                          degree = "Bachelors")
+data <- rbind(masters, non_masters)
+```
+class: center, middle, hide-count
+# Introduction
+
+???
+
+In this video, we're going to build a null distribution so you can get your head around what a p-value is and how we can use that information to inform our decision as to whether we should accept or reject a null hypothesis. First, let's get our sample from the population. 
+
+---
+class: top, left, hide-count
+
+###<i class="fad fa-users"></i> 200 nurses sampled (100 with Masters)
+###<i class="fad fa-ruler"></i> Leadership score range from 0-15
+
+```{r echo=FALSE, fig.align="left"}
+data %>%
+  group_by(degree) %>% 
+  summarize(average_leadership = mean(leadership)) %>% 
+  kableExtra::kable(col.names = c("Degree", "Mean Leadership Score"))
+```
+
+### <i class="fad fa-calculator"></i> Difference in means is 1.82
+
+
+
+???
+
+We have here the leadership capability scores from a sample of two hundred nurses. The leadership capability scores range from 0 to 15, with higher scores meaning greater leadership capability. In our sample, one hundred of the nurses have a masters degree and the other hundred have a bachelors degree. In the sample, the mean leadership capability score for the nurses with a masters degree was eight point six and for the nurses with a bachelors degree it was six point eight. Something to take note of here is that the difference in means between the two groups in our sample was about one point eight points.
+
+---
+class: left, top, hide-count
+
+
+## Understanding the null distribution
+
+Generating a distribution of the difference in means from the null population gives information about whether the observed data are inconsistent with the null hypothesis
+
+???
+
+Now that we have our sample from the population, we can use simulations to build a distribution of differences in means assuming the null hypothesis that there is no difference in leadership scores between the two groups is true. This is called a null distribution. The null distribution we are building consists of randomly shuffled differences in 200 leadership scores, so that the samples don't have any dependency between leadership scores and whether or not nurses have a masters degree. Let's step through how a null distribution is produced to make it easier to understand.
+
+---
+class: left, top, hide-count
+
+```{r include=FALSE}
+d_hat <- data %>% 
+  specify(leadership ~ degree) %>% 
+  calculate("diff in means", order = c("Masters", "Bachelors"))
+```
+
+```{r eval=FALSE}
+data %>% 
+  specify(leadership ~ degree) %>% #<<
+  hypothesize(null = "independence") %>%
+  generate(reps = 1, type = "permute") %>%
+    calculate(stat = "diff in means", 
+              order = c("Masters", "Bachelors"))
+```
+???
+
+---
+
+class: left, top, hide-count
+```{r eval=FALSE}
+data %>% 
+  specify(leadership ~ degree) %>% 
+  hypothesize(null = "independence") %>% #<<
+  generate(reps = 1, type = "permute") %>%
+    calculate(stat = "diff in means", 
+              order = c("Masters", "Bachelors"))
+```
+
+---
+
+class: left, top, hide-count
+```{r eval=FALSE}
+data %>% 
+  specify(leadership ~ degree) %>% 
+  hypothesize(null = "independence") %>% 
+  generate(reps = 1, type = "permute") %>% #<<
+    calculate(stat = "diff in means", 
+              order = c("Masters", "Bachelors"))
+```
+
+---
+
+class: left, top, hide-count
+```{r eval=FALSE}
+data %>% 
+  specify(leadership ~ degree) %>% 
+  hypothesize(null = "independence") %>% 
+  generate(reps = 1, type = "permute") %>%
+    calculate(stat = "diff in means",  #<<
+              order = c("Masters", "Bachelors")) #<<
+```
+
+--
+
+```{r cache=TRUE, echo=FALSE, fig.height=5, fig.retina=8}
+set.seed(2)
+shuffle1 <- data %>% 
+  specify(leadership ~ degree) %>%
+  hypothesize(null = "independence") %>%
+  generate(reps = 1, type = "permute") %>%
+    calculate(stat = "diff in means", order = c("Masters", "Bachelors"))
+set.seed(3)
+shuffle2 <- data %>% 
+  specify(leadership ~ degree) %>%
+  hypothesize(null = "independence") %>%
+  generate(reps = 1, type = "permute") %>%
+    calculate(stat = "diff in means", order = c("Masters", "Bachelors"))
+plot <- shuffle1 %>%
+  ggplot2::ggplot(aes(stat)) +
+    scale_y_continuous( limits = c(0,1))+
+    scale_x_continuous(limits = c(-3,3))+
+  theme_minimal()+
+  labs(x = "Difference in mean leadership score between groups", y = NULL)+
+  geom_vline(xintercept = 0, size = 1, color = "black")+
+  annotate("text", x = -1.8, y = 0.8,
+  label = "Leadership scores higher in Bachelors group") +
+  annotate("text", x = 1.8, y = 0.8,
+  label = "Leadership scores higher in Masters group")
+ plot +
+  geom_point(aes(x=d_hat$stat, y=0), colour="red", size=5, alpha=0.3)+
+  geom_point(aes(x=shuffle1$stat, y=0), colour="blue", size=5, alpha=0.3)+
+   annotate(
+    geom = "curve", xend = d_hat$stat, yend = 0.02, x = 2.5, y = 0.125, 
+    curvature = .3, arrow = arrow(length = unit(2, "mm"))
+  ) +
+  annotate(geom = "text", x = 2.52, y = 0.125, label = "Our sample", hjust = "left")+
+   annotate(
+    geom = "curve", xend = shuffle1$stat, yend = 0.02, x = 2, y = 0.225, 
+    curvature = .3, arrow = arrow(length = unit(2, "mm"))
+  ) +
+  annotate(geom = "text", x = 2, y = 0.225, label = "Random shuffle 1", hjust = "left")
+```
+
+
+???
+
+First, we take the data from our sample and specify that we are interested in the relationship between leadership and whether or not nurses have a masters degree. We then state our null hypothesis that there is no difference in leadership scores between groups - in other words they are independent. Then, we generate 1 random shuffle of the data and calculate the difference in mean leadership scores between the masters and bachelors degree groups. We can then plot the results. In the plot the x - or horizontal - axis is the difference in mean leadership score between groups. We can see the result from our sample of 200 nurses on the right hand side - meaning that the mean leadership score was higher in the nurses who had masters degrees in this sample. In this first random shuffle we produce on our way to constructing a null distribution, just like in our sample, the mean leadership score was higher in the Masters group. Let's do another random shuffle. 
+
+---
+class: left, top, hide-count
+
+```{r cache=TRUE, echo=FALSE, fig.height=5, fig.retina=8}
+plot +
+  geom_point(aes(x=d_hat$stat, y=0), colour="red", size=5, alpha=0.3)+
+  geom_point(aes(x=shuffle1$stat, y=0), colour="blue", size=5, alpha=0.3)+
+   annotate(
+    geom = "curve", xend = d_hat$stat, yend = 0.02, x = 2.5, y = 0.125, 
+    curvature = .3, arrow = arrow(length = unit(2, "mm"))
+  ) +
+  annotate(geom = "text", x = 2.52, y = 0.125, label = "Our sample", hjust = "left")+
+   annotate(
+    geom = "curve", xend = shuffle1$stat, yend = 0.02, x = 2, y = 0.225, 
+    curvature = .3, arrow = arrow(length = unit(2, "mm"))
+  ) +
+  annotate(geom = "text", x = 2, y = 0.225, label = "Random shuffle 1", hjust = "left")+
+    geom_point(aes(x=shuffle2$stat, y=0), colour="blue", size=5, alpha=0.3)+
+   annotate(
+    geom = "curve", xend = shuffle2$stat-0.1, yend = 0.0, x = -1, y = 0.225, 
+    curvature = .3, arrow = arrow(length = unit(2, "mm"))
+  ) +
+  annotate(geom = "text", x = -1, y = 0.28, label = "Random shuffle 2", hjust = "center")
+```
+???
+
+This time, the Masters degree nurses had a mean leadership score lower than the bachelors group. To build up the null distribution, we simply take lots and lots of random shuffles. Let's do one thousand of them and take a look at the null distribution. 
+
+---
+class: left, top, hide-count
+
+### Null distribution
+```{r fig.height=5, fig.retina=8}
+set.seed(272)
+data %>% 
+  specify(leadership ~ degree) %>%
+  hypothesize(null = "independence") %>%
+  generate(reps = 1000, type = "permute") %>%
+    calculate(stat = "diff in means", order = c("Masters", "Bachelors"))%>%
+ggplot2::ggplot(aes(stat)) +
+    scale_y_continuous( limits = c(0,1))+
+    scale_x_continuous(limits = c(-2.5,2.5), breaks = c(seq(-2,2, by=1)))+
+  theme_minimal()+
+  labs(x = "Difference in mean leadership score between groups", y = NULL)+
+  geom_vline(xintercept = 0, size = 1, color = "black")+
+  geom_dotplot(binwidth=0.075, method='histodot', colour = "white", fill = "blue", alpha=0.3) +
+  theme_minimal()+
+  labs(x = "Difference in mean leadership score between groups", y = NULL, subtitle = "Leadership scores higher in Bachelors group                           Leadership scores higher in Masters group")+
+  geom_vline(xintercept = 1.82, size = 2, color = "red")+
+   annotate(
+    geom = "curve", xend = -1.3, yend = 0.25, x = -1.8, y = 0.48, 
+    curvature = .3, arrow = arrow(length = unit(2, "mm"))
+  ) +
+  annotate(geom = "text", x = -1.8, y = 0.5, label = "Each dot is a random shuffle", hjust = "center")
+```
+
+???
+
+This is our null distribution. Each dot represents a mean difference in leadership score from a hypothetical sample of 200 nurses where there is no association between the leadership score and whether or not the nurses have a masters degree. What we see when we have completely built the null distribution is that the mean differences in leadership scores were between about negative two and positive two, although the majority of differences were between negative one and positive one. In other words, if we assume the null hypothesis is true, and remember, our null hypothesis is that there is no difference in leadership score between groups, it would be totally expected that if we drew lots of samples of 200 nurses from the population the average difference in leadership score between groups that we would observe would fall between one point higher or one point lower in the masters group most of the time. The solid red line in the plot is the mean difference in leadership score between groups that we ACTUALLY observed in our sample. The Masters nurses scored their leadership capabilities one point eight points higher on average than nurses with baachelors degrees. So what we can tell already, is that the observed mean difference in leadership capability in OUR sample does seem a bit extreme compared to this collection of differences from the null distribution. 
+
+---
+
+class: center, middle, hide-count
+
+# Up next
+
+???
+
+In the next video, I'll move on to demonstrating how we can calculate a p-value using this null distribution and the mean difference in leadership score that we observed in our sample.
+

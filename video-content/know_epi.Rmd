@@ -1,0 +1,64 @@
+---
+output:
+  xaringan::moon_reader:
+    seal: false
+    lib_dir: libs
+    css: [default, fonts.css, animate.css]
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      ratio: '16:9'
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(icon)
+library(emo)
+```
+
+class: center, middle
+# Introduction
+
+???
+
+Understanding how epistemology relates to the choices researchers make when designing how they will conduct their study is important.
+
+---
+class: left, top
+
+# Epistemology
+
+><h2>relationship the researcher has to the research</h2>
+
+???
+
+Epistemology is concerned with the relationship that the researcher has with the research. The researchers ontological beliefs will dictate their epistemological beliefs. So in other words, what the researcher believes about the nature of reality will dictate the relationship they think the researcher should have with whatever is being studied. And we can break epistemology down into two basic sets of beliefs about how we should gather new knowledge.
+
+---
+
+class: left, middle
+
+# Objective (etic)
+# Subjective (emic)
+
+???
+
+Some researchers believe that research should be done in an objective way so that the researcher does not influence the data that is gathered. They think that in order to find out what the truth is, the researcher needs to stay independent so that they can get an objective measurement. You might also come across this approach being termed in the literature as 'etic'. This epistemology is aligned with a realist ontology. 
+
+The opposite approach to research would be taking a more subjective stance. This is used by researchers who take a relativist ontological view. These researchers would need to interact with people to find out what truth means to them. The potential influence of the researcher on what is being researched is usually explicitly acknowledged. And the main point is that interaction between the researcher and the person from whom data is being collected is seen as necessary to gain an in-depth understanding of what is going on.
+
+---
+
+class: center, middle
+
+# Up next
+
+
+???
+
+The reading in the next section is going to introduce you to the reasoning behind why methodological choices are informed by a researchers epistemological standpoint. 
+
+

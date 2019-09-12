@@ -1,0 +1,62 @@
+---
+output:
+  xaringan::moon_reader:
+    seal: false
+    lib_dir: libs
+    css: [default, fonts.css, animate.css]
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>`
+      ratio: '16:9'
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+
+class: center, middle
+
+# Introduction
+
+???
+
+Now I'd like to talk about the risks associated with evidence-based practice. 
+
+---
+
+class: left, top
+
+
+### `r icon::fa("arrow-right")` the myth of 'perfect evidence'
+
+--
+
+### `r icon::fa("arrow-right")` information overload
+
+--
+.pull-left[
+### `r icon::fa("arrow-right")` Discounting important types of research
+]
+
+???
+
+One important thing to keep in mind is that there is no such thing as perfect evidence. All we have to deal with is the best available evidence at any given time and sometimes the best available evidence may, unfortunately, just be expert opinion. 
+
+A major risk with evidence-based practice is being careful to consider the evidence in its entirety before making a decision. Unfortunately, finding what you're looking for amongst the thousands of research papers can be really challenging.  For that reason, a great source of information is looking to systematic reviews, or rigorously conducted evidence summaries. One good source for evidence summaries are those produced by the Joanna Briggs Institute. 
+
+And finally - once again we have to be careful about those hierarchies of evidence. An unfortunate side effect of the popularity of the use of evidence hierarchies has been the tendancy for some forms of research to be considered of less value than they probably should be. In particular some forms of qualitative research tend to be undervalued even though the context of the research or the clinical question may be very well suited to be answered by such research designs. 
+
+
+---
+
+class: center, middle
+
+# Further reading
+
+???
+
+In the next section we have a paper for you to read that critiques in detail about the assumptions behind the evidence-based practice movement and how it fits with nursing practice.

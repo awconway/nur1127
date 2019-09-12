@@ -1,0 +1,56 @@
+---
+output:
+  xaringan::moon_reader:
+    seal: false
+    lib_dir: libs
+    css: [default, fonts.css, animate.css]
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      ratio: '16:9'
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(icon)
+library(emo)
+```
+
+class: left, top
+
+## Iowa satisfaction with anesthesia scale
+
+<img src="isas.png">
+
+???
+
+You would have seen a survey like this before. This is an example of an indirect measurement instrument, asking patients to rate their satisfaction with anesthesia. The survey consists of a number of items (show here on the left), and the respondents rate each of them on a scale from disagree very much to agree very much. You'll recall that this level of measurement could be called ordinal because the level of agreement with the statements are in a rank order.  When using indrect measurements such as this in quantitative research, we need to check that measurements are reliable and valid. Let's start to take an in-depth look at reliability first. 
+
+
+---
+
+class: left top
+
+# Measurement reliability
+
+<img src="reliability.png" height="500px" width="auto">
+
+???
+
+If a measurement is reliable, it means that we can reproduce what we are measuring. One type of reliability is known as equivalence. Ideally, two researchers using the same instrument to take a measurement for the same person at the same time should get the same score. The formal term for this is inter-rater reliability. 
+
+---
+
+
+class: center, middle
+
+# Up next
+
+
+???
+In the next exercises I'll walk you through with examples to demonstrate some important points about inter-rater reliability. 
+
+

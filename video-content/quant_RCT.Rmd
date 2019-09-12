@@ -1,0 +1,74 @@
+---
+output:
+  xaringan::moon_reader:
+    seal: false
+    lib_dir: libs
+    css: [default, fonts.css, animate.css]
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      ratio: '16:9'
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(icon)
+library(emo)
+```
+
+class: center, middle
+# Introduction
+
+???
+
+As with non-randomized studies of inerventions, there are numerous types of randomised controlled trial designs that can be used. 
+
+---
+class: center, middle
+## Unit of randomization (individual or cluster)
+
+## Time-point (parallel or crossover)
+
+???
+
+RCTs can be broadly categorized by the unit of randomisation used into either individual randomization or by cluster. And we can also categorise RCTs by the timepoint at which comparisons are being made. A parallel-group RCT compares outcomes measured at the same time-point between different groups whereas the cross-over RCT compares outcomes within that same groups at different times according to a random order.
+
+
+---
+class: center, middle
+
+## Parallel group design with individual randomization is the most common
+
+???
+
+The most common RCT design is a parallel group randomised controlled trial. In the parallel group RCT, participants are randomly assigned to intervention and control conditions. The intervention is introduced and the outcome variable is measured to see whether it is different between the groups. The difference between the groups after the intervention was implemented reflects whether a causal link actually exists between the explanatory and outcome variables.
+
+---
+class: center, middle
+
+## Cluster randomized controlled trials
+
+
+???
+
+In contrast, a cluster-randomised controlled trial (c-RCT) uses coherent groups or clusters of individuals, such as hospital units or departments for example, as the unit for randomization, instead of individuals. All individuals in the group allocated to the intervention then receive the experimental treatment. This aspect of the cluster RCT is particularly suited to testing competing interventions that are common or routine in nursing and midwifery practice, because in this situation there is a high risk that clinicians may implement the control condition to patients randomised to the intervention condition (and vice versa). Such incorrect implementation of the randomised allocations is called ‘contamination’. Randomizing participants at the cluster level is one way to reduce risk of bias from contamination.
+
+
+A disadvantage of cluster randomisation to consider is that the number of participants required to be enrolled in the trial heavily depends on how similar outcomes are within each cluster. This  concept is termed intra-cluster correlation. In trials with highly similar measurements within clusters, each measurement contributes less to the overall ability for the study to be able to detect a difference between the intervention and control conditions. In this situation, it may not be practical to include as many clusters in the study as you acutally need for the result to be meaningful.
+
+
+---
+
+class: center, middle
+
+## Up next
+
+
+???
+
+That about covers the overview of different types of quantiative research designs. Next up, let's dive into the important issue of sampling in quantitative studies. Sampling is basically the process by which the researchers selected participants to include in their study.
+
+

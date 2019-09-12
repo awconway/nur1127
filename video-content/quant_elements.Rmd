@@ -1,0 +1,95 @@
+---
+output:
+  xaringan::moon_reader:
+    seal: false
+    lib_dir: libs
+    css: [default, fonts.css, animate.css]
+    includes:
+      in_header: fa.html
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      ratio: '16:9'
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(icon)
+library(emo)
+```
+
+class: center middle
+
+# Introduction
+
+
+???
+ 
+A researcher makes a choice at the outset of planning their study about which design will best answer their research question.
+
+---
+
+class: left, top
+
+# Elements
+
+--
+
+### `r icon::fa("arrow-right")` Control
+
+--
+
+
+### `r icon::fa("arrow-right")` Randomisation
+
+--
+
+
+### `r icon::fa("arrow-right")` Manipulation
+
+
+???
+
+This selection of a particular type of quantitative research design gives a researcher more or less control over three major concepts, which are:
+
+control
+randomisation
+manipulation
+
+---
+
+class: center, middle
+
+# Control `r icon::fa("users")`
+
+
+???
+
+Control is achieved in a study by comparing an outcome between one or more groups whilst ensuring that all participants involved in the research receive the same treatment apart from one aspect that was different in one of the groups. 
+
+---
+
+class: center, middle
+
+# Randomization `r icon::fa("dice")`
+
+???
+
+Random assignment to study groups is designed to ensure that the participants included within each comparison group are similar on the variables of interest, so that differences in the outcome variable can be attributed to the intervention. Efforts should be made to ensure that participants are assigned to either the experimental or control group on a purely random, or chance, basis. Each participant will then have an equal and known probability of being assigned to any group. If randomisation is not possible, the design can simply be described as a ‘non-randomized’ study of an intervention. 
+
+---
+
+class: center, middle
+
+# Manipulation `r icon::fa("random")`
+
+???
+
+The final element is manipulation. This is a feature of interventional studies, which can be used in both randomised controlled trials and non-randomised studies of interventions. In these studies, the researcher manipulates the predictor variable. In other words, some sort of change is made to the way things are normally done in one or more of the groups of participants in the study. It might be, a new treatment, a teaching plan or a medication. 
+
+The effect of this manipulation is measured to determine the effect of the intervention on the outcome or outcomes of interest. 
+
+
