@@ -65,9 +65,8 @@ data <- data.frame(class_list)
 data <- data %>% 
   mutate(initial_post_submitted = class_list %in% df$user_name)
 
-data <- data %>% full_join(replies)
-
-
+data <- data %>% full_join(replies) %>%
+  mutate(replies = replace_na(replies, 0))
 
 ####Adding another week####
 
@@ -149,7 +148,27 @@ week_function <- function(x){
   df <- respbody %>% purrr::flatten_df()
   
   df <- df %>% filter(user_name != "Danielle Just") %>% filter(id != "Aaron Conway")
-
+  #number of replies to posts
+  
+  reply_function <- function(x){
+    df$recent_replies[[x]]$user_name
+  }
+  
+  replies <- unlist(purrr::map(seq(1, nrow(df), by = 1), reply_function))
+  
+  replies <- as.data.frame(replies)
+  
+  replies <- replies %>% 
+    rename(class_list = replies)
+  
+  
+  
+  replies <- replies %>%
+    group_by(class_list) %>% 
+    summarise(replies=n()) %>% 
+    filter(class_list != "Aaron Conway") %>% 
+    filter(class_list != "Danielle Just")
+  
   
   # replies to messages (but only up to 10 replies to original messages)
   
@@ -158,21 +177,20 @@ week_function <- function(x){
   data <- data %>% 
     mutate(initial_post_submitted = class_list %in% df$user_name)
   
-  data <- data %>% full_join(replies)
+  data <- data %>% full_join(replies) %>%   mutate(replies = replace_na(replies, 0))
   
 }
 week_2_end <- as.Date("2019-09-24")
 week_3_end <- as.Date("2019-10-01")
 
 selection <- c(326843,344119)
-total <-   if (Sys.Date() < week_2_end){
+if (Sys.Date() < week_2_end){
   selection[1] %>% 
     set_names() %>% 
     purrr::map_df(., week_function, .id = "Week")  %>%
     mutate(Week = recode(Week,
                          "326843" = "Week 1"))
-} 
-if (Sys.Date() < week_3_end & Sys.Date() > week_2_end){
+} else if(Sys.Date() < week_3_end & Sys.Date() > week_2_end){
 selection[1:2] %>% 
 set_names() %>% 
 purrr::map_df(., week_function, .id = "Week")  %>%
