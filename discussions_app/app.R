@@ -190,20 +190,20 @@ server <- function(input, output) {
     selection <- c(326843,344119, 344125, 344130, 344134, 344138, 344139, 344157,
                    344195)
     
-  if (Sys.Date() < week_2_end){
+  if (Sys.Date() < week_2_end-6){
       selection[1] %>% 
         set_names() %>% 
         purrr::map_df(., week_function, .id = "Week")  %>%
         mutate(Week = recode(Week,
                              "326843" = "Week 1"))
-    } else if(Sys.Date() < week_3_end & Sys.Date() > week_2_end){
+    } else if(Sys.Date() < week_3_end & Sys.Date() > week_2_end-6){
       selection[1:2] %>% 
         set_names() %>% 
         purrr::map_df(., week_function, .id = "Week")  %>%
         mutate(Week = recode(Week,
                              "326843" = "Week 1",
                              "344119" = "Week 2"))
-    } else if (Sys.Date() < week_4_end & Sys.Date() > week_3_end){
+    } else if (Sys.Date() < week_4_end & Sys.Date() > week_3_end-6){
       selection[1:3] %>% 
         set_names() %>% 
         purrr::map_df(., week_function, .id = "Week")  %>%
@@ -211,7 +211,7 @@ server <- function(input, output) {
                              "326843" = "Week 1",
                              "344119" = "Week 2",
                              "344125" = "Week 3"))
-    } else  if (Sys.Date() < week_5_end & Sys.Date() > week_4_end){
+    } else  if (Sys.Date() < week_5_end & Sys.Date() > week_4_end-6){
       selection[1:4] %>% 
         set_names() %>% 
         purrr::map_df(., week_function, .id = "Week")  %>%
@@ -220,7 +220,7 @@ server <- function(input, output) {
                              "344119" = "Week 2",
                              "344125" = "Week 3",
                              "344130" = "Week 4"))
-    } else  if (Sys.Date() < week_7_end & Sys.Date() > week_5_end){
+    } else  if (Sys.Date() < week_7_end & Sys.Date() > week_5_end-6){
       selection[1:5] %>% 
         set_names() %>% 
         purrr::map_df(., week_function, .id = "Week")  %>%
@@ -230,7 +230,7 @@ server <- function(input, output) {
                              "344125" = "Week 3",
                              "344130" = "Week 4",
                              "344134" = "Week 5"))
-    } else  if (Sys.Date() < week_8_end & Sys.Date() > week_7_end){
+    } else  if (Sys.Date() < week_8_end & Sys.Date() > week_7_end-6){
       selection[1:6] %>% 
         set_names() %>% 
         purrr::map_df(., week_function, .id = "Week")  %>%
@@ -241,7 +241,7 @@ server <- function(input, output) {
                              "344130" = "Week 4",
                              "344134" = "Week 5",
                              "344138" = "Week 7"))
-    } else  if (Sys.Date() < week_10_end & Sys.Date() > week_8_end){
+    } else  if (Sys.Date() < week_10_end & Sys.Date() > week_8_end-6){
       selection[1:7] %>% 
         set_names() %>% 
         purrr::map_df(., week_function, .id = "Week")  %>%
@@ -253,7 +253,7 @@ server <- function(input, output) {
                              "344134" = "Week 5",
                              "344138" = "Week 7",
                              "344139" = "Week 8"))
-    } else  if (Sys.Date() < week_11_end & Sys.Date() > week_10_end){
+    } else  if (Sys.Date() < week_11_end & Sys.Date() > week_10_end-6){
       selection[1:8] %>% 
         set_names() %>% 
         purrr::map_df(., week_function, .id = "Week")  %>%
