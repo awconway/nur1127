@@ -2,7 +2,7 @@
 title: 'Week 3: Locating Research Evidence'
 description:
   'This week we address the question of how to find research evidence. The focus is on developing systematic and effective approaches to locating and accessing research evidence.'
-prev: null
+prev: /02kt
 next: null
 type: chapter
 id: 4
@@ -20,15 +20,15 @@ Having already explored the idea of evidence-informed practice and knowledge tra
 
 <exercise id="2" title="Webinar">
 
+The faculty librarian, Mikaela Gray, will be delivering a webinar on searching for evidence. 
+
 <iframe src="https://ca.bbcollab.com/guest/4359a93a38ad4440b2356f1a4e4ceaee" width="100%" height="550px" allowfullscreen></iframe>
 
 </exercise>
 
 <exercise id="3" title="Formulating clinical questions">
 
-This paper provides a practical overview for how to formulate clear clinical questions, which is an essential step towards devising an effective literature search strategy. 
-
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/stillwell.pdf" width="100%" height="1050px"></iframe>
+This <a href="https://www-jstor-org.myaccess.library.utoronto.ca/stable/25734323?pq-origsite=summon&seq=1#metadata_info_tab_contents">paper</a> provides a practical overview for how to formulate clear clinical questions, which is an essential step towards devising an effective literature search strategy. 
 
 </exercise>
 
@@ -58,7 +58,7 @@ Gray, J.R., Grove, S.K. & Sutherland, S.  (2017). The Practice of Nursing Resear
 
 This week each of you will practice the first steps in conducting a search strategy: **developing the search question and defining the search terms.**
 
-Identify an area in your practice that is a source of question or uncertainty -  a situation in which you wondered why you engage in a certain practice or why you were doing what you do with patients/clients or co-workers. Think back to the issues discussed previously in the course for inspiration. Complete the following activity individually and include it as your discussion post this week in your group on teh discussion board in Quercus: 
+Identify an area in your practice that is a source of question or uncertainty -  a situation in which you wondered why you engage in a certain practice or why you were doing what you do with patients/clients or co-workers. Think back to the issues discussed previously in the course for inspiration. Complete the following activity individually and include it as your discussion post this week in your group on the discussion board in Quercus: 
 
 - Write a short scenario (2-3 sentences) to describe the situation.
 - Compose a formal search question (just one) to assist you in locating the evidence to guide practice using PICO as appropriate to your situation: Population, Intervention/exposure/situation, Comparison and Outcome.
@@ -66,9 +66,9 @@ Identify an area in your practice that is a source of question or uncertainty - 
 
  Remember to respond to one of your peer’s posts!
 
-<a target="_parent" href="https://q.utoronto.ca/courses/113018/discussion_topics">Link to discussions on Quercus</a>
+<a target="_parent" href="https://q.utoronto.ca/courses/113018/discussion_topics/344125">Link to discussions on Quercus</a>
 
-`Note: If you are viewing this on the 'Student' mobile app, it is better to navigate back to the discussion section through the app rather than clicking on the link above.`
+<qu>Note: If you are viewing this on the 'Student' mobile app, it is better to navigate back to the discussion section through the app rather than clicking on the link above.</qu>
 
 </exercise>
 
