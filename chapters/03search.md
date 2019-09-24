@@ -20,9 +20,7 @@ Having already explored the idea of evidence-informed practice and knowledge tra
 
 <exercise id="2" title="Webinar">
 
-The faculty librarian, Mikaela Gray, will be delivering a webinar on searching for evidence. 
-
-<iframe src="https://ca.bbcollab.com/guest/4359a93a38ad4440b2356f1a4e4ceaee" width="100%" height="550px" allowfullscreen></iframe>
+The faculty librarian, Mikaela Gray, will be delivering a <a href="https://q.utoronto.ca/courses/113018/external_tools/246">webinar</a> on searching for evidence. 
 
 </exercise>
 
