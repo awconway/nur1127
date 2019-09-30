@@ -3,7 +3,7 @@ title: 'Week 3: Locating Research Evidence'
 description:
   'This week we address the question of how to find research evidence. The focus is on developing systematic and effective approaches to locating and accessing research evidence.'
 prev: /02kt
-next: null
+next: /04searchcont
 type: chapter
 id: 4
 ---

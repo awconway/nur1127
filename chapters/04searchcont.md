@@ -2,7 +2,7 @@
 title: 'Week 4: Locating Research Evidence (cont)'
 description:
   'We continue this week on finding research evidence.'
-prev: null
+prev: /03search
 next: null
 type: chapter
 id: 5
@@ -84,9 +84,7 @@ In the previous exercises we have practiced refining a search strategy using the
 
 <exercise id="7" title="Using Covidence to manage search results">
 
-<qu>This is a brief webinar on how to use *Covidence* to manage the process of selecting which of the articles returned from a literature search are relevant to your question. Click [here](https://ca-lti.bbcollab.com/recording/97683bb4ca8e445483919ec1d5f55a12) if you'd like to open the link in an external window for a larger view.</qu>
-
-<iframe src="https://ca-lti.bbcollab.com/recording/97683bb4ca8e445483919ec1d5f55a12" width="100%" height="550px" allowfullscreen></iframe>
+<qu>I will hold a brief webinar on how to use *Covidence* to manage the process of selecting which of the articles returned from a literature search are relevant to your question. The webinar will be on Tuesday 1st October at 12md. Click [here](https://q.utoronto.ca/courses/113018/external_tools/246) to go to the webinar.</qu>
 
 </exercise>
 
@@ -102,8 +100,8 @@ This week you will each practice implementing your search strategy in indexed da
 
 **Remember to respond to one of your peer’s posts!**
 
-<a target="_parent" href="https://q.utoronto.ca/courses/113018/discussion_topics">Link to discussions on Quercus</a>
+<a target="_parent" href="https://q.utoronto.ca/courses/113018/discussion_topics/344130">Link to discussions on Quercus</a>
 
-`Note: If you are viewing this on the 'Student' mobile app, it is better to navigate back to the discussion section through the app rather than clicking on the link above.`
+<qu>Note: If you are viewing this on the 'Student' mobile app, it is better to navigate back to the discussion section through the app rather than clicking on the link above.</qu>
 
 </exercise>
