@@ -24,9 +24,8 @@ Following on from learning about how to conduct literature searches using electr
 
 At this point you may wish to first review some of the information first presented last week, by referring back to Chapters 2 and 3 from 'The Evidence-based Practice Manual for Nurses' (Craig, JV & Smyth, RL, 2012) or Chapter 7 of 'The Practice of Nursing Research' (Gray, J.R., Grove, S.K. & Sutherland, S., 2017). 
 
-<qu>This paper below also provides a simple description of the general process you may wish to take when undertaking a literature search.</qu>
+<qu>This <a href="https://www-jstor-org.myaccess.library.utoronto.ca/stable/25684570?seq=1#metadata_info_tab_contents">paper</a> also provides a simple description of the general process you may wish to take when undertaking a literature search.</qu>
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/stillwell-2.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 
