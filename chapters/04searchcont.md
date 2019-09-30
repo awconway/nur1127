@@ -85,6 +85,8 @@ In the previous exercises we have practiced refining a search strategy using the
 
 <qu>I will hold a brief webinar on how to use *Covidence* to manage the process of selecting which of the articles returned from a literature search are relevant to your question. The webinar will be on Tuesday 1st October at 12md. Click [here](https://q.utoronto.ca/courses/113018/external_tools/246) to go to the webinar.</qu>
 
+<qu>Click <a href="https://onesearch.library.utoronto.ca/linkit/covidence">here</a> to access instructions for setting up a Covidence account through the University of Toronto.</qu>
+
 </exercise>
 
 <exercise id="8" title="Discussion board">
