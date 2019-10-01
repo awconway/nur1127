@@ -83,7 +83,9 @@ In the previous exercises we have practiced refining a search strategy using the
 
 <exercise id="7" title="Using Covidence to manage search results">
 
-I will hold a brief webinar on how to use *Covidence* to manage the process of selecting which of the articles returned from a literature search are relevant to your question. The webinar will be on Tuesday 1st October at 12md. Click [here](https://ca.bbcollab.com/guest/370881fe87eb4ff3885379022d501c0f) to go to the webinar.
+This is not a requirement, but you can view this brief webinar on how to use *Covidence* to manage the process of selecting which of the articles returned from a literature search are relevant to your question.
+
+<iframe src="https://ca-lti.bbcollab.com/recording/9aa4fe76b82b4e5db1eaf865f5b9aa40" width="100%" height="550px" allowfullscreen></iframe> 
 
 <qu>Click <a href="https://onesearch.library.utoronto.ca/linkit/covidence">here</a> to access instructions for setting up a Covidence account through the University of Toronto.</qu>
 
