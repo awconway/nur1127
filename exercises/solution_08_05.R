@@ -1,11 +1,21 @@
 set.seed(34)
+
+# Our sample
+
 sample_size <- 50
-leadership_sample <- rnorm(sample_size, mean = 5, sd = 6.5)
+mean <- 5
+sd <- 4
 
-mean <- mean(leadership_sample)
+# Calculate standard error
 
-SEM <- sd(leadership_sample)/sqrt(sample_size)
+SEM <- sd/sqrt(sample_size)
+
+# Calculate confidence intervals
 
 upperCI <- mean + 2*SEM
 
 lowerCI <- mean - 2*SEM
+
+glue::glue("The lower confidence interval is ", round(lowerCI, 1))
+
+glue::glue("The upper confidence interval is ", round(upperCI, 1))

@@ -14,5 +14,5 @@ test <- function() {
   # This function is defined in the testTemplate
 success("Great work! Based on your calculation of data from the sample of 50 nurses, 
 we can say that we are 95% confident that the true mean leadership score in the 
-population would be between 2.75 to 6.35")
+population would be between 3.9 to 6.1")
 }

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>stats_normal.utf8.md</title>
+    <meta charset="utf-8" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="fonts.css" type="text/css" />
+    <link rel="stylesheet" href="animate.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+class: center, middle
+# Introduction
+
+???
+So far we've been exploring the binomial distribution with the example of flipping a coin and counting the number of heads. Now we're going to introduce another important probability distribution. You'll see how the principles you've learned about working with random variables and simulation are important far beyond the binomial. 
+---
+class: top, left
+# Flipping 10 coins
+
+
+```r
+flips &lt;- rbinom(10000,10,0.5)
+```
+
+![](stats_normal_files/figure-html/unnamed-chunk-2-1.png)&lt;!-- --&gt;
+
+???
+
+So far we've often looked at binomial consisting of 10 flips of a coin that has a fifty percent chance of heads. That would look like this distribution - a histogram where the most common value is five. 
+
+---
+class: top, left
+# Flipping 10 coins
+
+
+```r
+flips &lt;- rbinom(10000,1000,0.5)
+```
+
+![](stats_normal_files/figure-html/unnamed-chunk-4-1.png)&lt;!-- --&gt;
+
+???
+
+Now instead imagine that we've flipped one thousand coins ten thousand times. Now the distribution of heads is centered around 500. Notice the distribution is now taking on a sort of symmetrical bell curve shape. This is because when you draw from a binomial with a very large size, that is, many coin flips, the result approximates a normal distribution. This normal distribution is famous because many distributions in nature take this shape, including measurement errors in scientific experiments, which we learned about last week. Most of the common statisical analysis methods you'll come across in quantitative nursing research studies are based on the normal distribution. 
+
+---
+class: top, left
+# Normal distribution has mean and standard deviation
+
+![](stats_normal_files/figure-html/unnamed-chunk-5-1.png)&lt;!-- --&gt;
+
+???
+
+While the binomial is determined by the parameters size and p, that is the number of flips and their probability of heads, the normal is defined by two other parameters, the mean and standard deviation. The mean of course is just the sum of observations divided by the sample size. The standard deviation is a measure of how spread out the data are. Calculating the standard deviation is a little more complicated than the mean and it's not important to know how to do this by hand.  
+
+---
+class: top, left
+# Meaning of the standard deviation
+
+&lt;img src="General_empirical.jpg" width="80%"/&gt;
+
+???
+
+What is important is how we can apply the standard deviation in a useful way to normal distributions to predict how “rare” or “common” particular observations in a data set may be. For the normal distribution, almost all of the data will fall within three standard deviations above and below the mean. The interval created by one standard deviation above and below the mean includes sixty eight percent of all the data. So observations within these bounds would be fairly common, but it would not be exceedingly rare to observe data that fall outside of these bounds. Two standard deviations above and below the mean encompasses approximately ninety five percent of the data. Observations that fall within these bounds include the common and also infrequent observations. Observations that fall outside of two standard deviations would be uncommon.
+
+---
+class: center, middle
+
+# Let's practice
+
+???
+
+In the next exercises, we'll go through some calculations to demonstrate to you how our knowledge about probability and the normal distribution can be used to find out how likely it is to observe particular observations in a dataset.
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"slideNumberFormat": "<div class=\"progress-bar-container\">   <div class=\"progress-bar\" style=\"width: calc(%current% / %total% * 100%);\">   </div> </div> ",
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

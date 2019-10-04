@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>stats_or.utf8.md</title>
+    <meta charset="utf-8" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+     <head>
+        <!-- Place your kit's code here -->
+        <script src="https://kit.fontawesome.com/db7db5fd59.js"></script>
+      </head>
+    <link rel="stylesheet" href="fonts.css" type="text/css" />
+    <link rel="stylesheet" href="animate.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+class: center, middle, hide-count
+
+# Odds ratio
+
+???
+
+The odds ratio is an effect estimate that can be produced by a statistical test called logistic regression. As you might suspect, the interpretation of the odds ratio is quite similar to the beta coefficient from linear regression. But unlike linear regression where the outcome variable was measured on a numerical scale, the outcome variable for logistic regression is dichotomous. 
+
+---
+
+class: top, left, hide-count
+
+## Common dichotomous variables
+
+### &lt;i class="fad fa-tombstone-alt"&gt;&lt;/i&gt; Dead or alive
+
+### &lt;i class="fad fa-hospitals"&gt;&lt;/i&gt; Admissions to hospital
+
+### &lt;i class="fad fa-biohazard"&gt;&lt;/i&gt; Infection/no infection
+
+
+???
+
+In other words it is a categorical variable with just two levels. In healthcare, logistic regression is quite a common statistical test used because many of the outcomes that are really important to patients are dichotomous. Examples of dichotomous outcomes that are important to patients include things like mortality, having to be admitted to hospital or getting an infection. So you will come across odds ratios very commonly in quantitative research. 
+
+---
+class: top, left, hide-count
+
+
+### &lt;i class="fad fa-temperature-frigid"&gt;&lt;/i&gt; Hypothermia after procedures in cath lab
+
+--
+
+&lt;i class="fad fa-poll"&gt;&lt;/i&gt; 1 in 4 patients were hypothermic after procedures
+
+--
+
+&lt;img src="stats_or_files/figure-html/unnamed-chunk-1-1.png" width="504" style="display: block; margin: auto auto auto 0;" /&gt;
+
+
+
+???
+
+To demonstrate the interpretation of the odds ratio, let's take a look at an example from my research. Hypothermia is generally considered to be an adverse effect of anesthesia that should be avoided. A while back, I conducted a study to determine the prevalence of hypothermia in patients undergoing procedures with sedation in the cardiac cath lab. In our study, we found that about one in four patients were hypothermic after their procedure. But we were also interested in what factors may be associated with hypothermia and to investigate this question, we used logistic regression. The outcome variable was hypothermia, which is of course dichotomous, because a patient was classified as either hypothermic or normothermic. One of the predictor variables we were interested in was body mass index. And by plotting the data we get a sense that there may be a relationship here. 
+
+---
+class: top, left, hide-count
+
+
+### &lt;i class="fad fa-temperature-frigid"&gt;&lt;/i&gt; Hypothermia after procedures in cath lab
+
+
+
+&lt;i class="fad fa-poll"&gt;&lt;/i&gt; 1 in 4 patients were hypothermic after procedures
+
+
+
+&lt;img src="stats_or_files/figure-html/unnamed-chunk-2-1.png" width="504" style="display: block; margin: auto auto auto 0;" /&gt;
+
+???
+There seems to be quite a few patients who were hypothermic on the lower ends of the bmi spectrum at the top left of the plot 
+
+---
+class: top, left, hide-count
+
+
+### &lt;i class="fad fa-temperature-frigid"&gt;&lt;/i&gt; Hypothermia after procedures in cath lab
+
+
+
+&lt;i class="fad fa-poll"&gt;&lt;/i&gt; 1 in 4 patients were hypothermic after procedures
+
+
+
+&lt;img src="stats_or_files/figure-html/unnamed-chunk-3-1.png" width="504" style="display: block; margin: auto auto auto 0;" /&gt;
+
+
+???
+
+and not as many patients hypothermic as BMI increased at the top right.
+
+---
+class: top, left, hide-count
+
+
+```r
+model &lt;- temp_logistic %&gt;% 
+  glm(formula = Hypothermic ~ BMI,family = "binomial")
+```
+--
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#gqztedldkr .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  /* table.background.color */
+  width: auto;
+  /* table.width */
+  border-top-style: solid;
+  /* table.border.top.style */
+  border-top-width: 2px;
+  /* table.border.top.width */
+  border-top-color: #A8A8A8;
+  /* table.border.top.color */
+  border-bottom-style: solid;
+  /* table.border.bottom.style */
+  border-bottom-width: 2px;
+  /* table.border.bottom.width */
+  border-bottom-color: #A8A8A8;
+  /* table.border.bottom.color */
+}
+
+#gqztedldkr .gt_heading {
+  background-color: #FFFFFF;
+  /* heading.background.color */
+  border-bottom-color: #FFFFFF;
+}
+
+#gqztedldkr .gt_title {
+  color: #333333;
+  font-size: 125%;
+  /* heading.title.font.size */
+  padding-top: 4px;
+  /* heading.top.padding - not yet used */
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#gqztedldkr .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  /* heading.subtitle.font.size */
+  padding-top: 0;
+  padding-bottom: 4px;
+  /* heading.bottom.padding - not yet used */
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#gqztedldkr .gt_bottom_border {
+  border-bottom-style: solid;
+  /* heading.border.bottom.style */
+  border-bottom-width: 2px;
+  /* heading.border.bottom.width */
+  border-bottom-color: #D3D3D3;
+  /* heading.border.bottom.color */
+}
+
+#gqztedldkr .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#gqztedldkr .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  /* column_labels.background.color */
+  font-size: 16px;
+  /* column_labels.font.size */
+  font-weight: initial;
+  /* column_labels.font.weight */
+  vertical-align: middle;
+  padding: 5px;
+  margin: 10px;
+  overflow-x: hidden;
+}
+
+#gqztedldkr .gt_columns_top_border {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#gqztedldkr .gt_columns_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#gqztedldkr .gt_sep_right {
+  border-right: 5px solid #FFFFFF;
+}
+
+#gqztedldkr .gt_group_heading {
+  padding: 8px;
+  /* row_group.padding */
+  color: #333333;
+  background-color: #FFFFFF;
+  /* row_group.background.color */
+  font-size: 16px;
+  /* row_group.font.size */
+  font-weight: initial;
+  /* row_group.font.weight */
+  border-top-style: solid;
+  /* row_group.border.top.style */
+  border-top-width: 2px;
+  /* row_group.border.top.width */
+  border-top-color: #D3D3D3;
+  /* row_group.border.top.color */
+  border-bottom-style: solid;
+  /* row_group.border.bottom.style */
+  border-bottom-width: 2px;
+  /* row_group.border.bottom.width */
+  border-bottom-color: #D3D3D3;
+  /* row_group.border.bottom.color */
+  vertical-align: middle;
+}
+
+#gqztedldkr .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  /* row_group.background.color */
+  font-size: 16px;
+  /* row_group.font.size */
+  font-weight: initial;
+  /* row_group.font.weight */
+  border-top-style: solid;
+  /* row_group.border.top.style */
+  border-top-width: 2px;
+  /* row_group.border.top.width */
+  border-top-color: #D3D3D3;
+  /* row_group.border.top.color */
+  border-bottom-style: solid;
+  /* row_group.border.bottom.style */
+  border-bottom-width: 2px;
+  /* row_group.border.bottom.width */
+  border-bottom-color: #D3D3D3;
+  /* row_group.border.bottom.color */
+  vertical-align: middle;
+}
+
+#gqztedldkr .gt_striped {
+  background-color: #8080800D;
+}
+
+#gqztedldkr .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#gqztedldkr .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#gqztedldkr .gt_row {
+  padding: 8px;
+  /* row.padding */
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#gqztedldkr .gt_stub {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#gqztedldkr .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  /* summary_row.background.color */
+  padding: 8px;
+  /* summary_row.padding */
+  text-transform: inherit;
+  /* summary_row.text_transform */
+}
+
+#gqztedldkr .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  /* grand_summary_row.background.color */
+  padding: 8px;
+  /* grand_summary_row.padding */
+  text-transform: inherit;
+  /* grand_summary_row.text_transform */
+}
+
+#gqztedldkr .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#gqztedldkr .gt_first_grand_summary_row {
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#gqztedldkr .gt_table_body {
+  border-top-style: solid;
+  /* table_body.border.top.style */
+  border-top-width: 2px;
+  /* table_body.border.top.width */
+  border-top-color: #D3D3D3;
+  /* table_body.border.top.color */
+  border-bottom-style: solid;
+  /* table_body.border.bottom.style */
+  border-bottom-width: 2px;
+  /* table_body.border.bottom.width */
+  border-bottom-color: #D3D3D3;
+  /* table_body.border.bottom.color */
+}
+
+#gqztedldkr .gt_footnotes {
+  border-top-style: solid;
+  /* footnotes.border.top.style */
+  border-top-width: 2px;
+  /* footnotes.border.top.width */
+  border-top-color: #D3D3D3;
+  /* footnotes.border.top.color */
+}
+
+#gqztedldkr .gt_footnote {
+  font-size: 90%;
+  /* footnote.font.size */
+  margin: 0px;
+  padding: 4px;
+  /* footnote.padding */
+}
+
+#gqztedldkr .gt_sourcenotes {
+  border-top-style: solid;
+  /* sourcenotes.border.top.style */
+  border-top-width: 2px;
+  /* sourcenotes.border.top.width */
+  border-top-color: #D3D3D3;
+  /* sourcenotes.border.top.color */
+}
+
+#gqztedldkr .gt_sourcenote {
+  font-size: 90%;
+  /* sourcenote.font.size */
+  padding: 4px;
+  /* sourcenote.padding */
+}
+
+#gqztedldkr .gt_center {
+  text-align: center;
+}
+
+#gqztedldkr .gt_left {
+  text-align: left;
+}
+
+#gqztedldkr .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#gqztedldkr .gt_font_normal {
+  font-weight: normal;
+}
+
+#gqztedldkr .gt_font_bold {
+  font-weight: bold;
+}
+
+#gqztedldkr .gt_font_italic {
+  font-style: italic;
+}
+
+#gqztedldkr .gt_super {
+  font-size: 65%;
+}
+
+#gqztedldkr .gt_footnote_marks {
+  font-style: italic;
+  font-size: 65%;
+}
+</style>
+<div id="gqztedldkr" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+  
+  <tr>
+    <th class="gt_col_heading gt_columns_bottom_border gt_columns_top_border gt_left" rowspan="1" colspan="1">term</th>
+    <th class="gt_col_heading gt_columns_bottom_border gt_columns_top_border gt_center" rowspan="1" colspan="1">&beta;</th>
+    <th class="gt_col_heading gt_columns_bottom_border gt_columns_top_border gt_center" rowspan="1" colspan="1">std.error</th>
+    <th class="gt_col_heading gt_columns_bottom_border gt_columns_top_border gt_center" rowspan="1" colspan="1">statistic</th>
+    <th class="gt_col_heading gt_columns_bottom_border gt_columns_top_border gt_center" rowspan="1" colspan="1">p.value</th>
+    <th class="gt_col_heading gt_columns_bottom_border gt_columns_top_border gt_center" rowspan="1" colspan="1">OR</th>
+    <th class="gt_col_heading gt_columns_bottom_border gt_columns_top_border gt_center" rowspan="1" colspan="1">2.5 %</th>
+    <th class="gt_col_heading gt_columns_bottom_border gt_columns_top_border gt_center" rowspan="1" colspan="1">97.5 %</th>
+  </tr>
+  <body class="gt_table_body">
+    <tr>
+      <td class="gt_row gt_left">(Intercept)</td>
+      <td class="gt_row gt_right">1.51</td>
+      <td class="gt_row gt_right">0.70</td>
+      <td class="gt_row gt_right">2.15</td>
+      <td class="gt_row gt_right">0.03</td>
+      <td class="gt_row gt_right" style="background-color: #FF0000FF; color: #FFFFFFFF;">4.51</td>
+      <td class="gt_row gt_right">1.17</td>
+      <td class="gt_row gt_right">18.39</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left gt_striped">BMI</td>
+      <td class="gt_row gt_right gt_striped">-0.10</td>
+      <td class="gt_row gt_right gt_striped">0.03</td>
+      <td class="gt_row gt_right gt_striped">-3.80</td>
+      <td class="gt_row gt_right gt_striped">0.00</td>
+      <td class="gt_row gt_right gt_striped" style="background-color: #FF0000FF; color: #FFFFFFFF;">0.90</td>
+      <td class="gt_row gt_right gt_striped">0.86</td>
+      <td class="gt_row gt_right gt_striped">0.95</td>
+    </tr>
+  </body>
+  
+  
+</table></div>
+--
+&lt;br&gt;&lt;br&gt;
+
+.pull-left[
+Null hypothesis for logistic regression is that there is **no relationship** between the predictor and outcome variables
+
+$$ H_0: odds ratio=1 $$
+$$ H_1: odds ratio≠1$$
+
+]
+
+???
+
+Let's see if our guess that there is an association between hypothermia and body mass index is true. To do this, we run a logistic regression model. You're likely to see the results of logistic regression models presented in tables that look something like this. The last row of the table contains the important information for this analysis, including the odds ratio for the predictor variable, which is body mass index, along with the p value, and confidence intervals. 
+
+Just like linear regression, the p-value that logistic regression is testing, is the null hypothesis that there is no relationship between the predictor and the outcome variable. In other words, the null hypothesis is that the odd ratio is one and the alternative hypothesis is that the odds ratio is not one.  
+
+---
+class: center, top, hide-count
+
+## OR 0.9
+
+### &lt;i class="fad fa-comment-dots"&gt;&lt;/i&gt;For each unit *increase* in body mass index, there was a 10% *decrease* in the odds of hypothermia
+
+
+???
+
+In our case, the odds ratio for BMI was zero point nine. The interpretation is that for each increase in body mass index, there was a 10% decrease in the odds of hypothermia. We should also note that categorical variables can also be predictors in logistic regression models and the interpretation of the odds ratios are pretty much the same as for numerical variables. To demonstrate, let's add in a categorical variable as a predictor of hypothermia in our model.
+
+---
+
+class: center, top, hide-count
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#stmlcdjhfb .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  /* table.background.color */
+  width: auto;
+  /* table.width */
+  border-top-style: solid;
+  /* table.border.top.style */
+  border-top-width: 2px;
+  /* table.border.top.width */
+  border-top-color: #A8A8A8;
+  /* table.border.top.color */
+  border-bottom-style: solid;
+  /* table.border.bottom.style */
+  border-bottom-width: 2px;
+  /* table.border.bottom.width */
+  border-bottom-color: #A8A8A8;
+  /* table.border.bottom.color */
+}
+
+#stmlcdjhfb .gt_heading {
+  background-color: #FFFFFF;
+  /* heading.background.color */
+  border-bottom-color: #FFFFFF;
+}
+
+#stmlcdjhfb .gt_title {
+  color: #333333;
+  font-size: 125%;
+  /* heading.title.font.size */
+  padding-top: 4px;
+  /* heading.top.padding - not yet used */
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#stmlcdjhfb .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  /* heading.subtitle.font.size */
+  padding-top: 0;
+  padding-bottom: 4px;
+  /* heading.bottom.padding - not yet used */
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#stmlcdjhfb .gt_bottom_border {
+  border-bottom-style: solid;
+  /* heading.border.bottom.style */
+  border-bottom-width: 2px;
+  /* heading.border.bottom.width */
+  border-bottom-color: #D3D3D3;
+  /* heading.border.bottom.color */
+}
+
+#stmlcdjhfb .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#stmlcdjhfb .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  /* column_labels.background.color */
+  font-size: 16px;
+  /* column_labels.font.size */
+  font-weight: initial;
+  /* column_labels.font.weight */
+  vertical-align: middle;
+  padding: 5px;
+  margin: 10px;
+  overflow-x: hidden;
+}
+
+#stmlcdjhfb .gt_columns_top_border {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#stmlcdjhfb .gt_columns_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#stmlcdjhfb .gt_sep_right {
+  border-right: 5px solid #FFFFFF;
+}
+
+#stmlcdjhfb .gt_group_heading {
+  padding: 8px;
+  /* row_group.padding */
+  color: #333333;
+  background-color: #FFFFFF;
+  /* row_group.background.color */
+  font-size: 16px;
+  /* row_group.font.size */
+  font-weight: initial;
+  /* row_group.font.weight */
+  border-top-style: solid;
+  /* row_group.border.top.style */
+  border-top-width: 2px;
+  /* row_group.border.top.width */
+  border-top-color: #D3D3D3;
+  /* row_group.border.top.color */
+  border-bottom-style: solid;
+  /* row_group.border.bottom.style */
+  border-bottom-width: 2px;
+  /* row_group.border.bottom.width */
+  border-bottom-color: #D3D3D3;
+  /* row_group.border.bottom.color */
+  vertical-align: middle;
+}
+
+#stmlcdjhfb .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  /* row_group.background.color */
+  font-size: 16px;
+  /* row_group.font.size */
+  font-weight: initial;
+  /* row_group.font.weight */
+  border-top-style: solid;
+  /* row_group.border.top.style */
+  border-top-width: 2px;
+  /* row_group.border.top.width */
+  border-top-color: #D3D3D3;
+  /* row_group.border.top.color */
+  border-bottom-style: solid;
+  /* row_group.border.bottom.style */
+  border-bottom-width: 2px;
+  /* row_group.border.bottom.width */
+  border-bottom-color: #D3D3D3;
+  /* row_group.border.bottom.color */
+  vertical-align: middle;
+}
+
+#stmlcdjhfb .gt_striped {
+  background-color: #8080800D;
+}
+
+#stmlcdjhfb .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#stmlcdjhfb .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#stmlcdjhfb .gt_row {
+  padding: 8px;
+  /* row.padding */
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#stmlcdjhfb .gt_stub {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#stmlcdjhfb .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  /* summary_row.background.color */
+  padding: 8px;
+  /* summary_row.padding */
+  text-transform: inherit;
+  /* summary_row.text_transform */
+}
+
+#stmlcdjhfb .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  /* grand_summary_row.background.color */
+  padding: 8px;
+  /* grand_summary_row.padding */
+  text-transform: inherit;
+  /* grand_summary_row.text_transform */
+}
+
+#stmlcdjhfb .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#stmlcdjhfb .gt_first_grand_summary_row {
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#stmlcdjhfb .gt_table_body {
+  border-top-style: solid;
+  /* table_body.border.top.style */
+  border-top-width: 2px;
+  /* table_body.border.top.width */
+  border-top-color: #D3D3D3;
+  /* table_body.border.top.color */
+  border-bottom-style: solid;
+  /* table_body.border.bottom.style */
+  border-bottom-width: 2px;
+  /* table_body.border.bottom.width */
+  border-bottom-color: #D3D3D3;
+  /* table_body.border.bottom.color */
+}
+
+#stmlcdjhfb .gt_footnotes {
+  border-top-style: solid;
+  /* footnotes.border.top.style */
+  border-top-width: 2px;
+  /* footnotes.border.top.width */
+  border-top-color: #D3D3D3;
+  /* footnotes.border.top.color */
+}
+
+#stmlcdjhfb .gt_footnote {
+  font-size: 90%;
+  /* footnote.font.size */
+  margin: 0px;
+  padding: 4px;
+  /* footnote.padding */
+}
+
+#stmlcdjhfb .gt_sourcenotes {
+  border-top-style: solid;
+  /* sourcenotes.border.top.style */
+  border-top-width: 2px;
+  /* sourcenotes.border.top.width */
+  border-top-color: #D3D3D3;
+  /* sourcenotes.border.top.color */
+}
+
+#stmlcdjhfb .gt_sourcenote {
+  font-size: 90%;
+  /* sourcenote.font.size */
+  padding: 4px;
+  /* sourcenote.padding */
+}
+
+#stmlcdjhfb .gt_center {
+  text-align: center;
+}
+
+#stmlcdjhfb .gt_left {
+  text-align: left;
+}
+
+#stmlcdjhfb .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#stmlcdjhfb .gt_font_normal {
+  font-weight: normal;
+}
+
+#stmlcdjhfb .gt_font_bold {
+  font-weight: bold;
+}
+
+#stmlcdjhfb .gt_font_italic {
+  font-style: italic;
+}
+
+#stmlcdjhfb .gt_super {
+  font-size: 65%;
+}
+
+#stmlcdjhfb .gt_footnote_marks {
+  font-style: italic;
+  font-size: 65%;
+}
+</style>
+<div id="stmlcdjhfb" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+  
+  <tr>
+    <th class="gt_col_heading gt_columns_bottom_border gt_columns_top_border gt_left" rowspan="1" colspan="1">term</th>
+    <th class="gt_col_heading gt_columns_bottom_border gt_columns_top_border gt_center" rowspan="1" colspan="1">&beta;</th>
+    <th class="gt_col_heading gt_columns_bottom_border gt_columns_top_border gt_center" rowspan="1" colspan="1">std.error</th>
+    <th class="gt_col_heading gt_columns_bottom_border gt_columns_top_border gt_center" rowspan="1" colspan="1">statistic</th>
+    <th class="gt_col_heading gt_columns_bottom_border gt_columns_top_border gt_center" rowspan="1" colspan="1">p.value</th>
+    <th class="gt_col_heading gt_columns_bottom_border gt_columns_top_border gt_center" rowspan="1" colspan="1">OR</th>
+    <th class="gt_col_heading gt_columns_bottom_border gt_columns_top_border gt_center" rowspan="1" colspan="1">2.5 %</th>
+    <th class="gt_col_heading gt_columns_bottom_border gt_columns_top_border gt_center" rowspan="1" colspan="1">97.5 %</th>
+  </tr>
+  <body class="gt_table_body">
+    <tr>
+      <td class="gt_row gt_left">(Intercept)</td>
+      <td class="gt_row gt_right">1.1</td>
+      <td class="gt_row gt_right">0.7</td>
+      <td class="gt_row gt_right">1.6</td>
+      <td class="gt_row gt_right">0.1</td>
+      <td class="gt_row gt_right" style="background-color: #FF0000FF; color: #FFFFFFFF;">3.1</td>
+      <td class="gt_row gt_right">0.8</td>
+      <td class="gt_row gt_right">13.3</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left gt_striped">BMI</td>
+      <td class="gt_row gt_right gt_striped">-0.1</td>
+      <td class="gt_row gt_right gt_striped">0.0</td>
+      <td class="gt_row gt_right gt_striped">-3.6</td>
+      <td class="gt_row gt_right gt_striped">0.0</td>
+      <td class="gt_row gt_right gt_striped" style="background-color: #FF0000FF; color: #FFFFFFFF;">0.9</td>
+      <td class="gt_row gt_right gt_striped">0.9</td>
+      <td class="gt_row gt_right gt_striped">1.0</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Propofol</td>
+      <td class="gt_row gt_right">1.1</td>
+      <td class="gt_row gt_right">0.3</td>
+      <td class="gt_row gt_right">4.0</td>
+      <td class="gt_row gt_right">0.0</td>
+      <td class="gt_row gt_right" style="background-color: #FF0000FF; color: #FFFFFFFF;">3.0</td>
+      <td class="gt_row gt_right">1.7</td>
+      <td class="gt_row gt_right">5.0</td>
+    </tr>
+  </body>
+  
+  
+</table></div>
+
+--
+
+
+#### &lt;i class="fad fa-comment-dots"&gt;&lt;/i&gt; Patients who received propofol for sedation had 3 times greater odds of being hypothermic
+
+--
+
+#### &lt;i class="fad fa-comment-dots"&gt;&lt;/i&gt; 300% greater odds of hypothermia for patients who received propofol
+
+--
+
+#### &lt;i class="fad fa-comment-dots"&gt;&lt;/i&gt; Hypothermia was 300% more likely for patients who received propofol
+
+
+???
+
+A predictor variable we were interested in was the use of propofol for sedation. When we add this variable to our logistic regression model, we find that the odds ratio for propofol was three. The interpretation for this odds ratio is that patients who received propofol for sedation, had three times greater odds of being hypothermic after their procedure in comparison to patients who received a different type of sedation. Another way of interpreting this odds ratio is that there was three hundred percent greater odds of hypothermia or hypothermia was three hundred percent more likely in patients who received propofol. 
+
+
+---
+
+### OR &gt; 1 = *increase* in odds of outcome with each unit *increase* in the predictor
+
+### OR &lt; 1 = *decrease* in odds of outcome with each unit *increase* in the predictor
+
+
+???
+
+So just to recap - odds ratios greater than one can be interpreted as the extent to which the odds of the outcome increases with each unit increase in the predictor variable. Odds ratios less than one can be interpretated as a decrease in the odds of the outcome with each unit increase in the predictor variable.
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create();
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
