@@ -2,7 +2,7 @@
 title: 'Week 5: Introduction to Major Approaches to Knowledge Production in the Health Sciences'
 description:
   'This week we examine different perspectives on what constitutes knowledge, and how these fundamental assumptions have given rise to various research approaches in nursing and the health and social sciences.'
-prev: null
+prev: /04searchcont
 next: null
 type: chapter
 id: 6
@@ -43,7 +43,7 @@ Although you will never read a statement about the researcher's 'ontology' in th
 
 <exercise id="4" title="Epistemology review">
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/carter.pdf" width="100%" height="1050px"></iframe>
+<a href="https://journals-scholarsportal-info.myaccess.library.utoronto.ca/pdf/10497323/v17i0010/1316_jkjmtamamiqr.xml">Justifying Knowledge, Justifying Method, Taking Action: Epistemologies, Methodologies, and Methods in Qualitative Research</a>
 
 </exercise>
 
@@ -55,9 +55,9 @@ Although you will never read a statement about the researcher's 'ontology' in th
 
 <exercise id="6" title="Multiple paradigms of nursing science">
 
-This article will introduce you to research paradigms and to two paradigms in particular: Empiricism and the Interpretive paradigm. While reading this, try and keep in mind what we just learnt about ontology. What ontological view is aligned with the Interprative paradigm? Realist or Relativism??:confused:  
+This <a href="https://oce-ovid-com.myaccess.library.utoronto.ca/article/00012272-199906000-00010/HTML">
+article</a> will introduce you to two paradigms in particular: Empiricism and the Interpretive paradigm. While reading this, try and keep in mind what we just learnt about ontology. What ontological view is aligned with the Interprative paradigm? Realist or Relativism??
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/monti.pdf" width="100%" height="1050px"></iframe>
 
 </exercise>
 
@@ -67,8 +67,7 @@ This diagram may be useful in helping you understand how the different paradigms
 
 <img src="paradigm.png"></img>
 <br><br>
-Figure source: [The Use of Digital Analytics for_Measuring_and_
-Optimizing Digital Marketing Performance](https://www.researchgate.net/publication/310628854_)
+Figure source: [The Use of Digital Analytics for Measuring and Optimizing Digital Marketing Performance](https://www.researchgate.net/publication/310628854_)
 
 
 
@@ -104,9 +103,7 @@ Optimizing Digital Marketing Performance](https://www.researchgate.net/publicati
 
 That brings to an end the summary of important concepts around research paradigms that I wanted to introduce you to this week :raised_hands:
 
-To bring everything together, you may like to read through this paper. It includes illustrative examples from nursing researchers about their thought processes in choosing a research paradigm and how their final decision then informed each component of the design of their studies, including the methodology and methods. 
-
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/houghton.pdf" width="100%" height="1050px"></iframe>
+To bring everything together, you may like to read through this <a href="https://pdfs.semanticscholar.org/b0c7/fcfee6ef80993ef8344453a9ed8c905200da.pdf">paper</a>. It includes illustrative examples from nursing researchers about their thought processes in choosing a research paradigm and how their final decision then informed each component of the design of their studies, including the methodology and methods. 
 
 </exercise>
 
@@ -117,10 +114,6 @@ To bring everything together, you may like to read through this paper. It includ
 
 Gray, J.R., Grove, S.K. & Sutherland, S.  (2017). The Practice of Nursing Research (8th ed.) Chapter 2: Evolution of research in building evidence-based nursing practice (Review the section on “Methodologies for developing Research Evidence in Nursing” pp. 25 - 27).
 
-*Additional*
-
-[Guba, E.G. & Lincoln, Y.S. (2005). Paradigmatic controversies, contradictions, and emerging confluences. In Denzin, N. and Lincoln, Y. (Eds.) Handbook of Qualitative Research. Thousand Oaks: Sage Publications (p. 163-188).](https://sabinemendesmoura.files.wordpress.com/2014/11/gubaelincoln_novo.pdf)
-
 
 </exercise>
 
@@ -129,13 +122,13 @@ Gray, J.R., Grove, S.K. & Sutherland, S.  (2017). The Practice of Nursing Resear
 <exercise id="10" title="Discussion">
 
 
-In this week’s readings, you have encountered the different ways major approaches to research have been categorized (e.g., Monti &  Tingen, and Long & Dunphy).
+In this week’s readings, you have encountered the different ways major approaches to research have been categorized.
 
 - Reflecting on your clinical and/or research experiences, how would you describe your own epistemological, ontological, and methodological assumptions? Think about which of the approaches we have explored is/are closest to your own assumptions about truth, knowledge, and the nature of reality.
 - Think back to the practice question you developed in Week 3. Which paradigm does your question fit into? Why?
 
 
-<a target="_parent" href="https://q.utoronto.ca/courses/113018/discussion_topics/326843">Link to discussions on Quercus</a>
+<a target="_parent" href="https://q.utoronto.ca/courses/113018/discussion_topics/344134">Link to discussions on Quercus</a>
 
 <qu>Note: If you are viewing this on the 'Student' mobile app, it is better to navigate back to the discussion section through the app rather than clicking on the link above.</qu>
 

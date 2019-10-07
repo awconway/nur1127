@@ -3,7 +3,7 @@ title: 'Week 4: Locating Research Evidence (cont)'
 description:
   'We continue this week on finding research evidence.'
 prev: /03search
-next: null
+next: /05introknow
 type: chapter
 id: 5
 ---
