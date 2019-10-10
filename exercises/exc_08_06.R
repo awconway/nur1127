@@ -2,7 +2,7 @@ suppressMessages(library(tidyverse))
 library(nur1027functions)
 library(infer)
 options(warn = -1)
-
+set.seed(265)
 
 # Calculate the difference in mean quality of life scores in the sample
 sample_mean_diff <- data %>% 

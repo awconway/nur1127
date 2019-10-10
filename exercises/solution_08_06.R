@@ -2,11 +2,12 @@ suppressMessages(library(tidyverse))
 library(nur1027functions)
 library(infer)
 options(warn = -1)
+set.seed(265)
 
 
-# Calculate the difference in mean quality of life scores in the sample
+# Calculate the difference in mean pain scores in the sample
 sample_mean_diff <- data %>% 
-  specify(GH ~ depressed) %>%
+  specify(BP ~ depressed) %>%
   calculate(stat = "diff in means", 
             order = c("depressed", "not depressed"))
 
@@ -16,7 +17,7 @@ glue::glue("The mean difference in the sample was ",
 
 # Create and visualise the null distribution
 null_distribution <- data %>% 
-  specify(GH ~ depressed) %>%
+  specify(BP ~ depressed) %>%
   hypothesize(null = "independence") %>%
   generate(reps = 1000, type = "permute") %>%
   calculate(stat = "diff in means", 
