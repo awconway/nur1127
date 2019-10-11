@@ -1,0 +1,29 @@
+---
+output:
+  xaringan::moon_reader:
+    seal: false
+    lib_dir: libs
+    css: [default, fonts.css, animate.css]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+    ratio: '16:9'
+    includes:
+      in_header: fa.html
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(tidyverse)
+library(gt)
+library(nur1027functions)
+```
+
+class: center, middle, hide-count
+
+# Sampling
+
+???
+
+
+We covered the basics of sampling for quantitative research in a previous chapter. 
