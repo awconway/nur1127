@@ -3,7 +3,7 @@ title: 'Week 5: Introduction to Major Approaches to Knowledge Production in the 
 description:
   'This week we examine different perspectives on what constitutes knowledge, and how these fundamental assumptions have given rise to various research approaches in nursing and the health and social sciences.'
 prev: /04searchcont
-next: null
+next: /06quant
 type: chapter
 id: 6
 ---

@@ -164,13 +164,13 @@ stats_null.Rmd
 </exercise>
 
 
-<exercise id="14" title="Null distribution">
+<exercise id="14" title="Interpreting a p-value">
 stats_pvalues.Rmd
 </exercise>
 
 <exercise id="15" title="Stating null and alternative hypotheses">
 
-Let's use some real data to practice. I have uploaded a dataset called `data`. It contains ratings of quality of life from a sample of heart transplant recipients. One variable in the dataset, called `depressed` is a dichotomous variable that indicates if the participant was classified as clinically depressed based upon a diagnostic interview with a psychologist that was conducted at the same time the participant completed the quality of life instrument. Your first task is to select the appropriate alternative hypothesis for the null hypothesis that there is no difference in quality of life scores between depressed and non-depressed heart transplant recipients, otherwise expressed as:
+Let's use some real data to practice. I have uploaded a dataset called `data`. It contains one variable with ratings of pain from a sample of heart transplant recipients. Another variable in the dataset, called `depressed` is a dichotomous variable that indicates if the participant was classified as clinically depressed based upon a diagnostic interview with a psychologist that was conducted at the same time the participant completed the quality of life instrument. We are interested in determining if being depressed is associated with pain scores in heart transplant recipients. Your first task is to select the appropriate alternative for the null hypothesis that there is no difference in pain scores between depressed and non-depressed heart transplant recipients, otherwise expressed as:
 
 <center>
 
@@ -207,17 +207,17 @@ The null hypothesis was not directional.
 <exercise id="16" title="Hypothesis testing exercise">
 
 
-The instrument used to measure quality of life in this study was the *Short Form-36 Health Survey*. This scale comprises several different subscales. One of the subscales is for *General Health*, and the variable for this subscale is named `GH` in the dataset. As a reminder, the variable that contains information about depression status is `depressed`. 
+The instrument used to measure pain in this study was the *Short Form-36 Health Survey*. This scale comprises several different subscales, one of which is for *Bodily Pain*, and the variable for this subscale is named `BP` in the dataset. Pain scores in this subscale can range from 0-100 with lower scores indicating worse pain. As a reminder, the variable that contains information about depression status is named `depressed`. 
 
-Insert the variable names of the outcome and predictor variables in the code block below to:
+Your task is to insert the variable names of the *outcome* and *predictor* variables from our null hypothesis in the code block below to:
 
-1. Find out the mean difference in 'General Health' scores between depressed and non-depressed heart transplant recipients;
+1. Find out the mean difference in 'Bodily Pain' scores between depressed and non-depressed heart transplant recipients **in our sample**;
 
-1. Visualise a null distribution of differences in mean 'General Health' scores where there is *no* association between depression and general health;
+1. Visualise a null distribution of differences in mean 'Bodily Pain' scores where there is *no* association between depression and pain;
 
-1. Calculate a p-value for the mean difference between groups.
+1. Calculate a p-value for the mean difference between groups **from our sample**.
 
-(Don't be alarmed by all the code - all you have to do is replace the dotted lines for the variables we are interested in. Some students may be interested in how statistical analyses are undertaken, so thought I'd leave in some of the code🤓)
+(Don't be alarmed by all the code - all you have to do is replace the dotted lines for the outcome and predictor variables we are interested in. Some students may be interested in how statistical analyses are undertaken, so thought I'd leave in some of the code🤓)
 
 <codeblock id="08_06">
 
@@ -231,14 +231,15 @@ Based on what you know about null distributions and hypothesis testing, consider
 
 <choice>
 
-<opt text="That we should accept the null hypothesis">
+<opt text="That we should accept the null hypothesis that there is no difference in pain scores between depressed and non-depressed heart transplant recipients." >
 
-By looking at this plot, we can see that the probability of observing an event as or more extreme than the mean difference in quality of life score in our sample, assuming the null hypothesis is true, is really quite low. Based on this evidence we should reject the null hypothesis.
+By looking at this plot, we can see that the probability of observing an event as or more extreme than the mean difference in pain score in our sample, assuming the null hypothesis is true, is quite low (0.028). This is lower than the traditional 'threshold' for statistical significance.
 
 </opt>
 
-<opt text="That we should reject the null hypothesis" correct="TRUE">
+<opt text="That we should reject the null hypothesis that there is no difference in pain scores between depressed and non-depressed heart transplant recipients." correct="TRUE">
 
+By looking at this plot, we can see that the probability of observing an event as or more extreme than the mean difference in pain score in our sample, assuming the null hypothesis is true, is quite low (0.028).
 
 </opt>
 
@@ -255,7 +256,7 @@ stats_uncertainty.Rmd
 
 <exercise id="18" title="Uncertainty exercise">
 
-In the last exercise we calculated the p-value for the mean difference in quality of life score between depressed and non-depressed heart transplant recipients. We concluded that we should reject the null hypothesis that there was *no difference* between groups. But what is the mean difference likely to be? Let's find out by calculating confidence intervals.
+In the last exercise we calculated the p-value for the mean difference in pain score between depressed and non-depressed heart transplant recipients. We concluded that we should reject the null hypothesis that there was *no difference* between groups. But what is the mean difference likely to be? Let's find out by calculating confidence intervals.
 
 <qu>
 The code below will produce a plot to visualize the confidence intervals. For a bit of fun, enter the colours you want the dots and the shading of confidence intervals tin the plot o be, then press submit. Eg. "red", "yellow", "green" etc
@@ -274,12 +275,14 @@ Considering the information presented in the plot above, which of the following 
 
 <choice>
 
-<opt text="We are ninety five percent confident that, in the population, depressed heart transplant recipients' quality of life is between 3 points lower to 40 points lower than non-depressed heart transplant recipients." correct="TRUE">
+<opt text="We are ninety five percent confident that, in the population, depressed heart transplant recipients' pain score is between 1 point lower to 44 points lower than non-depressed heart transplant recipients." correct="TRUE">
 
 
 </opt>
 
-<opt text="There is a 95% probability that, in the population, depressed heart transplant recipients quality of life is between 3 points lower to 40 points lower than non-depressed heart transplant recipients.">
+<opt text="There is a 95% probability that, in the population, depressed heart transplant recipients pain score is between 1 point lower to 44 points lower than non-depressed heart transplant recipients.">
+
+The difference in terminology is subtle, but 95% confidence intervals do not mean there is a 95% probability. Technically, if we were to repeat the same study an infinte number of times in the exact same way and calculate confidence intervals each time, 95% of the time would the interval contain the 'true' mean from the population. That's why we say 95% 'confident'.
 
 
 </opt>
@@ -317,6 +320,30 @@ stats_regression.Rmd
 
 <exercise id="22" title="Confidence itervals for regression coefficients">
 
+Here's the table from the video that displays the results of the regression model. 
+
+<img src="/regression_table.png"/>
+
+Choose which interpretation of the 95% confidence intervals is correct.
+
+<choice>
+
+
+opt text=We are 95% confident that with each unit increase in PHQ-9 score, heart transplant recipients' quality of life score will increase by as much as 2.3 points or as little as 0.5 points.">
+
+
+Both the upper and lower 95% confidence intervals are negative, meaning that with each unit increase in the predictor variable (PHQ-9), there will be a corresponding decrease in the outcome variable (quality of life).<
+/opt>
+
+<opt text="We are 95% confident that with each unit increase in PHQ-9 score, heart transplant recipients' quality of life score will decrease by as much as 2.3 points or as little as 0.5 points." correct="TRUE">
+
+
+
+</opt>
+
+
+</choice>
+
 
 </exercise>
 
@@ -334,13 +361,13 @@ Hopefully this series of videos and exercises has helped to make the process of 
 
 **tl;dr** 
 
-Don't be alarmed if you go to the textbook and start seeing all these things about needing to look up critical values for t-distributions! You didn't miss anything.
+Don't be alarmed if you go to the textbook and start seeing all these things about needing to look up critical values for t-distributions! You don't need to know that.
 
 </exercise>
 
 <exercise id="26" title="Reading">
 
-**Relevant chapters on statistics from your text for your reference**
+**Relevant chapters on statistics from your text for your reference (not required readinng)**
 
 Gray, J.R., Grove, S.K. & Sutherland, S.  (2017). The Practice of Nursing Research (8th ed.)
 - Chapter 21: Introduction to Statistical Analysis
@@ -353,22 +380,9 @@ Gray, J.R., Grove, S.K. & Sutherland, S.  (2017). The Practice of Nursing Resear
 
 <exercise id="27" title="Discussion">
 
-This week we continue with our critical appraisal of the Curtis & Glacken (2014) article.
 
-Each student is asked to respond to one of the following questions. Some of you may discuss the same question, but please ensure all questions are addressed.
+<a target="_parent" href="https://q.utoronto.ca/courses/113018/discussion_topics/344139">Link to discussions on Quercus</a>
 
-- Were the data analysis procedures clearly described and appropriate for the type of data collected?
-- Were the results presented in a clear and understandable format? (e.g., tables, etc).
-- What were the study results? Did the results address the study purpose and research questions?
-- What does this study contribute to our knowledge? How does it extend or connect with what we already know?
-- How are the results relevant to practice in your context?
-- Were the identified implications for practice appropriate, based on the study findings?
-- Did the study have weaknesses not identified by the researcher?
-
-<a target="_parent" href="https://q.utoronto.ca/courses/113018/discussion_topics/326843">Link to discussions on Quercus</a>
-
-<qu>Note: If you are viewing this on the 'Student' mobile app, it is better to navigate back to the discussion section through the app rather than clicking on the link above.`=</qu>
-
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/curtis.pdf" width="100%" height="1050px"></iframe>
+<qu>Note: If you are viewing this on the 'Student' mobile app, it is better to navigate back to the discussion section through the app rather than clicking on the link above.</qu>
 
 </exercise>
