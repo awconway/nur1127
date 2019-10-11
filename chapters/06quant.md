@@ -2,18 +2,15 @@
 title: 'Week 6: Quantitative Approaches to Research'
 description:
   'This week we look at how positivist/post-positivist views have shaped knowledge production through quantitative research approaches. We will consider how these fundamental beliefs about knowledge and truth are reflected in the criteria used to define, conduct and appraise quantitative research.'
-prev: null
+prev: /05introknow
 next: null
 type: chapter
 id: 7
 ---
 
-<exercise id="1" title="Introduction">
+<exercise id="1" title="Introduction" type="slides">
 
 <iframe src="https://player.vimeo.com/video/354400977" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-quant_intro.Rmd
-
 
 </exercise>
 
@@ -95,7 +92,7 @@ Although technically correct in that the data were collected retrospectively, th
 </exercise>
 
 
-<exercise id="4" title="Elements of quantitative designs">
+<exercise id="4" title="Elements of quantitative designs" type="slides">
 
 <iframe src="https://player.vimeo.com/video/354404399" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
@@ -136,7 +133,7 @@ This description is more in line with a 'pre-test post-test' study design, which
 </exercise>
 
 
-<exercise id="6" title="Interventional designs">
+<exercise id="6" title="Interventional designs" type="slides">
 
 <iframe src="https://player.vimeo.com/video/354406332" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
@@ -171,7 +168,7 @@ Another approach when only one group is available is to study that group over a 
 
 </exercise>
 
-<exercise id="8" title="Randomized controlled trials">
+<exercise id="8" title="Randomized controlled trials" type="slides">
 
 <iframe src="https://player.vimeo.com/video/354408209" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
@@ -211,7 +208,7 @@ Which study used systematic sampling?
 </opt>
 </exercise>
 
-<exercise id="11" title="Risk of bias">
+<exercise id="11" title="Risk of bias" type="slides">
 
 <iframe src="https://player.vimeo.com/video/354402956" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
@@ -232,10 +229,6 @@ Critical appraisal questions:
 
 - Can the results be generalized (applied) to the population of interest? (External validity)
 
-- How were the variables conceptualized and operationalized?
-
-[We will address measures & results in Week 7].
-
 Reflection:
 
 a) How did you feel about your understanding of the article? What parts did you feel most confident about?
@@ -247,7 +240,7 @@ c) What are the main assumptions about knowledge that underpin quantitative rese
 d) How do these assumptions lead to criteria for judging the “goodness” of a quantitative research report?
 
 
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/curtis.pdf" width="100%" height="1050px"></iframe>
+<iframe src="https://www.sciencedirect.com/science/article/pii/S0020748918300361?via%3Dihub" width="100%" height="1050px"></iframe>
 
 
 </exercise>
