@@ -240,7 +240,7 @@ c) What are the main assumptions about knowledge that underpin quantitative rese
 d) How do these assumptions lead to criteria for judging the “goodness” of a quantitative research report?
 
 
-<iframe src="https://www.sciencedirect.com/science/article/pii/S0020748918300361?via%3Dihub" width="100%" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/reed_physical_activity.pdf" width="100%" height="1050px"></iframe>
 
 
 </exercise>
