@@ -9,7 +9,7 @@ id: 9
 ---
 
 <exercise id="1" title="Introduction" type="slides">
-stats_intro.Rmd
+<iframe src="https://player.vimeo.com/video/367338330" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </exercise>
 
 <exercise id="2" title="Binomial distributions">
@@ -26,7 +26,9 @@ Enter the number of coin flips you want to simulate in the first argument and th
 </exercise>
 
 <exercise id="3" title="Density and Cumulative Density">
-stats_density.Rmd
+
+<iframe src="https://player.vimeo.com/video/367345599" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 </exercise>
 
 <exercise id="4" title="Cumulative Density Exercise">
@@ -63,7 +65,9 @@ Using only 100 simulations produced a fairly different result - 17% instead of 1
 </exercise>
 
 <exercise id="5" title="Normal distribution">
-stats_normal.Rmd
+
+<iframe src="https://player.vimeo.com/video/367349402" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 </exercise>
 
 <exercise id="6" title="Normal distribution exercise 1">
