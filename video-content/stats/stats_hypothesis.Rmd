@@ -28,17 +28,16 @@ class: left, top, hide-count
 
 ## The hypotheses
 
+.left-column[
 Two claims:
 
-1. There is no difference in leadership capability of nurses who have and have not completed a masters degree.  This is the **null hypothesis**, written $H_0$. The difference in leadership scores is **zero**.
+1) There is no difference in leadership capability of nurses who have and have not completed a masters degree.  This is the **null hypothesis**, written $H_0$. The difference in leadership scores is **zero**.
 $$ H_0: mean(masters)-mean(non-masters)=0 $$
 
---
 
-2. There is a difference in leadership capability of nurses who have and have not completed a masters degree. This is the **alternative hypothesis**. The difference in mean scores between groups is **not zero**
+2) There is a difference in leadership capability of nurses who have and have not completed a masters degree. This is the **alternative hypothesis**. The difference in mean scores between groups is **not zero**
 $$ H_1: mean(masters)-mean(non-masters)≠0$$
---
-
+]
 
 ???
 

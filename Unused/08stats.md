@@ -318,31 +318,34 @@ We will tackle the beta coefficient first, because it is the effect estimate cal
 stats_regression.Rmd
 </exercise>
 
-<exercise id="22" title="Confidence itervals for regression coefficients">
+<exercise id="22" title="Confidence intervals for regression coefficients">
 
 Here's the table from the video that displays the results of the regression model. 
 
 <img src="/regression_table.png"/>
 
-Choose which interpretation of the 95% confidence intervals is correct.
+
+<qu>Choose which interpretation of the 95% confidence intervals is correct.</qu>
 
 <choice>
 
 
-opt text=We are 95% confident that with each unit increase in PHQ-9 score, heart transplant recipients' quality of life score will increase by as much as 2.3 points or as little as 0.5 points.">
+<opt text="We are 95% confident that with each unit increase in PHQ-9 score, heart transplant recipients' quality of life score will increase by as much as 2.3 points or as little as 0.5 points.">
 
+Both the upper and lower 95% confidence intervals are negative, meaning that with each unit increase in the predictor variable (PHQ-9), there will be a corresponding decrease in the outcome variable (quality of life).
 
-Both the upper and lower 95% confidence intervals are negative, meaning that with each unit increase in the predictor variable (PHQ-9), there will be a corresponding decrease in the outcome variable (quality of life).<
-/opt>
+</opt>
 
 <opt text="We are 95% confident that with each unit increase in PHQ-9 score, heart transplant recipients' quality of life score will decrease by as much as 2.3 points or as little as 0.5 points." correct="TRUE">
 
-
+Well done
 
 </opt>
 
 
 </choice>
+
+
 
 
 </exercise>

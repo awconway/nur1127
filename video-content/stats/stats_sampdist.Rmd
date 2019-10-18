@@ -50,7 +50,15 @@ class: top, left, hide-count
 
 - Drew a sample of 50 nurses and asked them to rate their *leadership capability* on a scale from 0 - 15
 - Mean score in this sample was 9.7 with a standard deviation of 2.1
---
+
+---
+
+class: top, left, hide-count
+
+# Creating a sampling distribution
+
+- Drew a sample of 50 nurses and asked them to rate their *leadership capability* on a scale from 0 - 15
+- Mean score in this sample was 9.7 with a standard deviation of 2.1
 
 
 ```{r fig.show="animate", animation.hook = 'gifski', fig.width=7, fig.height=3, echo=FALSE, message=FALSE, warning=FALSE, results = 'hide', interval=0.08, loop=FALSE, cache=TRUE}
