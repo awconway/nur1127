@@ -7,7 +7,7 @@ output:
     nature:
       highlightStyle: github
       highlightLines: true
-    ratio: '16:9'
+      ratio: '16:9'
     includes:
       in_header: fa.html
 ---

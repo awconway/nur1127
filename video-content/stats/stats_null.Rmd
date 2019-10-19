@@ -4,12 +4,13 @@ output:
     seal: false
     lib_dir: libs
     css: [default, fonts.css, animate.css]
-    ratio: '16:9'
     includes:
       in_header: fa.html
     nature:
       highlightStyle: github
       highlightLines: true
+      ratio: '16:9'
+
 ---
 
 ```{r setup, include=FALSE}

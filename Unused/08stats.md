@@ -126,7 +126,10 @@ Fortunately, your burnout score happens to be almost exactly 1 standard deviatio
 </exercise>
 
 <exercise id="8" title="Sampling Distributions">
-stats_sampdist.Rmd
+
+<iframe src="https://player.vimeo.com/video/367456610" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<qu>tinystats</qu>
 </exercise>
 
 <exercise id="9" title="Sampling Distributions Exercise">
@@ -142,8 +145,9 @@ There's no wrong answer here. Just replace the dotted lines with different numbe
 </exercise>
 
 <exercise id="10" title="Confidence Intervals">
-stats_ci.Rmd
-</exercise>
+<iframe src="https://player.vimeo.com/video/367459265" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<qu>tinystats</qu></exercise>
 
 <exercise id="11" title="Confidence Intervals Exercise">
 
@@ -160,16 +164,22 @@ The formula for calcluating confidence intervals is the mean plus or minus 2 sta
 </exercise>
 
 <exercise id="12" title="Hypothesis testing">
-stats_hypothesis.Rmd
+
+<iframe src="https://player.vimeo.com/video/367461348" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 </exercise>
 
 <exercise id="13" title="Null distribution">
-stats_null.Rmd
+
+<iframe src="https://player.vimeo.com/video/367466943" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 </exercise>
 
 
 <exercise id="14" title="Interpreting a p-value">
-stats_pvalues.Rmd
+
+<iframe src="https://player.vimeo.com/video/367471972" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 </exercise>
 
 <exercise id="15" title="Stating null and alternative hypotheses">
@@ -253,7 +263,7 @@ By looking at this plot, we can see that the probability of observing an event a
 
 <exercise id="17" title="Uncertainty">
 
-stats_uncertainty.Rmd
+<iframe src="https://player.vimeo.com/video/367479379" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
@@ -297,7 +307,10 @@ The difference in terminology is subtle, but 95% confidence intervals do not mea
 </exercise>
 
 <exercise id="19" title="Clinical significance">
-stats_clinsig.Rmd
+
+<iframe src="https://player.vimeo.com/video/367479606" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+
 </exercise>
 
 <exercise id="20" title="Common effect estimates">
@@ -319,7 +332,9 @@ We will tackle the beta coefficient first, because it is the effect estimate cal
 </exercise>
 
 <exercise id="21" title="Regression coefficients">
-stats_regression.Rmd
+
+<iframe src="https://player.vimeo.com/video/367483210" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 </exercise>
 
 <exercise id="22" title="Confidence intervals for regression coefficients">
@@ -355,11 +370,15 @@ Well done
 </exercise>
 
 <exercise id="23" title="Odds ratio">
-stats_or.Rmd
+
+<iframe src="https://player.vimeo.com/video/367486284" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 </exercise>
 
 <exercise id="24" title="Absolute and relative risk">
-stats_risk.Rmd
+
+<iframe src="https://player.vimeo.com/video/367487571" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 </exercise>
 
 <exercise id="25" title="Final note">
