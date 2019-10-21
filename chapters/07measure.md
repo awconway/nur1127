@@ -2,19 +2,19 @@
 title: 'Week 7: Measurement in research'
 description:
   'Important concepts in understanding the importance of measurement in quantitative research.'
-prev: null
+prev: /06quant
 next: null
 type: chapter
 id: 8
 ---
 
-<exercise id="1" title="Introduction">
+<exercise id="1" title="Introduction" type="slides">
 
 <iframe src="https://player.vimeo.com/video/367837632" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
-<exercise id="2" title="Types of variables">
+<exercise id="2" title="Types of variables" type="slides">
 
 <iframe src="https://player.vimeo.com/video/367860725" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </exercise>
@@ -89,7 +89,7 @@ A ratio variable is a variable similar to an interval variable, but it has a "tr
 
 </exercise>
 
-<exercise id="5" title="Scales of measurement">
+<exercise id="5" title="Scales of measurement" type="slides">
 
 <iframe src="https://player.vimeo.com/video/367867172" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </exercise>
@@ -135,12 +135,12 @@ Another important concept of measurement in quantitative research is the distinc
 
 </exercise>
 
-<exercise id="9" title="Measurement error">
+<exercise id="9" title="Measurement error" type="slides">
 
 <iframe src="https://player.vimeo.com/video/367863654" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </exercise>
 
-<exercise id="10" title="Introduction to reliability & validity">
+<exercise id="10" title="Introduction to reliability & validity" type="slides">
 
 <iframe src="https://player.vimeo.com/video/367865519" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
@@ -198,7 +198,7 @@ Kappa is a better way to measure reliability than simple percent agreement calcu
 </codeblock>
 </exercise>
 
-<exercise id="14" title="Internal consistency">
+<exercise id="14" title="Internal consistency" type="slides">
 
 <iframe src="https://player.vimeo.com/video/367837863" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
@@ -279,7 +279,7 @@ The icc calculated in the last exercise was 0.74. Head back to the plot we made 
 </codeblock>
 </exercise>
 
-<exercise id="19" title="Validity">
+<exercise id="19" title="Validity" type="slides">
 
 <iframe src="https://player.vimeo.com/video/367840406" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
@@ -340,7 +340,7 @@ The name of the variable for the mental health subscale is MCS and the name of t
 
 </exercise>
 
-<exercise id="22" title="Criterion validity">
+<exercise id="22" title="Criterion validity" type="slides">
 
 <iframe src="https://player.vimeo.com/video/367841846" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </exercise>
@@ -358,23 +358,8 @@ Gray, J.R., Grove, S.K. & Sutherland, S.  (2017). The Practice of Nursing Resear
 
 <exercise id="24" title="Discussion">
 
-We're looking at the same article as last week except focusing our discussion on the measurement, validity and reliability aspects of the research design.
+<a target="_parent" href="https://q.utoronto.ca/courses/113018/discussion_topics/344138">Link to discussions on Quercus</a>
 
-Each student is asked to respond to one of the following questions:
-
-- How were the variables conceptualized and operationalized?
-
-- Were the data collection methods clearly described? Do these methods align with the main assumptions underpinning quantitative research?
-
-- Were the instrument(s) (e.g., questionnaire) clearly described?
-
-- How were reliability and validity of the measures (e.g., instruments) assessed?  
-
-<a target="_parent" href="https://q.utoronto.ca/courses/113018/discussion_topics/326843">Link to discussions on Quercus</a>
-
-`Note: If you are viewing this on the 'Student' mobile app, it is better to navigate back to the discussion section through the app rather than clicking on the link above.`
-
-<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/curtis.pdf" width="100%" height="1050px"></iframe>
-
+<qu>Note: If you are viewing this on the 'Student' mobile app, it is better to navigate back to the discussion section through the app rather than clicking on the link above.</qu>
 
 </exercise>
