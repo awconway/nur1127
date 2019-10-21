@@ -19,6 +19,8 @@ RUN Rscript -e "install.packages('psych')"
 RUN Rscript -e "install.packages('irr')"
 RUN Rscript -e "install.packages('infer')"
 RUN Rscript -e "install.packages('dabestr')"
+RUN installGithub.r awconway/nur1027functions
+
 
 
 ## Become normal user again
