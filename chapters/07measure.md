@@ -191,7 +191,7 @@ Kappa is a better way to measure reliability than simple percent agreement calcu
 |0.8 - 1| Very strong agreement|
 
 
-<qu>Use the `agree:weightedKappa` function to calculate the correlation coefficient between the two raters for the airway and quality dataframes</qu>
+<qu>Use the `weightedKappa` function to calculate the correlation coefficient between the two raters for the airway and quality dataframes</qu>
 
 <codeblock id="07_05">
 
