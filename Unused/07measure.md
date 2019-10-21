@@ -10,13 +10,13 @@ id: 8
 
 <exercise id="1" title="Introduction">
 
-<iframe src="https://player.vimeo.com/video/354410232" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/367837632" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
 <exercise id="2" title="Types of variables">
 
-<iframe src="https://player.vimeo.com/video/354412784" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/367860725" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </exercise>
 
 <exercise id="3" title="Basketball standings">
@@ -91,7 +91,7 @@ A ratio variable is a variable similar to an interval variable, but it has a "tr
 
 <exercise id="5" title="Scales of measurement">
 
-<iframe src="https://player.vimeo.com/video/354418181" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/367867172" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </exercise>
 
 <exercise id="6" title="Level of measurement exercise 1">
@@ -137,12 +137,12 @@ Another important concept of measurement in quantitative research is the distinc
 
 <exercise id="9" title="Measurement error">
 
-<iframe src="https://player.vimeo.com/video/354414904" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/367863654" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </exercise>
 
 <exercise id="10" title="Introduction to reliability & validity">
 
-<iframe src="https://player.vimeo.com/video/354415766" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/367865519" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
@@ -200,7 +200,7 @@ Kappa is a better way to measure reliability than simple percent agreement calcu
 
 <exercise id="14" title="Internal consistency">
 
-<iframe src="https://player.vimeo.com/video/355719841" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/367837863" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
@@ -281,7 +281,7 @@ The icc calculated in the last exercise was 0.74. Head back to the plot we made 
 
 <exercise id="19" title="Validity">
 
-<iframe src="https://player.vimeo.com/video/355722488" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/367840406" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
@@ -342,7 +342,7 @@ The name of the variable for the mental health subscale is MCS and the name of t
 
 <exercise id="22" title="Criterion validity">
 
-<iframe src="https://player.vimeo.com/video/355723384" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/367841846" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </exercise>
 
 <exercise id="23" title="Reading">
