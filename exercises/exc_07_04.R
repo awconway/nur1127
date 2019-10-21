@@ -1,6 +1,6 @@
 library(nur1027functions)
 
-percent(____)
+irr::agree(____)
 
-percent(____)
+irr::agree(____)
 

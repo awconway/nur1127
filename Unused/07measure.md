@@ -166,7 +166,7 @@ Insert the words airway and quality in place of the dotted lines and then press 
 
 One simple way we can determine agreement is to calculate the proportion of times in which there was agreement. Let's do that now. 
 
-<qu>Use the `agree::percent` function to calculate overall agreement between the two raters for the airway and quality dataframes</qu>
+<qu>Use the `irr::agree` function to calculate overall agreement between the two raters for the airway and quality dataframes</qu>
 
 <codeblock id="07_04">
 We need to insert the words airway and quality into the brackets to run the analysis
