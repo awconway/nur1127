@@ -9,7 +9,7 @@ id: 9
 ---
 
 <exercise id="1" title="Introduction" type="slides">
-<iframe src="https://player.vimeo.com/video/367338330" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/368809381" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </exercise>
 
 <exercise id="2" title="Binomial distributions">

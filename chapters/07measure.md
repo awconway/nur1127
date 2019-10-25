@@ -342,7 +342,7 @@ The name of the variable for the mental health subscale is MCS and the name of t
 
 <exercise id="22" title="Criterion validity" type="slides">
 
-<iframe src="https://player.vimeo.com/video/367841846" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/368807663" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </exercise>
 
 <exercise id="23" title="Reading">
