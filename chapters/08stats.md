@@ -67,6 +67,7 @@ Using only 100 simulations produced a fairly different result - 17% instead of 1
 <exercise id="5" title="Normal distribution" type="slides">
 
 <iframe src="https://player.vimeo.com/video/367349402" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<qu>Image from @dcossyleon https://github.com/tinystats/teacups-giraffes-and-statistics</qu>
 
 </exercise>
 
@@ -117,7 +118,10 @@ Let's investigate the data further. In the box below we will input the scores of
 <center>
 <img src="/General_empirical.jpg"/>
 <img src="/Empirical_example.png"/>
+<br>
+<sub>Image from @dcossyleon https://github.com/tinystats/teacups-giraffes-and-statistics</sub>
 </center>
+<br>
 
 Fortunately, your burnout score happens to be almost exactly 1 standard deviation below the mean, so this makes it easy to assess the probability of a nurse scoring lower than you. Remember - 68% of scores will fall within one standard deviation of the mean, leaving a remaining 32%. Scores around a normal distribution are symmetrical, so half of the remaining 32% will be above the mean and half will be below. So if your score was exactly 1 standard deviation below the mean, we can conclude that approximately 16% of nurses will score lower than you for burnout. In other words, it would be common to find nurses who rated their levels of burnout higher than you, but somewhat less likely to observe nurses scoring lower than you.
 
@@ -129,8 +133,9 @@ Fortunately, your burnout score happens to be almost exactly 1 standard deviatio
 
 <iframe src="https://player.vimeo.com/video/367456610" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-<qu>Animation from @dcossyleon https://github.com/tinystats/teacups-giraffes-and-statistics</qu>
-
+<center>
+<sub>Animation from @dcossyleon https://github.com/tinystats/teacups-giraffes-and-statistics</sub>
+</center>
 </exercise>
 
 <exercise id="9" title="Sampling Distributions Exercise">
@@ -149,7 +154,11 @@ There's no wrong answer here. Just replace the dotted lines with different numbe
 
 <iframe src="https://player.vimeo.com/video/367459265" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-<qu>Image from @dcossyleon https://github.com/tinystats/teacups-giraffes-and-statistics</qu>
+<center>
+<sub>Image from @dcossyleon https://github.com/tinystats/teacups-giraffes-and-statistics</sub>
+</center>
+
+</exercise>
 
 <exercise id="11" title="Confidence Intervals Exercise">
 
@@ -263,7 +272,7 @@ By looking at this plot, we can see that the probability of observing an event a
 
 </exercise>
 
-<exercise id="17" title="Uncertainty"> type="slides"
+<exercise id="17" title="Uncertainty" type="slides">
 
 <iframe src="https://player.vimeo.com/video/367479379" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
@@ -308,12 +317,12 @@ The difference in terminology is subtle, but 95% confidence intervals do not mea
 
 </exercise>
 
-<exercise id="19" title="Clinical significance"> type="slides"
+<exercise id="19" title="Clinical significance" type="slides">
 
 <iframe src="https://player.vimeo.com/video/367479606" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-
 </exercise>
+
 
 <exercise id="20" title="Common effect estimates">
 
@@ -333,7 +342,7 @@ We will tackle the beta coefficient first, because it is the effect estimate cal
 
 </exercise>
 
-<exercise id="21" title="Regression coefficients"> type="slides"
+<exercise id="21" title="Regression coefficients" type="slides">
 
 <iframe src="https://player.vimeo.com/video/367483210" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
@@ -371,13 +380,13 @@ Well done
 
 </exercise>
 
-<exercise id="23" title="Odds ratio"> type="slides"
+<exercise id="23" title="Odds ratio" type="slides">
 
 <iframe src="https://player.vimeo.com/video/367486284" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
-<exercise id="24" title="Absolute and relative risk"> type="slides"
+<exercise id="24" title="Absolute and relative risk" type="slides">
 
 <iframe src="https://player.vimeo.com/video/367487571" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
