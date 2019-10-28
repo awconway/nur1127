@@ -3,7 +3,7 @@ title: 'Week 7: Measurement in research'
 description:
   'Important concepts in understanding the importance of measurement in quantitative research.'
 prev: /06quant
-next: null
+next: /08stats
 type: chapter
 id: 8
 ---
