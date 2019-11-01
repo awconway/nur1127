@@ -23,7 +23,7 @@ Descriptive studies seek to describe constructs of interest with no attempt to m
 
 <exercise id="2" title="Surveys" >
 
-A survey is a common type of observational design that enables collection of information about the characteristics of particular individuals, groups, institutions or situations, or about the frequency of a phenomenon's occurrence, particularly when little is known about it. There are both advantages and disadvantages to consider when undertaking survey research. Variables of interest commonly investigate participants' knowledge, beliefs or attitudes about a particular topic or concept.
+A survey is a common type of observational design that enables collection of information about the characteristics of particular individuals, groups, institutions or situations, or about the frequency of a phenomenon's occurrence, particularly when little is known about it. There are both advantages and disadvantages to consider when undertaking survey research, which are outlined below. We will also cover some important aspects about the design of surveys that are vital to keep in mind when appraising the results of studies that employ a survey design. These include the sampling strategy, how variables were defined and measured and how the data were analyzed and reported. 
 
 
 Advantages:
@@ -35,14 +35,15 @@ Advantages:
 - Surveys can produce a large amount of data in a short time for a fairly low cost. 
 
 Disadvantages:
-
 - The significance of the data can become neglected if the researcher focuses too much on the range of coverage to the exclusion of an adequate account of the implications of those data for relevant issues, problems, or theories.
 
 - The data that are produced are likely to lack details or depth on the topic being investigated.
 
 - Securing a high response rate to a survey can be difficult.
 
-We will cover some important aspects about the design of surveys that are vital to keep in mind when appraising the results of studies that employ a survey design. These include the sampling strategy, how variables were defined and measured and how the data were analyzed and reported. 
+<sub>
+Source: <a href=https://academic.oup.com/intqhc/article/15/3/261/1856193">Good practice in the conduct and reporting of survey research</a></sub>
+
 
 </exercise>
 
@@ -93,7 +94,7 @@ The purpose of undertaking a descriptive study with a survey design is to gain i
 
 <qu>Unfortunately, confidence intervals are not always reported in publications. For example, even in the International Journal of Nursing Studies (highest ranked journal in the field), in a survey of nursing and midwifery practice for maintenace of vascular access device patency, confidence intervals were **not reported**. The publication is presented below.</qu>
 
-<iframe src="https://www.sciencedirect.com/science/article/pii/S0020748915002229" width="100%" height="1050px"></iframe>
+<iframe src="https://www.aaronconway.info/web/viewer.html?file=%2FNUR1027/keogh_flushing.pdf" width="100%" height="1050px"></iframe>
 
 <br><br>
 
@@ -168,19 +169,16 @@ Below are some advantages and disadvantages of this type of design.
     <td>Provides a framework for exploring the relationship between variables that are not able to be manipulated.</td>
     <td>Unable to manipulate the variables of interest.</td>
   </tr>
-  <tr>
-    <td>A foundation for potential, future interventional studies.</td>
-    <td></td>
-  </tr>
 </table>
 
+test
 <qu>Correlational designs have sometimes been categorised as 'simple', 'predictive' and 'theoretical' (Gray et al., 2017). We will focus on the 'simple' correlational design. Data is collected in correlational designs either prospectively or retrospectively, without attempts to manipulate conditions by researchers.</qu>
 
 </exercise>
 
 <exercise id="10" title="Sampling in correlational studies" >
 
-Just like for surveys, the risk of selection bias should be considered when appraising the results of research conducted using correlational designs. In most cases in nursing and healthcare research that has used a correlational design, the sampling strategy would have been one of 'convenience'. Another consideration is where the data collection took place. Often these types of studies are conducting at a single hospital or health service that may serve a population that is not representative of other settings. Results should ideally not be generalized outside of the context in which it was conducted. 
+Just like for surveys, the risk of selection bias should be considered when appraising the results of research conducted using correlational designs. In most cases in nursing and healthcare research that has used a correlational design, the sampling strategy would have been one of 'convenience'. Another consideration is where the data collection took place. Often these types of studies are conducted at a single hospital or health service that may serve a population that is not representative of other settings. Results should ideally not be generalized outside of the context in which it was conducted. 
 
 
 </exercise>
@@ -196,16 +194,79 @@ As we've established earlier, the focus of the correlational design is to examin
 
 <exercise id="12" title="Analysis considerations in correlational studies" >
 
-## Counfinding
+## Confounding
 
-In descriptive studies that use correlational designs, participants in the study have not been randomized to a particular group. For this reason, participants may 
-general, it is good practice to use statistical approaches that
+In descriptive studies that use correlational designs, participants in the study have not been randomized to a particular group. This means that the groups being compared in a correlational study are likely to vary with respect to their demographic, clinical and other characteristics <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.985.8977&rep=rep1&type=pdf">(Mullner et al., 2002)</a>. For this reason, it is good practice in correlational studies to use statistical approaches to reduce the risk of bias associated with *confounding*. Doug Altman, a famous biostatistician, <a href="https://www.bmj.com/content/349/bmj.g7065.full">explains</a> confouding as:
 
+<qu>...the situation where an apparent relationship between two things may be a result of the relationships of both to a third.</qu>
+
+
+## Which confounders should be controlled?
+
+In most correlational studies, researchers do use statistical approaches to adjust for potential confounders <a href="https://www.bmj.com/content/329/7471/883.full">(Pocock et al., 2004)</a>. *How* researchers chose the potential confounders to adjust for in their analyses is not always clear though. 
+
+In the next exercise, I will demonstrate to the concept of confounding, using a real-world example. 
+
+</exercise>
+
+<exercise id="13" title="Confounding exercise" >
+
+You may recall from our chapter on Statistics where we used the example of a study conducted to identify variables associated with hypothermia after procedures performed with sedation in a cardiac catheterisation laboratory. We used logistic regression with "Hypothermia" as the outcome variable and 'BMI' as a predictor variable. The table below shows the results of this analysis. The OR for BMI was 0.9, and we interpret that as the odds of hypothermia being decreased by 10% with each unit increase in BMI.
+
+<img src="/or.png"></img>
+
+This result is an example of an 'unadjusted' analysis. It is 'unadjusted' because it shows the association between the outcome and just one variable. Remember though, we didn't randomly assign participants in this study to a particular 'group', so it is likely that their demographic and clinical characteristics differed in important ways. And for this reason, we should also perform an 'adjusted' analysis, where we control for the potential confounding effects of other variables so that we can see the *independent* effect of the predictor variables on the outcome. The table below shows a whole list of other variables that we measured in the study. 
+
+<img src="/table.png"></img>
+
+One of those variables we also investigated previously, which was the use of propofol for sedation. By adding in this variable to the logistic regression model, we now have an estimate of the effect of BMI on hypothermia, *adjusted* for whether or not the drug propofol was used for sedation (and vice versa). It is ecouraging to see that the results were fairly stable for the BMI odds ratio estimate. It is around the same value and is still statistically significant (p <0.05). 
+
+<img src="/or_adj.png"></img>
+
+But from looking at the list of other variables we measured in the table above, it is clear to see that we can certainly 'control' for the effect of other potentially confounding variables in our 'adjusted' analysis to get a better etimate of the associations between patient and procedural factors with hypothermia. Remember though, it is usually not good practice to just 'throw-in' any variable into the model. There should be a good rationale for why a predictor variable may influence the outcome.  One of the most important, with an obvious rationale, would be the temperature of the room. 
+
+<qu> In the code block below, add in the name of the variable in 'model2' that is needed to control for the effect of room temperature in our adjusted analysis.</qu>
+
+
+<codeblock id="09_03">
+
+Enter the variable name for room temperature from the table in place of the dotted line then press 'submit'.
+
+</codeblock>
+
+<qu> This new 'adjusted' model, demonstrates very well the concept of confounding and how not including important confounding variables in analyses of studies that use correlational design can have drastic effects on the interpretation of the results. We see that after 'controlling' for the effect of room temperature, the use of propofol for sedation was much more strongly associated with hypothermia than if this confounding variable was not included in the analysis.</qu>
+
+</exercise>
+
+<exercise id="14" title="Confounding exercise 2" >
+
+
+If you would like to play around with the modelling a bit more to see how adding more variables may help to control confounding, feel free to add in some more variables that you think could reasonably associated with hypothermia into 'model3', making sure to combine them using '+', then press 'Run code' and view your results.
+
+
+<codeblock id="09_04">
+
+Enter the variable names you would like to add to the model then press 'submit'.
+
+</codeblock>
 
 
 </exercise>
 
-<exercise id="13" title="Reading" >
+
+<exercise id="15" title="Considerations for appraisal of correlational studies" >
+
+When appraising research that employed a correlational design, it is important to consider the following:
+
+- Was the characteristics of study participants (e.g., demographic, clinical, social) and information on potential confounders provided?
+- Was unadjusted estimates and confounder-adjusted estimates and their precision (e.g., 95% confidence interval) provided? Displaying both adjusted and unadjusted analyses appropriately informs readers of the role confounders had on the results.
+- Was it clear which confounders were adjusted for in the results and why they were included?
+- Were potentially important confounders not included in the analysis?
+
+
+</exercise>
+
+<exercise id="16" title="Reading" >
 
 The relevant chapters of the textbook for your reference include:
 
@@ -217,7 +278,7 @@ Gray, J.R., Grove, S.K. & Sutherland, S.  (2017). The Practice of Nursing Resear
 </exercise>
 
 
-<exercise id="14" title="Final notes" >
+<exercise id="17" title="Final notes" >
 
 There is no discussion board this week 🙌
 

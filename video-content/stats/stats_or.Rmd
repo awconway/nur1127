@@ -163,7 +163,6 @@ gt() %>%
   cols_label(
     estimate = html("&beta;"), oddsratio= "OR"
   )
-
 ```
 --
 <br><br>
