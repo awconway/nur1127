@@ -1,5 +1,5 @@
 library(nur1027functions)
-library(tidyverse)
+suppressMessages(library(tidyverse))
 
 model1 <- temp_logistic %>% 
   glm(formula = Hypothermic ~ BMI + Propofol_used, 
