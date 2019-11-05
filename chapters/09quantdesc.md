@@ -2,7 +2,7 @@
 title: 'Week 9: Quantitative descriptive'
 description:
   'Important concepts regarding the purpose and major approaches for quantitative description.'
-prev: null
+prev: /08stats
 next: null
 type: chapter
 id: 10
@@ -171,7 +171,7 @@ Below are some advantages and disadvantages of this type of design.
   </tr>
 </table>
 
-test
+
 <qu>Correlational designs have sometimes been categorised as 'simple', 'predictive' and 'theoretical' (Gray et al., 2017). We will focus on the 'simple' correlational design. Data is collected in correlational designs either prospectively or retrospectively, without attempts to manipulate conditions by researchers.</qu>
 
 </exercise>
