@@ -11,7 +11,7 @@ id: 13
 
 <exercise id="1" title="Introduction">
 
-The focus of Week 12 is on phenomenology.  Phenomenology, as a way of understanding human experiences, has earned a well-deserved respect and credibility in health sciences research, specifically in nursing research. The learning objectives are:
+Phenomenology, as a way of understanding human experiences, has earned a well-deserved respect and credibility in health sciences research, specifically in nursing research. The learning objectives are:
 
 - To develop an understanding of phenomenology as a qualitative research design and its aims and objectives, and situate it within its unique philosophical foundation.
 
@@ -51,16 +51,9 @@ Additional Resources and Readings:
 
 </exercise>
  
-<exercise id="4" title="Discussion">
+<exercise id="4" title="Final note">
 
-Time to head back to Quercus and participate in the online class <a target="_parent" href="https://q.utoronto.ca/courses/113018/discussion_topics">discussion</a>.
- 
-This is a short week, so each student is asked to please respond to at least one of the two questions. A response post to your peers is optional this week (you only have to do one original post this week). Please post by Friday 4pm this week (Nov 29th).
+There will not be a discussion board this week. 
 
-- Describe one new insight you have gained about phenomenology.
-- What is one concept from the NUR1027 course overall that you most enjoyed learning about, and why?
-
-
-`Note: If you are viewing this on the 'Student' mobile app, it is better to navigate back to the discussion section through the app rather than clicking on the link above.`
 
 </exercise>
