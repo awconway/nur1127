@@ -3,7 +3,7 @@ title: 'Week 9: Quantitative descriptive'
 description:
   'Important concepts regarding the purpose and major approaches for quantitative description.'
 prev: /08stats
-next: null
+next: /10qualdata
 type: chapter
 id: 10
 ---
