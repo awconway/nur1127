@@ -10,7 +10,7 @@ id: 11
 
 <exercise id="1" title="Lecture recording">
 
-View the webinar on searching for evidence presented by Danielle Just.
+View the recording presented by Danielle Just.
 
 <iframe src=" https://voicethread.com/share/13256688/" width="100%" height="550px" allowfullscreen></iframe> 
 
