@@ -22,7 +22,7 @@ id: 1
 | *Faculty* | **Aaron Conway BN(Hons), PhD**<br>155 College Street<br>Rm. 274<br>(416) 946-7112 <br> Email: aaron.conway@utoronto.ca|
 | *Office Hours* | By appointment |
 |*Teaching Assistant* | Danielle Just<br> PhD nursing student<br>Email: danielle.just@mail.utoronto.ca|
-| *Course Website* | [NUR1027 Quercus site](https://q.utoronto.ca/courses/113018/) |
+| *Course Website* | [NUR1127 Quercus site](https://q.utoronto.ca/courses/140300/) |
 | *Quercus resources* | [Quercus student guide](https://q.utoronto.ca/courses/46670)|
 
 </exercise>
@@ -48,7 +48,7 @@ id: 1
 <exercise id="6" title="Assignment requirements">
 
 
-- Submit to dropbox in Quercus (under Assignment tab) ‘submit assignment’
+- Submit in Quercus (under Assignment tab) ‘submit assignment’
 - Assignments will be automatically submitted to turnitin.com
 - Late assignments are subject to 5% reduction in grade per day (7 days/week)
 - Keep to the page limit (pages over the limit will not be read)

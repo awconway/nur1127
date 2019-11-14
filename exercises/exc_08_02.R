@@ -1,5 +1,0 @@
-set.seed(2)
-mean(rbinom(100, 10, .3) >= 5)
-mean(rbinom(1000, 10, .3) >= 5)
-mean(rbinom(10000, 10, .3) >= 5)
-mean(rbinom(100000, 10, .3) >= 5)
