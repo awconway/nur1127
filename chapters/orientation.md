@@ -10,7 +10,7 @@ id: 1
 
 <exercise id="1" title="Course overview" type="slides">
 
-<iframe src="https://player.vimeo.com/video/355724601" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 
 </exercise>
 
@@ -29,19 +29,19 @@ id: 1
 
 <exercise id="3" title="Course structure" type="slides">
 
-<iframe src="https://player.vimeo.com/video/355725241" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 
 </exercise>
 
 <exercise id="4" title="Weekly learning content on Quercus" type="slides">
 
-<iframe src="https://player.vimeo.com/video/355731084" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </exercise>
 
 <exercise id="5" title="Discussion boards" type="slides">
 
-<iframe src="https://player.vimeo.com/video/355726345" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+- 5 discussion boards in total - 2 marks each.
+- Weeks 4,5 and 6 will be led by student groups
 
 </exercise>
 
@@ -59,11 +59,12 @@ id: 1
 
 <exercise id="7" title="Assignment information" type="slides">
 
-<iframe src="https://player.vimeo.com/video/355727762" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 
 </exercise>
 
 <exercise id="8" title="Questions about the course">
 
 Please post questions regarding the syllabus or course structure on the main discussion board in Quercus!
+
 </exercise>

@@ -18,10 +18,10 @@ export default ({ data }) => {
         <Layout isHome>
             <Logo className={classes.logo} aria-label={siteMetadata.title} />
             <section>
-                <h1 className={classes.subtitle}>Integrated Approaches to Research Appraisal and Utilization, Part 1</h1>
+                <h1 className={classes.subtitle}>Integrated Approaches to Research Appraisal and Utilization, Part 2</h1>
                 <div className={classes.introduction}>
                 <p>
-                    Hello! Welcome to NUR1027. This webpage will house weekly presentations of course content, interspersed with learning activities.
+                    Hello! Welcome to NUR1127. This webpage will house weekly presentations of course content, interspersed with learning activities.
                 </p>
                 <p>
                     Now let's get started!
