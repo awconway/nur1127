@@ -1,0 +1,28 @@
+---
+output:
+  xaringan::moon_reader:
+    seal: false
+    lib_dir: libs
+    css: [default, fonts.css, animate.css]
+    nature:
+      ratio: '16:9'
+    includes:
+      in_header: fa.html
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+class: center, middle, hide-count
+
+# Introduction
+
+???
+
+The focus of this chapter is on randomized studies of interventions. These types of study designs are commonly referred to as randomized controlled trials. 
+
+CONSORT checklist
+
+Intervention description
+
