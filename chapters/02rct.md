@@ -15,21 +15,23 @@ You will recall from NUR1027 that quantitative studies involving *manipulation* 
 
 <img src="/interventional-studies.png">
 
-This chapter will focus on **randomized** studies of interventions. But first, I want to take a step back and put what we are going to learn into the bigger picture. In this course we are working towards developing your ability to identify clinical questions that are important to you and your team's practice and being able to use evidence to inform your decision-making regarding those questions. In other words, as 'health systems leaders and administrators' we want you to be able to make evidence-informed 'recommendations' for practice. To assist the formation of such recommendations, the best framework for you to use is known as GRADE. The GRADE framework stands for 'Grading of Recommendations Assessment, Developed and Evaluation'. I introduced this framework to you briefly in the first week of NUR1027, but now, as we start to delve deeper into some important types of research designs, it is important to look into this framework in more detail. At it's core, GRADE provides a way for us to first assess the quality of evidence, and then, based on this quality assessment, provide **recommendations** for practice that are either classified as a:
+This chapter will focus on **randomized** studies of interventions. But first, I want to take a step back and put what we are going to learn into the bigger picture. In this course we are working towards developing your ability to identify clinical questions that are important to you and your team's practice and being able to use evidence to inform your decision-making regarding those questions. In other words, as 'health systems leaders and administrators' we want you to be able to make evidence-informed 'recommendations' for practice. To assist the formation of such recommendations, the best framework for you to use is known as GRADE. The GRADE framework stands for 'Grading of Recommendations Assessment, Developed and Evaluation'. I introduced this framework to you briefly in the first week of NUR1027, but now, as we start to delve deeper into some important types of research designs, it is important to look into this framework in more detail. At it's core, GRADE provides a way for us to first assess the quality of evidence, and then, based on this quality assessment, provide **recommendations** for practice that are classified according to the continumm displayed in the image below.
 
-1. Strong recommendation *for* a particular intervention
-1. Conditional (or weak) recommendation *for* a particular intervention
-1. Strong recommendation *against* a particular intervention
-1. Conditional (or weak) recommendation *against* a particular intervention
+<a href="https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S0895435612001382">
+<img src="/strength.jpg">
+</a>
+<sub>GRADE guidelines: 14. Going from evidence to recommendations: the significance and presentation of recommendations</sub>
+<br><br>
 
-One really big advantage of the GRADE framework is that it moves us away from thinking about 'hierarchies' of evidence without consideration for quality. Below is the summary of GRADE I provided in NUR1027 for you to review. What I want you to keep in mind as we move through the course this semester, is: 
+One really big advantage of the GRADE framework is that it moves us away from thinking about 'hierarchies' of evidence without consideration for quality. Below is the summary of GRADE I provided in NUR1027 for you to review. So what I want you to keep in mind as we move through the course this semester, is: 
 
 <qu>What is the **strength** of the recommendation for practice I can provide either for or against this intervention, considering the quality of evidence at hand?</qu>
 
 
-
 <div align="center" >
+
 <img src="http://prehospitalresearch.eu/wp-content/uploads/2014/11/logo.gif"/>
+
 
 
 </div>
@@ -97,7 +99,8 @@ It is also possible to <strong><em>upgrade</em></strong> the quality of evidence
 
 Your first reading for this week, is to review the GRADE framework: 
 
-<a href="https://www.bmj.com/content/336/7651/995">Introduction to GRADE: What is “quality of evidence” and why is it important to clinicians?
+<a href="https://www.bmj.com/content/336/7651/995">
+:blue_book: Introduction to GRADE: What is “quality of evidence” and why is it important to clinicians?
 </a>
 
 </exercise>
@@ -124,42 +127,125 @@ As an exercise, please review the summary of findings table in detail, and ensur
 
 <qu>In week 9 we will cover content in more detail around how to make recommendations using the GRADE approach, but I just wanted to give you this early signpost as to where we are headed.</qu>
 
+<b>
+The next reading for the weak is again on GRADE. This article provides guidance about how evidence from summary of findings tables cab be translated into recommendations for practice.
+</b>
+<br><br>
+<a href="https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S0895435612001382">
+:blue_book: GRADE guidelines: 14. Going from evidence to recommendations: the significance and presentation of recommendations
+</a>
 
 </exercise>
 
-
 <exercise id="3" title="Randomized controlled trials">
+
+Now let's focus back in on the specific topic for this week - <ins>randomized controlled trials</ins>.
+
+Selection of a particular design gives a researcher more or less control over these elements, particularly three major concepts:
+1.	Control
+1.	Randomization
+1.	Manipulation.
+
+Randomized controlled trials contain elements of all three of these concepts. 
+
+## Control
+
+Control is achieved in a study by comparing an outcome between one or more groups whilst ensuring that all participants involved in the research receive the same treatment apart from one aspect that only an intervention group or group receives. In a parallel-group randomised controlled trial, the group of participants who  receives the usual care or treatment is typically termed the ‘control’ group and the group of participants who receives the alternative treatment of interest in termed the  ‘intervention’ group. 
+
+The strength and rigour of a quantitative design relates to controlling the effects of any extraneous variables that may cause bias (threats to internal validity, such as selection, history and maturation) and influence the study findings. These variables can be either antecedent or intervening. An antecedent (preceding) variable occurs before the study commences but may affect the outcome variable of interest and influence findings (e.g. age, gender, socio-economic status or pre-existing health status could affect outcomes such as recovery time and ability to integrate healthcare behaviours). Similarly, an intervening (mediating) variable is not part of the study design, but occurs during the course of the study and may influence the outcome variable (e.g. a change in the model of clinical care during a longitudinal study). 
+
+## Randomization 
+
+Randomization (random assignment) to study groups is designed to ensure that groups or participants are similar on the variables of interest, so that differences in the outcome variable can be attributed to the intervention. Efforts should be made to ensure that participants are assigned to either the experimental or control group on a purely random, or chance, basis. Each participant therefore has an equal and known probability of being assigned to any group. If randomisation is not possible, the design should simply be described as ‘non-randomized’. 
+
+It is also important to note that the people who are measuring the outcomes of the study should not know how the randomisation falls, or who goes into which groups. This is termed ‘allocation concealment’. In a study of the methodological quality of 250 controlled trials, empirical evidence of bias was discovered with larger effect sizes reported in studies that did not adequately report allocation concealment [(Schulz et al. 1995)](https://jamanetwork.com/journals/jama/fullarticle/386770). There are many potential explanations for this finding, with one being that researchers might inadvertently influence participant selection if inadequate methods are used to conceal allocation assignments. As allocation concealment is a known source of bias associated with randomised controlled trials, the CONSORT statement recommends that the methods used to conceal the allocation sequence is always outlined explicitly in studies reporting results of randomised controlled trials [(Schultz et al., 2010)](https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-8-18?report=reader). Randomisation assumes that important intervening variables are then equally distributed between the groups. Studies should report how groups actually compared on demographic and clinical characteristics for each group [(Schultz et al., 2010)](https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-8-18?report=reader).
+In addition to concealing the allocation sequence from the researchers enrolling patients into trials, efforts should be made to ensure that:
+
+1. The participants enrolled in the study do not know which group they have been assigned (to reduce risk of performance bias);
+1. The clinicians delivering care to the participant do not know which group they have been assigned (to reduce risk of performance bias); and
+1. The researchers measuring outcomes do not know which group the participants has been assigned (to reduce risk of detection bias).
+
+Employing these safeguards will minimize the influence from those applying the intervention or treatment under investigation or measuring its effects. A crude (and hypothetical) example is a study of a dressing for wound healing. The dressing is being contrasted with another one that is usually used in practice. If the researchers and their assistants, or the nurses working with the patients, know which dressing is being applied to the wound, they may influence the results by perhaps (even unconsciously) cleaning the wound better prior to applying the alternative dressing rather than the typical one. By blinding the dressing type so no-one knows which one is being applied, and then contrasting the results, a true indication of the effectiveness of the dressing can be identified. You will of course be thinking, though, how is it possible to 'blind' someone as to the type of dressing used? And you'd be correct in thinking that in some circumstances, blinding simply cannot be achieved. In a systematic review that investigated the use of blinding in randomised controlled trials published in nursing journals, it was found that only 10% of the sample of 199 RCTs blinded the study participants to the interventions being tested [(Polit & Gillespie., 2011)](https://journals.lww.com/nursingresearchonline/FullText/2011/01000/Deliberate_Ignorance__A_Systematic_Review_of.2.aspx).
+
+Although difficult to achieve in some circumstances, efforts to implement blinding should always be considered in the planning stages of a RCT because by ensuring that no-one knows which patients receive the intervention, and which ones receive the control or ‘placebo’ condition, a more accurate estimation of the effect of the intervention will be obtained.	There are innovative strategies that researchers can use to blind participants/carers/clinicians. In this example, perhaps it could have been arranged that a research assistant who would have not further involvement in the trial would be the person responsible for applying the dressing and then covering it with a standardised wrap that would obscure the type of dressing used from the participants and clinicians. This would of course require additional resources and feasibility is often the deciding factor in how much effort is placed on blinding in clinical trials.
+
+ 
+</exercise>
+
+<exercise id="4" title="Risk of bias in randomized controlled trials">
 
 
 ## Risk of bias assessment
 
 <br>
 
-A core element of undertaking a GRADE assessment is to determine if there are study limitations or, in other words, a 'risk of bias' associated with the outcome you are interested in.The diagram below covers the types of risks of bias specifically important when undertaking appraisals of the quality of evidence prodeuced from randomized controlled trial designs.  
+A core element of undertaking a GRADE assessment is to determine if there are study limitations or, in other words, a 'risk of bias' associated with the outcome you are interested in. The diagram below covers the types of risks of bias specifically important when undertaking appraisals of the quality of evidence prodeuced from randomized controlled trial designs.  
 
 <img src="/bias.png"/>
 
-Because we covered the important components of risk of bias assessment during week 6 in NUR1027, I'm not going to re-hash them again now. Here's a [link](https://player.vimeo.com/video/354402956) to the video if you want to view it again though. This semester I want to provide you with a more practical toolset, and show you how to use risk of bias assessment tools. The best resource for you to use to undertake risk of bias assessments for randomized controlled trials is the **Cochrane risk of bias tool**. Please take a moment to read through the advice provided by the Cochrane Collaboration. In the next section, there is a video of the webinar, where I will demonstrate use of this tool. For more detailed information on risk of bias assesments for randomized controlled trials, please consult sections 8.3 to 8.7 of the [Cochrane Handbook](https://training-cochrane-org.myaccess.library.utoronto.ca/handbook/current/chapter-08#section-8-3).
+Because we covered the important components of risk of bias assessment during week 6 in NUR1027, I'm not going to re-hash them again now. Here's a [link](https://player.vimeo.com/video/354402956) to the video if you want to view it again though. This semester I want to provide you with a more practical toolset, and show you how to use a risk of bias assessment tool. The best resource for you to use to undertake risk of bias assessments for randomized controlled trials is the **Cochrane risk of bias tool**. Please take a moment to read through the advice provided by the Cochrane Collaboration. In one of the following sections, there is a video of the webinar, where I will demonstrate use of this tool. For more detailed information on risk of bias assesments for randomized controlled trials, please consult the full guidance [document](https://drive.google.com/file/d/19R9savfPdCHC8XLz2iiMvL_71lPJERWK/view) or sections 8.3 to 8.7 of the [Cochrane Handbook](https://training-cochrane-org.myaccess.library.utoronto.ca/handbook/current/chapter-08#section-8-3).
 
-
-<iframe src="https://drive.google.com/file/d/19R9savfPdCHC8XLz2iiMvL_71lPJERWK/preview" width="100%" height="1050"></iframe>
+<iframe src="https://drive.google.com/file/d/1Q4Fk3HCuBRwIDWTGZa5oH11OdR4Gbhdo/preview" width="100%" height="1050"></iframe>
 
 
 </exercise>
 
-<exercise id="4" title="Webinar demo of risk of bias assessment" type="slides">
 
-Demonstrate RoB assessment as webinar?
 
-</exercise>
+<exercise id="6" title="CONSORT checklist">
 
-<exercise id="5" title="Cluster randomization" type="slides">
 
-cluster.Rmd
+
+CONSORT
 
 </exercise>
 
 
+
+<exercise id="7" title="Intervention description">
+
+### TIDieR checklist
+
+Making a recommendation for using an intervention in practice is reliant upon there being an accurate description of the intervention's content and delivery available.  This is particularly so for interventions typically used in nursing practice, which are often more 'complex' than a new drug or device. Incomplete or unclear descriptions of non-pharmacological interventions in partcular poses a risk for incorrect implementation. In response to this, The Template for Intervention Description and Replication (TIDieR) checklist and guide was developed by an international team of experts, to promote full and accurate description of interventions. Another way we can use the TIDieR checklist, is as a 'guide' to determine if important aspects of the intervention that has been evaluated in a RCT (or any other type of interventional research design) have been reported in sufficient detail for you to recommend for or against their use in practice. 
+
+The checklist is divided into several parts (why, what, who, how, where, when and how much, tailoring, modifications and how well). If an intervention has not been described adequately to enable replication/implementation, then you may choose to modify the strength (strong or weak/conditional) or even the direction (to use or not to use) of the recommendation regarding implementation of the intervention for practice. You can use the TIDieR checklist to justify your decision-making. 
+
+Please take a quick look over the paper below to familiarise yourself with the essential components of intervention descriptions. 
+
+:blue_book: <a href="https://www.bmj.com/content/348/bmj.g1687">Better reporting of interventions: template for intervention description and replication (TIDieR) checklist and guide</a>
+
+
+</exercise>
+
+<exercise id="8" title="Statistical considerations for RCTs">
+
+### Minimally clinically important difference
+
+As noted previously, randomized controlled trials are designed to determine the differences in the outcome variable that can be attributed to the intervention. It is very possible, if the sample size is large enough, for a randomized controlled trial to find *statistically significant* differences (i.e. a p value <0.05) between an intervention and control group that are **not** clinically important. This is because the larger the sample size, the more precise the estimate of the effect (i.e. the mean difference, RR, OR...) becomes. This is why it is good practice for researchers to **specify** and **justify** what the minimally clinically important difference is between the intervention and control groups.
+
+### Sample size estimation
+
+One very important aspect of evaluating randomized controlled trials is whether or not a sufficient number of participants were recruited to the study. It is good practice for researchers to *estimate* the number of participants required to detect, with a certain degree of confidence, a difference in the outcome between groups. So keep an eye out in papers for this information, which is often reported in statistical analysis sections as a 'power analysis' or 'sample size calculation'. You don't really have to know the specifics about how a sample size can be estimated for a randomized controlled trial. What **is** important, is being able to determine if the **effect estimate**, so that could be a mean difference, risk rato, absolute risk difference, odds ratio, is **clinically important**. The minimally clinically important difference should be used to estimate the sample size required for the trial.
+
+</exercise>
+
+
+<exercise id="17" title="Cluster randomization">
+
+There are some specific additional considerations needed when considering evidence from a randomized trial that uses *groups* of people (i.e. 'clusters') as the unit for randomization. The most important being that the 'clustered' nature of the design has to be taken into consideration in the analysis. This is because observations on participants in the same cluster tend to be more similar to each other than to participants from other clusters [(Campbell et al., 2012)](https://www.bmj.com/content/345/bmj.e5661). There are numerous ways to account for clustering in statistical analyes. Knowing whether a particular approach is or is not the most appropriate to use for a specific study is not essential knowledge for you. Being able to identify in a paper that the clustering was accounted for is important. In all cases, accounting for clustering will require use of the 'intra-cluster corrlation coefficient'. This is the proporton of the total variance of the outcome that can be explained by the variation between the clusters [(Eldridge et at., 2009)](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1751-5823.2009.00092.x). 
+
+<qu>
+When considering evidence from a cluster randomized controlled trial to create a recommendation, you should check to see the intracluster correlation coefficient for the outcome was provided along with result for each outcome. The higher the ICC, the more similar the outcomes were within clusters compared to other clusters. A 'low' ICC would be around 0.01-0.05.
+</qu>
+
+</exercise>
+
+<exercise id="15" title="Webinar demo of risk of bias assessment" type="slides">
+
+<iframe src="https://drive.google.com/file/d/18Zks7k4kxhbUUlbZ51Ya5xYa3p3ECQV0/preview" width="100%" height="1050px"></iframe>
+
+Download excel spreadhseet [here](https://drive.google.com/open?id=1KSFASeBJP8FjBMpEbNlDiYxp4CKuOZgM).
+</exercise>
 
 <exercise id="20" title="Readings">
 

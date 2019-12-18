@@ -3,7 +3,7 @@ title: 'Orientation'
 description:
   'Introduction to the course'
 prev: null
-next: /01rct
+next: /01gt
 type: chapter
 id: 1
 ---
@@ -118,6 +118,8 @@ This assignment is a culmination of the content we have covered throughout NUR10
 Your participation in the five discission boards over the course of the semester will contribute to your grade.
 
 We are looking to see that you provide regular and thoughtful contributions that push the conversation to a deeper level and encourage others to join.
+
+There will be fewer discussion boards than last semester.  There will be 5 discussion topics in total, with up to 2 points per discussion topic contributing to the overall grade. As such, the intensity and frequency of your posts will need to increase accordingly. I will expect that you contribute at least one post before Thursday each week and that 2 posts are at least 48 hours apart from each other. At least one original and 2 replies are required. 
 
 **10% of grade**
 
