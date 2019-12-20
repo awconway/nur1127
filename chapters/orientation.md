@@ -101,13 +101,12 @@ This online ethics tutorial will complement the weekly learning content delivere
 
 ### Research summary and recommendations
 
-This assignment is a culmination of the content we have covered throughout NUR1027 and NUR1127. Students will compile, review, critically appraise, and synthesize research evidence about a topic or question, and prepare a table of the research evidence (to be appended). 
+This assignment is a culmination of the content we have covered throughout NUR1027 and NUR1127. Students will compile, review, critically appraise, and synthesize research evidence about a topic or question, and prepare a summary of findings  table using the GRADE approach (to be appended). 
 
 - The topic/question should address a practice situation that calls for a specific strategy or direction (covered in detail in NUR1027)
 - The literature review must include 3 published research studies (strategies for identifying relevant literature covered in NUR1027).
-- The table will include a description of key features of each study, substantive results, and major strengths and limitations (general concepts introduced in NUR1027 and followed up on isses specific to certain important types of research designs in NUR1127).
-- You will provide a summary of the studies and summary of your critical appraisal in the body of paper. 
-- The assignment will conclude with overall conclusions regarding the state of the evidence, and 2-3 evidence-informed recommendations from your three studies to address the practice issue or situation (NUR1127 will cover content related to making practice recommendations).  
+- You will provide a description of key features of each study, substantive results, and major strengths and limitations (general concepts introduced in NUR1027 and followed up on isses specific to certain important types of research designs in NUR1127) in the body of paper along with specific details to justify the ratings for quality of evidence included in the summary of findings table. 
+- The assignment will conclude with overall conclusions regarding the state of the evidence, and 2-3 GRADE recommendations from your three studies to address the practice issue or situation (NUR1127 will cover content related to making practice recommendations using the GRADE framework).  
 
 **35% of grade**
 

@@ -191,18 +191,7 @@ Because we covered the important components of risk of bias assessment during we
 </exercise>
 
 
-
-<exercise id="6" title="CONSORT checklist">
-
-
-
-CONSORT
-
-</exercise>
-
-
-
-<exercise id="7" title="Intervention description">
+<exercise id="6" title="Intervention description">
 
 ### TIDieR checklist
 
@@ -217,7 +206,7 @@ Please take a quick look over the paper below to familiarise yourself with the e
 
 </exercise>
 
-<exercise id="8" title="Statistical considerations for RCTs">
+<exercise id="7" title="Statistical considerations for RCTs">
 
 ### Minimally clinically important difference
 
@@ -230,7 +219,7 @@ One very important aspect of evaluating randomized controlled trials is whether 
 </exercise>
 
 
-<exercise id="17" title="Cluster randomization">
+<exercise id="8" title="Cluster randomization">
 
 There are some specific additional considerations needed when considering evidence from a randomized trial that uses *groups* of people (i.e. 'clusters') as the unit for randomization. The most important being that the 'clustered' nature of the design has to be taken into consideration in the analysis. This is because observations on participants in the same cluster tend to be more similar to each other than to participants from other clusters [(Campbell et al., 2012)](https://www.bmj.com/content/345/bmj.e5661). There are numerous ways to account for clustering in statistical analyes. Knowing whether a particular approach is or is not the most appropriate to use for a specific study is not essential knowledge for you. Being able to identify in a paper that the clustering was accounted for is important. In all cases, accounting for clustering will require use of the 'intra-cluster corrlation coefficient'. This is the proporton of the total variance of the outcome that can be explained by the variation between the clusters [(Eldridge et at., 2009)](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1751-5823.2009.00092.x). 
 
@@ -240,14 +229,20 @@ When considering evidence from a cluster randomized controlled trial to create a
 
 </exercise>
 
-<exercise id="15" title="Webinar demo of risk of bias assessment" type="slides">
+<exercise id="9" title="Webinar demo of risk of bias assessment" type="slides">
 
-<iframe src="https://drive.google.com/file/d/18Zks7k4kxhbUUlbZ51Ya5xYa3p3ECQV0/preview" width="100%" height="1050px"></iframe>
+<center>
 
-Download excel spreadhseet [here](https://drive.google.com/open?id=1KSFASeBJP8FjBMpEbNlDiYxp4CKuOZgM).
+:file_folder: **A copy of the excel spreadsheet that will be used in the webinar to undertake risk of bias assessments for randomized controlled trials can be downloaded <a href="https://drive.google.com/open?id=1KSFASeBJP8FjBMpEbNlDiYxp4CKuOZgM">here</a>**
+
+</center>
+
+<iframe src="" width="100%" height="600px"></iframe>
+
+
 </exercise>
 
-<exercise id="20" title="Readings">
+<exercise id="10" title="Readings">
 
 ## Required
 
