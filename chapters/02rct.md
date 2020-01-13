@@ -191,7 +191,7 @@ Because we covered the important components of risk of bias assessment during we
 </exercise>
 
 
-<exercise id="6" title="Intervention description">
+<exercise id="5" title="Intervention description">
 
 ### TIDieR checklist
 
@@ -206,7 +206,7 @@ Please take a quick look over the paper below to familiarise yourself with the e
 
 </exercise>
 
-<exercise id="7" title="Statistical considerations for RCTs">
+<exercise id="6" title="Statistical considerations for RCTs">
 
 ### Minimally clinically important difference
 
@@ -219,7 +219,7 @@ One very important aspect of evaluating randomized controlled trials is whether 
 </exercise>
 
 
-<exercise id="8" title="Cluster randomization">
+<exercise id="7" title="Cluster randomization">
 
 There are some specific additional considerations needed when considering evidence from a randomized trial that uses *groups* of people (i.e. 'clusters') as the unit for randomization. The most important being that the 'clustered' nature of the design has to be taken into consideration in the analysis. This is because observations on participants in the same cluster tend to be more similar to each other than to participants from other clusters [(Campbell et al., 2012)](https://www.bmj.com/content/345/bmj.e5661). There are numerous ways to account for clustering in statistical analyes. Knowing whether a particular approach is or is not the most appropriate to use for a specific study is not essential knowledge for you. Being able to identify in a paper that the clustering was accounted for is important. In all cases, accounting for clustering will require use of the 'intra-cluster corrlation coefficient'. This is the proporton of the total variance of the outcome that can be explained by the variation between the clusters [(Eldridge et at., 2009)](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1751-5823.2009.00092.x). 
 
@@ -229,20 +229,20 @@ When considering evidence from a cluster randomized controlled trial to create a
 
 </exercise>
 
-<exercise id="9" title="Webinar demo of risk of bias assessment" type="slides">
+<exercise id="8" title="Webinar demo of risk of bias assessment">
 
-<center>
+I have scheduled a webinar, to be held at 12md on Friday 17th January, where I will demonstrate risk of bias assessment for a randomized controlled trial. Click <a href="https://ca.bbcollab.com/guest/b935bdc44c1a487e84cb1559bd40f12d">here</a> to go to the webinar on blackboard collaborate. The webinar will of course be recorded and I will post it here. Please attend if you can. Otherwise, feel free to post questions to Quercus if you require clarification about any of the content
+
+
+A link to the article we will undertake a risk of bias assessment is below:
+
+:link:  <a href="https://academic-oup-com.myaccess.library.utoronto.ca/intqhc/advance-article/doi/10.1093/intqhc/mzz007/5369676">A cluster randomised controlled feasibility study of nurse-initiated behavioural strategies to manage interruptions during medication administration</a>
 
 :file_folder: **A copy of the excel spreadsheet that will be used in the webinar to undertake risk of bias assessments for randomized controlled trials can be downloaded <a href="https://drive.google.com/open?id=1KSFASeBJP8FjBMpEbNlDiYxp4CKuOZgM">here</a>**
 
-</center>
-
-<iframe src="" width="100%" height="600px"></iframe>
-
-
 </exercise>
 
-<exercise id="10" title="Readings">
+<exercise id="9" title="Readings">
 
 ## Required
 
