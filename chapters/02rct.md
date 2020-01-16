@@ -99,7 +99,7 @@ It is also possible to <strong><em>upgrade</em></strong> the quality of evidence
 
 Your first reading for this week, is to review the GRADE framework: 
 
-<a href="https://www.bmj.com/content/336/7651/995">
+<a href="https://www-bmj-com.myaccess.library.utoronto.ca/content/336/7651/995">
 :blue_book: Introduction to GRADE: What is “quality of evidence” and why is it important to clinicians?
 </a>
 
@@ -231,7 +231,7 @@ When considering evidence from a cluster randomized controlled trial to create a
 
 <exercise id="8" title="Webinar demo of risk of bias assessment">
 
-I have scheduled a webinar, to be held at 12md on Friday 17th January, where I will demonstrate risk of bias assessment for a randomized controlled trial. Click <a href="https://ca.bbcollab.com/guest/b935bdc44c1a487e84cb1559bd40f12d">here</a> to go to the webinar on blackboard collaborate. The webinar will of course be recorded and I will post it here. Please attend if you can. Otherwise, feel free to post questions to Quercus if you require clarification about any of the content
+I have scheduled a webinar, to be held at 12md on Friday 17th January, where I will demonstrate risk of bias assessment for a randomized controlled trial. Click <a href="https://ca.bbcollab.com/guest/b935bdc44c1a487e84cb1559bd40f12d">here</a> to go to the webinar on blackboard collaborate. The webinar will of course be recorded and I will post it here. Please attend if you can. Otherwise, feel free to post questions to Quercus if you require clarification about any of the content.
 
 
 A link to the article we will undertake a risk of bias assessment is below:
