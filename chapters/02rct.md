@@ -235,7 +235,10 @@ A link to the article we will undertake a risk of bias assessment is below:
 
 :link:  <a href="https://academic-oup-com.myaccess.library.utoronto.ca/intqhc/advance-article/doi/10.1093/intqhc/mzz007/5369676">A cluster randomized controlled feasibility study of nurse-initiated behavioural strategies to manage interruptions during medication administration</a>
 
-:file_folder: **A copy of the excel spreadsheet that will be used in the webinar to undertake risk of bias assessments for randomized controlled trials can be downloaded <a href="https://drive.google.com/open?id=1KSFASeBJP8FjBMpEbNlDiYxp4CKuOZgM">here</a>**
+:file_folder: **A _blank_ copy of the excel spreadsheet that was used in the webinar to undertake risk of bias assessments for randomized controlled trials can be downloaded <a href="https://drive.google.com/open?id=1KSFASeBJP8FjBMpEbNlDiYxp4CKuOZgM">here</a> for your future use.**
+
+:file_folder: **A copy of the _completed_ excel spreadsheet that I used in the webinar can be downloaded <a href="https://www.aaronconway.info/NUR1127/Johnson2019.xlsm">here</a>. From the 'Intro' tab, press "RoB 2 Assessment Form" to open the pop-up window.**
+
 
 <iframe src="https://ca-lti.bbcollab.com/recording/3387e4dbe92748cab512c69e744cb59c" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
