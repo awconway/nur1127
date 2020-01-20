@@ -3,7 +3,7 @@ title: 'Week 2: Randomized studies of interventions'
 description:
   'The essential elements, advantages and disadvantages of randomized studies of interventions will be discussed. We will cover the biases that threaten the internal validity of randomized controlled trial (RCTs). You will learn to understand and apply criteria for assessing the quality of evidence from randomized studies of interventions using the GRADE framework.'
 prev: /01gt
-next: null
+next: /03ma
 type: chapter
 id: 3
 ---
