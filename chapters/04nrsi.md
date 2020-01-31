@@ -175,10 +175,10 @@ A link to the study we will assess is below:
 :link: [Blank ROBINS-I template to download](https://drive.google.com/file/d/0B7IQVI0kum0kWldlU1BzRGxnclE/view)
 
 
-<!--<iframe src="https://ca-lti.bbcollab.com/recording/9e14eca0ec4c489fb49bd53ff95a2ca3" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://ca-lti.bbcollab.com/recording/fdc27a09b71045ba8a1ddcced1af73b1" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 
-:file_folder: **A copy of the _completed_ ROBINS-I assessment that I used in the webinar can be downloaded <a href="https://www.aaronconway.info/NUR1127/AMSTAR-music.pdf">here</a>.**-->
+:file_folder: **A copy of the _completed_ ROBINS-I assessment that I used in the webinar can be downloaded <a href="https://www.aaronconway.info/NUR1127/ROBINS.pdf">here</a>.**
 
 
 </exercise>
