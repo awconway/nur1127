@@ -3,7 +3,7 @@ title: 'Week 4: Non-randomized studies of interventions'
 description:
   'The essential elements, advantages and disadvantages of non-randomized studies of interventions will be discussed. We will cover the biases that threaten the validity of results from these types of studies. In particular, you will be introduced to the statistical approaches used to account for confounding, which is a major consideration in risk of bias assessment for non-randomized studies of interventions. You will learn to understand and apply criteria for assessing the quality of evidence from non-randomized studies of interventions using the GRADE framework.'
 prev: /03ma
-next: null
+next: /05mm
 type: chapter
 id: 5
 ---
