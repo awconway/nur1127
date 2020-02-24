@@ -1,0 +1,12 @@
+base
+usethis
+devtools
+ggplot2
+kableExtra
+epitools
+BCEA
+magrittr
+reshape2
+plyr
+purrr
+dplyr
