@@ -104,13 +104,29 @@ As this assignment is very much about communicating judgements that *you* make r
 |---|---|---|
 |Introduction| ~200| Provide an overview of the topic and justify your selection of the PICO components.|
 |Selection of studies|~400| Describe the methods/main results of the studies you selected to include. Justify why they were relevant to the PICO. (Note: remember that in GRADE there is the concept of 'indirectness', so if a study didn't include your *exact* population, it may still provide relevant evidence, it's just that you may need to consider downgrading for indirectness). |
-|Critical appraisal of studies|~600 words| This is where you will talk about the risk of bias assessments/components of the interventions and comparators (i.e. TIDieR checklist). So about 200 word summary for each study.|
+|Critical appraisal of studies|~600 words| This is where you will talk about the risk of bias assessments/components of the interventions and comparators (i.e. TIDieR checklist). So about 200 word summary for each study/outcome.|
 |Synthesis of evidence| ~500 words| This is where you will refer to the SoF table you have produced and justify your GRADE ratings for the overall certainty of evidence for each of the outcomes you included in your PICO.|
 |Recommendations| ~300 words| This is where you provide your GRADE recommendation to either use the intervention or not (as well as the strength of the recommendation) based on the balance between the desirable and undesirable outcomes, incorporating consideration of the *certainty* of this evidence and patient values/preferences as well as feasibility (resource implications). |
 
+## References
+
+Although this is a fairly substantial assignment, the list of references you use does not have to be particularly large. I would expect you to be citing the relevant papers that assist you to draw your conclusions about your risk of bias assessments and decisions about downgrading for certainty of evidence. So for example, if you downgrade an outcome for imprecision, explain how you made this decision and cite a reference for the guidance you used to make that decision. This means you'd be citing a lot of the 'GRADE guidelines' papers etc from your required readings from the relevant weeks when we covered RCTS, NRSI etc. If you draw upon any primary evidence to support decisions about patient values and preferences and resourcing considerations for interventions when making practice recommendations - these should of course also be supported by references. 
+
+
 </exercise>
 
-<exercise id="6" title="Webinar">
+<exercise id="6" title="A note on including systematic reviews/meta-analysis">
+
+As you all know, systematic reviews with meta-analyses that were conducted well are very useful for clinicians because it saves them from the time-consuming tasks of having to locate evidence, select relevant studies, undertake risk of bais assessments and synthesise results (potentially using meta-analysis). But you also are well aware that if the quality of the methods used to undertake the systematic review are not appropriate (i.e. elements of the AMSTAR tool), then the results of the SR/MA really should not be used to inform our practice.
+
+So for your assignment, you _can_ select a systematic review with meta-analysis as one of your 3 studies. As part of the 'critical appraisal' section of the assignment you would undertake an assessment of the quality of the SR/MA (using AMSTAR) so that you can decide whether or not the results of that meta-analysis are valid enough to be used to inform clinical practice. **If you decide that the methods used in the systematic review were not appropriate, then you would not include the meta-analysis result in your summary of findings table. Be sure to include a rationale with supporting evidence for this decision though.**
+
+This means that I would strongly suggest that you only select, *at most*, 1 SR/MA for your assignment. This is because a large component of you mark will be about your ability to 'synthesise' evidence (i.e. produce a SoF table) and make recommendations for practice. If you select 2 or 3 meta-analyses and they are all poor quality, then you won't have anything to synthesise. 
+
+</exercise>
+
+
+<exercise id="7" title="Webinar">
 
 On Friday 13th March at 12md I will hold a webinar. The webinar will expand on the content regarding moving from GRADE ratings to making recommendations for practice. I will also be happy to answer any questions you may have regarding the final assignment to which this content relates. 
 
@@ -119,7 +135,7 @@ On Friday 13th March at 12md I will hold a webinar. The webinar will expand on t
 </exercise>
 
 
-<exercise id="7" title="Readings">
+<exercise id="8" title="Readings">
 
 ## Required Readings 
 
