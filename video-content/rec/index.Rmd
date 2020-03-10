@@ -1,0 +1,299 @@
+---
+output:
+  xaringan::moon_reader:
+    self_contained: false
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      ratio: 16:9
+    includes:
+      in_header: fa.html
+---
+
+class: center middle hide-count inverse
+
+
+## Clinical practice guidelines <i class="fad fa-compass"></i>
+
+---
+
+class: center middle hide-count
+
+### Systematically developed statements (based on best available evidence) to assist practitioner and patient decisions about appropriate health care for specific clinical (practice) circumstances. 
+
+<blockquote>
+<span style="font-size: 18px;">
+(Field & Lohr, 1990)
+</span>
+</blockquote>
+
+---
+class: center middle hide-count inverse
+
+## What is the purpose of CPGs?
+
+---
+
+class: left middle hide-count
+
+<ul class="fa-ul">
+<li><span class="fa-li"><i class="fas fa-chevron-double-right"></i></span>Describe appropriate care based on the best available scientific evidence and broad consensus
+</li>
+<li><span class="fa-li"><i class="fas fa-chevron-double-right"></i></span>Reduce inappropriate variation in practice
+</li>
+
+<li><span class="fa-li"><i class="fas fa-chevron-double-right"></i></span>Provide a more rational basis for decisions
+</li>
+
+<li><span class="fa-li"><i class="fas fa-chevron-double-right"></i></span>Provide a focus for continuing education
+</li>
+
+<li><span class="fa-li"><i class="fas fa-chevron-double-right"></i></span>Promote efficient use of resources
+</li>
+
+<li><span class="fa-li"><i class="fas fa-chevron-double-right"></i></span>Highlight limitations of existing knowledge and suggest areas for future research
+</li>
+
+
+</ul>
+
+
+---
+
+class: left top hide-count
+
+.pull-left[
+<center>
+## Practice Guidelines 
+</center>
+- Based on evidence from a critical review of the literature
+- Suggested guidelines for individuals and organizations
+- Emphasis on synthesis of the literature
+- Provides extensive background information to make informed decisions
+]
+
+.pull-right[
+<center>
+## Practice Standards
+</center>
+- Based on values, morals, legislation
+- Minimum requirements for individual practitioner
+- Basis for determining professional competence, misconduct & malpractice
+- Emphasis on legal & ethical requirements
+- Defines acceptable and unacceptable behaviour
+- Defines process for making decisions
+
+]
+
+<blockquote>
+<span style="font-size: 14px;">
+Source: RNAO implementation Resources - http://www.rnao.org/Page.asp?PageID=924&ContentID=822
+</span>
+</blockquote>
+
+---
+
+class: left top hide-count
+
+.pull-left[
+<center>
+## Benefits
+</center>
+- “Pre-processed” resources that synthesize a relevant body of evidence
+- Refine clinical questions and balance trade-offs between benefits and risks
+- Usually provide explicit recommendations to guide decision making
+]
+
+.pull-right[
+<center>
+## Limitations
+</center>
+- Require tailoring to specific context of application (e.g. clinical setting, geographical location, etc.)
+- Must be updated in light of research developments
+]
+
+---
+
+class: center middle hide-count inverse
+
+## Evaluating clinical practice guidelines
+
+<a href="https://www.agreetrust.org/agree-ii/"><img src="https://www.agreetrust.org/wp-content/uploads/2013/02/196_AGREE_II_Logo-300x248.jpg"></a>
+
+---
+
+class: left top hide-count
+<center>
+<h2>AGREE - 6 domains</h2>
+</center>
+<ul class="fa-ul">
+<li><span class="fa-li"><i class="fas fa-chevron-double-right"></i></span>Scope and purpose
+</li>
+<li><span class="fa-li"><i class="fas fa-chevron-double-right"></i></span>Stakeholder involvement
+</li>
+
+<li><span class="fa-li"><i class="fas fa-chevron-double-right"></i></span>Rigour of development
+</li>
+
+<li><span class="fa-li"><i class="fas fa-chevron-double-right"></i></span>Clarity and presenation
+</li>
+
+<li><span class="fa-li"><i class="fas fa-chevron-double-right"></i></span>Applicability
+</li>
+
+<li><span class="fa-li"><i class="fas fa-chevron-double-right"></i></span>Editorial independence
+</li>
+
+</ul>
+
+
+---
+
+class: center middle hide-count inverse
+
+## Your final assignment
+
+---
+
+class: center middle hide-count
+
+## 'mini' clinical practice guideline
+
+---
+
+class: center middle hide-count
+
+## CPG mostly evaluate multiple interventions
+
+---
+
+class: center middle hide-count
+
+## You will evaluate *one* intervention for a specific population
+
+---
+
+class: center middle hide-count inverse
+
+
+## Moving from evidence to a 'decision' 
+## (i.e. a practice recommendation)
+
+---
+
+class: left middle hide-count
+
+<center><h3>Domains that contribute to the strength of a recommendation</h3></center>
+<br>
+
+<table><thead><tr class="rowsep-1 valign-top"><th scope="col">Domain</th><th scope="col">Comment</th></tr></thead><tbody><tr class="valign-top"><td>Balance between desirable and undesirable outcomes (estimated effects), with consideration of values and preferences (estimated typical) (trade-offs)</td><td>The larger the differences between the desirable and undesirable consequences, the more likely a strong recommendation is warranted. The smaller the net benefit and the lower certainty for that benefit, the more likely a weak recommendation is warranted</td></tr><tr class="valign-top"><td>Confidence in the magnitude of estimates of effect of the interventions on important outcomes (overall quality of evidence for outcomes)</td><td>The higher the quality of evidence, the more likely a strong recommendation is warranted</td></tr><tr class="valign-top"><td>Confidence in values and preferences and variability</td><td>The greater the variability in values and preferences, or uncertainty in values and preferences, the more likely a weak recommendation is warranted</td></tr><tr class="valign-top"><td>Resource use</td><td>The higher the costs of an intervention (the more resources consumed), the less likely a strong recommendation is warranted</td></tr></tbody></table>
+
+<sub><a href="https://journals-scholarsportal-info.myaccess.library.utoronto.ca/details/08954356/v66i0007/726_gg1gfeoardas.xml">Source: Andrews, J. C., Schünemann, H. J., Oxman, A. D., Pottie, K., Meerpohl, J. J., Coello, P. A., ... & Elbarbary, M. (2013). GRADE guidelines: 15. Going from evidence to recommendation—determinants of a recommendation's direction and strength. Journal of Clinical Epidemiology, 66(7), 726-735.</a></sub>
+
+---
+
+class: center middle hide-count inverse
+
+## Summary of findings table 
+
+
+---
+
+class: center middle hide-count
+
+### Make it easier for us to evaluate the balance between the desirable and undesirable effects
+
+as well as our...
+
+### Confidence in magnitude of the effect (certainty of evidence)
+
+
+---
+
+class: left middle hide-count
+
+1. Presenting 'assumed' risks as natual frequencies and 'corresponding' risks as the number of events 'fewer' or 'more'
+
+1. Presenting confidence intervals using more natural language (eg. "7 fewer to 8 more")
+
+1. Providing rationale for decisions about downgrading certainty of evidence
+
+---
+
+class: center middle hide-count inverse
+
+## Values and preferences
+
+---
+
+class: center middle hide-count
+
+## Strong recommendation
+
+>The panel believes that all or almost all patients would place a high value on avoiding even minimal risk of complications and burden from surgery, if it is not helpful
+
+<a href="https://www.bmj.com/content/364/bmj.l294"><sub>Subacromial decompression surgery for adults with shoulder pain: a clinical practice guideline</sub></a>
+---
+
+class: center middle hide-count
+
+## Conditional recommendation
+
+>The panel believes that there is a great _variability_ on how much reduction in pain severity or time to complete pain resolution each patient would consider important. Shared decision making may help establish what matters most to each patient.
+
+<a href="https://www.bmj.com/content/358/bmj.j4090"><sub>Corticosteroids for sore throat: a clinical practice guideline
+</sub></a>
+
+---
+
+class: center middle hide-count
+
+### Evidence on patients' values and preferences is limited 
+
+[(Andrews et al., 2013)](https://journals-scholarsportal-info.myaccess.library.utoronto.ca/details/08954356/v66i0007/726_gg1gfeoardas.xml)
+
+---
+
+class: center middle hide-count
+
+### Draw on your own clinical experiences to make judgements about patient values and preferences when considering the balance between the desirable and undesirable effects for the intervention
+---
+
+class: center middle hide-count inverse
+
+## Resource considerations
+
+---
+
+class: left middle hide-count
+
+- High uncertainty of clinical effectiveness for a very costly intervention, it is not likely that a strong recommendation is warranted. 
+
+- Low-moderate quality evidence of a benefit for an intervention that is not costly without a high risk of undesirable effects (maybe exercise or some sort of lifestyle-type intervention), then on balance you may decide for a strong recommendation. 
+
+- You could be very uncertain about the potential impact on resources (inadequate reporting of intervention details - TIDieR) - this may warrant a conditional recommendation.
+
+---
+
+class: center middle hide-count
+
+## Strong recommendation (limited benefits do not outweigh high costs)
+
+>Low intensity pulsed ultrasound (LIPUS) is a costly device which does not represent a wise use of health resources
+
+<a href="https://www.bmj.com/content/356/bmj.j576"><sub>Low intensity pulsed ultrasound (LIPUS) for bone healing: a clinical practice guideline
+
+</sub></a>
+
+---
+
+class: center middle hide-count
+
+## Consider impact on resource use
+
+>When upper limits for oxygen saturation are lowered, nursing demands will increase
+
+<a href="https://www.bmj.com/content/363/bmj.k4169"><sub>Oxygen therapy for acutely ill medical patients: a clinical practice guideline
+
+
+</sub></a>
