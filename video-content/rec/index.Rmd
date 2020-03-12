@@ -224,6 +224,81 @@ class: center middle hide-count inverse
 
 ## Values and preferences
 
+
+---
+
+class: left middle hide-count
+
+<center>
+<h2> Example </h2>
+</center>
+
+- RR for infection associated with a new surgical wound dressing was 0.5 (95% CI= 0.2 to 0.9). 
+- ‘Statistically significant’ reduction in the risk of infection, but the result is very imprecise. 
+- Reduction in risk of infection in the population could be anywhere between a really large reduction in risk (0.2) all the way up to only a small reduction (0.9). 
+- Very uncertain about where the true effect lies in the population and so we should *downgrade* the quality of evidence due to this concern about imprecision. 
+
+---
+
+class: center middle hide-count
+
+### We are better able to judge the *balance* between desirable and undesirable effects of an intervention with more precise effect estimates. 
+
+---
+
+class: left middle hide-count
+- Infection is the 'desirable' effect
+- Also evaluated *pain* as an undesirable effect for the new surgical dressing. 
+- Patients who received the new wound dressing had slightly *worse pain* at the incision site than the comparator (MD 2; 95% CI = 0.8 to 3; VAS 0-10). 
+
+---
+
+class: center middle hide-count
+
+### Need to make a decision about whether or not to recommend using the new dressing by balancing the decreased risk of infection against the increased amount of pain. 
+
+---
+
+class: left middle hide-count
+
+<center>
+<h2> Imprecise effect estimate for infection </h2>
+</center>
+
+- Considering the effect estimate for reduction in risk of infection was very imprecise a ‘conditional’ recommendation to use the new dressing is probably warranted
+- Patients may ‘value’ decreased pain during their recovery after surgery higher than a potentially only very small reduction in the risk of infection (remember upper limit of confidence interval was 0.9). 
+---
+
+class: left middle hide-count
+
+<center>
+<h2> Precise effect estimate for infection </h2>
+</center>
+
+- RR still 0.5 but instead the 95% CI were 0.45 to 0.55, 
+- ‘Strong’ recommendation to use the new surgical dressing 
+- On balance, the considerable gain from reducing risk of infection would outweigh the small increase in pain
+
+---
+
+class: center middle hide-count
+
+### Evidence on patients' values and preferences is limited 
+
+[(Andrews et al., 2013)](https://journals-scholarsportal-info.myaccess.library.utoronto.ca/details/08954356/v66i0007/726_gg1gfeoardas.xml)
+
+---
+
+class: center middle hide-count
+
+### Draw on your own clinical experiences to make judgements about patient values and preferences when considering the balance between the desirable and undesirable effects for the intervention
+
+---
+
+class: center middle hide-count inverse
+
+## Rapid recommendation examples from BMJ
+
 ---
 
 class: center middle hide-count
@@ -244,19 +319,6 @@ class: center middle hide-count
 <a href="https://www.bmj.com/content/358/bmj.j4090"><sub>Corticosteroids for sore throat: a clinical practice guideline
 </sub></a>
 
----
-
-class: center middle hide-count
-
-### Evidence on patients' values and preferences is limited 
-
-[(Andrews et al., 2013)](https://journals-scholarsportal-info.myaccess.library.utoronto.ca/details/08954356/v66i0007/726_gg1gfeoardas.xml)
-
----
-
-class: center middle hide-count
-
-### Draw on your own clinical experiences to make judgements about patient values and preferences when considering the balance between the desirable and undesirable effects for the intervention
 ---
 
 class: center middle hide-count inverse
@@ -289,7 +351,7 @@ class: center middle hide-count
 
 class: center middle hide-count
 
-## Consider impact on resource use
+### May not change strength of recommendation, but important to consider the impact on resource use transparent
 
 >When upper limits for oxygen saturation are lowered, nursing demands will increase
 
@@ -297,3 +359,70 @@ class: center middle hide-count
 
 
 </sub></a>
+
+---
+
+class: center middle hide-count inverse 
+
+# Other notes
+
+---
+
+class: left top hide-count
+
+<center>
+<h2> Outcomes </h2>
+</center>
+- Select up to 5 outcomes that *you* deem important to decision-making regarding whether or not to recommend the intervention for use in practice
+- Try and select outcomes that provide you with information needed to balance desirable and undesirable effects (most interventions will have some undesirable effects)
+- Not all of the studies you include need to report on all of the outcomes
+- Include a row for each outcome in the SoF table - even if the outcome was not reported by any of the studies you included
+
+---
+
+class: left top hide-count
+
+<center>
+<h2> Meta-analyses </h2>
+</center>
+
+- If the quality of the methods used to undertake the systematic review are not appropriate (i.e. elements of the AMSTAR tool), then the results of the SR/MA really should not be used to inform our practice.
+- If you decide that the methods used in the systematic review were **not appropriate**, then you would not include the meta-analysis result in your summary of findings table.
+- Include a rationale for your decision to 'trust' the results of the meta-analysis or not.
+- If the meta-analysis is 'good quality' then you can take what you need from the report to incorporate into your SoF table (i.e. risk of bias assessment, effect estimate with confidence intervals - to judge precision, I<sup>2</sup> for inconsistency)
+- If you select 2 or 3 meta-analyses and they are all poor quality, then you won't have anything to synthesise. So it is probably best to select just one meta-analysis.
+
+---
+
+class: left top hide-count
+
+<center>
+<h2> Population </h2>
+</center>
+
+- GRADE considers 'indirectness'
+- If a study didn't include your *exact* population, it may still provide relevant evidence
+- Quality of evidence may need to be downgraded
+
+---
+
+class: left top hide-count
+
+<center>
+<h2> Structure </h2>
+</center>
+
+|Section|Words|<center>Notes</center>|
+|---|---|---|
+|Introduction| ~200| Provide an overview of the topic and justify your selection of the PICO components.|
+|Selection of studies|~400| Describe the methods/main results of the studies you selected to include. Justify why they were relevant to the PICO.  |
+|Critical appraisal of studies|~600 words| This is where you will talk about the risk of bias assessments/components of the interventions and comparators (i.e. TIDieR checklist). So about 200 word summary for each study/outcome.|
+|Synthesis of evidence| ~500 words| This is where you will refer to the SoF table you have produced and justify your GRADE ratings for the overall certainty of evidence for each of the outcomes you included in your PICO.|
+|Recommendations| ~300 words| This is where you provide your GRADE recommendation to either use the intervention or not (as well as the strength of the recommendation) based on the balance between the desirable and undesirable outcomes, incorporating consideration of the *certainty* of this evidence and patient values/preferences as well as feasibility (resource implications). |
+
+
+---
+
+class: center middle hide-count inverse
+
+## Ask questions on the discussion board for clarification <i class="fad fa-map-marker-question"></i>
