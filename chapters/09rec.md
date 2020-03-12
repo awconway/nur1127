@@ -136,6 +136,8 @@ On Friday 13th March at 12md I will hold a webinar. The webinar will expand on t
 
 :link:[Link to webinar](https://ca.bbcollab.com/guest/27f630586a224c9bb9a6c82330c53987)
 
+:link:[Slides](https://grade-recommendations.netlify.com)
+
 </exercise>
 
 
