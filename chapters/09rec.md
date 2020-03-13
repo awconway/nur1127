@@ -134,7 +134,7 @@ This means that I would strongly suggest that you only select, *at most*, 1 SR/M
 
 On Friday 13th March at 12md I will hold a webinar. The webinar will expand on the content regarding moving from GRADE ratings to making recommendations for practice. I will also be happy to answer any questions you may have regarding the final assignment to which this content relates. 
 
-:link:[Link to webinar](https://ca.bbcollab.com/guest/27f630586a224c9bb9a6c82330c53987)
+<iframe src="https://ca-lti.bbcollab.com/recording/0d902302889348f382a815f7b2fd35a8" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 :link:[Slides](https://grade-recommendations.netlify.com)
 
