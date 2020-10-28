@@ -40,6 +40,13 @@ module.exports = {
             },
         },
         {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                path: `${__dirname}/src/images`,
+                name: 'images',
+            },
+        },
+        {
             resolve: 'gatsby-plugin-react-svg',
             options: {
                 rule: {
@@ -53,25 +60,25 @@ module.exports = {
                 plugins: [
                     `gatsby-remark-copy-linked-files`,
                     {
-        resolve: 'gatsby-remark-emojis',
-        options: {
-          // Deactivate the plugin globally (default: true)
-          active : true,
-          // Add a custom css class
-          class  : 'emoji-icon',
-          // Select the size (available size: 16, 24, 32, 64)
-          size   : 64,
-          // Add custom styles
-          styles : {
-            display      : 'inline',
-            margin       : '0',
-            'margin-top' : '1px',
-            position     : 'relative',
-            top          : '5px',
-            width        : '25px'
-          }
-        }
-      },
+                        resolve: 'gatsby-remark-emojis',
+                        options: {
+                            // Deactivate the plugin globally (default: true)
+                            active: true,
+                            // Add a custom css class
+                            class: 'emoji-icon',
+                            // Select the size (available size: 16, 24, 32, 64)
+                            size: 64,
+                            // Add custom styles
+                            styles: {
+                                display: 'inline',
+                                margin: '0',
+                                'margin-top': '1px',
+                                position: 'relative',
+                                top: '5px',
+                                width: '25px',
+                            },
+                        },
+                    },
                     {
                         resolve: `gatsby-remark-prismjs`,
                         options: {
@@ -117,11 +124,11 @@ module.exports = {
         `gatsby-plugin-offline`,
         'gatsby-plugin-remove-serviceworker',
         {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
-        trackingId: "UA-147024825-1",
-      },
-    },
+            resolve: `gatsby-plugin-google-analytics`,
+            options: {
+                // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+                trackingId: 'UA-147024825-1',
+            },
+        },
     ],
 }
