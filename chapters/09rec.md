@@ -4,7 +4,7 @@ description:
   'This week we will cover the process of how to make recommendations for
   practice using the GRADE framework.'
 prev: /08ee
-next: null
+next: /11ethics
 type: chapter
 id: 10
 ---

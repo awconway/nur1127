@@ -334,7 +334,7 @@ point up nicely).
 
 </exercise>
 
-<exercise id="6" title="Webinar on critical appraisal of systematic reviews of randomized studies of interventions">
+<exercise id="6" title="Webinar">
 
 I will hold a webinar to demonstrate risk of bias assessment using ROBINS-I on
 **Tuesday January 26 at 12md**. Please attend if you can make it. The recording

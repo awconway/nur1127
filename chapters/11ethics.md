@@ -4,7 +4,7 @@ description:
   'We will explore ethical considerations in how research is conducted and
 knowledge is produced.'
 prev: /09rec
-next: null
+next: /12ml
 type: chapter
 id: 11
 ---
