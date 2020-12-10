@@ -1,5 +1,7 @@
 .Rhistory
 .vscode
+*.code-workspace
+
 
 # Logs
 logs
