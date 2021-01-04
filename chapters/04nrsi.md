@@ -203,7 +203,7 @@ increased their confidence. The opposite could also have been true.
 
 <opt text="Used logistic regression">
 
-The outcome used in this sstudy was continuous. Logistic regression is for a
+The outcome used in this study was continuous. Logistic regression is for a
 binary outcome.
 
 </opt>
@@ -254,7 +254,8 @@ the post-intervention data which equated to statistically significant change of
 quite clearly demonstrates this effect.
 
 <center>
-<img src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/ageing/47/6/10.1093_ageing_afy097/1/m_afy097f01.png?Expires=1582241826&Signature=hitJJ~QEacSzkeZGDlkmgcs8C98MaDQA0dLfxGJz8k61TQkX7vg~4GsJroY2a4xsODUAb6b1HUPo9wouKl5hLEu~ET8TmMm~6z1KsZ-36Xx2SlS5i8IrbEPJ0~afBp~7Pz3jcovEFoapKQ4cpoImtJ8DhtIqMvsJLYoaXSMJXapoY4auDQH8f3wlAUp7SyBS7Tktb7Gyjv628jmYeX7gXkiYGLX14ESBkw~sVPzHb~BcQp4RpIc6cgSDCxa05AELu17tsqu3auOFrCufrnzCmd0JhBuSWqTa~2KMGWJCBjHwcZFaMazOd7l9aiBgWX9NTvuzMWG60BoNqGfBC7GCVA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" />
+
+<img src="time-series-plot.png" />
 
 <sub>Source: U M Ali, A Judge, C Foster, A Brooke, K James, T Marriott, S E
 Lamb, Do portable nursing stations within bays of hospital wards reduce the rate
