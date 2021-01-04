@@ -10,7 +10,7 @@ id: 1
 
 <exercise id="1" title="Course overview">
 
-Welcome to NUR1127. Much of the structure of this course is similar to NUR1027 in that there will be weekly learning content comprising videos, exercises and written material as well as required and additional reading resources provided. Please read through the page to learn more about the course structure and assignment requirements. Also, don't forget to view the [syllabus](https://www.aaronconway.info/NUR1127/Syllabus/Syllabus.html).
+Welcome to NUR1127. Much of the structure of this course is similar to NUR1027 in that there will be weekly learning content comprising videos, exercises and written material as well as required and additional reading resources provided. Please read through the page to learn more about the course structure and assignment requirements. Also, don't forget to view the [syllabus](https://nur1127syllabus.netlify.app).
 
 </exercise>
 
@@ -67,15 +67,9 @@ The discussion boards will be run slightly differently to NUR1027. This is becau
 
 ## Assignment 1
 
-### Critical Appraisal and Interpretation of a Research Study
+### Judging the certainty of evidence from a research study
 
-The first assignment for this course is a group-based task. You have already been assigned to a group. Please go to the 'People' tab in Quercus to view the group you have been assigned. 
-
-For the assignment you will work with the other members of your group to present a review and critical appraisal of a research study. You will need to select a research article provided in the weekly learning content. 
-
-### Presentation
-
-Students will provide a slide presentation with voiceover (10 minutes maximum, 8-10 slides), to be posted on Voicethread and will also facilitate the online discussion in Quercus. The presentation should include a brief summary of the study approach (purpose, design, setting and sample, methods), presentation and interpretation of results, and discussion of key strengths and limitations. 
+The first assignment for this course is a group-based task. You have already been assigned to a group. Please go to the 'People' tab in Quercus to view the group you have been assigned. Students will provide a slide presentation with voiceover (10 minutes maximum, 8-10 slides), to be posted on Voicethread and will also facilitate the online discussion in Quercus. 
 
 **25% of grade**
 
@@ -105,8 +99,8 @@ This assignment is a culmination of the content we have covered throughout NUR10
 
 - The topic/question should address a practice situation that calls for a specific strategy or direction (covered in detail in NUR1027)
 - The literature review must include 3 published research studies (strategies for identifying relevant literature covered in NUR1027).
-- You will provide a description of key features of each study, substantive results, and major strengths and limitations (general concepts introduced in NUR1027 and followed up on isses specific to certain important types of research designs in NUR1127) in the body of paper along with specific details to justify the ratings for quality of evidence included in the summary of findings table. 
-- The assignment will conclude with overall conclusions regarding the state of the evidence, and 2-3 GRADE recommendations from your three studies to address the practice issue or situation (NUR1127 will cover content related to making practice recommendations using the GRADE framework).  
+- You will provide a description of key features of each study, substantive results, and major strengths and limitations (general concepts introduced in NUR1027 and followed up on issues specific to certain important types of research designs in NUR1127) in the body of paper along with specific details to justify the ratings for quality of evidence included in the summary of findings table. 
+- The assignment will conclude with overall conclusions regarding the state of the evidence, and a GRADE recommendation to address the practice issue or situation. (NUR1127 will cover content related to making practice recommendations using the GRADE framework).  
 
 **35% of grade**
 
@@ -114,7 +108,7 @@ This assignment is a culmination of the content we have covered throughout NUR10
 
 ### Online participation
 
-Your participation in the five discission boards over the course of the semester will contribute to your grade.
+Your participation in the five discussion boards over the course of the semester will contribute to your grade.
 
 We are looking to see that you provide regular and thoughtful contributions that push the conversation to a deeper level and encourage others to join.
 
