@@ -371,8 +371,7 @@ Gray, J.R., Grove, S.K. & Sutherland, S. (2017). The Practice of Nursing
 Research (8th ed.) Chapter 11: Quantitative Methodology: Interventional Designs
 and Methods. (pp. 217-250).
 
-Lancaster, G.A. & Titman, A.C. (2012). Using evidence from quantitative studies.
-In J.V. Craig & R.L. Smyth (Eds.) The Evidence-based Practice Manual for Nurses
-(3rd ed.) (145 – 186).
+Lancaster, G.A. & McCray, G. (2020). Using evidence from quantitative studies.
+In J.V. Craig & D. Dowding (Eds.) Evidence-Based Practice in Nursing (4th ed.) (72-92).
 
 </exercise>
