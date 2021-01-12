@@ -9,10 +9,10 @@ description:
   non-randomized studies of interventions. You will learn to understand and
   apply criteria for assessing the quality of evidence from non-randomized
   studies of interventions using the GRADE framework.'
-prev: /03ma
+prev: /07sr
 next: /05mm
 type: chapter
-id: 5
+id: 6
 ---
 
 <exercise id="1" title="Introduction">
