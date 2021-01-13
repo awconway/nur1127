@@ -10,6 +10,9 @@ prev: /01gt
 next: /03ma
 type: chapter
 id: 3
+attachments:
+  - "./Johnson2019.xlsm"
+  - "./TAHSN_PHI.pdf"
 ---
 
 <exercise id="1" title="Introduction">
@@ -465,16 +468,16 @@ for your future use.
 
 :file_folder: A copy of the completed excel spreadsheet that I used in the
 webinar can be downloaded
-<a href="https://www.aaronconway.info/NUR1127/Johnson2019.xlsm">here</a>. From
+[here](https://q.utoronto.ca/courses/201160/files/11817070/download). From
 the 'Intro' tab, press "RoB 2 Assessment Form" to open the pop-up window.
 
-Access
+<!-- Access
 [BBCollaborate](https://ca.bbcollab.com/guest/688bd485c7804710b0b4ccfb8fd45818)
-for the webinar to held on Tuesday 12th January at 12md.
+for the webinar to held on Wednesday 13th January at 12md. -->
 
-<!--
-<iframe src="https://ca-lti.bbcollab.com/recording/3387e4dbe92748cab512c69e744cb59c" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
--->
+
+[🎥 View the webinar](https://ca-lti.bbcollab.com/recording/0cecd9d0016847ae8bc48a6b8da2b675)
+
 </exercise>
 
 <exercise id="9" title="Readings">
