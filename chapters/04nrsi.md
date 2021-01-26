@@ -344,10 +344,10 @@ nonrandomized studies should be used to rate the certainty of a body of evidence
 </exercise>
 
 <exercise id="6" title="Webinar">
-
+<!-- 
 I will hold a webinar to demonstrate risk of bias assessment using ROBINS-I on
 **Tuesday January 26 at 12md**. Please attend if you can make it. The recording
-will be made available here.
+will be made available here. -->
 
 A link to the study we will assess is below:
 
@@ -355,12 +355,10 @@ A link to the study we will assess is below:
 
 :link: [Blank ROBINS-I template to download](https://drive.google.com/file/d/0B7IQVI0kum0kWldlU1BzRGxnclE/view)
 
-<!--
-<iframe 
-src="https://ca-lti.bbcollab.com/recording/fdc27a09b71045ba8a1ddcced1af73b1" 
-width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" 
+<iframe
+src="https://ca-lti.bbcollab.com/recording/99f9d14faf734b17ab487533bbf4527f"
+width="100%" height="480" frameborder="0"
 allowfullscreen></iframe>
--->
 
 :file_folder: A copy of the completed ROBINS-I assessment that I used in the
 webinar can be downloaded
