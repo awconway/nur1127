@@ -188,9 +188,7 @@ researchers have done to make the effect estimate more valid?**
 
 <choice>
 
-<opt text="'Adjust' for the potential confounding influence of
-variables associated with the outcome being measured (eg. prior
-experience with workplace violence)" correct="true">
+<opt text="'Adjust' for the potential confounding influence of variables associated with the outcome being measured (eg. prior experience with workplace violence)" correct="true">
 
 Due to the non-randomized design that was used, we could never 'rule-out' the
 potential that some other factor could have partially or fully explained the
