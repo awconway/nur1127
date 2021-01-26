@@ -5,7 +5,7 @@ description:
   studies of interventions will be discussed. We will cover the biases that
   threaten the validity of results from these types of studies. In particular,
   you will be introduced to the statistical approaches used to account for
-  confounding, which is a major consideration in risk of bias assessment for
+  confounding, which is a major consideration in the risk of bias assessment for
   non-randomized studies of interventions. You will learn to understand and
   apply criteria for assessing the quality of evidence from non-randomized
   studies of interventions using the GRADE framework.'
@@ -22,7 +22,7 @@ about whether or not to use a particular intervention/strategy/program in
 practice by following the GRADE approach. Not all clinical questions/scenarios
 will have evidence from a randomized controlled trial (or a meta-analysis of
 randomized controlled trial) to inform our decision-making for clinical
-practice. In fact, I would hazard a guess that in _most_ situtations there are
+practice. In fact, I would hazard a guess that in _most_ situations there are
 no RCTs available. That means it is really important for us to be able to use
 evidence from non-randomized studies. The GRADE framework provides a way for us
 to integrate results from non-randomized studies into practice recommendations.
@@ -30,7 +30,7 @@ to integrate results from non-randomized studies into practice recommendations.
 Non-randomized studies of interventions test cause-and-effect relationships, but
 the lack of randomization threatens the study's internal validity and weakens
 claims about causal inference. Many different designs fall within the broad
-cateogry of 'non-randomized studies of interventions'. The common types will be
+category of 'non-randomized studies of interventions'. The common types will be
 discussed below.
 
 Before we move into the specifics about different types of designs, it may be
@@ -188,7 +188,9 @@ researchers have done to make the effect estimate more valid?**
 
 <choice>
 
-<opt text="'Adjust' for the potential confounding influence of variables associated with the outcome being measured (eg. prior experience with workplace violence)" correct="true">
+<opt text="'Adjust' for the potential confounding influence of
+variables associated with the outcome being measured (eg. prior
+experience with workplace violence)" correct="true">
 
 Due to the non-randomized design that was used, we could never 'rule-out' the
 potential that some other factor could have partially or fully explained the
@@ -260,8 +262,7 @@ quite clearly demonstrates this effect.
 <sub>Source: U M Ali, A Judge, C Foster, A Brooke, K James, T Marriott, S E
 Lamb, Do portable nursing stations within bays of hospital wards reduce the rate
 of inpatient falls? An interrupted time-series analysis, Age and Ageing, Volume
-47, Issue 6, November 2018, Pages 818–824,
-https://doi.org/10.1093/ageing/afy097</sub>
+47, Issue 6, November 2018, Pages 818–824</sub>
 
 **What other types of health service outcomes do you think would be suited to
 being studies with the interrupted time-series design?**
@@ -306,14 +307,16 @@ is an overview of the ROBINS-I tool, including how it can be used used to assess
 risk of bias for non-randomized studies of interventions.
 
 :book:
-[ROBINS-I: a tool for assessing risk of bias in non-randomised studies of interventions](https://www-bmj-com.myaccess.library.utoronto.ca/content/355/bmj.i4919)
+<a
+href='https://www-bmj-com.myaccess.library.utoronto.ca/content/355/bmj.i4919'
+>ROBINS-I: a tool for assessing risk of bias in non-randomised studies of interventions
+</a>
 
 The second is the guidance document for ROBINS-I. You don't necessarily have to
 read it cover to cover, but it provides detailed information that you can refer
 to when undertaking risk of bias assessments.
 
-:book:
-<a href= "https://drive.google.com/file/d/0B7IQVI0kum0kenN0SGktSnNHTEE/preview">ROBINS-I
+:book: <a href= "https://drive.google.com/file/d/0B7IQVI0kum0kenN0SGktSnNHTEE/preview">ROBINS-I
 guidance document</a>
 
 Finally, the ROBINS-I assessment of risk of bias will be a vital component to
@@ -331,7 +334,12 @@ of bias assessment using ROBINS-I (the conclusion of the paper below sums this
 point up nicely).
 
 :book:
-[GRADE guidelines: 18. How ROBINS-I and other tools to assess risk of bias in nonrandomized studies should be used to rate the certainty of a body of evidence](https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S0895435617310314)
+<a
+href='https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S0895435617310314'
+>
+GRADE guidelines: 18. How ROBINS-I and other tools to assess risk of bias in
+nonrandomized studies should be used to rate the certainty of a body of evidence
+</a>
 
 </exercise>
 
@@ -348,12 +356,15 @@ A link to the study we will assess is below:
 :link: [Blank ROBINS-I template to download](https://drive.google.com/file/d/0B7IQVI0kum0kWldlU1BzRGxnclE/view)
 
 <!--
-<iframe src="https://ca-lti.bbcollab.com/recording/fdc27a09b71045ba8a1ddcced1af73b1" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe 
+src="https://ca-lti.bbcollab.com/recording/fdc27a09b71045ba8a1ddcced1af73b1" 
+width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" 
+allowfullscreen></iframe>
 -->
 
 :file_folder: A copy of the completed ROBINS-I assessment that I used in the
 webinar can be downloaded
-<a href="https://www.aaronconway.info/NUR1127/ROBINS.pdf">here</a>.
+<a href="https://q.utoronto.ca/courses/201160/files/12036652/download">here</a>.
 
 </exercise>
 
