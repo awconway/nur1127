@@ -52,8 +52,7 @@ In circumstances where more than one study reported on the same outcome, provide
 a rating for the certainty of evidence _overall_. Then report the effect
 estimates for the individual studies separately.
 
-:file_folder:
-[Summary of findings template](https://www.awconway.github.io/NUR1127/SoF-template.docx)
+:file_folder: [Summary of findings template](https://awconway.github.io/NUR1127/SoF-template.docx)
 
 ## How to present/interpret results of a meta-analysis that used the 'standardized mean difference' (SMD) as the effect estimate in the SOF table
 
