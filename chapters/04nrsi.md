@@ -347,7 +347,7 @@ allowfullscreen></iframe>
 
 📁 A copy of the completed ROBINS-I assessment that I used in the
 webinar can be downloaded
-[here](https://q.utoronto.ca/courses/201160/files/12036652/download).
+[here](attachments/ROBINS-I_completed.docx).
 
 </exercise>
 
