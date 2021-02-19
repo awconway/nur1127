@@ -1,33 +1,61 @@
 import React, { useState } from 'react'
 import { graphql, navigate } from 'gatsby'
+import Layout from "../components/layout"
 import useLocalStorage from '@illinois/react-use-local-storage'
 
-import { renderAst } from '../markdown'
-import { ChapterContext } from '../context'
-import Layout from '../components/layout'
 import { Button } from '../components/button'
+import { ChapterContext } from '../context'
 
 import classes from '../styles/chapter.module.sass'
+import { MDXRenderer } from "gatsby-plugin-mdx"
 
-const Template = ({ data }) => {
-    const { markdownRemark, site } = data
-    const { courseId } = site.siteMetadata
-    const { frontmatter, htmlAst } = markdownRemark
-    const { title, description, prev, next, id } = frontmatter
+
+//components
+import { MDXProvider } from "@mdx-js/react"
+import { qu } from '../components/qu'
+import SofTable from '../components/sofTable'
+import Exercise from '../components/exercise'
+import CodeBlock from '../components/code'
+import { Link } from '../components/link'
+import Choice, { Option } from '../components/choice'
+import { H3, Hr, Ol, Ul, Li, InlineCode } from '../components/typography'
+const components = {
+    exercise: Exercise,
+    codeblock: CodeBlock,
+    choice: Choice,
+    opt: Option,
+    a: Link,
+    hr: Hr,
+    h3: H3,
+    ol: Ol,
+    ul: Ul,
+    li: Li,
+    code: InlineCode,
+    qu: qu,
+    SofTable: SofTable
+}
+
+
+export default function Template({ data: { mdx }, data }) {
     const [activeExc, setActiveExc] = useState(null)
-    const [completed, setCompleted] = useLocalStorage(`${courseId}-completed-${id}`, [])
-    const html = renderAst(htmlAst)
+    const {courseId}  = data.site.siteMetadata
+    const [completed, setCompleted] = useLocalStorage(`${courseId}-completed-${mdx.frontmatter.id}`, [])
+
     const buttons = [
-        { slug: prev, text: '« Previous Chapter' },
-        { slug: next, text: 'Next Chapter »' },
+        { slug: mdx.frontmatter.prev, text: '« Previous Chapter' },
+        { slug: mdx.frontmatter.next, text: 'Next Chapter »' },
     ]
 
     return (
         <ChapterContext.Provider value={{ activeExc, setActiveExc, completed, setCompleted }}>
-            <Layout title={title} description={description}>
-                {html}
 
-                <section className={classes.pagination}>
+        <Layout title={mdx.frontmatter.title} description={mdx.frontmatter.description}>
+                <MDXProvider components={components}>
+                    <MDXRenderer>
+                        {mdx.body}
+                    </MDXRenderer>
+                </MDXProvider>
+                    <section className={classes.pagination}>
                     {buttons.map(({ slug, text }) => (
                         <div key={slug}>
                             {slug && (
@@ -38,29 +66,29 @@ const Template = ({ data }) => {
                         </div>
                     ))}
                 </section>
-            </Layout>
-        </ChapterContext.Provider>
+        </Layout>
+  </ChapterContext.Provider>
     )
 }
 
-export default Template
+
 
 export const pageQuery = graphql`
-    query($slug: String!) {
-        site {
-            siteMetadata {
-                courseId
-            }
+query($slug: String!) {
+    site {
+        siteMetadata {
+            courseId
         }
-        markdownRemark(fields: { slug: { eq: $slug } }) {
-            htmlAst
-            frontmatter {
+    }
+    mdx(fields: { slug: { eq: $slug } }) {
+                body
+                frontmatter{
                 id
                 title
                 description
                 next
                 prev
+                }
             }
-        }
     }
 `

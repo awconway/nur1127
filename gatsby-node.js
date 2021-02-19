@@ -16,7 +16,7 @@ async function onCreateNode({
     createContentDigest,
 }) {
     const { createNodeField, createNode, createParentChildLink } = actions
-    if (node.internal.type === 'MarkdownRemark') {
+    if (node.internal.type === 'Mdx') {
         const slug = createFilePath({ node, getNode, basePath: 'chapters', trailingSlash: false })
         createNodeField({ name: 'slug', node, value: slug })
     } else if (node.extension === 'r') {
@@ -45,7 +45,7 @@ exports.createPages = ({ actions, graphql }) => {
     const { createPage } = actions
     return graphql(`
         {
-            allMarkdownRemark {
+            allMdx {
                 edges {
                     node {
                         frontmatter {
@@ -63,7 +63,7 @@ exports.createPages = ({ actions, graphql }) => {
         if (result.errors) {
             return Promise.reject(result.errors)
         }
-        const posts = result.data.allMarkdownRemark.edges.filter(
+        const posts = result.data.allMdx.edges.filter(
             ({ node }) => node.frontmatter.type == 'chapter'
         )
         posts.forEach(({ node }) => {

@@ -9,7 +9,7 @@ import classes from '../styles/index.module.sass'
 
 export default ({ data }) => {
     const siteMetadata = data.site.siteMetadata
-    const chapters = data.allMarkdownRemark.edges.map(({ node }) => ({
+    const chapters = data.allMdx.edges.map(({ node }) => ({
         slug: node.fields.slug,
         title: node.frontmatter.title,
         description: node.frontmatter.description,
@@ -53,14 +53,14 @@ export const pageQuery = graphql`
                 title
             }
         }
-        allMarkdownRemark(
+        allMdx(
             sort: { fields: [frontmatter___id], order: ASC }
             filter: { frontmatter: { type: { eq: "chapter" } } }
         ) {
             edges {
                 node {
                     fields {
-                        slug
+                    slug
                     }
                     frontmatter {
                         title

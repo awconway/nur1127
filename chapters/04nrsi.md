@@ -53,6 +53,9 @@ non-randomized studies of interventions.
 | May be the only design to evaluate some hypotheses, particularly in clinical settings.           | Unable to make clear cause-and-effect inferences.                                                                   |
 | More easily adapted to the real-world practice setting than randomized controlled trial designs. |                                                                                                                     |
 
+
+
+
 </exercise>
 
 <exercise id="2" title="Non-equivalent control group designs">
@@ -67,7 +70,7 @@ introduced enables the researcher to control for differences during data
 analysis. This feature strengthens the influence of the intervention, and
 minimises any effects of extraneous variables.
 
-<img src="/non-equivalent-control-group.png" width="100%"/>
+![](non-equivalent-control-group.png)
 
 For example,
 [Kozlowski et al (2018)](https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S0897189717307656)
@@ -168,7 +171,7 @@ effectiveness of educational programs, or the restructuring of social groups and
 organisations, or the implementation of behavioral interventions. In nursing
 research this design is most frequently use to evaluate education interventions.
 
-<img src="/pre-post.png" width="100%"/>
+![](pre-post.png)
 
 For example,
 [Lamont et al (2018)](https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S0260691718302004)
@@ -253,14 +256,12 @@ the post-intervention data which equated to statistically significant change of
 0.341 (95% CI 0.159 to 0.524; p=0.001). The plot of the trend in fall-rates
 quite clearly demonstrates this effect.
 
-<center>
+![](time-series-plot.png)
 
-<img src="time-series-plot.png" />
-
-<sub>Source: U M Ali, A Judge, C Foster, A Brooke, K James, T Marriott, S E
+Source: U M Ali, A Judge, C Foster, A Brooke, K James, T Marriott, S E
 Lamb, Do portable nursing stations within bays of hospital wards reduce the rate
 of inpatient falls? An interrupted time-series analysis, Age and Ageing, Volume
-47, Issue 6, November 2018, Pages 818–824</sub>
+47, Issue 6, November 2018, Pages 818–824
 
 **What other types of health service outcomes do you think would be suited to
 being studies with the interrupted time-series design?**
@@ -279,7 +280,7 @@ being studies with the interrupted time-series design?**
 
 </opt>
 
-<opt text="All of the above" correct=TRUE>
+<opt text="All of the above" correct="true">
 
 All of these types of outcomes are quite well-suited to the interrupted
 time-series design because these events are often routinely measured. This makes
@@ -289,8 +290,6 @@ the research a little bit easier to execute if reliable data for the
 </opt>
 
 </choice>
-
-</center>
 
 </exercise>
 
@@ -304,18 +303,14 @@ There are three readings about risk of bias assessment for this week. The first
 is an overview of the ROBINS-I tool, including how it can be used used to assess
 risk of bias for non-randomized studies of interventions.
 
-:book:
-<a
-href='https://www-bmj-com.myaccess.library.utoronto.ca/content/355/bmj.i4919'
->ROBINS-I: a tool for assessing risk of bias in non-randomised studies of interventions
-</a>
+
+[📘 ROBINS-I: a tool for assessing risk of bias in non-randomised studies of interventions](https://www-bmj-com.myaccess.library.utoronto.ca/content/355/bmj.i4919)
 
 The second is the guidance document for ROBINS-I. You don't necessarily have to
 read it cover to cover, but it provides detailed information that you can refer
 to when undertaking risk of bias assessments.
 
-:book: <a href= "https://drive.google.com/file/d/0B7IQVI0kum0kenN0SGktSnNHTEE/preview">ROBINS-I
-guidance document</a>
+[📘 ROBINS-I guidance document](https://drive.google.com/file/d/0B7IQVI0kum0kenN0SGktSnNHTEE/preview)
 
 Finally, the ROBINS-I assessment of risk of bias will be a vital component to
 making your GRADE recommendation for practice. As such, another reading for this
@@ -331,36 +326,28 @@ quality of evidence, based on the issues that arise during the course of a risk
 of bias assessment using ROBINS-I (the conclusion of the paper below sums this
 point up nicely).
 
-:book:
-<a
-href='https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S0895435617310314'
->
-GRADE guidelines: 18. How ROBINS-I and other tools to assess risk of bias in
-nonrandomized studies should be used to rate the certainty of a body of evidence
-</a>
+[📘 GRADE guidelines: 18. How ROBINS-I and other tools to assess risk of bias in
+nonrandomized studies should be used to rate the certainty of a body of evidence](https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S0895435617310314)
 
 </exercise>
 
 <exercise id="6" title="Webinar">
-<!-- 
-I will hold a webinar to demonstrate risk of bias assessment using ROBINS-I on
-**Tuesday January 26 at 12md**. Please attend if you can make it. The recording
-will be made available here. -->
+
 
 A link to the study we will assess is below:
 
-:link: [Interruptions During Senior Nurse Handover in the Intensive Care Unit : A Quality Improvement Study](https://oce-ovid-com.myaccess.library.utoronto.ca/article/00001786-201901000-00018/HTML)
+[🔗 Interruptions During Senior Nurse Handover in the Intensive Care Unit : A Quality Improvement Study](https://oce-ovid-com.myaccess.library.utoronto.ca/article/00001786-201901000-00018/HTML)
 
-:link: [Blank ROBINS-I template to download](https://drive.google.com/file/d/0B7IQVI0kum0kWldlU1BzRGxnclE/view)
+[🔗 Blank ROBINS-I template to download](https://drive.google.com/file/d/0B7IQVI0kum0kWldlU1BzRGxnclE/view)
 
 <iframe
 src="https://ca-lti.bbcollab.com/recording/99f9d14faf734b17ab487533bbf4527f"
 width="100%" height="480" frameborder="0"
 allowfullscreen></iframe>
 
-:file_folder: A copy of the completed ROBINS-I assessment that I used in the
+📁 A copy of the completed ROBINS-I assessment that I used in the
 webinar can be downloaded
-<a href="https://q.utoronto.ca/courses/201160/files/12036652/download">here</a>.
+[here](https://q.utoronto.ca/courses/201160/files/12036652/download).
 
 </exercise>
 

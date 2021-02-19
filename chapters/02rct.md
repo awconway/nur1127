@@ -10,9 +10,6 @@ prev: /01gt
 next: /03ma
 type: chapter
 id: 3
-attachments:
-  - "./Johnson2019.xlsm"
-  - "./TAHSN_PHI.pdf"
 ---
 
 <exercise id="1" title="Introduction">
@@ -22,7 +19,7 @@ of conditions for groups of participants included in the study can broadly be
 categorized as **interventional** studies. Interventional studies can be further
 categorized as either randomized or non-randomized.
 
-<img src="/interventional-studies.png">
+![](interventional-studies.png)
 
 This chapter will focus on **randomized** studies of interventions. But first, I
 want to take a step back and put what we are going to learn into the bigger
@@ -41,11 +38,9 @@ assess the quality of evidence, and then, based on this quality assessment,
 provide **recommendations** for practice that are classified according to the
 continuum displayed in the image below.
 
-<a href="https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S0895435612001382">
-<img src="/strength.jpg">
-</a>
-<sub>GRADE guidelines: 14. Going from evidence to recommendations: the significance and presentation of recommendations</sub>
-<br><br>
+![](strength.jpg)
+
+[GRADE guidelines: 14. Going from evidence to recommendations: the significance and presentation of recommendations](https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S0895435612001382)
 
 One really big advantage of the GRADE framework is that it moves us away from
 thinking about 'hierarchies' of evidence without consideration for quality.
@@ -58,7 +53,7 @@ hand?</qu>
 
 <div align="center" >
 
-<img src="http://prehospitalresearch.eu/wp-content/uploads/2014/11/logo.gif"/>
+![](http://prehospitalresearch.eu/wp-content/uploads/2014/11/logo.gif)
 
 </div>
 <div align="center" >
@@ -110,35 +105,35 @@ along a continuum of very low, low, moderate or high quality.**
 </tr>
 </tbody>
 </table>
-<p style="text-align: center;">&nbsp;</p>
-<p>Evidence from a randomized controlled trial (or meta-analysis where the results of multiple randomized controlled trials have been combined using a statistical approach) is automatically assigned a rating of <em><strong>high</strong></em> quality and non-randomized studies automatically assigned a <em><strong>low</strong></em> rating. However, the evidence rating is then <em><strong>modified downward</strong> </em>if there are concerns about:</p>
 
-- The risk of <em><strong>bias</strong></em> associated with the design of the
+Evidence from a randomized controlled trial (or meta-analysis where the results of multiple randomized controlled trials have been combined using a statistical approach) is automatically assigned a rating of high quality and non-randomized studies automatically assigned a low rating. However, the evidence rating is then modified downward if there are concerns about:
+
+- The risk of bias associated with the design of the
   study or studies that provided evidence for that outcome (also termed _study
   limitations_ by GRADE);
-- How <em><strong>precise</strong></em> the results of a study are (termed
+- How precise the results of a study are (termed
   imprecision by GRADE);
 - The degree to which results from different similar studies (comparing the same
-  interventions for example) have <em><strong>varied</strong></em> (termed
-  <strong>inconsistency</strong> by GRADE);
-- The evidence available not being totally <em><strong>relevant</strong></em> to
+  interventions for example) have varied (termed
+  inconsistency by GRADE);
+- The evidence available not being totally relevant to
   the research question at hand (termed indirectness by GRADE);
-- The completeness of <em><strong>reporting</strong></em> of research (termed
+- The completeness of reporting of research (termed
   publication bias by grade).
 
-It is also possible to <strong><em>upgrade</em></strong> the quality of evidence
+It is also possible to upgrade the quality of evidence
 assigned to an outcome from a non-randomized or observational study. Upgrading
 evidence quality for an observational study can be considered when a
 dose-response gradient is present and large effects are identified (i.e. 2-5
-fold reductions or increases in risk) (Guyatt et al., 2011).</p>
+fold reductions or increases in risk) (Guyatt et al., 2011).
 
 Your first reading for this week, is to review the GRADE framework:
 
-<a href="https://www-bmj-com.myaccess.library.utoronto.ca/content/336/7651/995">
-:blue_book: Introduction to GRADE: What is “quality of evidence” and why is it important to clinicians?
-</a>
+📘 [Introduction to GRADE: What is “quality of evidence” and why is it important to clinicians?](https://www-bmj-com.myaccess.library.utoronto.ca/content/336/7651/995)
+
 
 </exercise>
+
 
 <exercise id="2" title="Summary of findings table">
 
@@ -146,7 +141,7 @@ Again, to provide insight into the bigger picture of what I want you to be able
 to achieve from this course, below is an example of a **Summary of findings
 table**. A summary of findings table is essentially a way to summarize the
 results **and** the quality of evidence for the 'O' component of a clinical
-question that has been structured in the PICO format, <ins>**as well as**</ins>,
+question that has been structured in the PICO format, **as well as**,
 GRADE ratings for the quality of evidence. A summary of findings table like the
 one shown below is what you will be expected to produce as part of your final
 assignment for the course. You will use the information that makes up the
@@ -177,7 +172,7 @@ outcomes we deemed important enough to be used to inform our decision-making
 about whether or not to recommend oral midazolam for pre-procedural sedation,
 were ratings of anxiety, ratings of pain and rating of difficulty performing
 procedures. To summarize, there was _low_ quality evidence that midazolam
-reduced anxiety, there was low quality evidence that there was no important
+reduced anxiety, there was _low_ quality evidence that there was no important
 difference between midazolam and placebo in regard to the difficulty performing
 procedures and there was moderate quality evidence that midazolam reduced pain
 when given before procedures. Based on this summary of findings, we can make a
@@ -196,41 +191,39 @@ associated with a high degree of pain and required mostly anxiolysis and motion
 control. As such, this reasoning informed the component of the _conditional_
 recommendation regarding the population.
 
-<b>
+
 As an exercise, please review the summary of findings table in detail, and ensure you can identify where the information for each of the following components are located and understand them:
 
 1. Reasons for the GRADE quality of evidence rating
-1. Information about all elements of the PICO
+2. Information about all elements of the PICO
 
-</b>
+<SofTable />
 
-<table cols="7" rows="11"><tr><td colspan="7"><p><b><ins>Summary of findings table: Oral midazolam compared to placebo for sedation before procedures</ins></b></p></td></tr><tr><td colspan="7"><p><b>Patient or population: </b>Children requiring sedation before micturating cystourethrograms, and Kirschner wire removal, and adults undergoing endoscopy<br><b>Settings: </b>X-ray department in Turkey, orthopaedic outpatient department in UK, and endoscopy suites in USA and Thailand<br><b>Intervention:</b> oral midazolam<br><b>Comparison: </b>placebo</p></td></tr><tr><th rowspan="3" valign="top"><p>Outcomes</p></th><th colspan="2" valign="top"><p>Illustrative comparative risks* (95% CI)</p></th><th rowspan="3" valign="top"><p>Relative effect<br>(95% CI)</p></th><th rowspan="3" valign="top"><p>No of Participants<br>(studies)</p></th><th rowspan="3" valign="top"><p>Quality of the evidence<br>(GRADE)</p></th><th rowspan="3" valign="top"><p>Comments</p></th></tr><tr><th valign="top"><p>Assumed risk</p></th><th valign="top"><p>Corresponding risk</p></th></tr><tr><th valign="top"><p>Placebo</p></th><th valign="top"><p>Midazolam</p></th></tr><tr><td valign="top"><p><b>Level of sedation on a sedation assessment scale </b></p><p></p></td><td valign="top"><p></p></td><td><p></p></td><td valign="top"><p></p></td><td valign="top"><p></p></td><td valign="top"><p></p></td><td valign="top"><p>No studies reported on this outcome.</p></td></tr><tr><td valign="top"><p><b>Numeric rating of anxiety or number of participants</b> <b>rated as anxious </b></p></td><td valign="top"><p>Mean scores were 2.6 (scale of 0-8), 4.62 (scale 0-10), 4 (scale 0-10) and 53 (on Spielberger's State Anxiety Scale).</p></td><td valign="top"><p>SMD was <b>1 SD lower </b>(1.86 lower to 0.16 lower)</p></td><td valign="top"><p></p></td><td valign="top"><p>436<br>(4)</p></td><td valign="top"><p><b>low</b><sup>1</sup></p><p>&#8853;&#8853;&#8861;&#8861;</p></td><td valign="top"><p></p></td></tr><tr><td valign="top"><p><b>Proportion of incomplete procedures or where there was difficulty performing the procedures </b></p></td><td valign="top"><p></p></td><td valign="top"><p></p></td><td valign="top"><p></p></td><td valign="top"><p>439</p><p>(4 studies)</p></td><td valign="top"><p><b>low</b><sup>1</sup></p><p>&#8853;&#8853;&#8853;&#8861;</p></td><td valign="top"><p>Relative effect was not able to be conducted because there was only one incomplete procedure in the midazolam group in one of the four trials that reported on this outcome.</p></td></tr><tr><td valign="top"><p><b>Discomfort/Pain</b></p><p>(<b>as defined/measured by the authors of the trial)</b></p></td><td valign="top"><p></p></td><td valign="top"><p></p></td><td valign="top"><p></p></td><td valign="top"><p>99</p><p>(1 study)</p></td><td valign="top"><p><b>moderate</b><sup>2</sup></p><p>&#8853;&#8853;&#8853;&#8861;</p></td><td valign="top"><p>Statistically significant reduction in discomfort/pain (mean 2.56 (SD 0.49) in midazolam group; mean 4.62 (SD 1.49) in placebo group; P &lt; 0.005; scores ranged from 0 to 10; higher score indicated more pain).</p></td></tr><tr><td colspan="7"><p>*The basis for the <b>assumed risk</b> is the control group risk across studies or the average risk for pooled data and the control group risk for single studies. The <b>corresponding risk</b> (and its 95% confidence interval) is based on the assumed risk in the comparison group and the <b>relative effect</b> of the intervention (and its 95% CI).<br><b>CI:</b> Confidence interval; <b>RR:</b> Risk ratio; <b>SMD</b>: Standardized mean difference.</p></td></tr><tr><td colspan="7"><p>GRADE Working Group grades of evidence<br><b>High quality:</b> Further research is very unlikely to change our confidence in the estimate of effect.<br><b>Moderate quality:</b> Further research is likely to have an important impact on our confidence in the estimate of effect and may change the estimate.<br><b>Low quality:</b> Further research is very likely to have an important impact on our confidence in the estimate of effect and is likely to change the estimate.<br><b>Very low quality:</b> We are very uncertain about the estimate.</p></td></tr></table></div><h6 readonly="true" class="fixedtext" >Footnotes</h6><div doc_fld_id="f5072" doc_fld_cnt="f5072" ><p><sup>1</sup>Downgraded two levels due to concerns about study limitations and imprecision.</p><p><sup>2</sup>Downgraded one level due to concerns about study limitations.<br></p></div>
+<h6 readonly="true" class="fixedtext" >Footnotes</h6><div doc_fld_id="f5072" doc_fld_cnt="f5072" ><p><sup>1</sup>Downgraded two levels due to concerns about study limitations and imprecision.</p><p><sup>2</sup>Downgraded one level due to concerns about study limitations.</p></div>
 
 <qu>In week 9 we will cover content in more detail around how to make
 recommendations using the GRADE approach, but I just wanted to give you this
 early signpost as to where we are headed.</qu>
 
-<b>
+
 The next reading for the weak is again on GRADE. This article provides guidance about how evidence from summary of findings tables can be translated into recommendations for practice.
-</b>
-<br><br>
-<a href="https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S0895435612001382">
-:blue_book: GRADE guidelines: 14. Going from evidence to recommendations: the significance and presentation of recommendations
-</a>
+
+[📘 GRADE guidelines: 14. Going from evidence to recommendations: the significance and presentation of recommendations](https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S0895435612001382)
+
 
 </exercise>
 
 <exercise id="3" title="Randomized controlled trials">
 
-Now let's focus back in on the specific topic for this week - <ins>randomized
-controlled trials</ins>.
+Now let's focus back in on the specific topic for this week - randomized
+controlled trials.
 
 Selection of a particular design gives a researcher more or less control over
 these elements, particularly three major concepts:
 
 1. Control
-1. Randomization
-1. Manipulation.
+2. Randomization
+3. Manipulation.
 
 Randomized controlled trials contain elements of all three of these concepts.
 
@@ -329,11 +322,10 @@ deciding factor in how much effort is placed on blinding in clinical trials.
 
 </exercise>
 
+
 <exercise id="4" title="Risk of bias in randomized controlled trials">
 
 ## Risk of bias assessment
-
-<br>
 
 A core element of undertaking a GRADE assessment is to determine if there are
 study limitations or, in other words, a 'risk of bias' associated with the
@@ -391,7 +383,7 @@ decision-making.
 Please take a quick look over the paper below to familiarize yourself with the
 essential components of intervention descriptions.
 
-:blue_book: <a href="https://www.bmj.com/content/348/bmj.g1687">Better reporting
+📘 <a href="https://www.bmj.com/content/348/bmj.g1687">Better reporting
 of interventions: template for intervention description and replication (TIDieR)
 checklist and guide</a>
 
@@ -457,16 +449,16 @@ When considering evidence from a cluster randomized controlled trial to create a
 
 A link to the article we will undertake a risk of bias assessment is below:
 
-:link: <a href="https://academic-oup-com.myaccess.library.utoronto.ca/intqhc/advance-article/doi/10.1093/intqhc/mzz007/5369676">A
+🔗 <a href="https://academic-oup-com.myaccess.library.utoronto.ca/intqhc/advance-article/doi/10.1093/intqhc/mzz007/5369676">A
 cluster randomized controlled feasibility study of nurse-initiated behavioural
 strategies to manage interruptions during medication administration</a>
 
-:file_folder: A blank copy of the excel spreadsheet that was used in the webinar
+📁 A blank copy of the excel spreadsheet that was used in the webinar
 to undertake risk of bias assessments for randomized controlled trials can be
 downloaded <a href="https://drive.google.com/open?id=1KSFASeBJP8FjBMpEbNlDiYxp4CKuOZgM">here</a>
 for your future use.
 
-:file_folder: A copy of the completed excel spreadsheet that I used in the
+📁 A copy of the completed excel spreadsheet that I used in the
 webinar can be downloaded
 [here](https://q.utoronto.ca/courses/201160/files/11817070/download). From
 the 'Intro' tab, press "RoB 2 Assessment Form" to open the pop-up window.

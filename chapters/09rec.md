@@ -52,7 +52,7 @@ In circumstances where more than one study reported on the same outcome, provide
 a rating for the certainty of evidence _overall_. Then report the effect
 estimates for the individual studies separately.
 
-:file_folder: [Summary of findings template](https://awconway.github.io/NUR1127/SoF-template.docx)
+[📁 Summary of findings template](attachments/SoF-template.docx)
 
 ## How to present/interpret results of a meta-analysis that used the 'standardized mean difference' (SMD) as the effect estimate in the SOF table
 
@@ -95,9 +95,9 @@ reported in the paper. Note: don't try and calculate an absolute effect for an
 'adjusted' result or an odds ratio. Just report the OR in the 'relative effect'
 box.
 
-[:blue_book: Guyatt, G. H., Oxman, A. D., Santesso, N., Helfand, M., Vist, G., Kunz, R., ... & Alonso-Coello, P. (2013). GRADE guidelines: 12. Preparing summary of findings tables—**binary outcomes**. Journal of clinical epidemiology, 66(2), 158-172.](https://journals-scholarsportal-info.myaccess.library.utoronto.ca/details/08954356/v66i0002/158_gg1psofto.xml)
+[📘 Guyatt, G. H., Oxman, A. D., Santesso, N., Helfand, M., Vist, G., Kunz, R., ... & Alonso-Coello, P. (2013). GRADE guidelines: 12. Preparing summary of findings tables—**binary outcomes**. Journal of clinical epidemiology, 66(2), 158-172.](https://journals-scholarsportal-info.myaccess.library.utoronto.ca/details/08954356/v66i0002/158_gg1psofto.xml)
 
-[:blue_book: Guyatt, G. H., Thorlund, K., Oxman, A. D., Walter, S. D., Patrick, D., Furukawa, T. A., ... & Kunz, R. (2013). GRADE guidelines: 13. Preparing summary of findings tables and evidence profiles—**continuous outcomes**. Journal of clinical epidemiology, 66(2), 173-183.](https://journals-scholarsportal-info.myaccess.library.utoronto.ca/details/08954356/v66i0002/173_gg1psoftaepo.xml)
+[📘 Guyatt, G. H., Thorlund, K., Oxman, A. D., Walter, S. D., Patrick, D., Furukawa, T. A., ... & Kunz, R. (2013). GRADE guidelines: 13. Preparing summary of findings tables and evidence profiles—**continuous outcomes**. Journal of clinical epidemiology, 66(2), 173-183.](https://journals-scholarsportal-info.myaccess.library.utoronto.ca/details/08954356/v66i0002/173_gg1psoftaepo.xml)
 
 </exercise>
 
@@ -119,7 +119,7 @@ The table below provides a brief summary of the considerations required in
 making a GRADE recommendation.
 
 <center><strong>Domains that contribute to the strength of a recommendation</strong></center>
-<br>
+
 
 <table><thead><tr class="rowsep-1 valign-top"><th scope="col">Domains that contribute to the strength of a recommendation</th><th scope="col">Comment</th></tr></thead><tbody><tr class="valign-top"><td>Balance between desirable and undesirable outcomes (estimated effects), with consideration of values and preferences (estimated typical) (trade-offs)</td><td>The larger the differences between the desirable and undesirable consequences, the more likely a strong recommendation is warranted. The smaller the net benefit and the lower certainty for that benefit, the more likely a weak recommendation is warranted</td></tr><tr class="valign-top"><td>Confidence in the magnitude of estimates of effect of the interventions on important outcomes (overall quality of evidence for outcomes)</td><td>The higher the quality of evidence, the more likely a strong recommendation is warranted</td></tr><tr class="valign-top"><td>Confidence in values and preferences and variability</td><td>The greater the variability in values and preferences, or uncertainty in values and preferences, the more likely a weak recommendation is warranted</td></tr><tr class="valign-top"><td>Resource use</td><td>The higher the costs of an intervention (the more resources consumed), the less likely a strong recommendation is warranted</td></tr></tbody></table>
 
@@ -216,11 +216,11 @@ standard for guideline recommendations so understanding how the framework can be
 applied is going to be a very useful skill and knowledge base for your future
 work as leaders in health services. </qu>
 
-:blue_book:
-[Andrews, J., Guyatt, G., Oxman, A. D., Alderson, P., Dahm, P., Falck-Ytter, Y., ... & Brozek, J. (2013). GRADE guidelines: 14. Going from evidence to recommendations: the significance and presentation of recommendations. Journal of Clinical Epidemiology, 66(7), 719-725.](https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S0895435612001382)
 
-:blue_book:
-[Andrews, J. C., Schünemann, H. J., Oxman, A. D., Pottie, K., Meerpohl, J. J., Coello, P. A., ... & Elbarbary, M. (2013). GRADE guidelines: 15. Going from evidence to recommendation—determinants of a recommendation's direction and strength. Journal of Clinical Epidemiology, 66(7), 726-735.](https://journals-scholarsportal-info.myaccess.library.utoronto.ca/details/08954356/v66i0007/726_gg1gfeoardas.xml)
+[📘 Andrews, J., Guyatt, G., Oxman, A. D., Alderson, P., Dahm, P., Falck-Ytter, Y., ... & Brozek, J. (2013). GRADE guidelines: 14. Going from evidence to recommendations: the significance and presentation of recommendations. Journal of Clinical Epidemiology, 66(7), 719-725.](https://www-sciencedirect-com.myaccess.library.utoronto.ca/science/article/pii/S0895435612001382)
+
+
+[📘 Andrews, J. C., Schünemann, H. J., Oxman, A. D., Pottie, K., Meerpohl, J. J., Coello, P. A., ... & Elbarbary, M. (2013). GRADE guidelines: 15. Going from evidence to recommendation—determinants of a recommendation's direction and strength. Journal of Clinical Epidemiology, 66(7), 726-735.](https://journals-scholarsportal-info.myaccess.library.utoronto.ca/details/08954356/v66i0007/726_gg1gfeoardas.xml)
 
 </exercise>
 
@@ -313,7 +313,7 @@ relates.
 <iframe src="https://ca-lti.bbcollab.com/recording/0d902302889348f382a815f7b2fd35a8" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 -->
 
-:link:[Slides](https://grade-recommendations.netlify.com)
+[🔗 Slides](https://grade-recommendations.netlify.com)
 
 </exercise>
 
