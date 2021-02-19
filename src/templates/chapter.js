@@ -13,7 +13,6 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 //components
 import { MDXProvider } from "@mdx-js/react"
 import { qu } from '../components/qu'
-import SofTable from '../components/sofTable'
 import Exercise from '../components/exercise'
 import CodeBlock from '../components/code'
 import { Link } from '../components/link'
@@ -32,7 +31,6 @@ const components = {
     li: Li,
     code: InlineCode,
     qu: qu,
-    SofTable: SofTable
 }
 
 
