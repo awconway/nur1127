@@ -302,16 +302,8 @@ all poor quality, then you won't have anything to synthesise.
 
 <exercise id="7" title="Webinar">
 
-On Wednesday 10th March at 12md I will hold a webinar on
-[BBCollaborate](https://ca.bbcollab.com/guest/9ca2336cc6ad45bcab47fd430f988d35).
-The webinar will expand on the content regarding moving from GRADE ratings to
-making recommendations for practice. I will also be happy to answer any
-questions you may have regarding the final assignment to which this content
-relates.
+<iframe src="https://ca-lti.bbcollab.com/recording/a7212a60bd4b4db686f2b1ac7278eb12" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-<!--
-<iframe src="https://ca-lti.bbcollab.com/recording/0d902302889348f382a815f7b2fd35a8" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
--->
 
 [🔗 Slides](https://grade-recommendations.netlify.com)
 
