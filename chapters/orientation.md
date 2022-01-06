@@ -43,10 +43,8 @@ Welcome to NUR1127. Much of the structure of this course is similar to NUR1027 i
 
 <exercise id="4" title="Discussion boards" >
 
-The discussion boards will be run slightly differently to NUR1027. This is because some of the discussion boards will be led by student groups as part of the first assignment. Please also note that I wanted to be able to provide students with the learning material required to complete your presentations and moderate the discussion boards in advance. For this reason, the topics for the discussion boards will not always align with the 'weekly learning content'. 
+The discussion boards will be run slightly differently to NUR1027. This is because I wanted to be able to provide students with the learning material required to complete your presentations in advance. For this reason, the topics for the discussion boards will not always align with the 'weekly learning content'. 
 
-- 5 discussion boards in total - 2 marks each.
-- Weeks 4,5 and 6 will be led by student groups
 
 </exercise>
 
@@ -107,11 +105,11 @@ This assignment is a culmination of the content we have covered throughout NUR10
 
 ### Online participation
 
-Your participation in the five discussion boards over the course of the semester will contribute to your grade.
+Your participation in the five discussion boards over the course of the semester is optional.
 
 We are looking to see that you provide regular and thoughtful contributions that push the conversation to a deeper level and encourage others to join.
 
-There will be fewer discussion boards than last semester.  There will be 5 discussion topics in total, with up to 2 points per discussion topic contributing to the overall grade. As such, the intensity and frequency of your posts will need to increase accordingly. I will expect that you contribute at least one post before Thursday each week and that 2 posts are at least 48 hours apart from each other. At least one original and 2 replies are required. 
+There will be fewer discussion boards than last semester.  There will be 5 discussion topics in total, with up to 2 points per discussion topic contributing to the overall grade.
 
 **10% of grade**
 
