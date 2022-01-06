@@ -22,9 +22,8 @@ Welcome to NUR1127. Much of the structure of this course is similar to NUR1027 i
 | *Faculty* | **Aaron Conway BN(Hons), PhD**<br/>155 College Street<br/>Rm. 274<br/>(416) 946-7112 <br/> Email: aaron.conway@utoronto.ca|
 | *Office Hours* | By appointment |
 |*Teaching Assistant* | TBC|
-| *Course Website* | [NUR1127 Quercus site](https://q.utoronto.ca/courses/140300/) |
+| *Course Website* | [NUR1127 Quercus site](https://q.utoronto.ca/courses/252216/) |
 | *Quercus resources* | [Quercus student guide](https://q.utoronto.ca/courses/46670)|
-
 </exercise>
 
 <exercise id="3" title="Course structure" >
