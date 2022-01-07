@@ -11,9 +11,9 @@ id: 11
 
 <exercise id="1" title="Lecture">
 
-This week's lecture will be delivered by Danielle Just.
+<!-- This week's lecture will be delivered by Danielle Just.
 
-<iframe src="https://voicethread.com/share/13778489/" width="100%" height="550px" allowfullscreen></iframe> 
+<iframe src="https://voicethread.com/share/13778489/" width="100%" height="550px" allowfullscreen></iframe>  -->
 
 
 </exercise>
