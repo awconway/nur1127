@@ -334,12 +334,17 @@ nonrandomized studies should be used to rate the certainty of a body of evidence
 <exercise id="6" title="Webinar">
 
 
+Access [Zoom](https://utoronto.zoom.us/j/84161933658
+) for the webinar held on Feb 1 at 12md. 
+
 A link to the study we will assess is below:
 
 [🔗 Interruptions During Senior Nurse Handover in the Intensive Care Unit : A Quality Improvement Study](https://oce-ovid-com.myaccess.library.utoronto.ca/article/00001786-201901000-00018/HTML)
 
 [🔗 Blank ROBINS-I template to download](https://drive.google.com/file/d/0B7IQVI0kum0kWldlU1BzRGxnclE/view)
 
+
+<!-- 
 <iframe
 src="https://ca-lti.bbcollab.com/recording/99f9d14faf734b17ab487533bbf4527f"
 width="100%" height="480" frameborder="0"
@@ -348,6 +353,8 @@ allowfullscreen></iframe>
 📁 A copy of the completed ROBINS-I assessment that I used in the
 webinar can be downloaded
 [here](attachments/ROBINS-I_completed.docx).
+
+-->
 
 </exercise>
 
