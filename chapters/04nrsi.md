@@ -344,17 +344,11 @@ A link to the study we will assess is below:
 [🔗 Blank ROBINS-I template to download](https://drive.google.com/file/d/0B7IQVI0kum0kWldlU1BzRGxnclE/view)
 
 
-<!-- 
-<iframe
-src="https://ca-lti.bbcollab.com/recording/99f9d14faf734b17ab487533bbf4527f"
-width="100%" height="480" frameborder="0"
-allowfullscreen></iframe>
 
 📁 A copy of the completed ROBINS-I assessment that I used in the
 webinar can be downloaded
 [here](attachments/ROBINS-I_completed.docx).
 
--->
 
 </exercise>
 
