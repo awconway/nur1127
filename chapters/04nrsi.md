@@ -334,8 +334,11 @@ nonrandomized studies should be used to rate the certainty of a body of evidence
 <exercise id="6" title="Webinar">
 
 
-Access [Zoom](https://utoronto.zoom.us/j/84161933658
-) for the webinar held on Feb 1 at 12md. 
+<!-- Access [Zoom](https://utoronto.zoom.us/j/84161933658
+) for the webinar held on Feb 1 at 12md.  -->
+
+<iframe src="https://player.vimeo.com/video/672474134?h=5a8be8e820&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 
 A link to the study we will assess is below:
 
