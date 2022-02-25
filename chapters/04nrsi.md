@@ -365,9 +365,9 @@ it will take some time. However, all the required explanation of terms are
 included in those documents and I will demonstrate an example of how to use the
 tool in the webinar.**
 
-Gray, J.R., Grove, S.K. & Sutherland, S. (2017). The Practice of Nursing
-Research (8th ed.) Chapter 11: Quantitative Methodology: Interventional Designs
-and Methods. (pp. 217-250).
+Gray, J.R., Grove, S.K. & Sutherland, S. (2021). The Practice of Nursing
+Research (9th ed.) Chapter 11: Quantitative Methodology: Interventional Designs
+and Methods.
 
 Lancaster, G.A. & McCray, G. (2020). Using evidence from quantitative studies.
 In J.V. Craig & D. Dowding (Eds.) Evidence-Based Practice in Nursing (4th ed.) (72-92).

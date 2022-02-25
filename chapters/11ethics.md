@@ -28,7 +28,7 @@ Learning activity:  Complete the interactive on-line ethics tutorial from the fo
 
 ## Required Readings 
 
-Gray, J.R., Grove, S.K. & Sutherland, S.  (2017). The Practice of Nursing Research (8th ed.) Chapter 9. Ethics in Research.
+Gray, J.R., Grove, S.K. & Sutherland, S.  (2021). The Practice of Nursing Research (9th ed.) Chapter 9. Ethics in Research.
 
 [Guillemin, M., & Gillam, L. (2004). Ethics, reflexivity and “ethically important moments” in research. Qualitative Inquiry, 10(2), 261-280.](http://qix.sagepub.com/content/10/2/261.short?rss=1&ssource=mfc)
 
