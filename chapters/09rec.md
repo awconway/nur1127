@@ -302,7 +302,9 @@ all poor quality, then you won't have anything to synthesise.
 
 <exercise id="7" title="Webinar">
 
-<iframe src="https://ca-lti.bbcollab.com/recording/a7212a60bd4b4db686f2b1ac7278eb12" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<!-- <iframe src="https://ca-lti.bbcollab.com/recording/a7212a60bd4b4db686f2b1ac7278eb12" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
+
+🗓️ Please see Quercus for zoom meeting details - 10:30 am on March 18
 
 
 [🔗 Slides](https://grade-recommendations.netlify.com)
