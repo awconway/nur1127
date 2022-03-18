@@ -304,8 +304,9 @@ all poor quality, then you won't have anything to synthesise.
 
 <!-- <iframe src="https://ca-lti.bbcollab.com/recording/a7212a60bd4b4db686f2b1ac7278eb12" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
 
-🗓️ Please see Quercus for zoom meeting details - 10:30 am on March 18
+<!-- 🗓️ Please see Quercus for zoom meeting details - 10:30 am on March 18 -->
 
+<iframe src="https://player.vimeo.com/video/689760280?h=336c0bd731&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 [🔗 Slides](https://grade-recommendations.netlify.com)
 
